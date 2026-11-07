@@ -1,0 +1,136 @@
+﻿split,method,capacity,order,policy,seed,n_queries,token_weighted_reused_fraction,module_hit_fraction,module_evictions,family
+v21_locked_blind_test,IntentRAG calibrated multi-granularity,16,random,flat_identity_lru,20261014.0,214,0.0664024424933153,0.0392523364485981,2067,Memory/granularity
+v21_locked_blind_test,IntentRAG calibrated multi-granularity,16,random,flat_identity_lru,20261015.0,214,0.0455388466425198,0.0275700934579439,2083,Memory/granularity
+v21_locked_blind_test,IntentRAG calibrated multi-granularity,16,random,flat_identity_lru,20261016.0,214,0.0412872394895037,0.0219626168224299,2086,Memory/granularity
+v21_locked_blind_test,IntentRAG calibrated multi-granularity,16,random,flat_identity_lru,20261017.0,214,0.0325754271518783,0.019626168224299,2099,Memory/granularity
+v21_locked_blind_test,IntentRAG calibrated multi-granularity,16,random,flat_identity_lru,20261018.0,214,0.0619725788405742,0.0406542056074766,2063,Memory/granularity
+v21_locked_blind_test,IntentRAG calibrated multi-granularity,64,random,flat_identity_lru,20261014.0,214,0.1986156676085184,0.15,1767,Memory/granularity
+v21_locked_blind_test,IntentRAG calibrated multi-granularity,64,random,flat_identity_lru,20261015.0,214,0.1547380198357764,0.1060747663551401,1861,Memory/granularity
+v21_locked_blind_test,IntentRAG calibrated multi-granularity,64,random,flat_identity_lru,20261016.0,214,0.1568543416835757,0.1032710280373831,1869,Memory/granularity
+v21_locked_blind_test,IntentRAG calibrated multi-granularity,64,random,flat_identity_lru,20261017.0,214,0.1633739783437316,0.1177570093457943,1837,Memory/granularity
+v21_locked_blind_test,IntentRAG calibrated multi-granularity,64,random,flat_identity_lru,20261018.0,214,0.1757609087288794,0.1135514018691588,1841,Memory/granularity
+v21_locked_blind_test,IntentRAG calibrated multi-granularity,256,random,flat_identity_lru,20261014.0,214,0.4818007699163711,0.3261682242990654,1187,Memory/granularity
+v21_locked_blind_test,IntentRAG calibrated multi-granularity,256,random,flat_identity_lru,20261015.0,214,0.4389964538334629,0.2985981308411215,1249,Memory/granularity
+v21_locked_blind_test,IntentRAG calibrated multi-granularity,256,random,flat_identity_lru,20261016.0,214,0.4426260595831832,0.2981308411214953,1251,Memory/granularity
+v21_locked_blind_test,IntentRAG calibrated multi-granularity,256,random,flat_identity_lru,20261017.0,214,0.4689397530957844,0.3191588785046729,1209,Memory/granularity
+v21_locked_blind_test,IntentRAG calibrated multi-granularity,256,random,flat_identity_lru,20261018.0,214,0.4488309028502076,0.2761682242990654,1297,Memory/granularity
+v21_locked_blind_test,Long-term fixed,16,random,flat_identity_lru,20261014.0,214,0.038854931908592,0.02803738317757,2089,Memory/granularity
+v21_locked_blind_test,Long-term fixed,16,random,flat_identity_lru,20261015.0,214,0.0463609570545021,0.0308411214953271,2071,Memory/granularity
+v21_locked_blind_test,Long-term fixed,16,random,flat_identity_lru,20261016.0,214,0.0272764888643688,0.0177570093457943,2095,Memory/granularity
+v21_locked_blind_test,Long-term fixed,16,random,flat_identity_lru,20261017.0,214,0.0488218299021458,0.02803738317757,2071,Memory/granularity
+v21_locked_blind_test,Long-term fixed,16,random,flat_identity_lru,20261018.0,214,0.0600445715613113,0.0355140186915887,2075,Memory/granularity
+v21_locked_blind_test,Long-term fixed,64,random,flat_identity_lru,20261014.0,214,0.1956030953279711,0.1462616822429906,1784,Memory/granularity
+v21_locked_blind_test,Long-term fixed,64,random,flat_identity_lru,20261015.0,214,0.1548680275269316,0.1004672897196261,1873,Memory/granularity
+v21_locked_blind_test,Long-term fixed,64,random,flat_identity_lru,20261016.0,214,0.1223576468538575,0.0822429906542056,1909,Memory/granularity
+v21_locked_blind_test,Long-term fixed,64,random,flat_identity_lru,20261017.0,214,0.1582108946252794,0.1149532710280373,1845,Memory/granularity
+v21_locked_blind_test,Long-term fixed,64,random,flat_identity_lru,20261018.0,214,0.1868775225761491,0.1098130841121495,1852,Memory/granularity
+v21_locked_blind_test,Long-term fixed,256,random,flat_identity_lru,20261014.0,214,0.477256888992131,0.3088785046728972,1224,Memory/granularity
+v21_locked_blind_test,Long-term fixed,256,random,flat_identity_lru,20261015.0,214,0.4363984145881123,0.2873831775700934,1271,Memory/granularity
+v21_locked_blind_test,Long-term fixed,256,random,flat_identity_lru,20261016.0,214,0.4082000058073695,0.2635514018691589,1326,Memory/granularity
+v21_locked_blind_test,Long-term fixed,256,random,flat_identity_lru,20261017.0,214,0.4356616045762072,0.2841121495327103,1277,Memory/granularity
+v21_locked_blind_test,Long-term fixed,256,random,flat_identity_lru,20261018.0,214,0.4261012224512907,0.2607476635514019,1329,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy,16,random,flat_identity_lru,20261014.0,214,0.04805284247433,0.0336448598130841,2081,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy,16,random,flat_identity_lru,20261015.0,214,0.0453014998469543,0.0322429906542056,2079,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy,16,random,flat_identity_lru,20261016.0,214,0.0396596822216656,0.0228971962616822,2091,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy,16,random,flat_identity_lru,20261017.0,214,0.0306995575590616,0.0205607476635514,2087,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy,16,random,flat_identity_lru,20261018.0,214,0.0641400228177087,0.0518691588785046,2038,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy,64,random,flat_identity_lru,20261014.0,214,0.1848895288977933,0.144392523364486,1782,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy,64,random,flat_identity_lru,20261015.0,214,0.1636301026796894,0.119626168224299,1830,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy,64,random,flat_identity_lru,20261016.0,214,0.1343009989704204,0.0915887850467289,1888,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy,64,random,flat_identity_lru,20261017.0,214,0.1651709936833904,0.1242990654205607,1821,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy,64,random,flat_identity_lru,20261018.0,214,0.1682040793611041,0.122429906542056,1824,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy,256,random,flat_identity_lru,20261014.0,214,0.486584161170938,0.3565420560747663,1121,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy,256,random,flat_identity_lru,20261015.0,214,0.4261207112446782,0.3168224299065421,1208,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy,256,random,flat_identity_lru,20261016.0,214,0.4161657901327323,0.3093457943925233,1226,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy,256,random,flat_identity_lru,20261017.0,214,0.4422739794640621,0.3289719626168224,1185,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy,256,random,flat_identity_lru,20261018.0,214,0.4370426023318585,0.3070093457943925,1230,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy+constraints,16,random,flat_identity_lru,20261014.0,214,0.062896579015597,0.0401869158878504,2072,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy+constraints,16,random,flat_identity_lru,20261015.0,214,0.052611110353015,0.0355140186915887,2071,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy+constraints,16,random,flat_identity_lru,20261016.0,214,0.0421448357736446,0.0242990654205607,2086,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy+constraints,16,random,flat_identity_lru,20261017.0,214,0.0391052495121651,0.025233644859813,2082,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy+constraints,16,random,flat_identity_lru,20261018.0,214,0.0707838107064394,0.0518691588785046,2040,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy+constraints,64,random,flat_identity_lru,20261014.0,214,0.2026220269366701,0.1560747663551402,1755,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy+constraints,64,random,flat_identity_lru,20261015.0,214,0.1761527230053355,0.1242990654205607,1822,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy+constraints,64,random,flat_identity_lru,20261016.0,214,0.1458728490918767,0.0967289719626168,1873,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy+constraints,64,random,flat_identity_lru,20261017.0,214,0.1857252022979408,0.1355140186915887,1804,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy+constraints,64,random,flat_identity_lru,20261018.0,214,0.1796835555312964,0.1238317757009345,1826,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy+constraints,256,random,flat_identity_lru,20261014.0,214,0.4901682518455849,0.358411214953271,1117,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy+constraints,256,random,flat_identity_lru,20261015.0,214,0.4567293915369185,0.3242990654205607,1194,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy+constraints,256,random,flat_identity_lru,20261016.0,214,0.4390479374479756,0.3154205607476635,1213,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy+constraints,256,random,flat_identity_lru,20261017.0,214,0.4412790142324959,0.319626168224299,1200,Memory/granularity
+v21_locked_blind_test,Multi-granularity entropy+constraints,256,random,flat_identity_lru,20261018.0,214,0.4432235306960687,0.3060747663551402,1230,Memory/granularity
+v21_locked_blind_test,Multi-granularity fixed,16,random,flat_identity_lru,20261014.0,214,0.041266102916544,0.0322429906542056,2079,Memory/granularity
+v21_locked_blind_test,Multi-granularity fixed,16,random,flat_identity_lru,20261015.0,214,0.0432558092318312,0.0313084112149532,2078,Memory/granularity
+v21_locked_blind_test,Multi-granularity fixed,16,random,flat_identity_lru,20261016.0,214,0.0335475313091117,0.019626168224299,2090,Memory/granularity
+v21_locked_blind_test,Multi-granularity fixed,16,random,flat_identity_lru,20261017.0,214,0.0331989943185086,0.0219626168224299,2092,Memory/granularity
+v21_locked_blind_test,Multi-granularity fixed,16,random,flat_identity_lru,20261018.0,214,0.0582936576419273,0.0485981308411214,2042,Memory/granularity
+v21_locked_blind_test,Multi-granularity fixed,64,random,flat_identity_lru,20261014.0,214,0.1724750525343376,0.1383177570093458,1793,Memory/granularity
+v21_locked_blind_test,Multi-granularity fixed,64,random,flat_identity_lru,20261015.0,214,0.1584997343674392,0.1163551401869158,1836,Memory/granularity
+v21_locked_blind_test,Multi-granularity fixed,64,random,flat_identity_lru,20261016.0,214,0.1334524450039083,0.0920560747663551,1895,Memory/granularity
+v21_locked_blind_test,Multi-granularity fixed,64,random,flat_identity_lru,20261017.0,214,0.1611898985182102,0.1247663551401869,1828,Memory/granularity
+v21_locked_blind_test,Multi-granularity fixed,64,random,flat_identity_lru,20261018.0,214,0.1724412139915606,0.1252336448598131,1828,Memory/granularity
+v21_locked_blind_test,Multi-granularity fixed,256,random,flat_identity_lru,20261014.0,214,0.4822872147833825,0.3476635514018691,1140,Memory/granularity
+v21_locked_blind_test,Multi-granularity fixed,256,random,flat_identity_lru,20261015.0,214,0.4202340950389312,0.3144859813084112,1216,Memory/granularity
+v21_locked_blind_test,Multi-granularity fixed,256,random,flat_identity_lru,20261016.0,214,0.4029764382226644,0.2967289719626168,1255,Memory/granularity
+v21_locked_blind_test,Multi-granularity fixed,256,random,flat_identity_lru,20261017.0,214,0.4424152598292507,0.3317757009345794,1179,Memory/granularity
+v21_locked_blind_test,Multi-granularity fixed,256,random,flat_identity_lru,20261018.0,214,0.4311707120644557,0.2995327102803738,1248,Memory/granularity
+v21_locked_blind_test,Page-resolved,16,random,flat_identity_lru,20261014.0,214,0.0382985694817815,0.02803738317757,2088,Memory/granularity
+v21_locked_blind_test,Page-resolved,16,random,flat_identity_lru,20261015.0,214,0.0530431091617207,0.0322429906542056,2074,Memory/granularity
+v21_locked_blind_test,Page-resolved,16,random,flat_identity_lru,20261016.0,214,0.0368762426742722,0.0233644859813084,2083,Memory/granularity
+v21_locked_blind_test,Page-resolved,16,random,flat_identity_lru,20261017.0,214,0.0317789510525963,0.0205607476635514,2096,Memory/granularity
+v21_locked_blind_test,Page-resolved,16,random,flat_identity_lru,20261018.0,214,0.0564015876443736,0.0448598130841121,2046,Memory/granularity
+v21_locked_blind_test,Page-resolved,64,random,flat_identity_lru,20261014.0,214,0.1698563524391787,0.1369158878504673,1795,Memory/granularity
+v21_locked_blind_test,Page-resolved,64,random,flat_identity_lru,20261015.0,214,0.153428850149307,0.1088785046728972,1857,Memory/granularity
+v21_locked_blind_test,Page-resolved,64,random,flat_identity_lru,20261016.0,214,0.1354859368367749,0.0939252336448598,1887,Memory/granularity
+v21_locked_blind_test,Page-resolved,64,random,flat_identity_lru,20261017.0,214,0.158939435686254,0.1247663551401869,1822,Memory/granularity
+v21_locked_blind_test,Page-resolved,64,random,flat_identity_lru,20261018.0,214,0.1667398929159189,0.1126168224299065,1854,Memory/granularity
+v21_locked_blind_test,Page-resolved,256,random,flat_identity_lru,20261014.0,214,0.4839746215195812,0.3303738317757009,1177,Memory/granularity
+v21_locked_blind_test,Page-resolved,256,random,flat_identity_lru,20261015.0,214,0.4214220289380208,0.3009345794392523,1241,Memory/granularity
+v21_locked_blind_test,Page-resolved,256,random,flat_identity_lru,20261016.0,214,0.411815737934424,0.2897196261682243,1267,Memory/granularity
+v21_locked_blind_test,Page-resolved,256,random,flat_identity_lru,20261017.0,214,0.4589312442753208,0.3154205607476635,1221,Memory/granularity
+v21_locked_blind_test,Page-resolved,256,random,flat_identity_lru,20261018.0,214,0.4157103814963473,0.2757009345794392,1301,Memory/granularity
+v21_locked_blind_test,Profile-resolved,16,random,flat_identity_lru,20261014.0,214,0.1424798853137067,0.1906542056074766,1812,Memory/granularity
+v21_locked_blind_test,Profile-resolved,16,random,flat_identity_lru,20261015.0,214,0.1435087695230778,0.1742990654205607,1856,Memory/granularity
+v21_locked_blind_test,Profile-resolved,16,random,flat_identity_lru,20261016.0,214,0.1495105940777425,0.1808411214953271,1835,Memory/granularity
+v21_locked_blind_test,Profile-resolved,16,random,flat_identity_lru,20261017.0,214,0.1253112374733347,0.1607476635514018,1873,Memory/granularity
+v21_locked_blind_test,Profile-resolved,16,random,flat_identity_lru,20261018.0,214,0.1452235765386963,0.1719626168224299,1828,Memory/granularity
+v21_locked_blind_test,Profile-resolved,64,random,flat_identity_lru,20261014.0,214,0.5473766882275068,0.5574766355140187,899,Memory/granularity
+v21_locked_blind_test,Profile-resolved,64,random,flat_identity_lru,20261015.0,214,0.4828485002297841,0.5172897196261682,1023,Memory/granularity
+v21_locked_blind_test,Profile-resolved,64,random,flat_identity_lru,20261016.0,214,0.5309111112635384,0.55,931,Memory/granularity
+v21_locked_blind_test,Profile-resolved,64,random,flat_identity_lru,20261017.0,214,0.5370261130812338,0.5649532710280374,887,Memory/granularity
+v21_locked_blind_test,Profile-resolved,64,random,flat_identity_lru,20261018.0,214,0.5094040016736516,0.5275700934579439,974,Memory/granularity
+v21_locked_blind_test,Profile-resolved,256,random,flat_identity_lru,20261014.0,214,0.8944947835570585,0.8878504672897196,0,Memory/granularity
+v21_locked_blind_test,Profile-resolved,256,random,flat_identity_lru,20261015.0,214,0.8944947835570585,0.8878504672897196,0,Memory/granularity
+v21_locked_blind_test,Profile-resolved,256,random,flat_identity_lru,20261016.0,214,0.8944947835570585,0.8878504672897196,0,Memory/granularity
+v21_locked_blind_test,Profile-resolved,256,random,flat_identity_lru,20261017.0,214,0.8944947835570585,0.8878504672897196,0,Memory/granularity
+v21_locked_blind_test,Profile-resolved,256,random,flat_identity_lru,20261018.0,214,0.8944947835570585,0.8878504672897196,0,Memory/granularity
+v21_locked_blind_test,Section-resolved,16,random,flat_identity_lru,20261014.0,214,0.053542058372374,0.0350467289719626,2068,Memory/granularity
+v21_locked_blind_test,Section-resolved,16,random,flat_identity_lru,20261015.0,214,0.0418107970540268,0.0271028037383177,2080,Memory/granularity
+v21_locked_blind_test,Section-resolved,16,random,flat_identity_lru,20261016.0,214,0.0287949141450341,0.0172897196261682,2097,Memory/granularity
+v21_locked_blind_test,Section-resolved,16,random,flat_identity_lru,20261017.0,214,0.0453391781884411,0.0233644859813084,2079,Memory/granularity
+v21_locked_blind_test,Section-resolved,16,random,flat_identity_lru,20261018.0,214,0.0584243129352045,0.0336448598130841,2075,Memory/granularity
+v21_locked_blind_test,Section-resolved,64,random,flat_identity_lru,20261014.0,214,0.1713948358904574,0.1303738317757009,1810,Memory/granularity
+v21_locked_blind_test,Section-resolved,64,random,flat_identity_lru,20261015.0,214,0.1490472678418703,0.0957943925233644,1883,Memory/granularity
+v21_locked_blind_test,Section-resolved,64,random,flat_identity_lru,20261016.0,214,0.117980893417959,0.0785046728971962,1922,Memory/granularity
+v21_locked_blind_test,Section-resolved,64,random,flat_identity_lru,20261017.0,214,0.1516442117582695,0.1065420560747663,1865,Memory/granularity
+v21_locked_blind_test,Section-resolved,64,random,flat_identity_lru,20261018.0,214,0.1668588405164802,0.1018691588785046,1865,Memory/granularity
+v21_locked_blind_test,Section-resolved,256,random,flat_identity_lru,20261014.0,214,0.4428897406864934,0.2943925233644859,1257,Memory/granularity
+v21_locked_blind_test,Section-resolved,256,random,flat_identity_lru,20261015.0,214,0.43107883975471,0.2771028037383177,1298,Memory/granularity
+v21_locked_blind_test,Section-resolved,256,random,flat_identity_lru,20261016.0,214,0.3799051942340919,0.2471962616822429,1357,Memory/granularity
+v21_locked_blind_test,Section-resolved,256,random,flat_identity_lru,20261017.0,214,0.412180013227101,0.2728971962616822,1306,Memory/granularity
+v21_locked_blind_test,Section-resolved,256,random,flat_identity_lru,20261018.0,214,0.4064044099570292,0.2485981308411215,1355,Memory/granularity
+v21_locked_blind_test,Short-term fixed,16,random,flat_identity_lru,20261014.0,214,0.0496440614462345,0.0364485981308411,2083,Memory/granularity
+v21_locked_blind_test,Short-term fixed,16,random,flat_identity_lru,20261015.0,214,0.0488442804853445,0.0317757009345794,2073,Memory/granularity
+v21_locked_blind_test,Short-term fixed,16,random,flat_identity_lru,20261016.0,214,0.0426693950485632,0.0271028037383177,2079,Memory/granularity
+v21_locked_blind_test,Short-term fixed,16,random,flat_identity_lru,20261017.0,214,0.0367430901807072,0.0257009345794392,2084,Memory/granularity
+v21_locked_blind_test,Short-term fixed,16,random,flat_identity_lru,20261018.0,214,0.0570978758970516,0.0514018691588785,2035,Memory/granularity
+v21_locked_blind_test,Short-term fixed,64,random,flat_identity_lru,20261014.0,214,0.1792482058967634,0.155607476635514,1752,Memory/granularity
+v21_locked_blind_test,Short-term fixed,64,random,flat_identity_lru,20261015.0,214,0.159959794794939,0.1247663551401869,1820,Memory/granularity
+v21_locked_blind_test,Short-term fixed,64,random,flat_identity_lru,20261016.0,214,0.1453187595469349,0.1009345794392523,1873,Memory/granularity
+v21_locked_blind_test,Short-term fixed,64,random,flat_identity_lru,20261017.0,214,0.1689050926593077,0.1383177570093458,1796,Memory/granularity
+v21_locked_blind_test,Short-term fixed,64,random,flat_identity_lru,20261018.0,214,0.1642685246563103,0.1313084112149532,1816,Memory/granularity
+v21_locked_blind_test,Short-term fixed,256,random,flat_identity_lru,20261014.0,214,0.4826750151309911,0.3742990654205607,1083,Memory/granularity
+v21_locked_blind_test,Short-term fixed,256,random,flat_identity_lru,20261015.0,214,0.4353402311439029,0.3392523364485981,1159,Memory/granularity
+v21_locked_blind_test,Short-term fixed,256,random,flat_identity_lru,20261016.0,214,0.4159077153644407,0.3280373831775701,1186,Memory/granularity
+v21_locked_blind_test,Short-term fixed,256,random,flat_identity_lru,20261017.0,214,0.4739566821339021,0.364018691588785,1115,Memory/granularity
+v21_locked_blind_test,Short-term fixed,256,random,flat_identity_lru,20261018.0,214,0.4255375104475891,0.322429906542056,1197,Memory/granularity

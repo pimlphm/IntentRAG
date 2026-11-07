@@ -1,0 +1,107 @@
+{
+  "experiment": "past_only_exact_source_identity_module_replay",
+  "inputs": [
+    {
+      "path": "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\交付\\代码与原始文件\\experiments\\expanded_evaluation_20261014\\results\\retrieval_runs.jsonl",
+      "sha256": "b699cb31e94ecd303316e6065869df0cbaca8885fa6b82a7e8d640fd6cf16840"
+    },
+    {
+      "path": "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\交付\\代码与原始文件\\experiments\\expanded_evaluation_20261014\\data\\canonical_questions.csv",
+      "sha256": "c76c1672889c9c7d7ec16e91c5b0f3004bb9f970d49481c22877ed7216f8e2a3"
+    },
+    {
+      "path": "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\交付\\代码与原始文件\\01_processed_corpus\\v5\\evidence_objects.parquet",
+      "sha256": "e03f1d41798bdb6817570a1cb9930e67df408598975346dcc6521986cb729542"
+    }
+  ],
+  "capacities_evidence_modules": [
+    16,
+    64,
+    256
+  ],
+  "random_order_seeds": [
+    20261014,
+    20261015,
+    20261016,
+    20261017,
+    20261018
+  ],
+  "extra_order": "visible_question_topic_then_aircraft_offline_workload",
+  "methods": [
+    "Agentic RAG",
+    "BM25/word",
+    "Calibrated lexical control",
+    "Causal-graph informed RAG",
+    "Component-graph informed RAG",
+    "Component-profile retrieval",
+    "Controlled GraphRAG",
+    "Detail-only",
+    "Evidence-flow baseline",
+    "FD-GRAG-RC-V21-final",
+    "GaRAGe-style attribution RAG",
+    "GaRAGe-style deflective RAG",
+    "GaRAGe-style relevance RAG",
+    "Hybrid lexical",
+    "IntentRAG balanced fair",
+    "IntentRAG calibrated multi-granularity",
+    "Long-term fixed",
+    "Multi-granularity entropy",
+    "Multi-granularity entropy+constraints",
+    "Multi-granularity fixed",
+    "Page-resolved",
+    "Parent-section retrieval",
+    "Profile-resolved",
+    "SVD semantic surrogate",
+    "Section-resolved",
+    "Short-term fixed",
+    "TFIDF-char",
+    "True BM25"
+  ],
+  "n_canonical_question_ids": 690,
+  "n_replay_rows": 695520,
+  "coverage_counts": {
+    "available": 19320
+  },
+  "n_noncanonical_input_rows": 0,
+  "token_mass_measurement": {
+    "token_count_kind": "tokenizer_source_text_tokens",
+    "tokenizer_json": "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\交付\\代码与原始文件\\experiments\\expanded_evaluation_20261014\\models\\qwen2_5_3b_tokenizer\\tokenizer.json",
+    "tokenizer_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "note": "Source-module token mass, not a rendered chat prefix or KV hit."
+  },
+  "validation": {
+    "ranked_outputs_unchanged": true,
+    "all_retained_identity_support_equal_one": true,
+    "reuse_mass_never_exceeds_requested_mass": true,
+    "occupancy_within_capacity": true,
+    "every_cold_start_has_zero_identity_hits": true
+  },
+  "cache_key_fields": [
+    "aircraft_model",
+    "document_id",
+    "page_id",
+    "evidence_id",
+    "exact_source_text_sha256"
+  ],
+  "routing_index_budget": {
+    "flat_identity_lru": "No page or section routing-node storage",
+    "identity_lru_plus_routing_indices": "Adds capacity page keys and capacity section keys; identity-module capacity remains equal",
+    "page_node_universe": 1902,
+    "section_node_universe": 676,
+    "cached_metadata": "Only source identity lookup keys; no page/section full text or all-child content",
+    "not_measured": "Index construction cost, graph-edge storage, process RAM, GPU VRAM"
+  },
+  "lookup_before_update": true,
+  "no_future_cache_content": true,
+  "split_cold_start": true,
+  "gold_or_query_type_used_for_cache_selection": false,
+  "revision": "unknown/not encoded in current source metadata",
+  "authority": "not inferred from cache key",
+  "interpretation": [
+    "Identity-support retention is a replay invariant, not retrieval accuracy or expert correctness.",
+    "Module reuse saves potential repeated source-module loading/token mass, not measured GPU prefill or KV hits.",
+    "Page/section indices add independent metadata capacity. Their hits imply routing-node familiarity, not child evidence support.",
+    "Repeated request orders are workload realizations, not additional independent questions.",
+    "Retrieval ranking is replayed as frozen; memory policies cannot improve or degrade gold retrieval coverage in this design."
+  ]
+}

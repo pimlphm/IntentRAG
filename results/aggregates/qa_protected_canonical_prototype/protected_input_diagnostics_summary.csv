@@ -1,0 +1,7 @@
+﻿origin,method,source_context_tokens,n_materialized_sources,one_previous_prompt_prefix_tokens_proxy,one_previous_prompt_prefix_fraction_proxy,one_previous_source_prefix_tokens_proxy,actual_materialized_accepted_id_hit_proxy,actual_materialized_required_quote_fraction,all_required_quotes_materialized
+fresh,canonical_state_first,2936.375,5.71875,116.0625,0.038317293898229736,110.25,0.5,0.46875,0.46875
+fresh,protected_retained_fragment_canonicalization,2936.84375,7.65625,31.78125,0.010629411304837817,25.96875,0.96875,0.96875,0.96875
+fresh,rank_source_first,2936.84375,7.65625,23.8125,0.008119855025261871,18.0,0.96875,0.96875,0.96875
+legacy,canonical_state_first,2849.40625,4.21875,1035.375,0.33838691898040774,1027.03125,0.28125,,
+legacy,protected_retained_fragment_canonicalization,2851.3125,7.40625,372.3125,0.12220037828692276,365.5625,0.90625,,
+legacy,rank_source_first,2851.3125,7.40625,286.40625,0.0950622627789369,279.625,0.90625,,

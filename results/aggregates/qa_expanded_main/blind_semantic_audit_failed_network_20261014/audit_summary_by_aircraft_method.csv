@@ -1,0 +1,133 @@
+﻿origin,aircraft_model,method,addresses_question,supported_by_evidence,actual_context_faithful,contradicts_reference,unsupported_action,answer_correct_supported_judge_proxy,n_answers,n_valid_judgments,n_source_groups
+fresh,Boeing 737,Agentic RAG,,,,,,,2,0,2
+fresh,Boeing 737,BM25/word,,,,,,,2,0,2
+fresh,Boeing 737,Calibrated lexical control,,,,,,,2,0,2
+fresh,Boeing 737,Causal-graph informed RAG,,,,,,,2,0,2
+fresh,Boeing 737,Component-graph informed RAG,,,,,,,2,0,2
+fresh,Boeing 737,Component-profile retrieval,,,,,,,2,0,2
+fresh,Boeing 737,Controlled GraphRAG,,,,,,,2,0,2
+fresh,Boeing 737,Detail-only,,,,,,,2,0,2
+fresh,Boeing 737,Evidence-flow baseline,,,,,,,2,0,2
+fresh,Boeing 737,FD-GRAG-RC-V21-final,,,,,,,2,0,2
+fresh,Boeing 737,GaRAGe-style attribution RAG,,,,,,,2,0,2
+fresh,Boeing 737,GaRAGe-style deflective RAG,,,,,,,2,0,2
+fresh,Boeing 737,GaRAGe-style relevance RAG,,,,,,,2,0,2
+fresh,Boeing 737,Hybrid lexical,,,,,,,2,0,2
+fresh,Boeing 737,IntentRAG balanced fair,,,,,,,2,0,2
+fresh,Boeing 737,IntentRAG calibrated multi-granularity,,,,,,,2,0,2
+fresh,Boeing 737,IntentRAG multi + mMARCO CE@50,,,,,,,2,0,2
+fresh,Boeing 737,Long-term fixed,,,,,,,2,0,2
+fresh,Boeing 737,Multi-granularity entropy,,,,,,,2,0,2
+fresh,Boeing 737,Multi-granularity entropy+constraints,,,,,,,2,0,2
+fresh,Boeing 737,Multi-granularity fixed,,,,,,,2,0,2
+fresh,Boeing 737,Neural dense (multilingual MiniLM),,,,,,,2,0,2
+fresh,Boeing 737,Neural dense + mMARCO CE@30,,,,,,,2,0,2
+fresh,Boeing 737,Neural dense + mMARCO CE@50,,,,,,,2,0,2
+fresh,Boeing 737,Neural lexical+dense RRF,,,,,,,2,0,2
+fresh,Boeing 737,Page-resolved,,,,,,,2,0,2
+fresh,Boeing 737,Parent-section retrieval,,,,,,,2,0,2
+fresh,Boeing 737,Profile-resolved,,,,,,,2,0,2
+fresh,Boeing 737,SVD semantic surrogate,,,,,,,2,0,2
+fresh,Boeing 737,Section-resolved,,,,,,,2,0,2
+fresh,Boeing 737,Short-term fixed,,,,,,,2,0,2
+fresh,Boeing 737,TFIDF-char,,,,,,,2,0,2
+fresh,Boeing 737,True BM25,,,,,,,2,0,2
+fresh,Cessna 172,Agentic RAG,,,,,,,30,0,30
+fresh,Cessna 172,BM25/word,,,,,,,30,0,30
+fresh,Cessna 172,Calibrated lexical control,,,,,,,30,0,30
+fresh,Cessna 172,Causal-graph informed RAG,,,,,,,30,0,30
+fresh,Cessna 172,Component-graph informed RAG,,,,,,,30,0,30
+fresh,Cessna 172,Component-profile retrieval,,,,,,,30,0,30
+fresh,Cessna 172,Controlled GraphRAG,,,,,,,30,0,30
+fresh,Cessna 172,Detail-only,,,,,,,30,0,30
+fresh,Cessna 172,Evidence-flow baseline,,,,,,,30,0,30
+fresh,Cessna 172,FD-GRAG-RC-V21-final,,,,,,,30,0,30
+fresh,Cessna 172,GaRAGe-style attribution RAG,,,,,,,30,0,30
+fresh,Cessna 172,GaRAGe-style deflective RAG,,,,,,,30,0,30
+fresh,Cessna 172,GaRAGe-style relevance RAG,,,,,,,30,0,30
+fresh,Cessna 172,Hybrid lexical,,,,,,,30,0,30
+fresh,Cessna 172,IntentRAG balanced fair,,,,,,,30,0,30
+fresh,Cessna 172,IntentRAG calibrated multi-granularity,,,,,,,30,0,30
+fresh,Cessna 172,IntentRAG multi + mMARCO CE@50,,,,,,,30,0,30
+fresh,Cessna 172,Long-term fixed,,,,,,,30,0,30
+fresh,Cessna 172,Multi-granularity entropy,,,,,,,30,0,30
+fresh,Cessna 172,Multi-granularity entropy+constraints,,,,,,,30,0,30
+fresh,Cessna 172,Multi-granularity fixed,,,,,,,30,0,30
+fresh,Cessna 172,Neural dense (multilingual MiniLM),,,,,,,30,0,30
+fresh,Cessna 172,Neural dense + mMARCO CE@30,,,,,,,30,0,30
+fresh,Cessna 172,Neural dense + mMARCO CE@50,,,,,,,30,0,30
+fresh,Cessna 172,Neural lexical+dense RRF,,,,,,,30,0,30
+fresh,Cessna 172,Page-resolved,,,,,,,30,0,30
+fresh,Cessna 172,Parent-section retrieval,,,,,,,30,0,30
+fresh,Cessna 172,Profile-resolved,,,,,,,30,0,30
+fresh,Cessna 172,SVD semantic surrogate,,,,,,,30,0,30
+fresh,Cessna 172,Section-resolved,,,,,,,30,0,30
+fresh,Cessna 172,Short-term fixed,,,,,,,30,0,30
+fresh,Cessna 172,TFIDF-char,,,,,,,30,0,30
+fresh,Cessna 172,True BM25,,,,,,,30,0,30
+legacy,Boeing 737,Agentic RAG,,,,,,,16,0,12
+legacy,Boeing 737,BM25/word,,,,,,,16,0,12
+legacy,Boeing 737,Calibrated lexical control,,,,,,,16,0,12
+legacy,Boeing 737,Causal-graph informed RAG,,,,,,,16,0,12
+legacy,Boeing 737,Component-graph informed RAG,,,,,,,16,0,12
+legacy,Boeing 737,Component-profile retrieval,,,,,,,16,0,12
+legacy,Boeing 737,Controlled GraphRAG,,,,,,,16,0,12
+legacy,Boeing 737,Detail-only,,,,,,,16,0,12
+legacy,Boeing 737,Evidence-flow baseline,,,,,,,16,0,12
+legacy,Boeing 737,FD-GRAG-RC-V21-final,,,,,,,16,0,12
+legacy,Boeing 737,GaRAGe-style attribution RAG,,,,,,,16,0,12
+legacy,Boeing 737,GaRAGe-style deflective RAG,,,,,,,16,0,12
+legacy,Boeing 737,GaRAGe-style relevance RAG,,,,,,,16,0,12
+legacy,Boeing 737,Hybrid lexical,,,,,,,16,0,12
+legacy,Boeing 737,IntentRAG balanced fair,,,,,,,16,0,12
+legacy,Boeing 737,IntentRAG calibrated multi-granularity,,,,,,,16,0,12
+legacy,Boeing 737,IntentRAG multi + mMARCO CE@50,,,,,,,16,0,12
+legacy,Boeing 737,Long-term fixed,,,,,,,16,0,12
+legacy,Boeing 737,Multi-granularity entropy,,,,,,,16,0,12
+legacy,Boeing 737,Multi-granularity entropy+constraints,,,,,,,16,0,12
+legacy,Boeing 737,Multi-granularity fixed,,,,,,,16,0,12
+legacy,Boeing 737,Neural dense (multilingual MiniLM),,,,,,,16,0,12
+legacy,Boeing 737,Neural dense + mMARCO CE@30,,,,,,,16,0,12
+legacy,Boeing 737,Neural dense + mMARCO CE@50,,,,,,,16,0,12
+legacy,Boeing 737,Neural lexical+dense RRF,,,,,,,16,0,12
+legacy,Boeing 737,Page-resolved,,,,,,,16,0,12
+legacy,Boeing 737,Parent-section retrieval,,,,,,,16,0,12
+legacy,Boeing 737,Profile-resolved,,,,,,,16,0,12
+legacy,Boeing 737,SVD semantic surrogate,,,,,,,16,0,12
+legacy,Boeing 737,Section-resolved,,,,,,,16,0,12
+legacy,Boeing 737,Short-term fixed,,,,,,,16,0,12
+legacy,Boeing 737,TFIDF-char,,,,,,,16,0,12
+legacy,Boeing 737,True BM25,,,,,,,16,0,12
+legacy,Cessna 172,Agentic RAG,,,,,,,16,0,15
+legacy,Cessna 172,BM25/word,,,,,,,16,0,15
+legacy,Cessna 172,Calibrated lexical control,,,,,,,16,0,15
+legacy,Cessna 172,Causal-graph informed RAG,,,,,,,16,0,15
+legacy,Cessna 172,Component-graph informed RAG,,,,,,,16,0,15
+legacy,Cessna 172,Component-profile retrieval,,,,,,,16,0,15
+legacy,Cessna 172,Controlled GraphRAG,,,,,,,16,0,15
+legacy,Cessna 172,Detail-only,,,,,,,16,0,15
+legacy,Cessna 172,Evidence-flow baseline,,,,,,,16,0,15
+legacy,Cessna 172,FD-GRAG-RC-V21-final,,,,,,,16,0,15
+legacy,Cessna 172,GaRAGe-style attribution RAG,,,,,,,16,0,15
+legacy,Cessna 172,GaRAGe-style deflective RAG,,,,,,,16,0,15
+legacy,Cessna 172,GaRAGe-style relevance RAG,,,,,,,16,0,15
+legacy,Cessna 172,Hybrid lexical,,,,,,,16,0,15
+legacy,Cessna 172,IntentRAG balanced fair,,,,,,,16,0,15
+legacy,Cessna 172,IntentRAG calibrated multi-granularity,,,,,,,16,0,15
+legacy,Cessna 172,IntentRAG multi + mMARCO CE@50,,,,,,,16,0,15
+legacy,Cessna 172,Long-term fixed,,,,,,,16,0,15
+legacy,Cessna 172,Multi-granularity entropy,,,,,,,16,0,15
+legacy,Cessna 172,Multi-granularity entropy+constraints,,,,,,,16,0,15
+legacy,Cessna 172,Multi-granularity fixed,,,,,,,16,0,15
+legacy,Cessna 172,Neural dense (multilingual MiniLM),,,,,,,16,0,15
+legacy,Cessna 172,Neural dense + mMARCO CE@30,,,,,,,16,0,15
+legacy,Cessna 172,Neural dense + mMARCO CE@50,,,,,,,16,0,15
+legacy,Cessna 172,Neural lexical+dense RRF,,,,,,,16,0,15
+legacy,Cessna 172,Page-resolved,,,,,,,16,0,15
+legacy,Cessna 172,Parent-section retrieval,,,,,,,16,0,15
+legacy,Cessna 172,Profile-resolved,,,,,,,16,0,15
+legacy,Cessna 172,SVD semantic surrogate,,,,,,,16,0,15
+legacy,Cessna 172,Section-resolved,,,,,,,16,0,15
+legacy,Cessna 172,Short-term fixed,,,,,,,16,0,15
+legacy,Cessna 172,TFIDF-char,,,,,,,16,0,15
+legacy,Cessna 172,True BM25,,,,,,,16,0,15

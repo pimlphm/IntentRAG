@@ -1,0 +1,10 @@
+﻿intervention,mean,count
+authority_removal,1.0,214
+condition_removal,0.5868544600938967,213
+conflict_injection,1.0,214
+duplicate_injection,0.9532710280373832,214
+evidence_order_permutation,1.0,214
+procedural_to_descriptive_substitution,0.006493506493506494,154
+provenance_masking,1.0,214
+scope_swap,1.0,214
+warning_removal,1.0,212

@@ -1,0 +1,86 @@
+| aircraft_model | track | method | k | exact_pool | accepted_pool |
+| --- | --- | --- | --- | --- | --- |
+| Boeing 737 | broad_package | BM25/word | 100 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | BM25/word | 500 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | BM25/word | 1000 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | FD-GRAG-RC-V21-cue-route | 100 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | FD-GRAG-RC-V21-cue-route | 500 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | FD-GRAG-RC-V21-cue-route | 1000 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | FD-GRAG-RC-V21-exact | 100 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | FD-GRAG-RC-V21-exact | 500 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | FD-GRAG-RC-V21-exact | 1000 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | FD-GRAG-RC-V21-final | 100 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | FD-GRAG-RC-V21-final | 500 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | FD-GRAG-RC-V21-final | 1000 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | FD-GRAG-RC-V21-package | 100 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | FD-GRAG-RC-V21-package | 500 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | FD-GRAG-RC-V21-package | 1000 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | Hybrid lexical | 100 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | Hybrid lexical | 500 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | Hybrid lexical | 1000 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | TFIDF-char | 100 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | TFIDF-char | 500 | 1.0 | 1.0 |
+| Boeing 737 | broad_package | TFIDF-char | 1000 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | BM25/word | 100 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | BM25/word | 500 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | BM25/word | 1000 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | FD-GRAG-RC-V21-cue-route | 100 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | FD-GRAG-RC-V21-cue-route | 500 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | FD-GRAG-RC-V21-cue-route | 1000 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | FD-GRAG-RC-V21-exact | 100 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | FD-GRAG-RC-V21-exact | 500 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | FD-GRAG-RC-V21-exact | 1000 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | FD-GRAG-RC-V21-final | 100 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | FD-GRAG-RC-V21-final | 500 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | FD-GRAG-RC-V21-final | 1000 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | FD-GRAG-RC-V21-package | 100 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | FD-GRAG-RC-V21-package | 500 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | FD-GRAG-RC-V21-package | 1000 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | Hybrid lexical | 100 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | Hybrid lexical | 500 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | Hybrid lexical | 1000 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | TFIDF-char | 100 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | TFIDF-char | 500 | 1.0 | 1.0 |
+| Boeing 737 | unique_exact | TFIDF-char | 1000 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | BM25/word | 100 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | BM25/word | 500 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | BM25/word | 1000 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | FD-GRAG-RC-V21-cue-route | 100 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | FD-GRAG-RC-V21-cue-route | 500 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | FD-GRAG-RC-V21-cue-route | 1000 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | FD-GRAG-RC-V21-exact | 100 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | FD-GRAG-RC-V21-exact | 500 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | FD-GRAG-RC-V21-exact | 1000 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | FD-GRAG-RC-V21-final | 100 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | FD-GRAG-RC-V21-final | 500 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | FD-GRAG-RC-V21-final | 1000 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | FD-GRAG-RC-V21-package | 100 | 0.9230769230769232 | 1.0 |
+| Cessna 172 | broad_package | FD-GRAG-RC-V21-package | 500 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | FD-GRAG-RC-V21-package | 1000 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | Hybrid lexical | 100 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | Hybrid lexical | 500 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | Hybrid lexical | 1000 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | TFIDF-char | 100 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | TFIDF-char | 500 | 1.0 | 1.0 |
+| Cessna 172 | broad_package | TFIDF-char | 1000 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | BM25/word | 100 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | BM25/word | 500 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | BM25/word | 1000 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | FD-GRAG-RC-V21-cue-route | 100 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | FD-GRAG-RC-V21-cue-route | 500 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | FD-GRAG-RC-V21-cue-route | 1000 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | FD-GRAG-RC-V21-exact | 100 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | FD-GRAG-RC-V21-exact | 500 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | FD-GRAG-RC-V21-exact | 1000 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | FD-GRAG-RC-V21-final | 100 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | FD-GRAG-RC-V21-final | 500 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | FD-GRAG-RC-V21-final | 1000 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | FD-GRAG-RC-V21-package | 100 | 0.991150442477876 | 1.0 |
+| Cessna 172 | unique_exact | FD-GRAG-RC-V21-package | 500 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | FD-GRAG-RC-V21-package | 1000 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | Hybrid lexical | 100 | 0.991150442477876 | 1.0 |
+| Cessna 172 | unique_exact | Hybrid lexical | 500 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | Hybrid lexical | 1000 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | TFIDF-char | 100 | 0.9823008849557522 | 1.0 |
+| Cessna 172 | unique_exact | TFIDF-char | 500 | 1.0 | 1.0 |
+| Cessna 172 | unique_exact | TFIDF-char | 1000 | 1.0 | 1.0 |

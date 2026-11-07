@@ -1,0 +1,467 @@
+{
+  "status": "source_pdf_and_manual_visual_qa_pass",
+  "qa_report": "../reports/data_figure_visual_qa_zh.md",
+  "backend": "Python",
+  "figures": [
+    {
+      "figure": "legacy_test_accepted_hit_forest",
+      "claim": "All executed methods are compared under the same query and Top-10 budgets.",
+      "caption_en": "Each point is the mean over normalized question-text clusters; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. All methods are retained, including controls and negative results. Missing endpoints are shown explicitly. Split: v21_locked_blind_test. This is source-derived retrieval evaluation, not maintenance correctness or QA accuracy.",
+      "source_data": "source_data/legacy_test_accepted_hit_forest.csv",
+      "n_axes": 1,
+      "size_inches": [
+        12.8,
+        13.76
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "legacy_test_exact_hit_forest",
+      "claim": "All executed methods are compared under the same query and Top-10 budgets.",
+      "caption_en": "Each point is the mean over normalized question-text clusters; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. All methods are retained, including controls and negative results. Missing endpoints are shown explicitly. Split: v21_locked_blind_test. This is source-derived retrieval evaluation, not maintenance correctness or QA accuracy.",
+      "source_data": "source_data/legacy_test_exact_hit_forest.csv",
+      "n_axes": 1,
+      "size_inches": [
+        12.8,
+        13.76
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "fresh_test_accepted_hit_forest",
+      "claim": "All executed methods are compared under the same query and Top-10 budgets.",
+      "caption_en": "Each point is the mean over normalized question-text clusters; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. All methods are retained, including controls and negative results. Missing endpoints are shown explicitly. Split: fresh_locked_test. This is source-derived retrieval evaluation, not maintenance correctness or QA accuracy.",
+      "source_data": "source_data/fresh_test_accepted_hit_forest.csv",
+      "n_axes": 1,
+      "size_inches": [
+        12.8,
+        13.76
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "fresh_test_exact_hit_forest",
+      "claim": "All executed methods are compared under the same query and Top-10 budgets.",
+      "caption_en": "Each point is the mean over normalized question-text clusters; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. All methods are retained, including controls and negative results. Missing endpoints are shown explicitly. Split: fresh_locked_test. This is source-derived retrieval evaluation, not maintenance correctness or QA accuracy.",
+      "source_data": "source_data/fresh_test_exact_hit_forest.csv",
+      "n_axes": 1,
+      "size_inches": [
+        12.8,
+        13.76
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "fresh_required_quote_support_forest",
+      "claim": "All executed methods are compared under the same query and Top-10 budgets.",
+      "caption_en": "Each point is the mean over normalized question-text clusters; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. All methods are retained, including controls and negative results. Missing endpoints are shown explicitly. Split: fresh_locked_test. This is source-derived retrieval evaluation, not maintenance correctness or QA accuracy.",
+      "source_data": "source_data/fresh_required_quote_support_forest.csv",
+      "n_axes": 1,
+      "size_inches": [
+        12.8,
+        13.76
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "legacy_test_returned_granularity",
+      "claim": "The actual granularity of retained source text differs across methods.",
+      "caption_en": "All returned source units are pooled over v21_locked_blind_test. Fractions are weighted by official Qwen2.5 source-text token counts. The granularity label belongs to the returned source unit; a parent routing score does not change it. Accepted support labels are used after retrieval only. This describes output composition, not causal information gain or summary sufficiency.",
+      "source_data": "source_data/legacy_test_returned_granularity.csv",
+      "n_axes": 1,
+      "size_inches": [
+        12.8,
+        13.909999999999998
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "legacy_test_accepted_support_granularity",
+      "claim": "The actual granularity of retained source text differs across methods.",
+      "caption_en": "Post-hoc accepted support units are pooled over v21_locked_blind_test. Fractions are weighted by official Qwen2.5 source-text token counts. The granularity label belongs to the returned source unit; a parent routing score does not change it. Accepted support labels are used after retrieval only. This describes output composition, not causal information gain or summary sufficiency.",
+      "source_data": "source_data/legacy_test_accepted_support_granularity.csv",
+      "n_axes": 1,
+      "size_inches": [
+        12.8,
+        13.909999999999998
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "fresh_test_returned_granularity",
+      "claim": "The actual granularity of retained source text differs across methods.",
+      "caption_en": "All returned source units are pooled over fresh_locked_test. Fractions are weighted by official Qwen2.5 source-text token counts. The granularity label belongs to the returned source unit; a parent routing score does not change it. Accepted support labels are used after retrieval only. This describes output composition, not causal information gain or summary sufficiency.",
+      "source_data": "source_data/fresh_test_returned_granularity.csv",
+      "n_axes": 1,
+      "size_inches": [
+        12.8,
+        13.909999999999998
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "fresh_test_accepted_support_granularity",
+      "claim": "The actual granularity of retained source text differs across methods.",
+      "caption_en": "Post-hoc accepted support units are pooled over fresh_locked_test. Fractions are weighted by official Qwen2.5 source-text token counts. The granularity label belongs to the returned source unit; a parent routing score does not change it. Accepted support labels are used after retrieval only. This describes output composition, not causal information gain or summary sufficiency.",
+      "source_data": "source_data/fresh_test_accepted_support_granularity.csv",
+      "n_axes": 1,
+      "size_inches": [
+        12.8,
+        13.909999999999998
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "reuse_capacity_v21_locked_blind_test_lexical_local",
+      "claim": "Reuse opportunity changes with finite source-module capacity across the same workload orders.",
+      "caption_en": "Each method uses the same exact-source identity LRU and the same five random request orders. Points are mean workload reuse ratios; bars span the observed minimum and maximum across orders, not a population CI. Method family: Lexical/local; split: v21_locked_blind_test. Families partition the method registry for legibility; every actual method is retained. The result measures source-module token mass, not GPU KV hits, prefill speed, or QA improvement.",
+      "source_data": "source_data/reuse_capacity_v21_locked_blind_test_lexical_local.csv",
+      "n_axes": 1,
+      "size_inches": [
+        13.0,
+        7.5
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "reuse_capacity_v21_locked_blind_test_memory_granularity",
+      "claim": "Reuse opportunity changes with finite source-module capacity across the same workload orders.",
+      "caption_en": "Each method uses the same exact-source identity LRU and the same five random request orders. Points are mean workload reuse ratios; bars span the observed minimum and maximum across orders, not a population CI. Method family: Memory/granularity; split: v21_locked_blind_test. Families partition the method registry for legibility; every actual method is retained. The result measures source-module token mass, not GPU KV hits, prefill speed, or QA improvement.",
+      "source_data": "source_data/reuse_capacity_v21_locked_blind_test_memory_granularity.csv",
+      "n_axes": 1,
+      "size_inches": [
+        13.0,
+        7.5
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "reuse_capacity_v21_locked_blind_test_neural_retrieval",
+      "claim": "Reuse opportunity changes with finite source-module capacity across the same workload orders.",
+      "caption_en": "Each method uses the same exact-source identity LRU and the same five random request orders. Points are mean workload reuse ratios; bars span the observed minimum and maximum across orders, not a population CI. Method family: Neural retrieval; split: v21_locked_blind_test. Families partition the method registry for legibility; every actual method is retained. The result measures source-module token mass, not GPU KV hits, prefill speed, or QA improvement.",
+      "source_data": "source_data/reuse_capacity_v21_locked_blind_test_neural_retrieval.csv",
+      "n_axes": 1,
+      "size_inches": [
+        13.0,
+        7.5
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "reuse_capacity_v21_locked_blind_test_structural_controls",
+      "claim": "Reuse opportunity changes with finite source-module capacity across the same workload orders.",
+      "caption_en": "Each method uses the same exact-source identity LRU and the same five random request orders. Points are mean workload reuse ratios; bars span the observed minimum and maximum across orders, not a population CI. Method family: Structural controls; split: v21_locked_blind_test. Families partition the method registry for legibility; every actual method is retained. The result measures source-module token mass, not GPU KV hits, prefill speed, or QA improvement.",
+      "source_data": "source_data/reuse_capacity_v21_locked_blind_test_structural_controls.csv",
+      "n_axes": 1,
+      "size_inches": [
+        13.0,
+        7.5
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "quality_reuse_v21_locked_blind_test",
+      "claim": "Retrieval support and source-module reuse are distinct measured axes.",
+      "caption_en": "Each point is one executed method. Retrieval is the normalized-question-cluster accepted Hit@10; reuse is the mean across five request orders with 64 exact source modules. All methods are retained; coincident marks may represent multiple methods, which remain individually listed in Source Data. A high reuse fraction can accompany weak support; no QA quality or causality is inferred. Split: v21_locked_blind_test.",
+      "source_data": "source_data/quality_reuse_v21_locked_blind_test.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        7.5
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "reuse_capacity_mechanistic_v21_locked_blind_test",
+      "claim": "Local, coarse, and multi-granularity states expose different finite-capacity reuse opportunities.",
+      "caption_en": "This main-view comparison uses a declared set of local, long-only, multi-granularity and primary retrieval controls. All remaining methods are retained in the full family capacity figures and forests. Mean and min–max range are over the same five request orders. Modules retain exact source identity; neither this graph nor a higher reuse ratio establishes QA improvement. Split: v21_locked_blind_test.",
+      "source_data": "source_data/reuse_capacity_mechanistic_v21_locked_blind_test.csv",
+      "n_axes": 1,
+      "size_inches": [
+        12.0,
+        7.2
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "reuse_capacity_fresh_locked_test_lexical_local",
+      "claim": "Reuse opportunity changes with finite source-module capacity across the same workload orders.",
+      "caption_en": "Each method uses the same exact-source identity LRU and the same five random request orders. Points are mean workload reuse ratios; bars span the observed minimum and maximum across orders, not a population CI. Method family: Lexical/local; split: fresh_locked_test. Families partition the method registry for legibility; every actual method is retained. The result measures source-module token mass, not GPU KV hits, prefill speed, or QA improvement.",
+      "source_data": "source_data/reuse_capacity_fresh_locked_test_lexical_local.csv",
+      "n_axes": 1,
+      "size_inches": [
+        13.0,
+        7.5
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "reuse_capacity_fresh_locked_test_memory_granularity",
+      "claim": "Reuse opportunity changes with finite source-module capacity across the same workload orders.",
+      "caption_en": "Each method uses the same exact-source identity LRU and the same five random request orders. Points are mean workload reuse ratios; bars span the observed minimum and maximum across orders, not a population CI. Method family: Memory/granularity; split: fresh_locked_test. Families partition the method registry for legibility; every actual method is retained. The result measures source-module token mass, not GPU KV hits, prefill speed, or QA improvement.",
+      "source_data": "source_data/reuse_capacity_fresh_locked_test_memory_granularity.csv",
+      "n_axes": 1,
+      "size_inches": [
+        13.0,
+        7.5
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "reuse_capacity_fresh_locked_test_neural_retrieval",
+      "claim": "Reuse opportunity changes with finite source-module capacity across the same workload orders.",
+      "caption_en": "Each method uses the same exact-source identity LRU and the same five random request orders. Points are mean workload reuse ratios; bars span the observed minimum and maximum across orders, not a population CI. Method family: Neural retrieval; split: fresh_locked_test. Families partition the method registry for legibility; every actual method is retained. The result measures source-module token mass, not GPU KV hits, prefill speed, or QA improvement.",
+      "source_data": "source_data/reuse_capacity_fresh_locked_test_neural_retrieval.csv",
+      "n_axes": 1,
+      "size_inches": [
+        13.0,
+        7.5
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "reuse_capacity_fresh_locked_test_structural_controls",
+      "claim": "Reuse opportunity changes with finite source-module capacity across the same workload orders.",
+      "caption_en": "Each method uses the same exact-source identity LRU and the same five random request orders. Points are mean workload reuse ratios; bars span the observed minimum and maximum across orders, not a population CI. Method family: Structural controls; split: fresh_locked_test. Families partition the method registry for legibility; every actual method is retained. The result measures source-module token mass, not GPU KV hits, prefill speed, or QA improvement.",
+      "source_data": "source_data/reuse_capacity_fresh_locked_test_structural_controls.csv",
+      "n_axes": 1,
+      "size_inches": [
+        13.0,
+        7.5
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "quality_reuse_fresh_locked_test",
+      "claim": "Retrieval support and source-module reuse are distinct measured axes.",
+      "caption_en": "Each point is one executed method. Retrieval is the normalized-question-cluster accepted Hit@10; reuse is the mean across five request orders with 64 exact source modules. All methods are retained; coincident marks may represent multiple methods, which remain individually listed in Source Data. A high reuse fraction can accompany weak support; no QA quality or causality is inferred. Split: fresh_locked_test.",
+      "source_data": "source_data/quality_reuse_fresh_locked_test.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        7.5
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "reuse_capacity_mechanistic_fresh_locked_test",
+      "claim": "Local, coarse, and multi-granularity states expose different finite-capacity reuse opportunities.",
+      "caption_en": "This main-view comparison uses a declared set of local, long-only, multi-granularity and primary retrieval controls. All remaining methods are retained in the full family capacity figures and forests. Mean and min–max range are over the same five request orders. Modules retain exact source identity; neither this graph nor a higher reuse ratio establishes QA improvement. Split: fresh_locked_test.",
+      "source_data": "source_data/reuse_capacity_mechanistic_fresh_locked_test.csv",
+      "n_axes": 1,
+      "size_inches": [
+        12.0,
+        7.2
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "fresh_granularity_paired_support_shift",
+      "claim": "Long and short evidence routes must be tested against the same local-source support requirements.",
+      "caption_en": "Differences are paired on the same fresh queries and averaged within normalized-question clusters. Bars are 95% percentile intervals from 2,000 paired cluster-bootstrap draws. Detail-only is the common reference. Negative differences and the calibrated controls remain visible. This tests whether each route retains required source quotes; it does not assume that entropy routing or multi-granularity always improves support.",
+      "source_data": "source_data/fresh_granularity_paired_support_shift.csv",
+      "n_axes": 1,
+      "size_inches": [
+        11.0,
+        7.2
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "entropy_support_v21_locked_blind_test",
+      "claim": "Score concentration and actual evidence support are separate empirical quantities.",
+      "caption_en": "Queries are grouped into fixed 0.1-wide normalized entropy bins after retrieval. Points are mean support across question-text clusters; bars are 95% cluster-bootstrap intervals and marker area increases with cluster count. Empty bins remain gaps. Entropy is not a calibrated correctness probability, safety confidence, or mutual information. Primary method: IntentRAG balanced fair; split: v21_locked_blind_test.",
+      "source_data": "source_data/entropy_support_v21_locked_blind_test.csv",
+      "n_axes": 1,
+      "size_inches": [
+        8.2,
+        6.5
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "entropy_support_fresh_locked_test",
+      "claim": "Score concentration and actual evidence support are separate empirical quantities.",
+      "caption_en": "Queries are grouped into fixed 0.1-wide normalized entropy bins after retrieval. Points are mean support across question-text clusters; bars are 95% cluster-bootstrap intervals and marker area increases with cluster count. Empty bins remain gaps. Entropy is not a calibrated correctness probability, safety confidence, or mutual information. Primary method: IntentRAG balanced fair; split: fresh_locked_test.",
+      "source_data": "source_data/entropy_support_fresh_locked_test.csv",
+      "n_axes": 1,
+      "size_inches": [
+        8.2,
+        6.5
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "legacy_test_accepted_hit_forest_word",
+      "claim": "All executed methods are compared under the same query and Top-10 budgets.",
+      "caption_en": "Each point is the mean over normalized question-text clusters; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. All methods are retained, including controls and negative results. Missing endpoints are shown explicitly. Split: v21_locked_blind_test. This is source-derived retrieval evaluation, not maintenance correctness or QA accuracy.",
+      "source_data": "source_data/legacy_test_accepted_hit_forest_word.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        11.96
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "legacy_test_exact_hit_forest_word",
+      "claim": "All executed methods are compared under the same query and Top-10 budgets.",
+      "caption_en": "Each point is the mean over normalized question-text clusters; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. All methods are retained, including controls and negative results. Missing endpoints are shown explicitly. Split: v21_locked_blind_test. This is source-derived retrieval evaluation, not maintenance correctness or QA accuracy.",
+      "source_data": "source_data/legacy_test_exact_hit_forest_word.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        11.96
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "fresh_test_accepted_hit_forest_word",
+      "claim": "All executed methods are compared under the same query and Top-10 budgets.",
+      "caption_en": "Each point is the mean over normalized question-text clusters; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. All methods are retained, including controls and negative results. Missing endpoints are shown explicitly. Split: fresh_locked_test. This is source-derived retrieval evaluation, not maintenance correctness or QA accuracy.",
+      "source_data": "source_data/fresh_test_accepted_hit_forest_word.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        11.96
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "fresh_test_exact_hit_forest_word",
+      "claim": "All executed methods are compared under the same query and Top-10 budgets.",
+      "caption_en": "Each point is the mean over normalized question-text clusters; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. All methods are retained, including controls and negative results. Missing endpoints are shown explicitly. Split: fresh_locked_test. This is source-derived retrieval evaluation, not maintenance correctness or QA accuracy.",
+      "source_data": "source_data/fresh_test_exact_hit_forest_word.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        11.96
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "fresh_required_quote_support_forest_word",
+      "claim": "All executed methods are compared under the same query and Top-10 budgets.",
+      "caption_en": "Each point is the mean over normalized question-text clusters; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. All methods are retained, including controls and negative results. Missing endpoints are shown explicitly. Split: fresh_locked_test. This is source-derived retrieval evaluation, not maintenance correctness or QA accuracy.",
+      "source_data": "source_data/fresh_required_quote_support_forest_word.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        11.96
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "legacy_test_returned_granularity_word",
+      "claim": "The actual granularity of retained source text differs across methods.",
+      "caption_en": "All returned source units are pooled over v21_locked_blind_test. Fractions are weighted by official Qwen2.5 source-text token counts. The granularity label belongs to the returned source unit; a parent routing score does not change it. Accepted support labels are used after retrieval only. This describes output composition, not causal information gain or summary sufficiency. Right-hand counts are pooled source-unit occurrences, not independent facts or successful questions.",
+      "source_data": "source_data/legacy_test_returned_granularity_word.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        11.96
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "legacy_test_accepted_support_granularity_word",
+      "claim": "The actual granularity of retained source text differs across methods.",
+      "caption_en": "Post-hoc accepted support units are pooled over v21_locked_blind_test. Fractions are weighted by official Qwen2.5 source-text token counts. The granularity label belongs to the returned source unit; a parent routing score does not change it. Accepted support labels are used after retrieval only. This describes output composition, not causal information gain or summary sufficiency. Right-hand counts are pooled source-unit occurrences, not independent facts or successful questions.",
+      "source_data": "source_data/legacy_test_accepted_support_granularity_word.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        11.96
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "fresh_test_returned_granularity_word",
+      "claim": "The actual granularity of retained source text differs across methods.",
+      "caption_en": "All returned source units are pooled over fresh_locked_test. Fractions are weighted by official Qwen2.5 source-text token counts. The granularity label belongs to the returned source unit; a parent routing score does not change it. Accepted support labels are used after retrieval only. This describes output composition, not causal information gain or summary sufficiency. Right-hand counts are pooled source-unit occurrences, not independent facts or successful questions.",
+      "source_data": "source_data/fresh_test_returned_granularity_word.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        11.96
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "fresh_test_accepted_support_granularity_word",
+      "claim": "The actual granularity of retained source text differs across methods.",
+      "caption_en": "Post-hoc accepted support units are pooled over fresh_locked_test. Fractions are weighted by official Qwen2.5 source-text token counts. The granularity label belongs to the returned source unit; a parent routing score does not change it. Accepted support labels are used after retrieval only. This describes output composition, not causal information gain or summary sufficiency. Right-hand counts are pooled source-unit occurrences, not independent facts or successful questions.",
+      "source_data": "source_data/fresh_test_accepted_support_granularity_word.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        11.96
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "reuse_capacity_mechanistic_v21_locked_blind_test_word",
+      "claim": "Local, coarse, and multi-granularity states expose different finite-capacity reuse opportunities.",
+      "caption_en": "This main-view comparison uses a declared set of local, long-only, multi-granularity and primary retrieval controls. All remaining methods are retained in the full family capacity figures and forests. Mean and min–max range are over the same five request orders. Modules retain exact source identity; neither this graph nor a higher reuse ratio establishes QA improvement. Split: v21_locked_blind_test.",
+      "source_data": "source_data/reuse_capacity_mechanistic_v21_locked_blind_test_word.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        6.5
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "reuse_capacity_mechanistic_fresh_locked_test_word",
+      "claim": "Local, coarse, and multi-granularity states expose different finite-capacity reuse opportunities.",
+      "caption_en": "This main-view comparison uses a declared set of local, long-only, multi-granularity and primary retrieval controls. All remaining methods are retained in the full family capacity figures and forests. Mean and min–max range are over the same five request orders. Modules retain exact source identity; neither this graph nor a higher reuse ratio establishes QA improvement. Split: fresh_locked_test.",
+      "source_data": "source_data/reuse_capacity_mechanistic_fresh_locked_test_word.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        6.5
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "fresh_granularity_paired_support_shift_word",
+      "claim": "Long and short evidence routes must be tested against the same local-source support requirements.",
+      "caption_en": "Differences are paired on the same fresh queries and averaged within normalized-question clusters. Bars are 95% percentile intervals from 2,000 paired cluster-bootstrap draws. Detail-only is the common reference. Negative differences and the calibrated controls remain visible. This tests whether each route retains required source quotes; it does not assume that entropy routing or multi-granularity always improves support.",
+      "source_data": "source_data/fresh_granularity_paired_support_shift_word.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        6.5
+      ],
+      "title_in_image": false
+    }
+  ],
+  "inputs": [
+    {
+      "path": "C:\\Users\\weiku\\Documents\\Codex\\2026-08-11\\can\\expanded_evaluation_20261014\\results\\all_retrieval_query_results.csv",
+      "sha256": "3751bd55afb8252ae49ba557e774287dd42442194982295cf68ce8230cedad03"
+    },
+    {
+      "path": "C:\\Users\\weiku\\Documents\\Codex\\2026-08-11\\can\\expanded_evaluation_20261014\\data\\canonical_questions.json",
+      "sha256": "8267cff3aa07a9c0626ad3346258a9c3c791e5364b60b478c69473c22bd400a1"
+    },
+    {
+      "path": "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\交付\\代码与原始文件\\01_processed_corpus\\v5\\evidence_objects.parquet",
+      "sha256": "e03f1d41798bdb6817570a1cb9930e67df408598975346dcc6521986cb729542"
+    },
+    {
+      "path": "C:\\Users\\weiku\\Documents\\Codex\\2026-08-11\\can\\expanded_evaluation_20261014\\models\\qwen2_5_3b_tokenizer\\tokenizer.json",
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+    }
+  ],
+  "n_methods": 33,
+  "n_query_ids": 690,
+  "all_methods_in_forest": true,
+  "bootstrap_samples": 2000,
+  "seed": 20261014,
+  "journal_contract": "Provisional general scientific figures; no target-journal compliance claimed",
+  "all_single_axes": true,
+  "all_no_image_titles": true,
+  "source_granularity": "Pooled selected source-text token mass; accepted IDs used post hoc only",
+  "reuse_boundary": "Exact source identity modules. No GPU KV or downstream QA gain measurement"
+}

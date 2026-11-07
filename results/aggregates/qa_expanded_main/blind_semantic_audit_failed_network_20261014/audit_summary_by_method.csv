@@ -1,0 +1,67 @@
+﻿origin,method,addresses_question,supported_by_evidence,actual_context_faithful,contradicts_reference,unsupported_action,answer_correct_supported_judge_proxy,n_answers,n_valid_judgments,n_source_groups
+fresh,Agentic RAG,,,,,,,32,0,32
+fresh,BM25/word,,,,,,,32,0,32
+fresh,Calibrated lexical control,,,,,,,32,0,32
+fresh,Causal-graph informed RAG,,,,,,,32,0,32
+fresh,Component-graph informed RAG,,,,,,,32,0,32
+fresh,Component-profile retrieval,,,,,,,32,0,32
+fresh,Controlled GraphRAG,,,,,,,32,0,32
+fresh,Detail-only,,,,,,,32,0,32
+fresh,Evidence-flow baseline,,,,,,,32,0,32
+fresh,FD-GRAG-RC-V21-final,,,,,,,32,0,32
+fresh,GaRAGe-style attribution RAG,,,,,,,32,0,32
+fresh,GaRAGe-style deflective RAG,,,,,,,32,0,32
+fresh,GaRAGe-style relevance RAG,,,,,,,32,0,32
+fresh,Hybrid lexical,,,,,,,32,0,32
+fresh,IntentRAG balanced fair,,,,,,,32,0,32
+fresh,IntentRAG calibrated multi-granularity,,,,,,,32,0,32
+fresh,IntentRAG multi + mMARCO CE@50,,,,,,,32,0,32
+fresh,Long-term fixed,,,,,,,32,0,32
+fresh,Multi-granularity entropy,,,,,,,32,0,32
+fresh,Multi-granularity entropy+constraints,,,,,,,32,0,32
+fresh,Multi-granularity fixed,,,,,,,32,0,32
+fresh,Neural dense (multilingual MiniLM),,,,,,,32,0,32
+fresh,Neural dense + mMARCO CE@30,,,,,,,32,0,32
+fresh,Neural dense + mMARCO CE@50,,,,,,,32,0,32
+fresh,Neural lexical+dense RRF,,,,,,,32,0,32
+fresh,Page-resolved,,,,,,,32,0,32
+fresh,Parent-section retrieval,,,,,,,32,0,32
+fresh,Profile-resolved,,,,,,,32,0,32
+fresh,SVD semantic surrogate,,,,,,,32,0,32
+fresh,Section-resolved,,,,,,,32,0,32
+fresh,Short-term fixed,,,,,,,32,0,32
+fresh,TFIDF-char,,,,,,,32,0,32
+fresh,True BM25,,,,,,,32,0,32
+legacy,Agentic RAG,,,,,,,32,0,27
+legacy,BM25/word,,,,,,,32,0,27
+legacy,Calibrated lexical control,,,,,,,32,0,27
+legacy,Causal-graph informed RAG,,,,,,,32,0,27
+legacy,Component-graph informed RAG,,,,,,,32,0,27
+legacy,Component-profile retrieval,,,,,,,32,0,27
+legacy,Controlled GraphRAG,,,,,,,32,0,27
+legacy,Detail-only,,,,,,,32,0,27
+legacy,Evidence-flow baseline,,,,,,,32,0,27
+legacy,FD-GRAG-RC-V21-final,,,,,,,32,0,27
+legacy,GaRAGe-style attribution RAG,,,,,,,32,0,27
+legacy,GaRAGe-style deflective RAG,,,,,,,32,0,27
+legacy,GaRAGe-style relevance RAG,,,,,,,32,0,27
+legacy,Hybrid lexical,,,,,,,32,0,27
+legacy,IntentRAG balanced fair,,,,,,,32,0,27
+legacy,IntentRAG calibrated multi-granularity,,,,,,,32,0,27
+legacy,IntentRAG multi + mMARCO CE@50,,,,,,,32,0,27
+legacy,Long-term fixed,,,,,,,32,0,27
+legacy,Multi-granularity entropy,,,,,,,32,0,27
+legacy,Multi-granularity entropy+constraints,,,,,,,32,0,27
+legacy,Multi-granularity fixed,,,,,,,32,0,27
+legacy,Neural dense (multilingual MiniLM),,,,,,,32,0,27
+legacy,Neural dense + mMARCO CE@30,,,,,,,32,0,27
+legacy,Neural dense + mMARCO CE@50,,,,,,,32,0,27
+legacy,Neural lexical+dense RRF,,,,,,,32,0,27
+legacy,Page-resolved,,,,,,,32,0,27
+legacy,Parent-section retrieval,,,,,,,32,0,27
+legacy,Profile-resolved,,,,,,,32,0,27
+legacy,SVD semantic surrogate,,,,,,,32,0,27
+legacy,Section-resolved,,,,,,,32,0,27
+legacy,Short-term fixed,,,,,,,32,0,27
+legacy,TFIDF-char,,,,,,,32,0,27
+legacy,True BM25,,,,,,,32,0,27

@@ -1,0 +1,266 @@
+{
+  "base_docx": "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\新建文件夹\\IntentRAG-0802-v3_三贡献理论深化_英文图Fig14-27_蓝字插入版.docx",
+  "base_sha256": "70FDEF5AD693835757BC2A0FA10CA2E02A69240BC768058BE879776EDAAFDADD",
+  "output_docx": "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\新建文件夹\\IntentRAG_SEPia_Nature_20260924\\IntentRAG-0802-v3_SEPia_Nature英文图优化_蓝字版.docx",
+  "output_sha256": "1A0FC8CB96EA73AB795228F5475BFBADA77EFBE12B1753C067C95DE203658FE4",
+  "modified_zip_members": [
+    "word/document.xml",
+    "word/media/image23.png",
+    "word/media/image24.png",
+    "word/media/image25.png",
+    "word/media/image26.png",
+    "word/media/image27.png",
+    "word/media/image28.png",
+    "word/media/image29.png",
+    "word/media/image30.png",
+    "word/media/image31.png",
+    "word/media/image32.png",
+    "word/media/image33.png",
+    "word/media/image34.png",
+    "word/media/image35.png",
+    "word/media/image36.png"
+  ],
+  "prose_replacements": [
+    {
+      "body_paragraph_index": 7,
+      "old_chars": 1805,
+      "new_chars": 1923
+    },
+    {
+      "body_paragraph_index": 16,
+      "old_chars": 384,
+      "new_chars": 347
+    },
+    {
+      "body_paragraph_index": 17,
+      "old_chars": 347,
+      "new_chars": 321
+    },
+    {
+      "body_paragraph_index": 18,
+      "old_chars": 358,
+      "new_chars": 344
+    },
+    {
+      "body_paragraph_index": 19,
+      "old_chars": 397,
+      "new_chars": 356
+    },
+    {
+      "body_paragraph_index": 20,
+      "old_chars": 392,
+      "new_chars": 306
+    },
+    {
+      "body_paragraph_index": 102,
+      "old_chars": 641,
+      "new_chars": 676
+    },
+    {
+      "body_paragraph_index": 113,
+      "old_chars": 300,
+      "new_chars": 268
+    },
+    {
+      "body_paragraph_index": 117,
+      "old_chars": 366,
+      "new_chars": 348
+    },
+    {
+      "body_paragraph_index": 236,
+      "old_chars": 640,
+      "new_chars": 536
+    },
+    {
+      "body_paragraph_index": 237,
+      "old_chars": 559,
+      "new_chars": 453
+    },
+    {
+      "body_paragraph_index": 299,
+      "old_chars": 375,
+      "new_chars": 588
+    },
+    {
+      "body_paragraph_index": 302,
+      "old_chars": 616,
+      "new_chars": 1005
+    },
+    {
+      "body_paragraph_index": 303,
+      "old_chars": 368,
+      "new_chars": 615
+    },
+    {
+      "body_paragraph_index": 305,
+      "old_chars": 632,
+      "new_chars": 1313
+    },
+    {
+      "body_paragraph_index": 308,
+      "old_chars": 684,
+      "new_chars": 725
+    },
+    {
+      "body_paragraph_index": 309,
+      "old_chars": 605,
+      "new_chars": 759
+    }
+  ],
+  "figure_aspect_checks": [
+    {
+      "figure": 14,
+      "source": "fig18_01_role_mass_transport_volcano.png",
+      "pixels": [
+        4200,
+        3120
+      ],
+      "image_ratio": 1.3461538461538463,
+      "stored_ratio": 1.3461537964854355,
+      "relative_error": 3.689653503730743e-08
+    },
+    {
+      "figure": 15,
+      "source": "fig18_02_fixed_package_loo_sensitivity_volcano.png",
+      "pixels": [
+        4200,
+        3120
+      ],
+      "image_ratio": 1.3461538461538463,
+      "stored_ratio": 1.3461537964854355,
+      "relative_error": 3.689653503730743e-08
+    },
+    {
+      "figure": 16,
+      "source": "fig18_03_role_transport_vs_loo_sensitivity.png",
+      "pixels": [
+        4200,
+        3120
+      ],
+      "image_ratio": 1.3461538461538463,
+      "stored_ratio": 1.3461537964854355,
+      "relative_error": 3.689653503730743e-08
+    },
+    {
+      "figure": 17,
+      "source": "fig18_04_exact_text_cluster_loo_raincloud.png",
+      "pixels": [
+        4200,
+        3120
+      ],
+      "image_ratio": 1.3461538461538463,
+      "stored_ratio": 1.3461537964854355,
+      "relative_error": 3.689653503730743e-08
+    },
+    {
+      "figure": 18,
+      "source": "fig19_01_documentary_ambiguity_raincloud.png",
+      "pixels": [
+        4200,
+        3120
+      ],
+      "image_ratio": 1.3461538461538463,
+      "stored_ratio": 1.3461537964854355,
+      "relative_error": 3.689653503730743e-08
+    },
+    {
+      "figure": 19,
+      "source": "fig19_02_view_overlap_and_conditional_rescue_matrix.png",
+      "pixels": [
+        4200,
+        3120
+      ],
+      "image_ratio": 1.3461538461538463,
+      "stored_ratio": 1.3461537964854355,
+      "relative_error": 3.689653503730743e-08
+    },
+    {
+      "figure": 20,
+      "source": "fig19_03_single_view_hit_intersections.png",
+      "pixels": [
+        4200,
+        3420
+      ],
+      "image_ratio": 1.2280701754385965,
+      "stored_ratio": 1.2280701589616752,
+      "relative_error": 1.341692187747443e-08
+    },
+    {
+      "figure": 21,
+      "source": "fig19_04_persistent_minus_query_local_forest.png",
+      "pixels": [
+        4500,
+        3360
+      ],
+      "image_ratio": 1.3392857142857142,
+      "stored_ratio": 1.3392858651779704,
+      "relative_error": 1.1266620530291051e-07
+    },
+    {
+      "figure": 22,
+      "source": "fig20_01_router_numerator_outcome_plane.png",
+      "pixels": [
+        4200,
+        3120
+      ],
+      "image_ratio": 1.3461538461538463,
+      "stored_ratio": 1.3461537964854355,
+      "relative_error": 3.689653503730743e-08
+    },
+    {
+      "figure": 23,
+      "source": "fig20_02_persistent_weight_quintile_outcomes.png",
+      "pixels": [
+        4200,
+        3120
+      ],
+      "image_ratio": 1.3461538461538463,
+      "stored_ratio": 1.3461537964854355,
+      "relative_error": 3.689653503730743e-08
+    },
+    {
+      "figure": 24,
+      "source": "fig20_03_persistent_rescue_precision_recall.png",
+      "pixels": [
+        4200,
+        3120
+      ],
+      "image_ratio": 1.3461538461538463,
+      "stored_ratio": 1.3461537964854355,
+      "relative_error": 3.689653503730743e-08
+    },
+    {
+      "figure": 25,
+      "source": "fig20_04_persistent_rescue_branch_budget.png",
+      "pixels": [
+        4200,
+        3120
+      ],
+      "image_ratio": 1.3461538461538463,
+      "stored_ratio": 1.3461537964854355,
+      "relative_error": 3.689653503730743e-08
+    },
+    {
+      "figure": 26,
+      "source": "fig20_05_entropy_discrimination_forest.png",
+      "pixels": [
+        6480,
+        1860
+      ],
+      "image_ratio": 3.4838709677419355,
+      "stored_ratio": 3.4838709677419355,
+      "relative_error": 0.0
+    },
+    {
+      "figure": 27,
+      "source": "fig27_equivalence_class_pairability_plane.png",
+      "pixels": [
+        5280,
+        3120
+      ],
+      "image_ratio": 1.6923076923076923,
+      "stored_ratio": 1.6925119543448708,
+      "relative_error": 0.0001206857278934599
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "rows": 256,
+  "actual_calls": 188,
+  "duplicate_aliases": 68,
+  "status_counts": {
+    "ok": 256
+  },
+  "n_question_clusters": 64,
+  "n_source_groups": 59,
+  "all_metrics_are_proxies": true,
+  "independent_semantic_judge": false,
+  "citation_repair": false,
+  "deterministic_answer_replacement": false,
+  "upstream_groundedness_used": false,
+  "prompt_eval_cached_count_boundary": "Recorded only when returned by Ollama. Missing counter is null, not zero."
+}

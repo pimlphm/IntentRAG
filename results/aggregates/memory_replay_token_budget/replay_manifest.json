@@ -1,0 +1,109 @@
+{
+  "experiment": "past_only_exact_source_identity_token_budget_replay",
+  "inputs": [
+    {
+      "path": "C:\\Users\\weiku\\Documents\\Codex\\2026-08-11\\can\\expanded_evaluation_20261014\\results\\all_retrieval_runs.jsonl",
+      "sha256": "27c1094c6805fe2674f6fb01e13362440da8315c7be701ab28db9a34ea172091"
+    },
+    {
+      "path": "C:\\Users\\weiku\\Documents\\Codex\\2026-08-11\\can\\expanded_evaluation_20261014\\data\\canonical_questions.csv",
+      "sha256": "c76c1672889c9c7d7ec16e91c5b0f3004bb9f970d49481c22877ed7216f8e2a3"
+    },
+    {
+      "path": "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\交付\\代码与原始文件\\01_processed_corpus\\v5\\evidence_objects.parquet",
+      "sha256": "e03f1d41798bdb6817570a1cb9930e67df408598975346dcc6521986cb729542"
+    }
+  ],
+  "capacities_source_tokens": [
+    1024,
+    4096,
+    16384
+  ],
+  "random_order_seeds": [
+    20261014,
+    20261015,
+    20261016,
+    20261017,
+    20261018
+  ],
+  "extra_order": "visible_question_topic_then_aircraft_offline_workload",
+  "methods": [
+    "Agentic RAG",
+    "BM25/word",
+    "Calibrated lexical control",
+    "Causal-graph informed RAG",
+    "Component-graph informed RAG",
+    "Component-profile retrieval",
+    "Controlled GraphRAG",
+    "Detail-only",
+    "Evidence-flow baseline",
+    "FD-GRAG-RC-V21-final",
+    "GaRAGe-style attribution RAG",
+    "GaRAGe-style deflective RAG",
+    "GaRAGe-style relevance RAG",
+    "Hybrid lexical",
+    "IntentRAG balanced fair",
+    "IntentRAG calibrated multi-granularity",
+    "IntentRAG multi + mMARCO CE@50",
+    "Long-term fixed",
+    "Multi-granularity entropy",
+    "Multi-granularity entropy+constraints",
+    "Multi-granularity fixed",
+    "Neural dense (multilingual MiniLM)",
+    "Neural dense + mMARCO CE@30",
+    "Neural dense + mMARCO CE@50",
+    "Neural lexical+dense RRF",
+    "Page-resolved",
+    "Parent-section retrieval",
+    "Profile-resolved",
+    "SVD semantic surrogate",
+    "Section-resolved",
+    "Short-term fixed",
+    "TFIDF-char",
+    "True BM25"
+  ],
+  "n_canonical_question_ids": 690,
+  "n_replay_rows": 409860,
+  "coverage_counts": {
+    "available": 22770
+  },
+  "n_noncanonical_input_rows": 0,
+  "token_mass_measurement": {
+    "token_count_kind": "tokenizer_source_text_tokens",
+    "tokenizer_json": "C:\\Users\\weiku\\Documents\\Codex\\2026-08-11\\can\\expanded_evaluation_20261014\\models\\qwen2_5_3b_tokenizer\\tokenizer.json",
+    "tokenizer_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "note": "Source-module token mass, not a rendered chat prefix or KV hit."
+  },
+  "cache_key_fields": [
+    "aircraft_model",
+    "document_id",
+    "page_id",
+    "evidence_id",
+    "exact_source_text_sha256"
+  ],
+  "lookup_before_update": true,
+  "no_future_cache_content": true,
+  "split_cold_start": true,
+  "gold_or_query_type_used_for_cache_selection": false,
+  "oversize_policy": "Never admit an item whose full source text has more tokens than the capacity; preserve retrieval output",
+  "memory_budget": "Hard sum of full source-body tokenizer tokens. Metadata keys, LRU management and index overhead excluded; not RAM or GPU KV bytes.",
+  "revision": "unknown; not independently validated",
+  "authority": "not inferred from identity key",
+  "validation": {
+    "occupancy_within_token_budget": true,
+    "every_cold_start_has_zero_identity_hits": true,
+    "reuse_mass_never_exceeds_requested_mass": true,
+    "oversize_never_cached_or_hit": true,
+    "ranked_outputs_unchanged": true,
+    "all_retained_identity_support_equal_one": true
+  },
+  "runtime_seconds": 37.91297270002542,
+  "interpretation": [
+    "Same number of evidence modules does not imply the same body-token memory budget.",
+    "Requested/reused token mass is de-duplicated within each query; no within-query hit is counted.",
+    "Lookup happens before all current-request updates; caches cold-start independently for each split and method.",
+    "Replay freezes retrieval output. Identity support retention equal to one is a design invariant, not improved retrieval or QA.",
+    "Order variation is workload variation, not a population confidence interval.",
+    "No GPU cache hit, prefill latency, authorization purity or downstream answer quality is measured."
+  ]
+}

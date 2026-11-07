@@ -1,0 +1,10 @@
+﻿symbol,name,estimator,allowed_interpretation
+p_D,repository prior,candidate evidence-object counts normalized on the axis support,observable empirical mass
+p_q role,visible query-demand proxy,distinct bilingual visible-question lexicon matches normalized by evidence role,observable lexical proxy
+p_q source,visible source-affinity proxy,non-negative word-TFIDF evidence affinity summed by document and normalized,observable affinity proxy
+p_R,retrieved package,realized Top-K category mass weighted by 1/log2(rank+1),observable empirical rank mass
+p_G,locked reference,unique accepted source-derived evidence identifiers counted uniformly by category,offline construction-coupled audit mass
+H_norm,normalized entropy,-sum p log2(p) / log2(number of repository categories),estimator dispersion only
+JS,Jensen-Shannon divergence,base-2 symmetric divergence between two normalized estimator masses,estimator mismatch only
+G_align_obs,observable alignment shift,"JS(p_q,p_D) - JS(p_q,p_R)",not true information gain
+Delta_i,fixed-package LOO contribution,"JS(p_q,p_R_without_i) - JS(p_q,p_R)",no retrieval rerun; not causal

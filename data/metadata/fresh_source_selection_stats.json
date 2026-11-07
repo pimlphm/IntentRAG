@@ -1,0 +1,10 @@
+{
+  "legacy_pages": 248,
+  "candidates": 903,
+  "aircraft_candidate_counts": {
+    "Boeing 737": 13,
+    "Cessna 172": 890
+  },
+  "selected_source_groups": 512,
+  "requested": 512
+}

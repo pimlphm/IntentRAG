@@ -1,0 +1,20 @@
+| aircraft_model   | intervention                           |   eligible |   applied |
+|:-----------------|:---------------------------------------|-----------:|----------:|
+| Boeing 737       | authority_removal                      |         88 |        88 |
+| Boeing 737       | condition_removal                      |         88 |        88 |
+| Boeing 737       | conflict_injection                     |         88 |        88 |
+| Boeing 737       | duplicate_injection                    |         88 |        88 |
+| Boeing 737       | evidence_order_permutation             |         88 |        88 |
+| Boeing 737       | procedural_to_descriptive_substitution |         62 |        62 |
+| Boeing 737       | provenance_masking                     |         88 |        88 |
+| Boeing 737       | scope_swap                             |         88 |        88 |
+| Boeing 737       | warning_removal                        |         88 |        88 |
+| Cessna 172       | authority_removal                      |        126 |       126 |
+| Cessna 172       | condition_removal                      |        125 |       125 |
+| Cessna 172       | conflict_injection                     |        126 |       126 |
+| Cessna 172       | duplicate_injection                    |        126 |       126 |
+| Cessna 172       | evidence_order_permutation             |        126 |       126 |
+| Cessna 172       | procedural_to_descriptive_substitution |         92 |        92 |
+| Cessna 172       | provenance_masking                     |        126 |       126 |
+| Cessna 172       | scope_swap                             |        126 |       126 |
+| Cessna 172       | warning_removal                        |        124 |       124 |

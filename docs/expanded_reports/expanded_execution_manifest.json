@@ -1,0 +1,61 @@
+{
+  "n_queries": 690,
+  "n_distinct_question_clusters": 624,
+  "n_methods": 33,
+  "n_executed_rows": 22770,
+  "n_missing": 0,
+  "split_counts": {
+    "v21_locked_blind_test": 214,
+    "fresh_locked_test": 214,
+    "v21_calibration": 143,
+    "v21_validation": 119
+  },
+  "fresh_aircraft_counts": {
+    "Cessna 172": 212,
+    "Boeing 737": 2
+  },
+  "methods": [
+    "Agentic RAG",
+    "BM25/word",
+    "Calibrated lexical control",
+    "Causal-graph informed RAG",
+    "Component-graph informed RAG",
+    "Component-profile retrieval",
+    "Controlled GraphRAG",
+    "Detail-only",
+    "Evidence-flow baseline",
+    "FD-GRAG-RC-V21-final",
+    "GaRAGe-style attribution RAG",
+    "GaRAGe-style deflective RAG",
+    "GaRAGe-style relevance RAG",
+    "Hybrid lexical",
+    "IntentRAG balanced fair",
+    "IntentRAG calibrated multi-granularity",
+    "IntentRAG multi + mMARCO CE@50",
+    "Long-term fixed",
+    "Multi-granularity entropy",
+    "Multi-granularity entropy+constraints",
+    "Multi-granularity fixed",
+    "Neural dense (multilingual MiniLM)",
+    "Neural dense + mMARCO CE@30",
+    "Neural dense + mMARCO CE@50",
+    "Neural lexical+dense RRF",
+    "Page-resolved",
+    "Parent-section retrieval",
+    "Profile-resolved",
+    "SVD semantic surrogate",
+    "Section-resolved",
+    "Short-term fixed",
+    "TFIDF-char",
+    "True BM25"
+  ],
+  "all_primary_fresh_pages_disjoint": true,
+  "fresh_targets_in_legacy_accepted_union": 9,
+  "source_derived": true,
+  "expert_review": false,
+  "bootstrap": "2000 query-text-cluster and source-group draws separately; sign tests on cluster differences",
+  "display_name_overrides": {
+    "Calibrated lexical control": "Calibrated three-view control"
+  },
+  "high_precision_endpoint": "Actual measured rates; no success threshold imposed after observing test"
+}

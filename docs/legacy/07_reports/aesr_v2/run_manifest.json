@@ -1,0 +1,67 @@
+{
+  "experiment_id": "v21_evidence_state_diagnostic_audit_20260811",
+  "run_timestamp_local": "2026-08-11 20:47:28",
+  "seed": 20260811,
+  "top_k": 10,
+  "n_locked_queries": 214,
+  "n_evidence_objects": 31766,
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.0.2",
+  "pandas": "3.0.3",
+  "scikit_learn": "1.8.0",
+  "torch": "2.12.1+cpu",
+  "transformers": "5.13.0",
+  "dense_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "cross_encoder_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+  "offline_models_only": true,
+  "source_hashes": {
+    "_pipeline_aesr_v2\\run_evidence_state_diagnostic_audit.py": "1aa46393d9f81b0a95640f5d2e1be0b5b434c216d13c8f9c0970332fd1484f65",
+    "configs\\aesr_v2\\aesr_v2.json": "84306c9753ab3956fbf911877bba220013f88396116cbb2d80d106b51af4d2e4",
+    "_pipeline_v21\\p0_build_eval_v21.py": "5683f0d988215b6c5ba6a301dfcc58092b98caea24aa2f7c8a1d4ae3e0681df6",
+    "04_results\\v21\\qa_warehouse_v21_full.csv": "6b40e8a334693e32be34ce282e6c3ec13b6b8e22c5be7b8e9acd3fcb6a1eeea7",
+    "04_results\\v21\\v21_gold_sets.csv": "7095c0341ff21aa077ab392b418a2d848ddc77eb0b09743f823465a7753a1939",
+    "01_processed_corpus\\v5\\evidence_objects.parquet": "e03f1d41798bdb6817570a1cb9930e67df408598975346dcc6521986cb729542",
+    "_pipeline_aesr_v2\\augment_split_overlap_audit.py": "57d97343ef86c377c0d7e28147b880c75a1bfd8337d1735f1be66869e77d1396",
+    "_pipeline_aesr_v2\\validate_outputs.py": "669efa1c84621eed16cc38ecdcc55486184d5ee9f663e38c025267117c656a3c"
+  },
+  "retrieval_visible_in_fair_cue_and_track_off": [
+    "base question text",
+    "aircraft_model",
+    "document-derived evidence repository"
+  ],
+  "locked_offline_only": [
+    "evaluation track",
+    "query_type",
+    "required_package_slots",
+    "gold/accepted IDs",
+    "gold pages/sections",
+    "split"
+  ],
+  "claim_boundary": "This run is a diagnostic audit toward AESR. It is not a five-state classifier, an action-authorization validation, a safety assessment, or evidence that AESR is access-agnostic.",
+  "result_files": [
+    "04_results\\aesr_v2\\action_authority_proxy.csv",
+    "04_results\\aesr_v2\\all_access_query_results.csv",
+    "04_results\\aesr_v2\\claim_result_map.csv",
+    "04_results\\aesr_v2\\cue_dependence_and_access_summary.csv",
+    "04_results\\aesr_v2\\cue_dependence_paired_bootstrap.csv",
+    "04_results\\aesr_v2\\cue_dependence_query.csv",
+    "04_results\\aesr_v2\\cue_free_access_query.csv",
+    "04_results\\aesr_v2\\eligible_case_counts.csv",
+    "04_results\\aesr_v2\\intervention_cases.csv",
+    "04_results\\aesr_v2\\intervention_response.csv",
+    "04_results\\aesr_v2\\natural_factor_proxies.csv",
+    "04_results\\aesr_v2\\scientific_claim_audit.csv",
+    "04_results\\aesr_v2\\split_leakage_audit.csv",
+    "04_results\\aesr_v2\\split_overlap_audit.csv"
+  ],
+  "figure_files": [
+    "05_figures\\aesr_v2\\figure_a_cue_dependence_paired.png",
+    "05_figures\\aesr_v2\\figure_b_cue_free_access_comparison.png",
+    "05_figures\\aesr_v2\\figure_c_natural_factor_proxy_distributions.png",
+    "05_figures\\aesr_v2\\figure_d_synthetic_intervention_heatmap.png",
+    "05_figures\\aesr_v2\\figure_e_action_authority_prerequisites.png"
+  ],
+  "manifest_refresh_timestamp_local": "2026-08-11 20:59:04 +0800",
+  "postrun_reporting_note": "Numeric retrieval and intervention outputs were produced by the recorded run. Source hashes were refreshed after non-numeric figure-label and claim-boundary reporting edits, and the split-overlap audit was appended by augment_split_overlap_audit.py."
+}

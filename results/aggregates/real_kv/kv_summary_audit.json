@@ -1,0 +1,100 @@
+{
+  "complete": true,
+  "n_profiles": 594,
+  "n_methods": 33,
+  "n_layouts": 3,
+  "n_query_pairs": 6,
+  "all_cold_and_warm_token_accounting_conserved": true,
+  "all_cold_cache_zero": true,
+  "warm_prompt_lcp_bound_violation_count": 0,
+  "warm_seed_context_lcp_bound_violation_count": 0,
+  "layout_summaries": [
+    {
+      "namespace": "canonical_state_first",
+      "n_profiles": 198,
+      "n_pairs": 6,
+      "mean_native_prompt_tokens": 1617.8686868686868,
+      "mean_reused_prompt_tokens": 207.66161616161617,
+      "mean_newly_evaluated_prompt_tokens": 1410.2070707070707,
+      "mean_cache_fraction": 0.125377612544324,
+      "token_weighted_cache_fraction": 0.12835504997846026,
+      "mean_shared_evidence_id_count": 1.1868686868686869,
+      "exact_cold_warm_text_match_fraction": 0.8484848484848485,
+      "mean_char_bigram_f1_cold_warm": 0.887331655954499,
+      "empty_answer_profile_fraction": 0.0,
+      "mean_cold_prefill_ms_under_contention": 202.9890101010101,
+      "mean_warm_prefill_ms_under_contention": 193.99348989898988,
+      "median_prefill_ratio_under_contention": 1.0620591894253386,
+      "faster_warm_prefill_fraction_under_contention": 0.5404040404040404
+    },
+    {
+      "namespace": "hierarchical_state_first",
+      "n_profiles": 198,
+      "n_pairs": 6,
+      "mean_native_prompt_tokens": 1744.8181818181818,
+      "mean_reused_prompt_tokens": 90.3030303030303,
+      "mean_newly_evaluated_prompt_tokens": 1654.5151515151515,
+      "mean_cache_fraction": 0.052249711809159584,
+      "token_weighted_cache_fraction": 0.051754980114277774,
+      "mean_shared_evidence_id_count": 1.1868686868686869,
+      "exact_cold_warm_text_match_fraction": 0.7626262626262627,
+      "mean_char_bigram_f1_cold_warm": 0.847152799875536,
+      "empty_answer_profile_fraction": 0.0,
+      "mean_cold_prefill_ms_under_contention": 208.38566666666662,
+      "mean_warm_prefill_ms_under_contention": 201.52164141414144,
+      "median_prefill_ratio_under_contention": 1.0057643854996707,
+      "faster_warm_prefill_fraction_under_contention": 0.5
+    },
+    {
+      "namespace": "query_first",
+      "n_profiles": 198,
+      "n_pairs": 6,
+      "mean_native_prompt_tokens": 1617.2121212121212,
+      "mean_reused_prompt_tokens": 61.166666666666664,
+      "mean_newly_evaluated_prompt_tokens": 1556.0454545454545,
+      "mean_cache_fraction": 0.03866363053470252,
+      "token_weighted_cache_fraction": 0.03782229051116774,
+      "mean_shared_evidence_id_count": 1.1868686868686869,
+      "exact_cold_warm_text_match_fraction": 0.7474747474747475,
+      "mean_char_bigram_f1_cold_warm": 0.8187273434893815,
+      "empty_answer_profile_fraction": 0.0,
+      "mean_cold_prefill_ms_under_contention": 213.22167676767677,
+      "mean_warm_prefill_ms_under_contention": 201.9070404040404,
+      "median_prefill_ratio_under_contention": 0.9908425960673743,
+      "faster_warm_prefill_fraction_under_contention": 0.46464646464646464
+    }
+  ],
+  "pair_cluster_contrasts": [
+    {
+      "contrast": "canonical_minus_query",
+      "n_independent_pairs": 6,
+      "mean_paired_cache_fraction_delta": 0.08671398200962148,
+      "pair_cluster_bootstrap_ci_low": 0.025638823763035907,
+      "pair_cluster_bootstrap_ci_high": 0.1539173388277186
+    },
+    {
+      "contrast": "hierarchical_minus_query",
+      "n_independent_pairs": 6,
+      "mean_paired_cache_fraction_delta": 0.013586081274457061,
+      "pair_cluster_bootstrap_ci_low": 0.007585924463442234,
+      "pair_cluster_bootstrap_ci_high": 0.01956583139695034
+    },
+    {
+      "contrast": "hierarchical_minus_canonical",
+      "n_independent_pairs": 6,
+      "mean_paired_cache_fraction_delta": -0.0731279007351644,
+      "pair_cluster_bootstrap_ci_low": -0.1345153807358499,
+      "pair_cluster_bootstrap_ci_high": -0.013852804700392607
+    }
+  ],
+  "global_ram_cache_disabled": true,
+  "limitations": [
+    "GPU Qwen 0.5B decoder; 32-token generation probe. This is not full-answer correctness evaluation.",
+    "Only 6 common query pairs. The 33 methods are repeated measurements within pairs, not 198 independent query samples.",
+    "cache_n includes common system/scope/metadata tokens as well as any evidence text; it is not evidence-only reuse.",
+    "Qwen 3B QA runs concurrently on the GPU. Paired prefill timing cannot establish isolated throughput or uncontended speedup.",
+    "Revision and action-authority fields are unverified; namespace is a layout label, not validated admissibility-signature purity.",
+    "The hierarchical ancestor index varies with retrieved nodes and may break an otherwise shared leaf prefix.",
+    "Cold/warm exact-text differences are observed computational stability diagnostics, not semantic or safety judgments."
+  ]
+}

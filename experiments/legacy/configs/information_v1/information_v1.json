@@ -1,0 +1,91 @@
+{
+  "experiment_id": "v21_observable_information_distribution_v1_20260811",
+  "seed": 20260811,
+  "bootstrap_samples": 2000,
+  "primary_condition": "cue_off_intentrag",
+  "access_conditions": [
+    "cue_off_word_tfidf",
+    "cue_off_char_tfidf",
+    "cue_off_hybrid_lexical",
+    "cue_off_intentrag",
+    "cue_off_dense_multilingual",
+    "cue_off_dense_cross_encoder",
+    "cue_off_local_original_order_window"
+  ],
+  "distribution_axes": [
+    "evidence_role",
+    "source_document"
+  ],
+  "package_weighting": "discounted_rank",
+  "rank_weight_formula": "1/log2(rank+1), rank starts at 1",
+  "affinity_power": 1.0,
+  "log_ratio_smoothing": 1e-06,
+  "visible_role_demand_fallback": "general_role_point_mass",
+  "role_lexicon": {
+    "action": [
+      "action", "actions", "procedure", "procedures", "operation", "operations",
+      "maintenance action", "troubleshooting action", "recommended action", "what should be done",
+      "动作", "操作", "维修动作", "排故动作", "处置", "处理", "采取", "执行"
+    ],
+    "condition": [
+      "condition", "conditions", "when", "under what", "if ", "provided that",
+      "条件", "情况下", "何时", "当满足", "在出现", "当出现", "如果"
+    ],
+    "warning": [
+      "warning", "warnings", "caution", "cautions", "hazard", "risk", "danger",
+      "警告", "告警", "注意", "风险", "危险", "危害"
+    ],
+    "threshold": [
+      "threshold", "thresholds", "parameter", "parameters", "value", "values", "how much",
+      "limit value", "numeric limit", "阈值", "参数", "数值", "指标", "多少", "限值"
+    ],
+    "confirmed_cause": [
+      "cause", "causes", "reason", "reasons", "why", "root cause", "caused by",
+      "原因", "故障原因", "为什么", "导致", "成因", "排查"
+    ],
+    "excluded_cause": [
+      "ruled out", "rule out", "excluded cause", "not caused by", "排除", "可排除", "不是由于", "非原因"
+    ],
+    "symptom": [
+      "symptom", "symptoms", "indication", "indications", "failure description", "failure manifestation",
+      "现象", "症状", "故障表现", "故障描述", "典型故障", "出现故障"
+    ],
+    "authority": [
+      "authority", "manual", "manual section", "approved", "required", "shall", "must", "recommended",
+      "依据", "手册", "章节", "权威", "批准", "规定", "要求", "推荐"
+    ],
+    "inspection": [
+      "inspection", "inspect", "examine", "check", "checks", "检测", "检验", "检查", "查看"
+    ],
+    "limitation": [
+      "limitation", "limitations", "prohibited", "do not", "must not", "not exceed",
+      "限制", "禁止", "不得", "不可", "不应超过"
+    ],
+    "replacement": [
+      "replacement", "replace", "renew", "更换", "替换", "换新"
+    ],
+    "note": [
+      "note", "remark", "notes", "备注", "注释", "说明事项"
+    ],
+    "evidence": [
+      "evidence", "diagnostic evidence", "source", "basis", "retrieve all",
+      "证据", "诊断证据", "全部证据", "来源", "根据"
+    ],
+    "general": [
+      "describe", "description", "explain", "information", "what is", "概述", "描述", "解释", "是什么", "信息"
+    ]
+  },
+  "locked_query_type_role_map": {
+    "authority_or_manual_reference": ["authority"],
+    "component_to_failure": ["symptom", "confirmed_cause"],
+    "condition_to_action": ["condition", "action", "authority"],
+    "cross_page_evidence_query": ["evidence"],
+    "excluded_cause": ["excluded_cause"],
+    "multi_hop_diagnosis": ["symptom", "confirmed_cause", "action"],
+    "symptom_to_action": ["symptom", "action", "authority"],
+    "symptom_to_cause": ["symptom", "confirmed_cause"],
+    "threshold_query": ["threshold", "limitation"],
+    "warning_or_limitation": ["warning", "limitation"]
+  },
+  "claim_boundary": "All reported distributions are normalized empirical counts, visible-text lexicon matches, word-TFIDF affinity masses, or rank-discounted package masses. Entropy, Jensen-Shannon divergence, observable alignment shift, and fixed-package leave-one-out values describe these estimators only. They are not calibrated epistemic probabilities, mutual information, true information gain, causal effects, answer faithfulness, or aircraft-safety evidence. Locked reference roles and query types are offline, source-derived, construction-coupled audit sensitivity variables and never feed retrieval."
+}

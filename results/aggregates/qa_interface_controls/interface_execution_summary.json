@@ -1,0 +1,13 @@
+{
+  "rows": 256,
+  "actual_calls": 188,
+  "duplicate_aliases": 68,
+  "method_counts": {
+    "direct_model_only": 64,
+    "direct_parametric_knowledge": 64,
+    "rank_source_first": 64,
+    "canonical_state_first": 64
+  },
+  "policy_difference_explicit": true,
+  "independent_semantic_judge": false
+}

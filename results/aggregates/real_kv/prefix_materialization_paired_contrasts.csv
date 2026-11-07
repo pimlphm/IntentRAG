@@ -1,0 +1,397 @@
+﻿query_id,method,pair_index,aircraft_model,baseline,candidate,cache_fraction_gain,reference_anchor_support_loss_proxy,accepted_id_support_loss_proxy,source_body_identical
+QV21E_0190,Agentic RAG,0,Boeing 737,query_first,canonical_state_first,0.953603645981067,0.0,0.0,False
+QV21E_0190,BM25/word,0,Boeing 737,query_first,canonical_state_first,0.953603645981067,0.0,0.0,True
+QV21E_0190,Calibrated lexical control,0,Boeing 737,query_first,canonical_state_first,0.002949662627915975,0.0,0.0,False
+QV21E_0190,Causal-graph informed RAG,0,Boeing 737,query_first,canonical_state_first,0.002974419988102321,0.0,0.0,False
+QV21E_0190,Component-graph informed RAG,0,Boeing 737,query_first,canonical_state_first,0.0017606019858232291,0.0,0.0,False
+QV21E_0190,Component-profile retrieval,0,Boeing 737,query_first,canonical_state_first,0.0017606019858232291,0.0,0.0,False
+QV21E_0190,Controlled GraphRAG,0,Boeing 737,query_first,canonical_state_first,0.002949662627915975,0.0,0.0,False
+QV21E_0190,Detail-only,0,Boeing 737,query_first,canonical_state_first,0.0035441929489623478,0.0,0.0,False
+QV21E_0190,Evidence-flow baseline,0,Boeing 737,query_first,canonical_state_first,0.0017606019858232291,0.0,0.0,False
+QV21E_0190,FD-GRAG-RC-V21-final,0,Boeing 737,query_first,canonical_state_first,0.953603645981067,0.0,0.0,True
+QV21E_0190,GaRAGe-style attribution RAG,0,Boeing 737,query_first,canonical_state_first,0.002949662627915975,0.0,0.0,False
+QV21E_0190,GaRAGe-style deflective RAG,0,Boeing 737,query_first,canonical_state_first,0.0017606019858232291,0.0,0.0,False
+QV21E_0190,GaRAGe-style relevance RAG,0,Boeing 737,query_first,canonical_state_first,0.0017606019858232291,0.0,0.0,False
+QV21E_0190,Hybrid lexical,0,Boeing 737,query_first,canonical_state_first,0.953603645981067,0.0,0.0,False
+QV21E_0190,IntentRAG balanced fair,0,Boeing 737,query_first,canonical_state_first,0.953603645981067,0.0,0.0,True
+QV21E_0190,IntentRAG calibrated multi-granularity,0,Boeing 737,query_first,canonical_state_first,0.002949662627915975,0.0,0.0,False
+QV21E_0190,IntentRAG multi + mMARCO CE@50,0,Boeing 737,query_first,canonical_state_first,0.002949662627915975,0.0,0.0,False
+QV21E_0190,Long-term fixed,0,Boeing 737,query_first,canonical_state_first,0.002949662627915975,0.0,0.0,False
+QV21E_0190,Multi-granularity entropy,0,Boeing 737,query_first,canonical_state_first,0.002949662627915975,0.0,0.0,False
+QV21E_0190,Multi-granularity entropy+constraints,0,Boeing 737,query_first,canonical_state_first,0.002949662627915975,0.0,0.0,False
+QV21E_0190,Multi-granularity fixed,0,Boeing 737,query_first,canonical_state_first,0.002974419988102321,0.0,0.0,False
+QV21E_0190,Neural dense (multilingual MiniLM),0,Boeing 737,query_first,canonical_state_first,0.002949662627915975,0.0,0.0,False
+QV21E_0190,Neural dense + mMARCO CE@30,0,Boeing 737,query_first,canonical_state_first,0.002949662627915975,0.0,0.0,False
+QV21E_0190,Neural dense + mMARCO CE@50,0,Boeing 737,query_first,canonical_state_first,0.002949662627915975,0.0,0.0,False
+QV21E_0190,Neural lexical+dense RRF,0,Boeing 737,query_first,canonical_state_first,0.002949662627915975,0.0,0.0,False
+QV21E_0190,Page-resolved,0,Boeing 737,query_first,canonical_state_first,0.002974419988102321,0.0,0.0,False
+QV21E_0190,Parent-section retrieval,0,Boeing 737,query_first,canonical_state_first,0.002949662627915975,0.0,0.0,False
+QV21E_0190,Profile-resolved,0,Boeing 737,query_first,canonical_state_first,0.5356488302854665,0.0,0.0,False
+QV21E_0190,SVD semantic surrogate,0,Boeing 737,query_first,canonical_state_first,0.953603645981067,0.0,0.0,False
+QV21E_0190,Section-resolved,0,Boeing 737,query_first,canonical_state_first,0.07072611922720254,0.0,0.0,False
+QV21E_0190,Short-term fixed,0,Boeing 737,query_first,canonical_state_first,0.002949662627915975,0.0,0.0,False
+QV21E_0190,TFIDF-char,0,Boeing 737,query_first,canonical_state_first,0.0017606019858232291,0.0,0.0,False
+QV21E_0190,True BM25,0,Boeing 737,query_first,canonical_state_first,0.0017606019858232291,0.0,0.0,False
+QV21E_0086,Agentic RAG,1,Boeing 737,query_first,canonical_state_first,0.0011476643146970875,0.0,0.0,False
+QV21E_0086,BM25/word,1,Boeing 737,query_first,canonical_state_first,0.9385245901639344,0.7,1.0,False
+QV21E_0086,Calibrated lexical control,1,Boeing 737,query_first,canonical_state_first,0.00231793932932553,0.0,0.0,False
+QV21E_0086,Causal-graph informed RAG,1,Boeing 737,query_first,canonical_state_first,0.0011709601873536313,0.0,0.0,False
+QV21E_0086,Component-graph informed RAG,1,Boeing 737,query_first,canonical_state_first,0.0011476643146970875,0.0,0.0,False
+QV21E_0086,Component-profile retrieval,1,Boeing 737,query_first,canonical_state_first,0.0011476643146970875,0.0,0.0,False
+QV21E_0086,Controlled GraphRAG,1,Boeing 737,query_first,canonical_state_first,0.00231793932932553,0.0,0.0,False
+QV21E_0086,Detail-only,1,Boeing 737,query_first,canonical_state_first,0.0025316455696202528,0.0,0.0,False
+QV21E_0086,Evidence-flow baseline,1,Boeing 737,query_first,canonical_state_first,0.0011476643146970875,0.0,0.0,False
+QV21E_0086,FD-GRAG-RC-V21-final,1,Boeing 737,query_first,canonical_state_first,0.9385379510320756,0.0,0.0,True
+QV21E_0086,GaRAGe-style attribution RAG,1,Boeing 737,query_first,canonical_state_first,0.0011476643146970875,0.0,0.0,False
+QV21E_0086,GaRAGe-style deflective RAG,1,Boeing 737,query_first,canonical_state_first,0.0011476643146970875,0.0,0.0,False
+QV21E_0086,GaRAGe-style relevance RAG,1,Boeing 737,query_first,canonical_state_first,0.00231793932932553,0.0,0.0,False
+QV21E_0086,Hybrid lexical,1,Boeing 737,query_first,canonical_state_first,0.9385245901639344,0.7,1.0,False
+QV21E_0086,IntentRAG balanced fair,1,Boeing 737,query_first,canonical_state_first,0.9385379510320756,1.0,1.0,False
+QV21E_0086,IntentRAG calibrated multi-granularity,1,Boeing 737,query_first,canonical_state_first,0.00231793932932553,0.0,0.0,False
+QV21E_0086,IntentRAG multi + mMARCO CE@50,1,Boeing 737,query_first,canonical_state_first,0.00231793932932553,0.0,0.0,False
+QV21E_0086,Long-term fixed,1,Boeing 737,query_first,canonical_state_first,0.00231793932932553,1.0,1.0,False
+QV21E_0086,Multi-granularity entropy,1,Boeing 737,query_first,canonical_state_first,0.00231793932932553,0.0,0.0,False
+QV21E_0086,Multi-granularity entropy+constraints,1,Boeing 737,query_first,canonical_state_first,0.00231793932932553,0.0,0.0,False
+QV21E_0086,Multi-granularity fixed,1,Boeing 737,query_first,canonical_state_first,0.00231793932932553,0.0,0.0,False
+QV21E_0086,Neural dense (multilingual MiniLM),1,Boeing 737,query_first,canonical_state_first,0.00231793932932553,0.0,0.0,False
+QV21E_0086,Neural dense + mMARCO CE@30,1,Boeing 737,query_first,canonical_state_first,0.00231793932932553,0.0,0.0,False
+QV21E_0086,Neural dense + mMARCO CE@50,1,Boeing 737,query_first,canonical_state_first,0.00231793932932553,0.0,0.0,False
+QV21E_0086,Neural lexical+dense RRF,1,Boeing 737,query_first,canonical_state_first,0.00231793932932553,0.0,0.0,False
+QV21E_0086,Page-resolved,1,Boeing 737,query_first,canonical_state_first,0.00231793932932553,0.0,0.0,False
+QV21E_0086,Parent-section retrieval,1,Boeing 737,query_first,canonical_state_first,0.00231793932932553,0.0,0.0,False
+QV21E_0086,Profile-resolved,1,Boeing 737,query_first,canonical_state_first,0.46399143260024417,0.0,0.0,False
+QV21E_0086,SVD semantic surrogate,1,Boeing 737,query_first,canonical_state_first,0.9385245901639344,0.7,1.0,False
+QV21E_0086,Section-resolved,1,Boeing 737,query_first,canonical_state_first,0.00231793932932553,0.0,0.0,False
+QV21E_0086,Short-term fixed,1,Boeing 737,query_first,canonical_state_first,0.00231793932932553,0.0,0.0,False
+QV21E_0086,TFIDF-char,1,Boeing 737,query_first,canonical_state_first,0.0011709601873536313,0.0,0.0,False
+QV21E_0086,True BM25,1,Boeing 737,query_first,canonical_state_first,0.9385245901639344,0.7,1.0,False
+QV21E_0067,Agentic RAG,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.0,0.0,False
+QV21E_0067,BM25/word,2,Boeing 737,query_first,canonical_state_first,0.005263157894736845,1.0,1.0,False
+QV21E_0067,Calibrated lexical control,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.0,0.0,False
+QV21E_0067,Causal-graph informed RAG,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.0,0.0,False
+QV21E_0067,Component-graph informed RAG,2,Boeing 737,query_first,canonical_state_first,0.0052399164675765025,0.0,0.0,False
+QV21E_0067,Component-profile retrieval,2,Boeing 737,query_first,canonical_state_first,0.0052399164675765025,0.0,0.0,False
+QV21E_0067,Controlled GraphRAG,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.0,0.0,False
+QV21E_0067,Detail-only,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.30000000000000004,0.0,False
+QV21E_0067,Evidence-flow baseline,2,Boeing 737,query_first,canonical_state_first,0.0052399164675765025,0.0,0.0,False
+QV21E_0067,FD-GRAG-RC-V21-final,2,Boeing 737,query_first,canonical_state_first,0.937443306298085,0.0,0.0,True
+QV21E_0067,GaRAGe-style attribution RAG,2,Boeing 737,query_first,canonical_state_first,0.0052399164675765025,1.0,1.0,False
+QV21E_0067,GaRAGe-style deflective RAG,2,Boeing 737,query_first,canonical_state_first,0.937443306298085,1.0,1.0,False
+QV21E_0067,GaRAGe-style relevance RAG,2,Boeing 737,query_first,canonical_state_first,0.937443306298085,1.0,1.0,False
+QV21E_0067,Hybrid lexical,2,Boeing 737,query_first,canonical_state_first,0.006432748538011693,1.0,1.0,False
+QV21E_0067,IntentRAG balanced fair,2,Boeing 737,query_first,canonical_state_first,0.937443306298085,1.0,1.0,False
+QV21E_0067,IntentRAG calibrated multi-granularity,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.8,0.0,False
+QV21E_0067,IntentRAG multi + mMARCO CE@50,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.0,0.0,False
+QV21E_0067,Long-term fixed,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.0,0.0,False
+QV21E_0067,Multi-granularity entropy,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.30000000000000004,0.0,False
+QV21E_0067,Multi-granularity entropy+constraints,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.5,0.0,False
+QV21E_0067,Multi-granularity fixed,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.30000000000000004,0.0,False
+QV21E_0067,Neural dense (multilingual MiniLM),2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.0,0.0,False
+QV21E_0067,Neural dense + mMARCO CE@30,2,Boeing 737,query_first,canonical_state_first,0.006432748538011693,0.0,1.0,False
+QV21E_0067,Neural dense + mMARCO CE@50,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.0,1.0,False
+QV21E_0067,Neural lexical+dense RRF,2,Boeing 737,query_first,canonical_state_first,0.0052399164675765025,0.0,1.0,False
+QV21E_0067,Page-resolved,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.19999999999999996,0.0,False
+QV21E_0067,Parent-section retrieval,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.0,0.0,False
+QV21E_0067,Profile-resolved,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,-0.9,0.0,False
+QV21E_0067,SVD semantic surrogate,2,Boeing 737,query_first,canonical_state_first,0.006432748538011693,1.0,1.0,False
+QV21E_0067,Section-resolved,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.0,0.0,False
+QV21E_0067,Short-term fixed,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.30000000000000004,0.0,False
+QV21E_0067,TFIDF-char,2,Boeing 737,query_first,canonical_state_first,0.005263157894736845,1.0,1.0,False
+QV21E_0067,True BM25,2,Boeing 737,query_first,canonical_state_first,0.006408823539464287,0.0,1.0,False
+QV21E_0385,Agentic RAG,3,Cessna 172,query_first,canonical_state_first,0.005229517722254502,0.0,0.0,False
+QV21E_0385,BM25/word,3,Cessna 172,query_first,canonical_state_first,0.00876424189307625,0.0,0.0,False
+QV21E_0385,Calibrated lexical control,3,Cessna 172,query_first,canonical_state_first,0.012036108324974919,0.0,0.0,False
+QV21E_0385,Causal-graph informed RAG,3,Cessna 172,query_first,canonical_state_first,0.00520657236123287,0.0,0.0,False
+QV21E_0385,Component-graph informed RAG,3,Cessna 172,query_first,canonical_state_first,0.006368012547063297,0.7777777777777778,0.0,False
+QV21E_0385,Component-profile retrieval,3,Cessna 172,query_first,canonical_state_first,0.006368012547063297,0.0,0.0,False
+QV21E_0385,Controlled GraphRAG,3,Cessna 172,query_first,canonical_state_first,0.007768361581920909,0.0,0.0,False
+QV21E_0385,Detail-only,3,Cessna 172,query_first,canonical_state_first,0.011099899091826439,0.0,0.0,False
+QV21E_0385,Evidence-flow baseline,3,Cessna 172,query_first,canonical_state_first,0.005229517722254502,0.0,0.0,False
+QV21E_0385,FD-GRAG-RC-V21-final,3,Cessna 172,query_first,canonical_state_first,0.00578729245414808,1.0,1.0,False
+QV21E_0385,GaRAGe-style attribution RAG,3,Cessna 172,query_first,canonical_state_first,0.005810575246949445,0.0,0.0,False
+QV21E_0385,GaRAGe-style deflective RAG,3,Cessna 172,query_first,canonical_state_first,0.005229517722254502,0.0,0.0,False
+QV21E_0385,GaRAGe-style relevance RAG,3,Cessna 172,query_first,canonical_state_first,0.005229517722254502,0.0,0.0,False
+QV21E_0385,Hybrid lexical,3,Cessna 172,query_first,canonical_state_first,0.008748906386701664,0.0,0.0,False
+QV21E_0385,IntentRAG balanced fair,3,Cessna 172,query_first,canonical_state_first,0.00520657236123287,0.2222222222222222,1.0,False
+QV21E_0385,IntentRAG calibrated multi-granularity,3,Cessna 172,query_first,canonical_state_first,0.009683098591549297,0.0,0.0,False
+QV21E_0385,IntentRAG multi + mMARCO CE@50,3,Cessna 172,query_first,canonical_state_first,0.006344419740038305,0.0,0.0,False
+QV21E_0385,Long-term fixed,3,Cessna 172,query_first,canonical_state_first,0.0065515187611673575,0.0,0.0,False
+QV21E_0385,Multi-granularity entropy,3,Cessna 172,query_first,canonical_state_first,0.00983899821109123,0.0,0.0,False
+QV21E_0385,Multi-granularity entropy+constraints,3,Cessna 172,query_first,canonical_state_first,0.009174311926605505,0.0,0.0,False
+QV21E_0385,Multi-granularity fixed,3,Cessna 172,query_first,canonical_state_first,0.010536398467432949,0.0,0.0,False
+QV21E_0385,Neural dense (multilingual MiniLM),3,Cessna 172,query_first,canonical_state_first,0.006368012547063297,0.0,0.0,False
+QV21E_0385,Neural dense + mMARCO CE@30,3,Cessna 172,query_first,canonical_state_first,0.006368012547063297,0.0,0.0,False
+QV21E_0385,Neural dense + mMARCO CE@50,3,Cessna 172,query_first,canonical_state_first,0.006344419740038305,0.0,0.0,False
+QV21E_0385,Neural lexical+dense RRF,3,Cessna 172,query_first,canonical_state_first,0.006368012547063297,0.0,0.0,False
+QV21E_0385,Page-resolved,3,Cessna 172,query_first,canonical_state_first,0.010647737355811891,0.0,0.0,False
+QV21E_0385,Parent-section retrieval,3,Cessna 172,query_first,canonical_state_first,0.005810575246949445,0.0,0.0,False
+QV21E_0385,Profile-resolved,3,Cessna 172,query_first,canonical_state_first,0.014304291287386209,0.0,0.0,False
+QV21E_0385,SVD semantic surrogate,3,Cessna 172,query_first,canonical_state_first,0.006368012547063297,0.0,0.0,False
+QV21E_0385,Section-resolved,3,Cessna 172,query_first,canonical_state_first,0.006972690296339339,0.0,0.0,False
+QV21E_0385,Short-term fixed,3,Cessna 172,query_first,canonical_state_first,0.011099899091826439,0.0,0.0,False
+QV21E_0385,TFIDF-char,3,Cessna 172,query_first,canonical_state_first,0.010625737898465173,0.0,0.0,False
+QV21E_0385,True BM25,3,Cessna 172,query_first,canonical_state_first,0.006368012547063297,0.0,0.0,False
+QV21E_0316,Agentic RAG,4,Cessna 172,query_first,canonical_state_first,0.005269320843091341,1.0,1.0,False
+QV21E_0316,BM25/word,4,Cessna 172,query_first,canonical_state_first,0.005246024970434797,0.0,0.0,False
+QV21E_0316,Calibrated lexical control,4,Cessna 172,query_first,canonical_state_first,0.009401709401709403,0.0,0.0,False
+QV21E_0316,Causal-graph informed RAG,4,Cessna 172,query_first,canonical_state_first,0.005269320843091341,0.0,0.0,False
+QV21E_0316,Component-graph informed RAG,4,Cessna 172,query_first,canonical_state_first,0.005854800936768156,0.0,0.0,False
+QV21E_0316,Component-profile retrieval,4,Cessna 172,query_first,canonical_state_first,0.005871990604815032,0.0,0.0,False
+QV21E_0316,Controlled GraphRAG,4,Cessna 172,query_first,canonical_state_first,0.00527859237536657,0.0,0.0,False
+QV21E_0316,Detail-only,4,Cessna 172,query_first,canonical_state_first,0.009654062751407885,0.0,0.0,False
+QV21E_0316,Evidence-flow baseline,4,Cessna 172,query_first,canonical_state_first,0.005269320843091341,1.0,1.0,False
+QV21E_0316,FD-GRAG-RC-V21-final,4,Cessna 172,query_first,canonical_state_first,0.005246024970434797,0.0,0.0,False
+QV21E_0316,GaRAGe-style attribution RAG,4,Cessna 172,query_first,canonical_state_first,0.005831162477749022,0.0,0.0,False
+QV21E_0316,GaRAGe-style deflective RAG,4,Cessna 172,query_first,canonical_state_first,0.005246024970434797,1.0,1.0,False
+QV21E_0316,GaRAGe-style relevance RAG,4,Cessna 172,query_first,canonical_state_first,0.005246024970434797,1.0,1.0,False
+QV21E_0316,Hybrid lexical,4,Cessna 172,query_first,canonical_state_first,0.005246024970434797,0.0,0.0,False
+QV21E_0316,IntentRAG balanced fair,4,Cessna 172,query_first,canonical_state_first,0.005246024970434797,0.0,0.0,False
+QV21E_0316,IntentRAG calibrated multi-granularity,4,Cessna 172,query_first,canonical_state_first,0.0073480293921175666,0.0,0.0,False
+QV21E_0316,IntentRAG multi + mMARCO CE@50,4,Cessna 172,query_first,canonical_state_first,0.0070014374923774575,1.0,1.0,False
+QV21E_0316,Long-term fixed,4,Cessna 172,query_first,canonical_state_first,0.004075749955806361,0.0,0.0,False
+QV21E_0316,Multi-granularity entropy,4,Cessna 172,query_first,canonical_state_first,0.008928571428571425,0.0,0.0,False
+QV21E_0316,Multi-granularity entropy+constraints,4,Cessna 172,query_first,canonical_state_first,0.0070014374923774575,0.0,0.0,False
+QV21E_0316,Multi-granularity fixed,4,Cessna 172,query_first,canonical_state_first,0.008928571428571425,0.0,0.0,False
+QV21E_0316,Neural dense (multilingual MiniLM),4,Cessna 172,query_first,canonical_state_first,0.007377049180327867,0.0,0.0,False
+QV21E_0316,Neural dense + mMARCO CE@30,4,Cessna 172,query_first,canonical_state_first,0.0070014374923774575,1.0,1.0,False
+QV21E_0316,Neural dense + mMARCO CE@50,4,Cessna 172,query_first,canonical_state_first,0.007025761124121781,1.0,1.0,False
+QV21E_0316,Neural lexical+dense RRF,4,Cessna 172,query_first,canonical_state_first,0.0074318744838976075,0.0,0.0,False
+QV21E_0316,Page-resolved,4,Cessna 172,query_first,canonical_state_first,0.008792965627497998,0.0,0.0,False
+QV21E_0316,Parent-section retrieval,4,Cessna 172,query_first,canonical_state_first,0.0058997050147492625,0.0,0.0,False
+QV21E_0316,Profile-resolved,4,Cessna 172,query_first,canonical_state_first,0.011270491803278687,0.0,0.0,False
+QV21E_0316,SVD semantic surrogate,4,Cessna 172,query_first,canonical_state_first,0.005246024970434797,0.0,0.0,False
+QV21E_0316,Section-resolved,4,Cessna 172,query_first,canonical_state_first,0.005831162477749022,0.0,0.0,False
+QV21E_0316,Short-term fixed,4,Cessna 172,query_first,canonical_state_first,0.009740259740259737,0.0,0.0,False
+QV21E_0316,TFIDF-char,4,Cessna 172,query_first,canonical_state_first,0.005246024970434797,0.0,0.0,False
+QV21E_0316,True BM25,4,Cessna 172,query_first,canonical_state_first,0.005831162477749022,0.0,0.0,False
+QV21E_0304,Agentic RAG,5,Cessna 172,query_first,canonical_state_first,0.005807457848274175,0.0,0.0,False
+QV21E_0304,BM25/word,5,Cessna 172,query_first,canonical_state_first,0.005807457848274175,0.0,0.0,False
+QV21E_0304,Calibrated lexical control,5,Cessna 172,query_first,canonical_state_first,0.011204481792717089,0.0,0.0,False
+QV21E_0304,Causal-graph informed RAG,5,Cessna 172,query_first,canonical_state_first,0.005807457848274175,0.0,0.0,False
+QV21E_0304,Component-graph informed RAG,5,Cessna 172,query_first,canonical_state_first,0.005807457848274175,0.0,0.0,False
+QV21E_0304,Component-profile retrieval,5,Cessna 172,query_first,canonical_state_first,0.005830903790087466,0.0,0.0,False
+QV21E_0304,Controlled GraphRAG,5,Cessna 172,query_first,canonical_state_first,0.006390208431024759,0.0,0.0,False
+QV21E_0304,Detail-only,5,Cessna 172,query_first,canonical_state_first,0.008821170809943865,0.0,0.0,False
+QV21E_0304,Evidence-flow baseline,5,Cessna 172,query_first,canonical_state_first,0.005807457848274175,0.0,0.0,False
+QV21E_0304,FD-GRAG-RC-V21-final,5,Cessna 172,query_first,canonical_state_first,0.005807457848274175,0.75,1.0,False
+QV21E_0304,GaRAGe-style attribution RAG,5,Cessna 172,query_first,canonical_state_first,0.005807457848274175,0.0,0.0,False
+QV21E_0304,GaRAGe-style deflective RAG,5,Cessna 172,query_first,canonical_state_first,0.005807457848274175,0.0,0.0,False
+QV21E_0304,GaRAGe-style relevance RAG,5,Cessna 172,query_first,canonical_state_first,0.005807457848274175,0.0,0.0,False
+QV21E_0304,Hybrid lexical,5,Cessna 172,query_first,canonical_state_first,0.006390208431024759,0.0,0.0,False
+QV21E_0304,IntentRAG balanced fair,5,Cessna 172,query_first,canonical_state_first,0.006390208431024759,1.0,1.0,False
+QV21E_0304,IntentRAG calibrated multi-granularity,5,Cessna 172,query_first,canonical_state_first,0.011288805268109124,0.0,0.0,False
+QV21E_0304,IntentRAG multi + mMARCO CE@50,5,Cessna 172,query_first,canonical_state_first,0.006390208431024759,0.0,0.0,False
+QV21E_0304,Long-term fixed,5,Cessna 172,query_first,canonical_state_first,0.009353741496598636,0.0,0.0,False
+QV21E_0304,Multi-granularity entropy,5,Cessna 172,query_first,canonical_state_first,0.0077419354838709695,0.0,0.0,False
+QV21E_0304,Multi-granularity entropy+constraints,5,Cessna 172,query_first,canonical_state_first,0.007096774193548386,0.0,0.0,False
+QV21E_0304,Multi-granularity fixed,5,Cessna 172,query_first,canonical_state_first,0.008354755784061696,0.0,0.0,False
+QV21E_0304,Neural dense (multilingual MiniLM),5,Cessna 172,query_first,canonical_state_first,0.005830903790087466,0.0,0.0,False
+QV21E_0304,Neural dense + mMARCO CE@30,5,Cessna 172,query_first,canonical_state_first,0.0064139941690962085,0.0,0.0,False
+QV21E_0304,Neural dense + mMARCO CE@50,5,Cessna 172,query_first,canonical_state_first,0.006390208431024759,0.0,0.0,False
+QV21E_0304,Neural lexical+dense RRF,5,Cessna 172,query_first,canonical_state_first,0.005830903790087466,0.0,0.0,False
+QV21E_0304,Page-resolved,5,Cessna 172,query_first,canonical_state_first,0.007096774193548386,0.0,0.0,False
+QV21E_0304,Parent-section retrieval,5,Cessna 172,query_first,canonical_state_first,0.005807457848274175,0.0,0.0,False
+QV21E_0304,Profile-resolved,5,Cessna 172,query_first,canonical_state_first,0.010858835143139185,0.0,0.0,False
+QV21E_0304,SVD semantic surrogate,5,Cessna 172,query_first,canonical_state_first,0.0040592061000224305,0.0,0.0,False
+QV21E_0304,Section-resolved,5,Cessna 172,query_first,canonical_state_first,0.009251471825063078,0.0,0.0,False
+QV21E_0304,Short-term fixed,5,Cessna 172,query_first,canonical_state_first,0.007096774193548386,0.0,0.0,False
+QV21E_0304,TFIDF-char,5,Cessna 172,query_first,canonical_state_first,0.0064139941690962085,0.0,0.0,False
+QV21E_0304,True BM25,5,Cessna 172,query_first,canonical_state_first,0.005807457848274175,0.0,0.0,False
+QV21E_0190,Agentic RAG,0,Boeing 737,canonical_state_first,hierarchical_state_first,-0.9421885521665182,0.0,0.0,True
+QV21E_0190,BM25/word,0,Boeing 737,canonical_state_first,hierarchical_state_first,-0.9422711058263971,0.0,0.0,True
+QV21E_0190,Calibrated lexical control,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.008382877526753867,0.0,0.0,True
+QV21E_0190,Causal-graph informed RAG,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.008081877072644864,0.0,0.0,True
+QV21E_0190,Component-graph informed RAG,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.009295695074923956,0.0,0.0,True
+QV21E_0190,Component-profile retrieval,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.009295695074923956,0.0,0.0,True
+QV21E_0190,Controlled GraphRAG,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.00854825790161605,0.0,0.0,True
+QV21E_0190,Detail-only,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.007870900865586415,0.0,0.0,True
+QV21E_0190,Evidence-flow baseline,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.009186050627501517,0.0,0.0,True
+QV21E_0190,FD-GRAG-RC-V21-final,0,Boeing 737,canonical_state_first,hierarchical_state_first,-0.9421885521665182,0.0,0.0,True
+QV21E_0190,GaRAGe-style attribution RAG,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.00854825790161605,0.0,0.0,True
+QV21E_0190,GaRAGe-style deflective RAG,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.009737318543708795,0.0,0.0,True
+QV21E_0190,GaRAGe-style relevance RAG,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.009737318543708795,0.0,0.0,True
+QV21E_0190,Hybrid lexical,0,Boeing 737,canonical_state_first,hierarchical_state_first,-0.9422711058263971,0.0,0.0,True
+QV21E_0190,IntentRAG balanced fair,0,Boeing 737,canonical_state_first,hierarchical_state_first,-0.9421885521665182,0.0,0.0,True
+QV21E_0190,IntentRAG calibrated multi-granularity,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.008382877526753867,0.0,0.0,True
+QV21E_0190,IntentRAG multi + mMARCO CE@50,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.025965295109171442,0.0,0.0,True
+QV21E_0190,Long-term fixed,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.009277732112883616,0.0,0.0,True
+QV21E_0190,Multi-granularity entropy,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.025965295109171442,0.0,0.0,True
+QV21E_0190,Multi-granularity entropy+constraints,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.025965295109171442,0.0,0.0,True
+QV21E_0190,Multi-granularity fixed,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.008385607797133765,0.0,0.0,True
+QV21E_0190,Neural dense (multilingual MiniLM),0,Boeing 737,canonical_state_first,hierarchical_state_first,0.008382877526753867,0.0,0.0,True
+QV21E_0190,Neural dense + mMARCO CE@30,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.008465431186632788,0.0,0.0,True
+QV21E_0190,Neural dense + mMARCO CE@50,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.025965295109171442,0.0,0.0,True
+QV21E_0190,Neural lexical+dense RRF,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.008382877526753867,0.0,0.0,True
+QV21E_0190,Page-resolved,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.008468252325157827,0.0,0.0,True
+QV21E_0190,Parent-section retrieval,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.008465431186632788,0.0,0.0,True
+QV21E_0190,Profile-resolved,0,Boeing 737,canonical_state_first,hierarchical_state_first,-0.47156903738354394,0.0,0.0,True
+QV21E_0190,SVD semantic surrogate,0,Boeing 737,canonical_state_first,hierarchical_state_first,-0.9421057254515349,0.0,0.0,True
+QV21E_0190,Section-resolved,0,Boeing 737,canonical_state_first,hierarchical_state_first,-0.05931102541265377,0.0,0.0,True
+QV21E_0190,Short-term fixed,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.008465431186632788,0.0,0.0,True
+QV21E_0190,TFIDF-char,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.009737318543708795,0.0,0.0,True
+QV21E_0190,True BM25,0,Boeing 737,canonical_state_first,hierarchical_state_first,0.009654491828725534,0.0,0.0,True
+QV21E_0086,Agentic RAG,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.009640307297309927,0.0,0.0,True
+QV21E_0086,BM25/word,1,Boeing 737,canonical_state_first,hierarchical_state_first,-0.9283328525810047,0.0,0.0,True
+QV21E_0086,Calibrated lexical control,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.00776804097419851,0.0,0.0,True
+QV21E_0086,Causal-graph informed RAG,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.00910039710823745,0.0,0.0,True
+QV21E_0086,Component-graph informed RAG,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.009097124244621169,0.0,0.0,True
+QV21E_0086,Component-profile retrieval,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.008938315988826953,0.0,0.0,True
+QV21E_0086,Controlled GraphRAG,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.00776804097419851,0.0,0.0,True
+QV21E_0086,Detail-only,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.008266295989589494,0.0,0.0,True
+QV21E_0086,Evidence-flow baseline,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.009097124244621169,0.0,0.0,True
+QV21E_0086,FD-GRAG-RC-V21-final,1,Boeing 737,canonical_state_first,hierarchical_state_first,-0.9283726957830751,0.0,0.0,True
+QV21E_0086,GaRAGe-style attribution RAG,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.009017590934303404,0.0,0.0,True
+QV21E_0086,GaRAGe-style deflective RAG,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.009640307297309927,0.0,0.0,True
+QV21E_0086,GaRAGe-style relevance RAG,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.008470032282681485,0.0,0.0,True
+QV21E_0086,Hybrid lexical,1,Boeing 737,canonical_state_first,hierarchical_state_first,-0.9283328525810047,0.0,0.0,True
+QV21E_0086,IntentRAG balanced fair,1,Boeing 737,canonical_state_first,hierarchical_state_first,-0.9282931624727574,0.0,0.0,True
+QV21E_0086,IntentRAG calibrated multi-granularity,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.007847315919674962,0.0,0.0,True
+QV21E_0086,IntentRAG multi + mMARCO CE@50,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.007847315919674962,0.0,0.0,True
+QV21E_0086,Long-term fixed,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.007926849229992726,0.0,0.0,True
+QV21E_0086,Multi-granularity entropy,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.00776804097419851,0.0,0.0,True
+QV21E_0086,Multi-granularity entropy+constraints,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.00776804097419851,0.0,0.0,True
+QV21E_0086,Multi-granularity fixed,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.00776804097419851,0.0,0.0,True
+QV21E_0086,Neural dense (multilingual MiniLM),1,Boeing 737,canonical_state_first,hierarchical_state_first,0.007847315919674962,0.0,0.0,True
+QV21E_0086,Neural dense + mMARCO CE@30,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.07021174108236476,0.0,0.0,True
+QV21E_0086,Neural dense + mMARCO CE@50,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.007926849229992726,0.0,0.0,True
+QV21E_0086,Neural lexical+dense RRF,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.00838961526891574,0.0,0.0,True
+QV21E_0086,Page-resolved,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.007847315919674962,0.0,0.0,True
+QV21E_0086,Parent-section retrieval,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.007847315919674962,0.0,0.0,True
+QV21E_0086,Profile-resolved,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.03415162236150027,0.0,0.0,True
+QV21E_0086,SVD semantic surrogate,1,Boeing 737,canonical_state_first,hierarchical_state_first,-0.9284122135080344,0.0,0.0,True
+QV21E_0086,Section-resolved,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.00776804097419851,0.0,0.0,True
+QV21E_0086,Short-term fixed,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.007847315919674962,0.0,0.0,True
+QV21E_0086,TFIDF-char,1,Boeing 737,canonical_state_first,hierarchical_state_first,0.009020777395576142,0.0,0.0,True
+QV21E_0086,True BM25,1,Boeing 737,canonical_state_first,hierarchical_state_first,-0.9284122135080344,0.0,0.0,True
+QV21E_0067,Agentic RAG,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.008081175728347774,0.0,0.0,True
+QV21E_0067,BM25/word,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.009387386178900732,0.0,0.0,True
+QV21E_0067,Calibrated lexical control,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.007974727225915572,0.0,0.0,True
+QV21E_0067,Causal-graph informed RAG,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.00802789359322606,0.0,0.0,True
+QV21E_0067,Component-graph informed RAG,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.009196800665113844,0.0,0.0,True
+QV21E_0067,Component-profile retrieval,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.009196800665113844,0.0,0.0,True
+QV21E_0067,Controlled GraphRAG,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.008784552870454307,0.0,0.0,True
+QV21E_0067,Detail-only,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.008001295962188397,0.0,0.0,True
+QV21E_0067,Evidence-flow baseline,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.009196800665113844,0.0,0.0,True
+QV21E_0067,FD-GRAG-RC-V21-final,2,Boeing 737,canonical_state_first,hierarchical_state_first,-0.8879808998304894,0.0,0.0,True
+QV21E_0067,GaRAGe-style attribution RAG,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.00930348108170087,0.0,0.0,True
+QV21E_0067,GaRAGe-style deflective RAG,2,Boeing 737,canonical_state_first,hierarchical_state_first,-0.9229533070302729,0.0,0.0,True
+QV21E_0067,GaRAGe-style relevance RAG,2,Boeing 737,canonical_state_first,hierarchical_state_first,-0.9227390132161912,0.0,0.0,True
+QV21E_0067,Hybrid lexical,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.008763945180628618,0.0,0.0,True
+QV21E_0067,IntentRAG balanced fair,2,Boeing 737,canonical_state_first,hierarchical_state_first,-0.9224897085355628,0.0,0.0,True
+QV21E_0067,IntentRAG calibrated multi-granularity,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.007921676249527089,0.0,0.0,True
+QV21E_0067,IntentRAG multi + mMARCO CE@50,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.00846426984692264,0.0,0.0,True
+QV21E_0067,Long-term fixed,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.008867013545874429,0.0,0.0,True
+QV21E_0067,Multi-granularity entropy,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.008001295962188397,0.0,0.0,True
+QV21E_0067,Multi-granularity entropy+constraints,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.008001295962188397,0.0,0.0,True
+QV21E_0067,Multi-granularity fixed,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.008001295962188397,0.0,0.0,True
+QV21E_0067,Neural dense (multilingual MiniLM),2,Boeing 737,canonical_state_first,hierarchical_state_first,0.007921676249527089,0.0,0.0,True
+QV21E_0067,Neural dense + mMARCO CE@30,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.008467150503838318,0.0,0.0,True
+QV21E_0067,Neural dense + mMARCO CE@50,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.008544774223057959,0.0,0.0,True
+QV21E_0067,Neural lexical+dense RRF,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.009170203034076181,0.0,0.0,True
+QV21E_0067,Page-resolved,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.008001295962188397,0.0,0.0,True
+QV21E_0067,Parent-section retrieval,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.009678471708210831,0.0,0.0,True
+QV21E_0067,Profile-resolved,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.008625541542174667,0.0,0.0,True
+QV21E_0067,SVD semantic surrogate,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.009008833589708644,0.0,0.0,True
+QV21E_0067,Section-resolved,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.008867013545874429,0.0,0.0,True
+QV21E_0067,Short-term fixed,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.008001295962188397,0.0,0.0,True
+QV21E_0067,TFIDF-char,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.02566467058230819,0.0,0.0,True
+QV21E_0067,True BM25,2,Boeing 737,canonical_state_first,hierarchical_state_first,0.008867013545874429,0.0,0.0,True
+QV21E_0385,Agentic RAG,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0028097840196817797,0.0,0.0,True
+QV21E_0385,BM25/word,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.00702632870591318,0.0,0.0,True
+QV21E_0385,Calibrated lexical control,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.007560504391402989,0.0,0.0,True
+QV21E_0385,Causal-graph informed RAG,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0027281778259597086,0.0,0.0,True
+QV21E_0385,Component-graph informed RAG,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0038896180117901358,0.0,0.0,True
+QV21E_0385,Component-profile retrieval,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0038896180117901358,0.0,0.0,True
+QV21E_0385,Controlled GraphRAG,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.005569802565180068,0.0,0.0,True
+QV21E_0385,Detail-only,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.010478790368767907,0.0,0.0,True
+QV21E_0385,Evidence-flow baseline,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0028292960492721925,0.0,0.0,True
+QV21E_0385,FD-GRAG-RC-V21-final,3,Cessna 172,canonical_state_first,hierarchical_state_first,0.007033724525504208,0.0,0.0,True
+QV21E_0385,GaRAGe-style attribution RAG,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0033517551464432027,0.0,0.0,True
+QV21E_0385,GaRAGe-style deflective RAG,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0027511231869813413,0.0,0.0,True
+QV21E_0385,GaRAGe-style relevance RAG,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0027511231869813413,0.0,0.0,True
+QV21E_0385,Hybrid lexical,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.007290530991318392,0.0,0.0,True
+QV21E_0385,IntentRAG balanced fair,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.002669329178426716,0.0,0.0,True
+QV21E_0385,IntentRAG calibrated multi-granularity,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0033426912828321276,0.0,0.0,True
+QV21E_0385,IntentRAG multi + mMARCO CE@50,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0039051532393497845,0.0,0.0,True
+QV21E_0385,Long-term fixed,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.004089303189098219,0.0,0.0,True
+QV21E_0385,Multi-granularity entropy,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.008621196469214804,0.0,0.0,True
+QV21E_0385,Multi-granularity entropy+constraints,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.007459475762397326,0.0,0.0,True
+QV21E_0385,Multi-granularity fixed,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.009740838329450996,0.0,0.0,True
+QV21E_0385,Neural dense (multilingual MiniLM),3,Cessna 172,canonical_state_first,hierarchical_state_first,0.010070362316009704,0.0,0.0,True
+QV21E_0385,Neural dense + mMARCO CE@30,3,Cessna 172,canonical_state_first,hierarchical_state_first,0.010070362316009704,0.0,0.0,True
+QV21E_0385,Neural dense + mMARCO CE@50,3,Cessna 172,canonical_state_first,hierarchical_state_first,0.010464192157137703,0.0,0.0,True
+QV21E_0385,Neural lexical+dense RRF,3,Cessna 172,canonical_state_first,hierarchical_state_first,0.012177768522615859,0.0,0.0,True
+QV21E_0385,Page-resolved,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0078872916022917,0.0,0.0,True
+QV21E_0385,Parent-section retrieval,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0034103535739671356,0.0,0.0,True
+QV21E_0385,Profile-resolved,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0066752299528489295,0.0,0.0,True
+QV21E_0385,SVD semantic surrogate,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0038896180117901358,0.0,0.0,True
+QV21E_0385,Section-resolved,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.004494295761066178,0.0,0.0,True
+QV21E_0385,Short-term fixed,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.010478790368767907,0.0,0.0,True
+QV21E_0385,TFIDF-char,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.01148973386805345,0.0,0.0,True
+QV21E_0385,True BM25,3,Cessna 172,canonical_state_first,hierarchical_state_first,-0.003967790874080987,0.0,0.0,True
+QV21E_0316,Agentic RAG,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.011413511668123717,0.0,0.0,True
+QV21E_0316,BM25/word,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.0138636175391628,0.0,0.0,True
+QV21E_0316,Calibrated lexical control,4,Cessna 172,canonical_state_first,hierarchical_state_first,-0.004451852766459513,0.0,0.0,True
+QV21E_0316,Causal-graph informed RAG,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.0113856107105866,0.0,0.0,True
+QV21E_0316,Component-graph informed RAG,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.013285482902376293,0.0,0.0,True
+QV21E_0316,Component-profile retrieval,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.016757033440751072,0.0,0.0,True
+QV21E_0316,Controlled GraphRAG,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.013893045759879742,0.0,0.0,True
+QV21E_0316,Detail-only,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.016752601504662505,0.0,0.0,True
+QV21E_0316,Evidence-flow baseline,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.011413511668123717,0.0,0.0,True
+QV21E_0316,FD-GRAG-RC-V21-final,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.014961052079122655,0.0,0.0,True
+QV21E_0316,GaRAGe-style attribution RAG,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.01670313756609515,0.0,0.0,True
+QV21E_0316,GaRAGe-style deflective RAG,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.02320277548688509,0.0,0.0,True
+QV21E_0316,GaRAGe-style relevance RAG,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.02320277548688509,0.0,0.0,True
+QV21E_0316,Hybrid lexical,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.0138636175391628,0.0,0.0,True
+QV21E_0316,IntentRAG balanced fair,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.016101060461537232,0.0,0.0,True
+QV21E_0316,IntentRAG calibrated multi-granularity,4,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0028949613573406585,0.0,0.0,True
+QV21E_0316,IntentRAG multi + mMARCO CE@50,4,Cessna 172,canonical_state_first,hierarchical_state_first,-0.004487834984937898,0.0,0.0,True
+QV21E_0316,Long-term fixed,4,Cessna 172,canonical_state_first,hierarchical_state_first,3.638670213550882e-05,0.0,0.0,True
+QV21E_0316,Multi-granularity entropy,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.02161319073083779,0.0,0.0,True
+QV21E_0316,Multi-granularity entropy+constraints,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.02719852376909003,0.0,0.0,True
+QV21E_0316,Multi-granularity fixed,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.02161319073083779,0.0,0.0,True
+QV21E_0316,Neural dense (multilingual MiniLM),4,Cessna 172,canonical_state_first,hierarchical_state_first,-0.005555886736214606,0.0,0.0,True
+QV21E_0316,Neural dense + mMARCO CE@30,4,Cessna 172,canonical_state_first,hierarchical_state_first,-0.004487834984937898,0.0,0.0,True
+QV21E_0316,Neural dense + mMARCO CE@50,4,Cessna 172,canonical_state_first,hierarchical_state_first,-0.00449224624267127,0.0,0.0,True
+QV21E_0316,Neural lexical+dense RRF,4,Cessna 172,canonical_state_first,hierarchical_state_first,-0.005602489995553579,0.0,0.0,True
+QV21E_0316,Page-resolved,4,Cessna 172,canonical_state_first,hierarchical_state_first,-0.002632206445044888,0.0,0.0,True
+QV21E_0316,Parent-section retrieval,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.016829434707781296,0.0,0.0,True
+QV21E_0316,Profile-resolved,4,Cessna 172,canonical_state_first,hierarchical_state_first,-0.008360429932710106,0.0,0.0,True
+QV21E_0316,SVD semantic surrogate,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.014434393794870562,0.0,0.0,True
+QV21E_0316,Section-resolved,4,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0017190258198071517,0.0,0.0,True
+QV21E_0316,Short-term fixed,4,Cessna 172,canonical_state_first,hierarchical_state_first,0.02080150241914948,0.0,0.0,True
+QV21E_0316,TFIDF-char,4,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0004057888535312637,0.0,0.0,True
+QV21E_0316,True BM25,4,Cessna 172,canonical_state_first,hierarchical_state_first,-0.002524789705174793,0.0,0.0,True
+QV21E_0304,Agentic RAG,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0032521040823129746,0.0,0.0,True
+QV21E_0304,BM25/word,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0033508158508158484,0.0,0.0,True
+QV21E_0304,Calibrated lexical control,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.006552924199983025,0.0,0.0,True
+QV21E_0304,Causal-graph informed RAG,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0032521040823129746,0.0,0.0,True
+QV21E_0304,Component-graph informed RAG,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.003311394487865077,0.0,0.0,True
+QV21E_0304,Component-profile retrieval,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0032953346526741617,0.0,0.0,True
+QV21E_0304,Controlled GraphRAG,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0037753734105665446,0.0,0.0,True
+QV21E_0304,Detail-only,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.006849009050292128,0.0,0.0,True
+QV21E_0304,Evidence-flow baseline,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0032521040823129746,0.0,0.0,True
+QV21E_0304,FD-GRAG-RC-V21-final,5,Cessna 172,canonical_state_first,hierarchical_state_first,0.0022861753630984416,0.0,0.0,True
+QV21E_0304,GaRAGe-style attribution RAG,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.003311394487865077,0.0,0.0,True
+QV21E_0304,GaRAGe-style deflective RAG,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0032521040823129746,0.0,0.0,True
+QV21E_0304,GaRAGe-style relevance RAG,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0031926228278159607,0.0,0.0,True
+QV21E_0304,Hybrid lexical,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0038744027508072418,0.0,0.0,True
+QV21E_0304,IntentRAG balanced fair,5,Cessna 172,canonical_state_first,hierarchical_state_first,0.0017034247803478578,0.0,0.0,True
+QV21E_0304,IntentRAG calibrated multi-granularity,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.006635166711639259,0.0,0.0,True
+QV21E_0304,IntentRAG multi + mMARCO CE@50,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0038546392936114546,0.0,0.0,True
+QV21E_0304,Long-term fixed,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.004543729842534622,0.0,0.0,True
+QV21E_0304,Multi-granularity entropy,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.005313493866424351,0.0,0.0,True
+QV21E_0304,Multi-granularity entropy+constraints,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.004668332576101768,0.0,0.0,True
+QV21E_0304,Multi-granularity fixed,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.005921616380282324,0.0,0.0,True
+QV21E_0304,Neural dense (multilingual MiniLM),5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.003334840429678368,0.0,0.0,True
+QV21E_0304,Neural dense + mMARCO CE@30,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0039376520250002725,0.0,0.0,True
+QV21E_0304,Neural dense + mMARCO CE@50,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0038546392936114546,0.0,0.0,True
+QV21E_0304,Neural lexical+dense RRF,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.003334840429678368,0.0,0.0,True
+QV21E_0304,Page-resolved,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0038191692920234235,0.0,0.0,True
+QV21E_0304,Parent-section retrieval,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.003311394487865077,0.0,0.0,True
+QV21E_0304,Profile-resolved,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.005740796640913301,0.0,0.0,True
+QV21E_0304,SVD semantic surrogate,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0014443710795642162,0.0,0.0,True
+QV21E_0304,Section-resolved,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.004456598737639719,0.0,0.0,True
+QV21E_0304,Short-term fixed,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.004668332576101768,0.0,0.0,True
+QV21E_0304,TFIDF-char,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.003878425031682904,0.0,0.0,True
+QV21E_0304,True BM25,5,Cessna 172,canonical_state_first,hierarchical_state_first,-0.003331115704178239,0.0,0.0,True

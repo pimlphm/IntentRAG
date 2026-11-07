@@ -1,0 +1,121 @@
+﻿split,method,capacity,order,policy,seed,n_queries,token_weighted_reused_fraction,module_hit_fraction,module_evictions
+fresh_locked_test,Detail-only,16,random,flat_identity_lru,20261014.0,214,0.0001559356921205,0.0009345794392523,2123
+fresh_locked_test,Detail-only,16,random,flat_identity_lru,20261015.0,214,0.0026820939044737,0.0023364485981308,2119
+fresh_locked_test,Detail-only,16,random,flat_identity_lru,20261016.0,214,0.0005301813532099,0.0014018691588785,2122
+fresh_locked_test,Detail-only,16,random,flat_identity_lru,20261017.0,214,0.0,0.0,2124
+fresh_locked_test,Detail-only,16,random,flat_identity_lru,20261018.0,214,0.0,0.0,2124
+fresh_locked_test,Detail-only,64,random,flat_identity_lru,20261014.0,214,0.0141121801369115,0.014018691588785,2050
+fresh_locked_test,Detail-only,64,random,flat_identity_lru,20261015.0,214,0.0057150431162188,0.0079439252336448,2059
+fresh_locked_test,Detail-only,64,random,flat_identity_lru,20261016.0,214,0.0141121801369115,0.0102803738317757,2056
+fresh_locked_test,Detail-only,64,random,flat_identity_lru,20261017.0,214,0.0012162983985404,0.0009345794392523,2074
+fresh_locked_test,Detail-only,64,random,flat_identity_lru,20261018.0,214,0.0018088540285986,0.002803738317757,2070
+fresh_locked_test,Detail-only,256,random,flat_identity_lru,20261014.0,214,0.0421338240109778,0.0457943925233644,1787
+fresh_locked_test,Detail-only,256,random,flat_identity_lru,20261015.0,214,0.0368008233404544,0.0350467289719626,1809
+fresh_locked_test,Detail-only,256,random,flat_identity_lru,20261016.0,214,0.0472329211433204,0.0443925233644859,1789
+fresh_locked_test,Detail-only,256,random,flat_identity_lru,20261017.0,214,0.0494628015406446,0.0462616822429906,1785
+fresh_locked_test,Detail-only,256,random,flat_identity_lru,20261018.0,214,0.0396076657986246,0.0378504672897196,1807
+fresh_locked_test,IntentRAG balanced fair,16,random,flat_identity_lru,20261014.0,214,0.0237712407574151,0.0042056074766355,2119
+fresh_locked_test,IntentRAG balanced fair,16,random,flat_identity_lru,20261015.0,214,0.0096318046937028,0.0037383177570093,2119
+fresh_locked_test,IntentRAG balanced fair,16,random,flat_identity_lru,20261016.0,214,0.0233287942834584,0.0046728971962616,2117
+fresh_locked_test,IntentRAG balanced fair,16,random,flat_identity_lru,20261017.0,214,0.0118407103982683,0.0023364485981308,2121
+fresh_locked_test,IntentRAG balanced fair,16,random,flat_identity_lru,20261018.0,214,0.0084630363138775,0.0023364485981308,2122
+fresh_locked_test,IntentRAG balanced fair,64,random,flat_identity_lru,20261014.0,214,0.0493954340410998,0.0177570093457943,2044
+fresh_locked_test,IntentRAG balanced fair,64,random,flat_identity_lru,20261015.0,214,0.0555564180243157,0.0149532710280373,2052
+fresh_locked_test,IntentRAG balanced fair,64,random,flat_identity_lru,20261016.0,214,0.0641436498396547,0.022429906542056,2031
+fresh_locked_test,IntentRAG balanced fair,64,random,flat_identity_lru,20261017.0,214,0.0419448128418148,0.0102803738317757,2057
+fresh_locked_test,IntentRAG balanced fair,64,random,flat_identity_lru,20261018.0,214,0.0412861331287064,0.0116822429906542,2053
+fresh_locked_test,IntentRAG balanced fair,256,random,flat_identity_lru,20261014.0,214,0.2008618280690704,0.0757009345794392,1724
+fresh_locked_test,IntentRAG balanced fair,256,random,flat_identity_lru,20261015.0,214,0.1712101520951337,0.0663551401869158,1742
+fresh_locked_test,IntentRAG balanced fair,256,random,flat_identity_lru,20261016.0,214,0.1758863345028409,0.0700934579439252,1736
+fresh_locked_test,IntentRAG balanced fair,256,random,flat_identity_lru,20261017.0,214,0.194055471033617,0.0733644859813084,1728
+fresh_locked_test,IntentRAG balanced fair,256,random,flat_identity_lru,20261018.0,214,0.1758220189752984,0.0649532710280373,1746
+fresh_locked_test,Long-term fixed,16,random,flat_identity_lru,20261014.0,214,0.0,0.0,2124
+fresh_locked_test,Long-term fixed,16,random,flat_identity_lru,20261015.0,214,0.0001940632180339,0.0009345794392523,2122
+fresh_locked_test,Long-term fixed,16,random,flat_identity_lru,20261016.0,214,0.0028022728684096,0.0018691588785046,2120
+fresh_locked_test,Long-term fixed,16,random,flat_identity_lru,20261017.0,214,0.0,0.0,2124
+fresh_locked_test,Long-term fixed,16,random,flat_identity_lru,20261018.0,214,0.0,0.0,2124
+fresh_locked_test,Long-term fixed,64,random,flat_identity_lru,20261014.0,214,0.0085154940073278,0.005607476635514,2064
+fresh_locked_test,Long-term fixed,64,random,flat_identity_lru,20261015.0,214,0.0044479289573371,0.002803738317757,2073
+fresh_locked_test,Long-term fixed,64,random,flat_identity_lru,20261016.0,214,0.0282556045457368,0.0182242990654205,2037
+fresh_locked_test,Long-term fixed,64,random,flat_identity_lru,20261017.0,214,0.0076460907905359,0.0074766355140186,2060
+fresh_locked_test,Long-term fixed,64,random,flat_identity_lru,20261018.0,214,0.0053328572315717,0.0032710280373831,2069
+fresh_locked_test,Long-term fixed,256,random,flat_identity_lru,20261014.0,214,0.0282633670744581,0.022429906542056,1836
+fresh_locked_test,Long-term fixed,256,random,flat_identity_lru,20261015.0,214,0.05122492703223,0.0341121495327102,1811
+fresh_locked_test,Long-term fixed,256,random,flat_identity_lru,20261016.0,214,0.0461249456622989,0.0322429906542056,1816
+fresh_locked_test,Long-term fixed,256,random,flat_identity_lru,20261017.0,214,0.0374619636092653,0.0266355140186915,1827
+fresh_locked_test,Long-term fixed,256,random,flat_identity_lru,20261018.0,214,0.032835496491337,0.0242990654205607,1836
+fresh_locked_test,Multi-granularity entropy,16,random,flat_identity_lru,20261014.0,214,0.0010046388694104,0.0009345794392523,2123
+fresh_locked_test,Multi-granularity entropy,16,random,flat_identity_lru,20261015.0,214,0.0032027078051674,0.0023364485981308,2119
+fresh_locked_test,Multi-granularity entropy,16,random,flat_identity_lru,20261016.0,214,0.0056435082798424,0.0042056074766355,2116
+fresh_locked_test,Multi-granularity entropy,16,random,flat_identity_lru,20261017.0,214,0.0,0.0,2124
+fresh_locked_test,Multi-granularity entropy,16,random,flat_identity_lru,20261018.0,214,0.0001483359404498,0.0004672897196261,2124
+fresh_locked_test,Multi-granularity entropy,64,random,flat_identity_lru,20261014.0,214,0.0151235233831382,0.014018691588785,2052
+fresh_locked_test,Multi-granularity entropy,64,random,flat_identity_lru,20261015.0,214,0.0073426290522681,0.0074766355140186,2060
+fresh_locked_test,Multi-granularity entropy,64,random,flat_identity_lru,20261016.0,214,0.0217784130751388,0.0177570093457943,2039
+fresh_locked_test,Multi-granularity entropy,64,random,flat_identity_lru,20261017.0,214,0.0035330923998058,0.002803738317757,2070
+fresh_locked_test,Multi-granularity entropy,64,random,flat_identity_lru,20261018.0,214,0.0012675980365715,0.0023364485981308,2071
+fresh_locked_test,Multi-granularity entropy,256,random,flat_identity_lru,20261014.0,214,0.0457548950860348,0.0411214953271028,1799
+fresh_locked_test,Multi-granularity entropy,256,random,flat_identity_lru,20261015.0,214,0.0467797615836884,0.0406542056074766,1797
+fresh_locked_test,Multi-granularity entropy,256,random,flat_identity_lru,20261016.0,214,0.0485665354118345,0.0448598130841121,1788
+fresh_locked_test,Multi-granularity entropy,256,random,flat_identity_lru,20261017.0,214,0.0543920923458654,0.0453271028037383,1787
+fresh_locked_test,Multi-granularity entropy,256,random,flat_identity_lru,20261018.0,214,0.0324316306165381,0.0313084112149532,1820
+fresh_locked_test,Multi-granularity entropy+constraints,16,random,flat_identity_lru,20261014.0,214,0.0021542214954968,0.0018691588785046,2121
+fresh_locked_test,Multi-granularity entropy+constraints,16,random,flat_identity_lru,20261015.0,214,0.000324430948117,0.0004672897196261,2123
+fresh_locked_test,Multi-granularity entropy+constraints,16,random,flat_identity_lru,20261016.0,214,0.0043279088478808,0.0032710280373831,2121
+fresh_locked_test,Multi-granularity entropy+constraints,16,random,flat_identity_lru,20261017.0,214,0.0012523034597316,0.0009345794392523,2122
+fresh_locked_test,Multi-granularity entropy+constraints,16,random,flat_identity_lru,20261018.0,214,5.1908951698720446e-05,0.0004672897196261,2124
+fresh_locked_test,Multi-granularity entropy+constraints,64,random,flat_identity_lru,20261014.0,214,0.0149757325650808,0.0149532710280373,2049
+fresh_locked_test,Multi-granularity entropy+constraints,64,random,flat_identity_lru,20261015.0,214,0.0076306158997119,0.0079439252336448,2060
+fresh_locked_test,Multi-granularity entropy+constraints,64,random,flat_identity_lru,20261016.0,214,0.0152028342287627,0.0126168224299065,2049
+fresh_locked_test,Multi-granularity entropy+constraints,64,random,flat_identity_lru,20261017.0,214,0.006469153105453,0.0046728971962616,2066
+fresh_locked_test,Multi-granularity entropy+constraints,64,random,flat_identity_lru,20261018.0,214,0.0049962366010018,0.0042056074766355,2068
+fresh_locked_test,Multi-granularity entropy+constraints,256,random,flat_identity_lru,20261014.0,214,0.0544849334267694,0.0476635514018691,1785
+fresh_locked_test,Multi-granularity entropy+constraints,256,random,flat_identity_lru,20261015.0,214,0.0417672402605829,0.0345794392523364,1811
+fresh_locked_test,Multi-granularity entropy+constraints,256,random,flat_identity_lru,20261016.0,214,0.0468737833839445,0.0420560747663551,1794
+fresh_locked_test,Multi-granularity entropy+constraints,256,random,flat_identity_lru,20261017.0,214,0.0546601261387526,0.0439252336448598,1790
+fresh_locked_test,Multi-granularity entropy+constraints,256,random,flat_identity_lru,20261018.0,214,0.0377832282177061,0.0294392523364485,1821
+fresh_locked_test,Multi-granularity fixed,16,random,flat_identity_lru,20261014.0,214,0.0013781179919568,0.0009345794392523,2122
+fresh_locked_test,Multi-granularity fixed,16,random,flat_identity_lru,20261015.0,214,0.0025745749758829,0.0018691588785046,2120
+fresh_locked_test,Multi-granularity fixed,16,random,flat_identity_lru,20261016.0,214,0.0064333053533619,0.0046728971962616,2116
+fresh_locked_test,Multi-granularity fixed,16,random,flat_identity_lru,20261017.0,214,0.0,0.0,2124
+fresh_locked_test,Multi-granularity fixed,16,random,flat_identity_lru,20261018.0,214,0.0001378117991956,0.0004672897196261,2124
+fresh_locked_test,Multi-granularity fixed,64,random,flat_identity_lru,20261014.0,214,0.0138500858191658,0.0116822429906542,2056
+fresh_locked_test,Multi-granularity fixed,64,random,flat_identity_lru,20261015.0,214,0.0064019844899084,0.0060747663551401,2063
+fresh_locked_test,Multi-granularity fixed,64,random,flat_identity_lru,20261016.0,214,0.0223630965058444,0.0177570093457943,2039
+fresh_locked_test,Multi-granularity fixed,64,random,flat_identity_lru,20261017.0,214,0.0063894561445269,0.0046728971962616,2067
+fresh_locked_test,Multi-granularity fixed,64,random,flat_identity_lru,20261018.0,214,0.0037021260602112,0.0037383177570093,2068
+fresh_locked_test,Multi-granularity fixed,256,random,flat_identity_lru,20261014.0,214,0.0524060687305027,0.0434579439252336,1792
+fresh_locked_test,Multi-granularity fixed,256,random,flat_identity_lru,20261015.0,214,0.0493554166301256,0.0425233644859813,1793
+fresh_locked_test,Multi-granularity fixed,256,random,flat_identity_lru,20261016.0,214,0.0488542828148686,0.0425233644859813,1793
+fresh_locked_test,Multi-granularity fixed,256,random,flat_identity_lru,20261017.0,214,0.0574612560919079,0.0443925233644859,1789
+fresh_locked_test,Multi-granularity fixed,256,random,flat_identity_lru,20261018.0,214,0.0436863403450306,0.0359813084112149,1810
+fresh_locked_test,Profile-resolved,16,random,flat_identity_lru,20261014.0,214,0.3536124384851294,0.3808411214953271,1365
+fresh_locked_test,Profile-resolved,16,random,flat_identity_lru,20261015.0,214,0.3610922901362242,0.3785046728971962,1389
+fresh_locked_test,Profile-resolved,16,random,flat_identity_lru,20261016.0,214,0.3829434419798873,0.3953271028037383,1317
+fresh_locked_test,Profile-resolved,16,random,flat_identity_lru,20261017.0,214,0.3667891020611939,0.3813084112149533,1385
+fresh_locked_test,Profile-resolved,16,random,flat_identity_lru,20261018.0,214,0.3806522359318166,0.402803738317757,1338
+fresh_locked_test,Profile-resolved,64,random,flat_identity_lru,20261014.0,214,0.7837886028100706,0.8233644859813084,339
+fresh_locked_test,Profile-resolved,64,random,flat_identity_lru,20261015.0,214,0.7886652164610227,0.8364485981308412,309
+fresh_locked_test,Profile-resolved,64,random,flat_identity_lru,20261016.0,214,0.7562317238428072,0.8042056074766355,404
+fresh_locked_test,Profile-resolved,64,random,flat_identity_lru,20261017.0,214,0.7851793737964482,0.8322429906542056,310
+fresh_locked_test,Profile-resolved,64,random,flat_identity_lru,20261018.0,214,0.7795360530632622,0.8182242990654206,340
+fresh_locked_test,Profile-resolved,256,random,flat_identity_lru,20261014.0,214,0.8840043506169317,0.9214953271028036,0
+fresh_locked_test,Profile-resolved,256,random,flat_identity_lru,20261015.0,214,0.8840043506169317,0.9214953271028036,0
+fresh_locked_test,Profile-resolved,256,random,flat_identity_lru,20261016.0,214,0.8840043506169317,0.9214953271028036,0
+fresh_locked_test,Profile-resolved,256,random,flat_identity_lru,20261017.0,214,0.8840043506169317,0.9214953271028036,0
+fresh_locked_test,Profile-resolved,256,random,flat_identity_lru,20261018.0,214,0.8840043506169317,0.9214953271028036,0
+fresh_locked_test,True BM25,16,random,flat_identity_lru,20261014.0,214,0.0003708013144267,0.0014018691588785,2121
+fresh_locked_test,True BM25,16,random,flat_identity_lru,20261015.0,214,0.0008779893192173,0.0014018691588785,2121
+fresh_locked_test,True BM25,16,random,flat_identity_lru,20261016.0,214,0.0011656799942035,0.0018691588785046,2122
+fresh_locked_test,True BM25,16,random,flat_identity_lru,20261017.0,214,0.0004176842392393,0.0014018691588785,2123
+fresh_locked_test,True BM25,16,random,flat_identity_lru,20261018.0,214,4.901396684951008e-05,0.0004672897196261,2123
+fresh_locked_test,True BM25,64,random,flat_identity_lru,20261014.0,214,0.0127116657503185,0.0130841121495327,2048
+fresh_locked_test,True BM25,64,random,flat_identity_lru,20261015.0,214,0.0094469093497338,0.0074766355140186,2060
+fresh_locked_test,True BM25,64,random,flat_identity_lru,20261016.0,214,0.0144974789772703,0.0144859813084112,2047
+fresh_locked_test,True BM25,64,random,flat_identity_lru,20261017.0,214,0.0076355236183388,0.005607476635514,2066
+fresh_locked_test,True BM25,64,random,flat_identity_lru,20261018.0,214,0.006676554701718,0.0046728971962616,2067
+fresh_locked_test,True BM25,256,random,flat_identity_lru,20261014.0,214,0.0459751009048404,0.0467289719626168,1785
+fresh_locked_test,True BM25,256,random,flat_identity_lru,20261015.0,214,0.0508125663286833,0.0453271028037383,1787
+fresh_locked_test,True BM25,256,random,flat_identity_lru,20261016.0,214,0.0522190540730606,0.0457943925233644,1786
+fresh_locked_test,True BM25,256,random,flat_identity_lru,20261017.0,214,0.0484918615504609,0.0471962616822429,1783
+fresh_locked_test,True BM25,256,random,flat_identity_lru,20261018.0,214,0.0609584574665319,0.0373831775700934,1806

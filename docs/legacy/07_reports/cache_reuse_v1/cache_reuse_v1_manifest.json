@@ -1,0 +1,10 @@
+{
+  "experiment_id": "cache_reuse_v1_20260812",
+  "model": "qwen2.5:3b",
+  "tokenizer_json": "C:\\Users\\weiku\\.cache\\huggingface\\hub\\models--Qwen--Qwen3.5-0.8B\\snapshots\\2fc06364715b967f1860aea9cf38778875588b17\\tokenizer.json",
+  "prompt_rows": 555,
+  "response_rows": 555,
+  "family_count": 72,
+  "claim_boundary": "This diagnostic measures cache-eligible shared-prefix structure under a local Qwen tokenizer and answer-side proxies from local Ollama generations. It does not inspect internal KV cache hits, server-side batching behavior, or natural user-query generalization.",
+  "summary_path": "06_tables\\cache_reuse_v1\\variant_summary.csv"
+}

@@ -1,0 +1,76 @@
+﻿split,method,capacity,order,policy,seed,n_queries,token_weighted_reused_fraction,module_hit_fraction,module_evictions,family
+fresh_locked_test,IntentRAG multi + mMARCO CE@50,16,random,flat_identity_lru,20261014.0,214,0.0004514460801294,0.0009345794392523,2124,Neural retrieval
+fresh_locked_test,IntentRAG multi + mMARCO CE@50,16,random,flat_identity_lru,20261015.0,214,0.0033255037981812,0.0023364485981308,2119,Neural retrieval
+fresh_locked_test,IntentRAG multi + mMARCO CE@50,16,random,flat_identity_lru,20261016.0,214,0.0029455739287653,0.0018691588785046,2123,Neural retrieval
+fresh_locked_test,IntentRAG multi + mMARCO CE@50,16,random,flat_identity_lru,20261017.0,214,0.0015085450697394,0.0014018691588785,2122,Neural retrieval
+fresh_locked_test,IntentRAG multi + mMARCO CE@50,16,random,flat_identity_lru,20261018.0,214,0.0025499998882559,0.0018691588785046,2120,Neural retrieval
+fresh_locked_test,IntentRAG multi + mMARCO CE@50,64,random,flat_identity_lru,20261014.0,214,0.0104793597511235,0.0135514018691588,2049,Neural retrieval
+fresh_locked_test,IntentRAG multi + mMARCO CE@50,64,random,flat_identity_lru,20261015.0,214,0.0100167392630701,0.0079439252336448,2060,Neural retrieval
+fresh_locked_test,IntentRAG multi + mMARCO CE@50,64,random,flat_identity_lru,20261016.0,214,0.0223175275058051,0.0163551401869158,2041,Neural retrieval
+fresh_locked_test,IntentRAG multi + mMARCO CE@50,64,random,flat_identity_lru,20261017.0,214,0.007368404585083,0.0051401869158878,2065,Neural retrieval
+fresh_locked_test,IntentRAG multi + mMARCO CE@50,64,random,flat_identity_lru,20261018.0,214,0.007390753400931,0.0070093457943925,2063,Neural retrieval
+fresh_locked_test,IntentRAG multi + mMARCO CE@50,256,random,flat_identity_lru,20261014.0,214,0.0465168253060111,0.0504672897196261,1776,Neural retrieval
+fresh_locked_test,IntentRAG multi + mMARCO CE@50,256,random,flat_identity_lru,20261015.0,214,0.0556865444484424,0.0397196261682243,1799,Neural retrieval
+fresh_locked_test,IntentRAG multi + mMARCO CE@50,256,random,flat_identity_lru,20261016.0,214,0.0434729165875146,0.0415887850467289,1796,Neural retrieval
+fresh_locked_test,IntentRAG multi + mMARCO CE@50,256,random,flat_identity_lru,20261017.0,214,0.0617855362933595,0.0467289719626168,1784,Neural retrieval
+fresh_locked_test,IntentRAG multi + mMARCO CE@50,256,random,flat_identity_lru,20261018.0,214,0.0534941256137543,0.0345794392523364,1811,Neural retrieval
+fresh_locked_test,Neural dense (multilingual MiniLM),16,random,flat_identity_lru,20261014.0,214,0.0002328040920307,0.0014018691588785,2121,Neural retrieval
+fresh_locked_test,Neural dense (multilingual MiniLM),16,random,flat_identity_lru,20261015.0,214,0.0008314431858242,0.0014018691588785,2121,Neural retrieval
+fresh_locked_test,Neural dense (multilingual MiniLM),16,random,flat_identity_lru,20261016.0,214,0.0048223704777805,0.0018691588785046,2122,Neural retrieval
+fresh_locked_test,Neural dense (multilingual MiniLM),16,random,flat_identity_lru,20261017.0,214,0.0019921378732348,0.0018691588785046,2120,Neural retrieval
+fresh_locked_test,Neural dense (multilingual MiniLM),16,random,flat_identity_lru,20261018.0,214,0.0002394556375173,0.0014018691588785,2122,Neural retrieval
+fresh_locked_test,Neural dense (multilingual MiniLM),64,random,flat_identity_lru,20261014.0,214,0.0076293226731231,0.0116822429906542,2051,Neural retrieval
+fresh_locked_test,Neural dense (multilingual MiniLM),64,random,flat_identity_lru,20261015.0,214,0.0056538136636047,0.008411214953271,2059,Neural retrieval
+fresh_locked_test,Neural dense (multilingual MiniLM),64,random,flat_identity_lru,20261016.0,214,0.0114306809187114,0.014018691588785,2048,Neural retrieval
+fresh_locked_test,Neural dense (multilingual MiniLM),64,random,flat_identity_lru,20261017.0,214,0.0117499551020679,0.0074766355140186,2060,Neural retrieval
+fresh_locked_test,Neural dense (multilingual MiniLM),64,random,flat_identity_lru,20261018.0,214,0.0059564589832447,0.0060747663551401,2065,Neural retrieval
+fresh_locked_test,Neural dense (multilingual MiniLM),256,random,flat_identity_lru,20261014.0,214,0.0456861401746695,0.0485981308411214,1780,Neural retrieval
+fresh_locked_test,Neural dense (multilingual MiniLM),256,random,flat_identity_lru,20261015.0,214,0.0324429131108613,0.0369158878504672,1807,Neural retrieval
+fresh_locked_test,Neural dense (multilingual MiniLM),256,random,flat_identity_lru,20261016.0,214,0.0322067832460872,0.0383177570093457,1802,Neural retrieval
+fresh_locked_test,Neural dense (multilingual MiniLM),256,random,flat_identity_lru,20261017.0,214,0.0549251368555483,0.0514018691588785,1774,Neural retrieval
+fresh_locked_test,Neural dense (multilingual MiniLM),256,random,flat_identity_lru,20261018.0,214,0.0539506854417623,0.0350467289719626,1810,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@30,16,random,flat_identity_lru,20261014.0,214,0.0004564703542842,0.0009345794392523,2122,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@30,16,random,flat_identity_lru,20261015.0,214,0.0030325901754925,0.0018691588785046,2120,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@30,16,random,flat_identity_lru,20261016.0,214,0.0027410818799347,0.0014018691588785,2123,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@30,16,random,flat_identity_lru,20261017.0,214,0.0015886072230784,0.0018691588785046,2122,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@30,16,random,flat_identity_lru,20261018.0,214,0.0026687697446025,0.0018691588785046,2120,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@30,64,random,flat_identity_lru,20261014.0,214,0.0088243402647528,0.0121495327102803,2052,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@30,64,random,flat_identity_lru,20261015.0,214,0.011452434433231,0.008411214953271,2058,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@30,64,random,flat_identity_lru,20261016.0,214,0.0257815360001446,0.0172897196261682,2039,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@30,64,random,flat_identity_lru,20261017.0,214,0.0081102579283477,0.0065420560747663,2062,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@30,64,random,flat_identity_lru,20261018.0,214,0.0067770029331609,0.0079439252336448,2062,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@30,256,random,flat_identity_lru,20261014.0,214,0.0574971866059847,0.0542056074766355,1768,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@30,256,random,flat_identity_lru,20261015.0,214,0.0575694987413168,0.0387850467289719,1801,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@30,256,random,flat_identity_lru,20261016.0,214,0.0522816738451526,0.0401869158878504,1798,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@30,256,random,flat_identity_lru,20261017.0,214,0.0638222386933197,0.0504672897196261,1776,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@30,256,random,flat_identity_lru,20261018.0,214,0.0594518740141822,0.0373831775700934,1805,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@50,16,random,flat_identity_lru,20261014.0,214,0.0004269069744341,0.0009345794392523,2124,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@50,16,random,flat_identity_lru,20261015.0,214,0.002884792178726,0.0018691588785046,2120,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@50,16,random,flat_identity_lru,20261016.0,214,0.0051038630854384,0.002803738317757,2119,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@50,16,random,flat_identity_lru,20261017.0,214,0.00121943229826,0.0009345794392523,2122,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@50,16,random,flat_identity_lru,20261018.0,214,0.0027136067087797,0.0023364485981308,2120,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@50,64,random,flat_identity_lru,20261014.0,214,0.0123803022585915,0.014018691588785,2048,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@50,64,random,flat_identity_lru,20261015.0,214,0.0129382400865649,0.0074766355140186,2060,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@50,64,random,flat_identity_lru,20261016.0,214,0.0240293678183996,0.0182242990654205,2037,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@50,64,random,flat_identity_lru,20261017.0,214,0.007690665742406,0.0060747663551401,2064,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@50,64,random,flat_identity_lru,20261018.0,214,0.0081344799237484,0.0102803738317757,2056,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@50,256,random,flat_identity_lru,20261014.0,214,0.052224248738828,0.0532710280373831,1771,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@50,256,random,flat_identity_lru,20261015.0,214,0.0611956354045366,0.0406542056074766,1797,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@50,256,random,flat_identity_lru,20261016.0,214,0.0476381688649557,0.0429906542056074,1793,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@50,256,random,flat_identity_lru,20261017.0,214,0.0653357876962028,0.0514018691588785,1774,Neural retrieval
+fresh_locked_test,Neural dense + mMARCO CE@50,256,random,flat_identity_lru,20261018.0,214,0.0554957932755811,0.0425233644859813,1794,Neural retrieval
+fresh_locked_test,Neural lexical+dense RRF,16,random,flat_identity_lru,20261014.0,214,0.0004432211783117,0.0009345794392523,2122,Neural retrieval
+fresh_locked_test,Neural lexical+dense RRF,16,random,flat_identity_lru,20261015.0,214,0.0030149983857994,0.0004672897196261,2123,Neural retrieval
+fresh_locked_test,Neural lexical+dense RRF,16,random,flat_identity_lru,20261016.0,214,0.0041038997991825,0.0018691588785046,2122,Neural retrieval
+fresh_locked_test,Neural lexical+dense RRF,16,random,flat_identity_lru,20261017.0,214,0.0,0.0,2124,Neural retrieval
+fresh_locked_test,Neural lexical+dense RRF,16,random,flat_identity_lru,20261018.0,214,0.0035567131592915,0.0014018691588785,2121,Neural retrieval
+fresh_locked_test,Neural lexical+dense RRF,64,random,flat_identity_lru,20261014.0,214,0.0078220330172418,0.0130841121495327,2050,Neural retrieval
+fresh_locked_test,Neural lexical+dense RRF,64,random,flat_identity_lru,20261015.0,214,0.0058521611136342,0.0051401869158878,2066,Neural retrieval
+fresh_locked_test,Neural lexical+dense RRF,64,random,flat_identity_lru,20261016.0,214,0.0122460370007605,0.0116822429906542,2052,Neural retrieval
+fresh_locked_test,Neural lexical+dense RRF,64,random,flat_identity_lru,20261017.0,214,0.0016771270512659,0.0023364485981308,2072,Neural retrieval
+fresh_locked_test,Neural lexical+dense RRF,64,random,flat_identity_lru,20261018.0,214,0.0057290441196587,0.0042056074766355,2068,Neural retrieval
+fresh_locked_test,Neural lexical+dense RRF,256,random,flat_identity_lru,20261014.0,214,0.0485463986911295,0.0490654205607476,1779,Neural retrieval
+fresh_locked_test,Neural lexical+dense RRF,256,random,flat_identity_lru,20261015.0,214,0.0506229719895159,0.0331775700934579,1813,Neural retrieval
+fresh_locked_test,Neural lexical+dense RRF,256,random,flat_identity_lru,20261016.0,214,0.0268449765530524,0.0303738317757009,1819,Neural retrieval
+fresh_locked_test,Neural lexical+dense RRF,256,random,flat_identity_lru,20261017.0,214,0.0538513731648728,0.0415887850467289,1796,Neural retrieval
+fresh_locked_test,Neural lexical+dense RRF,256,random,flat_identity_lru,20261018.0,214,0.0472222070225933,0.0294392523364485,1821,Neural retrieval

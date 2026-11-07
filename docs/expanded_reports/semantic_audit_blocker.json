@@ -1,0 +1,12 @@
+{
+  "status": "blocked_by_current_loopback_network_permission",
+  "endpoint": "http://127.0.0.1:11434",
+  "error": "Windows socket permission error 10013",
+  "valid_semantic_judgments": 0,
+  "invalid_api_attempts_preserved": 2112,
+  "actual_model_responses": 0,
+  "not_a_qa_accuracy_result": true,
+  "failed_output_directory": "results/qa_expanded_main/blind_semantic_audit_failed_network_20261014",
+  "resume_script": "scripts/judge_expanded_qa.py",
+  "required_change": "Allow local model API access before resuming. No alternative channel is used to bypass the denial."
+}

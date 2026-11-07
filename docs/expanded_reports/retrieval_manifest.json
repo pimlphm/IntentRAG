@@ -1,0 +1,21 @@
+{
+  "n_queries": 690,
+  "n_distinct_questions": 624,
+  "n_methods": 28,
+  "n_query_method_rows": 19320,
+  "seed": 20261014,
+  "k": 10,
+  "split_counts": {
+    "v21_locked_blind_test": 214,
+    "fresh_locked_test": 214,
+    "v21_calibration": 143,
+    "v21_validation": 119
+  },
+  "source_hash": "e03f1d41798bdb6817570a1cb9930e67df408598975346dcc6521986cb729542",
+  "benchmark_hash": "6b40e8a334693e32be34ce282e6c3ec13b6b8e22c5be7b8e9acd3fcb6a1eeea7",
+  "source_derived_queries": true,
+  "calibration_labels_only": true,
+  "model_sha256": "3193a8789e5877c0765a3f6150fea1cf0b2e00e9b9e579426c9ef38277b50874",
+  "real_gpu_cache_measured_by_separate_script": true,
+  "metric_warning": "Historical R@10 is binary Hit@10; true set recall is reported separately. Role matches do not validate actions."
+}

@@ -1,0 +1,3 @@
+﻿aircraft_model,role_diversity_ratio,scope_match_rate,condition_present,warning_present,authority_cue_present,provenance_valid_rate,redundancy_proxy,action_authority_evidence_availability_proxy
+Boeing 737,0.5375,1.0,1.0,1.0,1.0,1.0,0.28581927065673474,0.32954545454545453
+Cessna 172,0.4373015873015873,1.0,0.9920634920634921,0.9841269841269841,1.0,1.0,0.20394495545327643,0.5873015873015873

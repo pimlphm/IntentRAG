@@ -1,0 +1,31 @@
+{
+  "experiment_id": "multigranularity_memory_v1_1_20260816",
+  "seed": 20260816,
+  "top_k": 10,
+  "rank_pool_k": 600,
+  "entropy_candidate_k": 128,
+  "entropy_temperature": 0.05,
+  "bootstrap_samples": 5000,
+  "detail_granularities": ["facetpoint", "paragraph", "table_row"],
+  "fixed_view_weights": {
+    "detail": 0.4,
+    "page": 0.25,
+    "section": 0.25,
+    "profile": 0.1
+  },
+  "dynamic_prior_weights": {
+    "detail": 0.4,
+    "page": 0.25,
+    "section": 0.25,
+    "profile": 0.1
+  },
+  "score_mix": {
+    "word": 0.45,
+    "character": 0.55
+  },
+  "rrf_constant": 60.0,
+  "admissibility_reserved_top": 4,
+  "max_features_char": 260000,
+  "benchmark_note": "All questions are source-derived and synthetic. Appended gold cues are removed before retrieval. Aircraft model is treated as a visible scope field because it is stated in the query. Locked track, query_type, required slots, gold/accepted IDs, pages and sections are excluded from ranking and package selection and are used only after retrieval for audit.",
+  "interpretation_boundary": "The short/long distinction is a state-lifetime and document-structure hierarchy: detail/page are query-local working evidence; section/component profiles are persistent repository memory. It is not a natural maintenance-event timeline or a deployed conversational memory backend. Entropy is a retrieval-concentration proxy, not safety confidence or mutual information."
+}

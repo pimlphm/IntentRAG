@@ -1,0 +1,17 @@
+{
+  "rows": 2112,
+  "actual_calls": 1933,
+  "duplicate_aliases": 179,
+  "status_counts": {
+    "ok": 2111,
+    "http_error": 1
+  },
+  "n_question_clusters": 64,
+  "n_source_groups": 59,
+  "all_metrics_are_proxies": true,
+  "independent_semantic_judge": false,
+  "citation_repair": false,
+  "deterministic_answer_replacement": false,
+  "upstream_groundedness_used": false,
+  "prompt_eval_cached_count_boundary": "Recorded only when returned by Ollama. Missing counter is null, not zero."
+}

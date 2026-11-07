@@ -1,0 +1,148 @@
+{
+  "figure_set": "multigranularity_memory_v1_paper_figures",
+  "timestamp_utc": "2026-08-15T22:45:17.473719+00:00",
+  "script": "_pipeline_multigranularity_memory_v1\\make_paper_figures.py",
+  "rule_summary": {
+    "single_panel": true,
+    "no_in_figure_titles": true,
+    "real_csv_only": true,
+    "docx_modified": false
+  },
+  "figures": [
+    {
+      "figure_id": "fig_mgm_conceptual_mechanism",
+      "description": "Conceptual mechanism figure; not a measured result and not a KV-cache experiment.",
+      "source_rows": 1,
+      "sources": [
+        {
+          "path": "configs\\multigranularity_memory_v1\\multigranularity_memory_v1.json",
+          "sha256": "ba43fe52706244138a90d836000001541ae9b04e6221cb3fb3178d980f7f75ad",
+          "bytes": 1429
+        },
+        {
+          "path": "_pipeline_multigranularity_memory_v1\\run_multigranularity_evidence_memory.py",
+          "sha256": "fe6670c90739fb278eda83fcc7ade56225741e5d76c79e89a3dfe301828a69dc",
+          "bytes": 39196
+        }
+      ],
+      "outputs": [
+        {
+          "path": "05_figures\\multigranularity_memory_v1\\fig_mgm_conceptual_mechanism.png",
+          "sha256": "f82b2dcd01aa724798435bf6490275e3398106fa293caaafff1bcab6f42facb5",
+          "bytes": 297119
+        },
+        {
+          "path": "05_figures\\multigranularity_memory_v1\\fig_mgm_conceptual_mechanism.pdf",
+          "sha256": "3fe34bdcbe283c531940667d2bc2bf779f524de35272742fb842c15fc4a1b13f",
+          "bytes": 17422
+        }
+      ]
+    },
+    {
+      "figure_id": "fig_mgm_locked_test_method_comparison",
+      "description": "Locked-blind method comparison using real summary.csv rows. Caption note: locked labels are used post hoc only on synthetic source-derived queries.",
+      "source_rows": 5,
+      "sources": [
+        {
+          "path": "04_results\\multigranularity_memory_v1\\summary.csv",
+          "sha256": "ea7053d2b7ab060450fb4f2f1adf7b8182968a26ad2a647a8526a55e3b297dc6",
+          "bytes": 47752
+        }
+      ],
+      "outputs": [
+        {
+          "path": "05_figures\\multigranularity_memory_v1\\fig_mgm_locked_test_method_comparison.png",
+          "sha256": "15e9cae30bba3e7c394cde0bdd61a7c919dc6113a15d6d2792f9a5a8b762f99d",
+          "bytes": 190311
+        },
+        {
+          "path": "05_figures\\multigranularity_memory_v1\\fig_mgm_locked_test_method_comparison.pdf",
+          "sha256": "a9ba33801c78e0af9d6e5472324590aff01a135b5aa6f9b890c2126058aaa151",
+          "bytes": 16309
+        }
+      ]
+    },
+    {
+      "figure_id": "fig_mgm_short_long_weight_allocation",
+      "description": "Short/detail-page and long/section-profile entropy-router weight allocation.",
+      "source_rows": 214,
+      "sources": [
+        {
+          "path": "04_results\\multigranularity_memory_v1\\router_weights.csv",
+          "sha256": "bc874ed52489939ff1ead0a2d632899ba6d210391f086b2ae5570783e83c8415",
+          "bytes": 217299
+        }
+      ],
+      "outputs": [
+        {
+          "path": "05_figures\\multigranularity_memory_v1\\fig_mgm_short_long_weight_allocation.png",
+          "sha256": "467b398524fff87859645953f17b2354e00a7b073a35737c0592cef4417bde85",
+          "bytes": 108763
+        },
+        {
+          "path": "05_figures\\multigranularity_memory_v1\\fig_mgm_short_long_weight_allocation.pdf",
+          "sha256": "4f321ceadcb255aa3de255a3c43cc7e3bb461c2516388144ffb89cbcf30b5a8f",
+          "bytes": 16056
+        }
+      ]
+    },
+    {
+      "figure_id": "fig_mgm_entropy_vs_admissibility_query_delta",
+      "description": "Per-query locked-blind accepted-hit difference (admissibility assembly minus entropy-only); negative values are preserved as negative results.",
+      "source_rows": 214,
+      "sources": [
+        {
+          "path": "04_results\\multigranularity_memory_v1\\query_results.csv",
+          "sha256": "7b9a72b824183d1fe10cb2082fb8dbd5a4a7c785baa5120e75e92f4d933f3037",
+          "bytes": 2697948
+        },
+        {
+          "path": "06_tables\\multigranularity_memory_v1\\entropy_vs_admissibility_query_delta.csv",
+          "sha256": "504b1adb2e90f31e91a64e8de5495164575527261357dbcb3051659dc2cb08da",
+          "bytes": 18319
+        }
+      ],
+      "outputs": [
+        {
+          "path": "05_figures\\multigranularity_memory_v1\\fig_mgm_entropy_vs_admissibility_query_delta.png",
+          "sha256": "35d94f8af32a1944564d9cac701f767955cb7dd4bce6076a508f4f79f3c8e6c9",
+          "bytes": 150727
+        },
+        {
+          "path": "05_figures\\multigranularity_memory_v1\\fig_mgm_entropy_vs_admissibility_query_delta.pdf",
+          "sha256": "bf8170a19d5e48612a8dde108ae879daaa239aeeab34acf44edc7b05cb43ffc6",
+          "bytes": 16354
+        }
+      ]
+    },
+    {
+      "figure_id": "fig_mgm_granularity_ablation",
+      "description": "Locked-blind granularity ablation: accepted@10 means with 95% bootstrap confidence intervals for All/Boeing/Cessna.",
+      "source_rows": 1284,
+      "sources": [
+        {
+          "path": "04_results\\multigranularity_memory_v1\\query_results.csv",
+          "sha256": "7b9a72b824183d1fe10cb2082fb8dbd5a4a7c785baa5120e75e92f4d933f3037",
+          "bytes": 2697948
+        },
+        {
+          "path": "06_tables\\multigranularity_memory_v1\\granularity_ablation_accepted_ci.csv",
+          "sha256": "29d7489708144e6f44713038a461219170112ac2552bfa8088d99d25f836707a",
+          "bytes": 1746
+        }
+      ],
+      "outputs": [
+        {
+          "path": "05_figures\\multigranularity_memory_v1\\fig_mgm_granularity_ablation.png",
+          "sha256": "dd528e4a250d8dfcdbb1b71ec8433e33304f2e40246e4b5c04b301cb3eda6f36",
+          "bytes": 291401
+        },
+        {
+          "path": "05_figures\\multigranularity_memory_v1\\fig_mgm_granularity_ablation.pdf",
+          "sha256": "19805a7e5bfbf35857a11ec06346f649767168ae1c251d0d7918ca6ddda1cc8f",
+          "bytes": 19748
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "experiment_id": "multigranularity_memory_v1_1_20260816",
+  "timestamp_utc": "2026-08-15T21:43:34.100385+00:00",
+  "runtime_seconds": 388.8853757000179,
+  "config": {
+    "experiment_id": "multigranularity_memory_v1_1_20260816",
+    "seed": 20260816,
+    "top_k": 10,
+    "rank_pool_k": 600,
+    "entropy_candidate_k": 128,
+    "entropy_temperature": 0.05,
+    "bootstrap_samples": 5000,
+    "detail_granularities": [
+      "facetpoint",
+      "paragraph",
+      "table_row"
+    ],
+    "fixed_view_weights": {
+      "detail": 0.4,
+      "page": 0.25,
+      "section": 0.25,
+      "profile": 0.1
+    },
+    "dynamic_prior_weights": {
+      "detail": 0.4,
+      "page": 0.25,
+      "section": 0.25,
+      "profile": 0.1
+    },
+    "score_mix": {
+      "word": 0.45,
+      "character": 0.55
+    },
+    "rrf_constant": 60.0,
+    "admissibility_reserved_top": 4,
+    "max_features_char": 260000,
+    "benchmark_note": "All questions are source-derived and synthetic. Appended gold cues are removed before retrieval. Aircraft model is treated as a visible scope field because it is stated in the query. Locked track, query_type, required slots, gold/accepted IDs, pages and sections are excluded from ranking and package selection and are used only after retrieval for audit.",
+    "interpretation_boundary": "The short/long distinction is a state-lifetime and document-structure hierarchy: detail/page are query-local working evidence; section/component profiles are persistent repository memory. It is not a natural maintenance-event timeline or a deployed conversational memory backend. Entropy is a retrieval-concentration proxy, not safety confidence or mutual information."
+  },
+  "inputs": {
+    "configs\\multigranularity_memory_v1\\multigranularity_memory_v1.json": {
+      "sha256": "ba43fe52706244138a90d836000001541ae9b04e6221cb3fb3178d980f7f75ad",
+      "bytes": 1429
+    },
+    "01_processed_corpus\\v5\\evidence_objects.parquet": {
+      "sha256": "e03f1d41798bdb6817570a1cb9930e67df408598975346dcc6521986cb729542",
+      "bytes": 7221381
+    },
+    "01_processed_corpus\\v5\\pages.parquet": {
+      "sha256": "14753789e08d63a3b35d2eb919d9d9574c9c9a5c1681e4436f551212f5835459",
+      "bytes": 1185955
+    },
+    "01_processed_corpus\\v5\\sections.parquet": {
+      "sha256": "886fb2523d3ce42a11e1a0c4fa3390af440729a12ef21e344a84abf13d9cbd3f",
+      "bytes": 1215567
+    },
+    "04_results\\v21\\v21_gold_sets.csv": {
+      "sha256": "7095c0341ff21aa077ab392b418a2d848ddc77eb0b09743f823465a7753a1939",
+      "bytes": 200110
+    },
+    "04_results\\v21\\qa_warehouse_v21_calibration.csv": {
+      "sha256": "3721beb0bffa6e4f6c0f22d2cf1a947e8648d96a1af77647745d1760c3171c3a",
+      "bytes": 210440
+    },
+    "04_results\\v21\\qa_warehouse_v21_validation.csv": {
+      "sha256": "a160071a0bcafeb5faa360c5bc6d5fce42ad5178a3160a20e9886c3f41259489",
+      "bytes": 161596
+    },
+    "04_results\\v21\\qa_warehouse_v21_locked_blind_test.csv": {
+      "sha256": "e9c2d7e415f2828cea4876fd66d202663052681c545eccf271c4ad78f6b0b5f8",
+      "bytes": 308539
+    }
+  },
+  "outputs": [
+    "04_results\\multigranularity_memory_v1\\query_results.csv",
+    "04_results\\multigranularity_memory_v1\\router_weights.csv",
+    "04_results\\multigranularity_memory_v1\\summary.csv",
+    "04_results\\multigranularity_memory_v1\\paired_bootstrap.csv",
+    "04_results\\multigranularity_memory_v1\\claim_result_map.csv",
+    "04_results\\multigranularity_memory_v1\\retrieval_visibility_audit.csv"
+  ],
+  "scientific_boundary": "The short/long distinction is a state-lifetime and document-structure hierarchy: detail/page are query-local working evidence; section/component profiles are persistent repository memory. It is not a natural maintenance-event timeline or a deployed conversational memory backend. Entropy is a retrieval-concentration proxy, not safety confidence or mutual information."
+}

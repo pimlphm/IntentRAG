@@ -1,0 +1,29 @@
+﻿method,display_name,implementation_kind,official_reproduction,note
+BM25/word,Word TF-IDF (legacy BM25/word),controlled_project_baseline,False,Original V21 word 1-2 gram TF-IDF cosine; does not implement BM25.
+TFIDF-char,TFIDF-char,controlled_project_baseline,False,Original project controlled implementation; not official reproduction.
+SVD semantic surrogate,SVD semantic surrogate,controlled_project_baseline,False,Original project controlled implementation; not official reproduction.
+Hybrid lexical,Hybrid lexical,controlled_project_baseline,False,Original project controlled implementation; not official reproduction.
+Parent-section retrieval,Parent-section retrieval,controlled_project_baseline,False,Original project controlled implementation; not official reproduction.
+Component-profile retrieval,Component-profile retrieval,controlled_project_baseline,False,Original project controlled implementation; not official reproduction.
+Controlled GraphRAG,Controlled GraphRAG,controlled_project_baseline,False,Original project controlled implementation; not official reproduction.
+Causal-graph informed RAG,Causal-graph informed RAG,controlled_project_baseline,False,Original project controlled implementation; not official reproduction.
+Component-graph informed RAG,Component-graph informed RAG,controlled_project_baseline,False,Original project controlled implementation; not official reproduction.
+Agentic RAG,Agentic RAG,controlled_project_baseline,False,Original project controlled implementation; not official reproduction.
+Evidence-flow baseline,Evidence-flow baseline,controlled_project_baseline,False,Original project controlled implementation; not official reproduction.
+GaRAGe-style relevance RAG,GaRAGe-style relevance RAG,controlled_project_baseline,False,Original project controlled implementation; not official reproduction.
+GaRAGe-style attribution RAG,GaRAGe-style attribution RAG,controlled_project_baseline,False,Original project controlled implementation; not official reproduction.
+GaRAGe-style deflective RAG,GaRAGe-style deflective RAG,controlled_project_baseline,False,Original project controlled implementation; not official reproduction.
+FD-GRAG-RC-V21-final,IntentRAG V21 visible-router,controlled_project_baseline,False,"Original score/union functions; quotas inferred from visible cue marker, not locked track."
+True BM25,True BM25,original_multigranularity_or_calibration_control,False,
+IntentRAG balanced fair,IntentRAG balanced fair,original_multigranularity_or_calibration_control,False,
+Detail-only,Detail-only,original_multigranularity_or_calibration_control,False,
+Page-resolved,Page-resolved,original_multigranularity_or_calibration_control,False,
+Section-resolved,Section-resolved,original_multigranularity_or_calibration_control,False,
+Profile-resolved,Profile-resolved,original_multigranularity_or_calibration_control,False,
+Short-term fixed,Short-term fixed,original_multigranularity_or_calibration_control,False,
+Long-term fixed,Long-term fixed,original_multigranularity_or_calibration_control,False,
+Multi-granularity fixed,Multi-granularity fixed,original_multigranularity_or_calibration_control,False,
+Multi-granularity entropy,Multi-granularity entropy,original_multigranularity_or_calibration_control,False,
+Multi-granularity entropy+constraints,Multi-granularity entropy+constraints,original_multigranularity_or_calibration_control,False,
+IntentRAG calibrated multi-granularity,IntentRAG calibrated multi-granularity,original_multigranularity_or_calibration_control,False,
+Calibrated lexical control,Calibrated three-view control,original_multigranularity_or_calibration_control,False,

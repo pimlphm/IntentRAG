@@ -1,0 +1,130 @@
+{
+  "status": "pass",
+  "file_count": 560,
+  "total_bytes": 84135517,
+  "secret_findings": [],
+  "absolute_path_hits": [],
+  "largest_files": [
+    {
+      "path": "paper/IntentRAG_working_manuscript_20261015.docx",
+      "bytes": 19268484
+    },
+    {
+      "path": "figures/figures_qa_kv/fresh_answer_schema_compliance.png",
+      "bytes": 1373885
+    },
+    {
+      "path": "figures/figures_qa_kv/legacy_answer_quote_support.png",
+      "bytes": 1367806
+    },
+    {
+      "path": "figures/figures_qa_kv/fresh_answer_quote_support.png",
+      "bytes": 1367668
+    },
+    {
+      "path": "figures/figures_qa_kv/legacy_answer_schema_compliance.png",
+      "bytes": 1359862
+    },
+    {
+      "path": "figures/figures/legacy_test_accepted_hit_forest.png",
+      "bytes": 1353773
+    },
+    {
+      "path": "figures/figures/fresh_test_accepted_hit_forest.png",
+      "bytes": 1349061
+    },
+    {
+      "path": "figures/figures/fresh_required_quote_support_forest.png",
+      "bytes": 1340715
+    },
+    {
+      "path": "figures/figures/fresh_test_exact_hit_forest.png",
+      "bytes": 1322978
+    },
+    {
+      "path": "figures/figures/legacy_test_exact_hit_forest.png",
+      "bytes": 1314766
+    },
+    {
+      "path": "figures/figures/reuse_capacity_v21_locked_blind_test_structural_controls.png",
+      "bytes": 1205155
+    },
+    {
+      "path": "figures/figures/legacy_test_returned_granularity.png",
+      "bytes": 1138894
+    },
+    {
+      "path": "figures/figures/fresh_test_returned_granularity.png",
+      "bytes": 1138287
+    },
+    {
+      "path": "figures/figures/legacy_test_accepted_support_granularity.png",
+      "bytes": 1138254
+    },
+    {
+      "path": "figures/figures_qa_kv/fresh_answer_schema_compliance_word.png",
+      "bytes": 1137830
+    },
+    {
+      "path": "figures/figures/fresh_test_accepted_support_granularity.png",
+      "bytes": 1137328
+    },
+    {
+      "path": "figures/figures_qa_kv/legacy_answer_quote_support_word.png",
+      "bytes": 1132948
+    },
+    {
+      "path": "figures/figures_qa_kv/fresh_answer_quote_support_word.png",
+      "bytes": 1132941
+    },
+    {
+      "path": "figures/figures_qa_kv/legacy_answer_schema_compliance_word.png",
+      "bytes": 1126449
+    },
+    {
+      "path": "figures/figures/legacy_test_accepted_hit_forest_word.png",
+      "bytes": 1118313
+    },
+    {
+      "path": "figures/figures/fresh_test_accepted_hit_forest_word.png",
+      "bytes": 1114162
+    },
+    {
+      "path": "figures/figures/fresh_required_quote_support_forest_word.png",
+      "bytes": 1105448
+    },
+    {
+      "path": "figures/figures/fresh_test_exact_hit_forest_word.png",
+      "bytes": 1088934
+    },
+    {
+      "path": "figures/figures/legacy_test_returned_granularity_word.png",
+      "bytes": 1086457
+    },
+    {
+      "path": "figures/figures/fresh_test_returned_granularity_word.png",
+      "bytes": 1085712
+    },
+    {
+      "path": "figures/figures/legacy_test_accepted_support_granularity_word.png",
+      "bytes": 1083660
+    },
+    {
+      "path": "figures/figures/fresh_test_accepted_support_granularity_word.png",
+      "bytes": 1081893
+    },
+    {
+      "path": "figures/figures/legacy_test_exact_hit_forest_word.png",
+      "bytes": 1080014
+    },
+    {
+      "path": "figures/figures/reuse_capacity_fresh_locked_test_structural_controls.png",
+      "bytes": 807765
+    },
+    {
+      "path": "figures/figures/reuse_capacity_v21_locked_blind_test_memory_granularity.png",
+      "bytes": 786687
+    }
+  ],
+  "max_file_under_100_mib": true
+}

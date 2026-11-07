@@ -1,0 +1,53 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+runtime_*/
+site-packages/
+.ipynb_checkpoints/
+
+# Local models and vector stores
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.onnx
+*.bin
+embeddings/
+vector_store/
+model_cache/
+checkpoints/
+
+# Restricted or text-bearing data
+00_raw_documents/
+original_manuals/
+private_data/
+raw_data/
+restricted_data/
+raw_prompts/
+raw_responses/
+
+# Runtime outputs and secrets
+cache/
+tmp/
+temp/
+logs/
+*.log
+.env
+.env.*
+secrets/
+credentials/
+*.pem
+*.key
+local_config.yaml
+runtime_local.json
+
+# Office and OS files
+~$*
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,38 @@
+[
+  {
+    "case": "Boeing_737",
+    "component_rows": 9,
+    "query_failure_rows": 12,
+    "top_rpn": 90,
+    "critical_or_high_components": 0,
+    "tables": [
+      "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260517_FMECA\\Cases\\Boeing_737\\7 测试\\fmeca_analysis_tables\\Boeing_737_fmeca_component_table.csv",
+      "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260517_FMECA\\Cases\\Boeing_737\\7 测试\\fmeca_analysis_tables\\Boeing_737_fmeca_query_failure_mode_table.csv",
+      "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260517_FMECA\\Cases\\Boeing_737\\7 测试\\fmeca_analysis_tables\\Boeing_737_fmeca_method_detection_control.csv"
+    ],
+    "figures": [
+      "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260517_FMECA\\Cases\\Boeing_737\\8 最新图集\\07_fmeca_analysis\\Boeing_737_fmeca_component_criticality.png",
+      "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260517_FMECA\\Cases\\Boeing_737\\8 最新图集\\07_fmeca_analysis\\Boeing_737_fmeca_query_failure_mode_controls.png",
+      "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260517_FMECA\\Cases\\Boeing_737\\8 最新图集\\07_fmeca_analysis\\Boeing_737_fmeca_risk_matrix.png",
+      "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260517_FMECA\\Cases\\Boeing_737\\8 最新图集\\07_fmeca_analysis\\Boeing_737_fmeca_role_control_heatmap.png"
+    ]
+  },
+  {
+    "case": "Cessna_172",
+    "component_rows": 10,
+    "query_failure_rows": 12,
+    "top_rpn": 100,
+    "critical_or_high_components": 0,
+    "tables": [
+      "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260517_FMECA\\Cases\\Cessna_172\\7 测试\\fmeca_analysis_tables\\Cessna_172_fmeca_component_table.csv",
+      "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260517_FMECA\\Cases\\Cessna_172\\7 测试\\fmeca_analysis_tables\\Cessna_172_fmeca_query_failure_mode_table.csv",
+      "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260517_FMECA\\Cases\\Cessna_172\\7 测试\\fmeca_analysis_tables\\Cessna_172_fmeca_method_detection_control.csv"
+    ],
+    "figures": [
+      "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260517_FMECA\\Cases\\Cessna_172\\8 最新图集\\07_fmeca_analysis\\Cessna_172_fmeca_component_criticality.png",
+      "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260517_FMECA\\Cases\\Cessna_172\\8 最新图集\\07_fmeca_analysis\\Cessna_172_fmeca_query_failure_mode_controls.png",
+      "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260517_FMECA\\Cases\\Cessna_172\\8 最新图集\\07_fmeca_analysis\\Cessna_172_fmeca_risk_matrix.png",
+      "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260517_FMECA\\Cases\\Cessna_172\\8 最新图集\\07_fmeca_analysis\\Cessna_172_fmeca_role_control_heatmap.png"
+    ]
+  }
+]

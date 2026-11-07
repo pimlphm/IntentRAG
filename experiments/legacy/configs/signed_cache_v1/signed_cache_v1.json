@@ -1,0 +1,11 @@
+{
+  "experiment_id": "signed_cache_v1_20260812",
+  "seed": 20260812,
+  "inputs": {
+    "state_reuse_query": "04_results/state_reuse_v1/state_reuse_query.csv",
+    "natural_factor_proxies": "04_results/aesr_v2/natural_factor_proxies.csv",
+    "cache_family_prefix_metrics": "04_results/cache_reuse_v1/family_prefix_metrics.csv",
+    "prompt_family_manifest": "04_results/cache_reuse_v1/prompt_family_manifest.csv",
+    "model_scale_summary": "06_tables/model_scale_state_v1/scale_state_variant_summary.csv"
+  }
+}

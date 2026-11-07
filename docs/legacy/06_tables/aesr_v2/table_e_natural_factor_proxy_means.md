@@ -1,0 +1,4 @@
+| aircraft_model   |   role_diversity_ratio |   scope_match_rate |   condition_present |   warning_present |   authority_cue_present |   provenance_valid_rate |   redundancy_proxy |   action_authority_evidence_availability_proxy |
+|:-----------------|-----------------------:|-------------------:|--------------------:|------------------:|------------------------:|------------------------:|-------------------:|-----------------------------------------------:|
+| Boeing 737       |               0.5375   |                  1 |            1        |          1        |                       1 |                       1 |           0.285819 |                                       0.329545 |
+| Cessna 172       |               0.437302 |                  1 |            0.992063 |          0.984127 |                       1 |                       1 |           0.203945 |                                       0.587302 |

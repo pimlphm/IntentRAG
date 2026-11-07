@@ -1,0 +1,60 @@
+{
+  "date_local": "2026-10-14",
+  "global_python_or_torch_modified": false,
+  "cuda_pytorch_attempt": {
+    "status": "failed_hash_check_not_bypassed",
+    "requested_torch": "2.10.0+cu128",
+    "requested_torchvision": "0.25.0+cu128",
+    "wheel_expected_bytes": 2867372330,
+    "wheel_expected_sha256": "3523fda6e2cfab2b04ae09b1424681358e508bb3faa11ceb67004113d5e7acad",
+    "observed_failure": "Both index/R2 attempts and the official direct-domain attempt ended with truncated wheel bodies and failed SHA256 validation; no CUDA package was installed.",
+    "isolated_environment": "runtime_cuda",
+    "official_source": "https://download.pytorch.org/whl/cu128/"
+  },
+  "validated_inference_runtime": {
+    "isolated_environment": "runtime_directml",
+    "system_site_packages_inherited_read_only": true,
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "provider": "DmlExecutionProvider",
+    "precision": "FP32",
+    "onnx_opset": 17,
+    "attention_backend_for_export": "eager",
+    "source_weights_downloaded": false,
+    "torch": "2.12.1+cpu",
+    "torchvision": "0.27.1",
+    "transformers": "5.13.0",
+    "onnx": "1.17.0",
+    "onnxruntime_directml": "1.23.0",
+    "numpy": "2.0.2",
+    "pandas": "3.0.3",
+    "scikit_learn": "1.8.0",
+    "tokenizers": "0.22.2",
+    "safetensors": "0.8.0",
+    "validation_report": "models/neural_onnx_fp32/directml_validation.json",
+    "provider_note": "DirectML model nodes execute on the selected NVIDIA adapter; shape/index and other auxiliary nodes execute on CPU. Actual node counts are retained in profiling, not described as 100 percent GPU execution.",
+    "official_support": "https://onnxruntime.ai/docs/execution-providers/DirectML-ExecutionProvider.html"
+  },
+  "validation_correction": {
+    "initial_problem": "The outer Torch wrapper defaulted to training=True. ONNX export restored that state recursively and re-enabled dropout in the reference model used for numerical validation.",
+    "correction": "Set outer wrappers and references to eval() explicitly. Validate original 2D-mask model against the explicit 4D-mask export, then ONNX-CPU and DirectML against the same eval reference; test batch sizes 1, 2, 3, mixed languages and fully occupied token windows.",
+    "source_2d_vs_wrapper4d_max_error": 0.0,
+    "largest_reported_directml_ce_error": 0.000003039836883544922,
+    "dense_and_ce_smoke_ranks_match": true
+  },
+  "preserved_cpu_checkpoint": {
+    "completed_unique_texts": 4096,
+    "total_unique_texts": 27583,
+    "cache_key": "c6e9967651d744625f39",
+    "location": "models/neural_corpus_cache",
+    "reused_in_directml_result": false
+  },
+  "formal_result_policy": {
+    "file": "results/neural_retrieval_runs.jsonl",
+    "required_questions": 690,
+    "methods_per_question": 5,
+    "required_rows": 3450,
+    "declare_complete_only_after_all_rows": true,
+    "qrels_only_posthoc": true,
+    "cpu_smoke_and_gpu_timing_records_separate": true
+  }
+}

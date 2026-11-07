@@ -1,0 +1,47 @@
+{
+  "status": "source_pdf_and_manual_visual_qa_pass",
+  "qa_report": "../reports/data_figure_visual_qa_zh.md",
+  "backend": "Python",
+  "figures": [
+    {
+      "figure": "fresh_quality_reuse_4096_source_tokens",
+      "claim": "Support and reusable token mass remain distinct under equal source-body token capacity.",
+      "caption_en": "Each point is one of all 33 executed methods on the fresh source-derived test queries. The vertical axis is accepted evidence Hit@10 averaged over normalized question-text clusters; the horizontal axis is mean token-mass reuse across the same five random past-only LRU request orders. All methods use a 4,096-token full-source-body capacity; items larger than the capacity are not cached. Coincident methods remain separately listed in Source Data. Identity keys and management overhead are excluded. This is not RAM fairness, actual GPU KV reuse, authorization validity or downstream QA accuracy.",
+      "source_data": "source_data/fresh_quality_reuse_4096_source_tokens.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        7.2
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "fresh_reuse_capacity_source_tokens",
+      "claim": "Finite-capacity reuse depends on full source-body storage cost as well as granularity.",
+      "caption_en": "The declared local, coarse and multi-granularity controls use identical hard capacities of 1,024, 4,096 and 16,384 full-source-body tokenizer tokens. Points are mean workload reuse fractions; bars span observed minimum to maximum over the same five random orders, not population confidence intervals. Every query looks up only past cached exact identities before updating. Oversize items are excluded from cache but retained in the frozen retrieval output. The displayed mechanism subset complements the all-33-method scatter and complete result tables. Keys, management and index overhead are not counted; no GPU KV-byte or prefill result is claimed.",
+      "source_data": "source_data/fresh_reuse_capacity_source_tokens.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        6.5
+      ],
+      "title_in_image": false
+    }
+  ],
+  "n_methods_in_all_method_scatter": 33,
+  "split": "fresh_locked_test",
+  "inputs": [
+    {
+      "path": "C:\\Users\\weiku\\Documents\\Codex\\2026-08-11\\can\\expanded_evaluation_20261014\\results\\memory_replay_token_budget\\replay_order_summary.csv",
+      "sha256": "8ee5e1472a8ada29b7575a80a910bb71b8c75561f02e505f1ca0859cb77a3a35"
+    },
+    {
+      "path": "C:\\Users\\weiku\\Documents\\Codex\\2026-08-11\\can\\expanded_evaluation_20261014\\figures\\source_data\\all_cluster_bootstrap_summary.csv",
+      "sha256": "74e607a71c54ba62643a9a16e3143552541731aa90b1f5daae3f7e8e6a35f516"
+    }
+  ],
+  "all_no_image_titles": true,
+  "all_single_axes": true,
+  "journal_contract": "Provisional standalone empirical scientific plots; no exact journal compliance claimed",
+  "budget_boundary": "Same full-source-body tokenizer-token cap, not total RAM or GPU KV bytes"
+}

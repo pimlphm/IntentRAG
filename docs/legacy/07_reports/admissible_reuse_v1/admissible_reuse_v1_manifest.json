@@ -1,0 +1,61 @@
+{
+  "experiment_id": "admissible_reuse_v1_20260812",
+  "created_by": "run_admissible_reuse_frontier.py",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 20260812,
+  "input_files": [
+    {
+      "name": "state_reuse",
+      "path": "04_results\\state_reuse_v1\\state_reuse_query.csv",
+      "sha256": "be521d93b73e260d36b7a38a7c64e445f560ae86f006228f4cdb93c0b6010fda"
+    },
+    {
+      "name": "natural_factors",
+      "path": "04_results\\aesr_v2\\natural_factor_proxies.csv",
+      "sha256": "377f40f760cdd637625943a668b02db5ef7e9debac0773337ca3d29bfb1907ec"
+    },
+    {
+      "name": "cache_family",
+      "path": "04_results\\cache_reuse_v1\\family_prefix_metrics.csv",
+      "sha256": "b04a5c0fbe43ba46c612fa563fc548b7b393291df2d22cdacadceee6a809a49a"
+    },
+    {
+      "name": "cache_variant_summary",
+      "path": "06_tables\\cache_reuse_v1\\variant_summary.csv",
+      "sha256": "55ce2d11f2a890860ff51b5dfa46e50e71406696e164cd400fb767a97986e61b"
+    },
+    {
+      "name": "model_scale_summary",
+      "path": "06_tables\\model_scale_state_v1\\scale_state_variant_summary.csv",
+      "sha256": "faa8cdf0bf2896485b338979300a929c7843d78896e77f1bb7d03a26b8cfdf5d"
+    },
+    {
+      "name": "model_scale_responses",
+      "path": "04_results\\model_scale_state_v1\\scale_state_responses.csv",
+      "sha256": "fcf00b4e9cfd55a7d0adda30e118ed0c543511cbda548c26760c7016fb78e2da"
+    },
+    {
+      "name": "aesr_interventions",
+      "path": "04_results\\aesr_v2\\intervention_response.csv",
+      "sha256": "d5745a5aac49bff478fbcd2fa2526b48b0e7126f536744d23ec1fd54e577a0de"
+    }
+  ],
+  "output_files": [
+    "04_results/admissible_reuse_v1/admissible_reuse_frontier_summary.csv",
+    "04_results/admissible_reuse_v1/admissible_reuse_query_frontier.csv",
+    "04_results/admissible_reuse_v1/claim_result_map.csv",
+    "06_tables/admissible_reuse_v1/corpus_reuse_explanation.csv",
+    "06_tables/admissible_reuse_v1/cache_family_aircraft_summary.csv",
+    "06_tables/admissible_reuse_v1/model_scale_state_reuse_matrix.csv",
+    "06_tables/admissible_reuse_v1/synthetic_intervention_proxy_response_summary.csv",
+    "05_figures/admissible_reuse_v1/figure_a_admissible_reuse_frontier.png",
+    "05_figures/admissible_reuse_v1/figure_b_corpus_reuse_explanation.png",
+    "05_figures/admissible_reuse_v1/figure_c_scale_state_reuse_matrix.png",
+    "05_figures/admissible_reuse_v1/figure_d_cache_vs_admissible_reuse.png",
+    "05_figures/admissible_reuse_v1/figure_e_synthetic_intervention_response.png",
+    "05_figures/admissible_reuse_v1/figure_f_paradigm_reuse_comparison.png",
+    "07_reports/admissible_reuse_v1/admissible_reuse_frontier_report.md"
+  ],
+  "claim_boundary": "This run computes observable reuse and admissibility-proxy diagnostics from existing project artifacts. It does not estimate mutual information, inspect transformer KV tensors, validate expert action authorization, or prove backend-agnostic state inference."
+}

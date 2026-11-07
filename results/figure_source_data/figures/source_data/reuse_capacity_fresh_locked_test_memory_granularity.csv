@@ -1,0 +1,136 @@
+﻿split,method,capacity,order,policy,seed,n_queries,token_weighted_reused_fraction,module_hit_fraction,module_evictions,family
+fresh_locked_test,IntentRAG calibrated multi-granularity,16,random,flat_identity_lru,20261014.0,214,0.0033020959136563,0.0018691588785046,2121,Memory/granularity
+fresh_locked_test,IntentRAG calibrated multi-granularity,16,random,flat_identity_lru,20261015.0,214,0.0001452310702765,0.0004672897196261,2123,Memory/granularity
+fresh_locked_test,IntentRAG calibrated multi-granularity,16,random,flat_identity_lru,20261016.0,214,0.0065583293840673,0.0060747663551401,2113,Memory/granularity
+fresh_locked_test,IntentRAG calibrated multi-granularity,16,random,flat_identity_lru,20261017.0,214,0.0002904621405531,0.0009345794392523,2122,Memory/granularity
+fresh_locked_test,IntentRAG calibrated multi-granularity,16,random,flat_identity_lru,20261018.0,214,0.0,0.0,2124,Memory/granularity
+fresh_locked_test,IntentRAG calibrated multi-granularity,64,random,flat_identity_lru,20261014.0,214,0.0084234020760399,0.0042056074766355,2067,Memory/granularity
+fresh_locked_test,IntentRAG calibrated multi-granularity,64,random,flat_identity_lru,20261015.0,214,0.0004586244324522,0.0014018691588785,2075,Memory/granularity
+fresh_locked_test,IntentRAG calibrated multi-granularity,64,random,flat_identity_lru,20261016.0,214,0.0258893492119303,0.0219626168224299,2030,Memory/granularity
+fresh_locked_test,IntentRAG calibrated multi-granularity,64,random,flat_identity_lru,20261017.0,214,0.0053123996759054,0.0051401869158878,2065,Memory/granularity
+fresh_locked_test,IntentRAG calibrated multi-granularity,64,random,flat_identity_lru,20261018.0,214,0.003852445232599,0.0042056074766355,2068,Memory/granularity
+fresh_locked_test,IntentRAG calibrated multi-granularity,256,random,flat_identity_lru,20261014.0,214,0.0332196963906257,0.0238317757009345,1835,Memory/granularity
+fresh_locked_test,IntentRAG calibrated multi-granularity,256,random,flat_identity_lru,20261015.0,214,0.038119334077324,0.0285046728971962,1824,Memory/granularity
+fresh_locked_test,IntentRAG calibrated multi-granularity,256,random,flat_identity_lru,20261016.0,214,0.0425450598504884,0.0364485981308411,1806,Memory/granularity
+fresh_locked_test,IntentRAG calibrated multi-granularity,256,random,flat_identity_lru,20261017.0,214,0.0355510372555913,0.0261682242990654,1828,Memory/granularity
+fresh_locked_test,IntentRAG calibrated multi-granularity,256,random,flat_identity_lru,20261018.0,214,0.0329292342500726,0.0233644859813084,1836,Memory/granularity
+fresh_locked_test,Long-term fixed,16,random,flat_identity_lru,20261014.0,214,0.0,0.0,2124,Memory/granularity
+fresh_locked_test,Long-term fixed,16,random,flat_identity_lru,20261015.0,214,0.0001940632180339,0.0009345794392523,2122,Memory/granularity
+fresh_locked_test,Long-term fixed,16,random,flat_identity_lru,20261016.0,214,0.0028022728684096,0.0018691588785046,2120,Memory/granularity
+fresh_locked_test,Long-term fixed,16,random,flat_identity_lru,20261017.0,214,0.0,0.0,2124,Memory/granularity
+fresh_locked_test,Long-term fixed,16,random,flat_identity_lru,20261018.0,214,0.0,0.0,2124,Memory/granularity
+fresh_locked_test,Long-term fixed,64,random,flat_identity_lru,20261014.0,214,0.0085154940073278,0.005607476635514,2064,Memory/granularity
+fresh_locked_test,Long-term fixed,64,random,flat_identity_lru,20261015.0,214,0.0044479289573371,0.002803738317757,2073,Memory/granularity
+fresh_locked_test,Long-term fixed,64,random,flat_identity_lru,20261016.0,214,0.0282556045457368,0.0182242990654205,2037,Memory/granularity
+fresh_locked_test,Long-term fixed,64,random,flat_identity_lru,20261017.0,214,0.0076460907905359,0.0074766355140186,2060,Memory/granularity
+fresh_locked_test,Long-term fixed,64,random,flat_identity_lru,20261018.0,214,0.0053328572315717,0.0032710280373831,2069,Memory/granularity
+fresh_locked_test,Long-term fixed,256,random,flat_identity_lru,20261014.0,214,0.0282633670744581,0.022429906542056,1836,Memory/granularity
+fresh_locked_test,Long-term fixed,256,random,flat_identity_lru,20261015.0,214,0.05122492703223,0.0341121495327102,1811,Memory/granularity
+fresh_locked_test,Long-term fixed,256,random,flat_identity_lru,20261016.0,214,0.0461249456622989,0.0322429906542056,1816,Memory/granularity
+fresh_locked_test,Long-term fixed,256,random,flat_identity_lru,20261017.0,214,0.0374619636092653,0.0266355140186915,1827,Memory/granularity
+fresh_locked_test,Long-term fixed,256,random,flat_identity_lru,20261018.0,214,0.032835496491337,0.0242990654205607,1836,Memory/granularity
+fresh_locked_test,Multi-granularity entropy,16,random,flat_identity_lru,20261014.0,214,0.0010046388694104,0.0009345794392523,2123,Memory/granularity
+fresh_locked_test,Multi-granularity entropy,16,random,flat_identity_lru,20261015.0,214,0.0032027078051674,0.0023364485981308,2119,Memory/granularity
+fresh_locked_test,Multi-granularity entropy,16,random,flat_identity_lru,20261016.0,214,0.0056435082798424,0.0042056074766355,2116,Memory/granularity
+fresh_locked_test,Multi-granularity entropy,16,random,flat_identity_lru,20261017.0,214,0.0,0.0,2124,Memory/granularity
+fresh_locked_test,Multi-granularity entropy,16,random,flat_identity_lru,20261018.0,214,0.0001483359404498,0.0004672897196261,2124,Memory/granularity
+fresh_locked_test,Multi-granularity entropy,64,random,flat_identity_lru,20261014.0,214,0.0151235233831382,0.014018691588785,2052,Memory/granularity
+fresh_locked_test,Multi-granularity entropy,64,random,flat_identity_lru,20261015.0,214,0.0073426290522681,0.0074766355140186,2060,Memory/granularity
+fresh_locked_test,Multi-granularity entropy,64,random,flat_identity_lru,20261016.0,214,0.0217784130751388,0.0177570093457943,2039,Memory/granularity
+fresh_locked_test,Multi-granularity entropy,64,random,flat_identity_lru,20261017.0,214,0.0035330923998058,0.002803738317757,2070,Memory/granularity
+fresh_locked_test,Multi-granularity entropy,64,random,flat_identity_lru,20261018.0,214,0.0012675980365715,0.0023364485981308,2071,Memory/granularity
+fresh_locked_test,Multi-granularity entropy,256,random,flat_identity_lru,20261014.0,214,0.0457548950860348,0.0411214953271028,1799,Memory/granularity
+fresh_locked_test,Multi-granularity entropy,256,random,flat_identity_lru,20261015.0,214,0.0467797615836884,0.0406542056074766,1797,Memory/granularity
+fresh_locked_test,Multi-granularity entropy,256,random,flat_identity_lru,20261016.0,214,0.0485665354118345,0.0448598130841121,1788,Memory/granularity
+fresh_locked_test,Multi-granularity entropy,256,random,flat_identity_lru,20261017.0,214,0.0543920923458654,0.0453271028037383,1787,Memory/granularity
+fresh_locked_test,Multi-granularity entropy,256,random,flat_identity_lru,20261018.0,214,0.0324316306165381,0.0313084112149532,1820,Memory/granularity
+fresh_locked_test,Multi-granularity entropy+constraints,16,random,flat_identity_lru,20261014.0,214,0.0021542214954968,0.0018691588785046,2121,Memory/granularity
+fresh_locked_test,Multi-granularity entropy+constraints,16,random,flat_identity_lru,20261015.0,214,0.000324430948117,0.0004672897196261,2123,Memory/granularity
+fresh_locked_test,Multi-granularity entropy+constraints,16,random,flat_identity_lru,20261016.0,214,0.0043279088478808,0.0032710280373831,2121,Memory/granularity
+fresh_locked_test,Multi-granularity entropy+constraints,16,random,flat_identity_lru,20261017.0,214,0.0012523034597316,0.0009345794392523,2122,Memory/granularity
+fresh_locked_test,Multi-granularity entropy+constraints,16,random,flat_identity_lru,20261018.0,214,5.1908951698720446e-05,0.0004672897196261,2124,Memory/granularity
+fresh_locked_test,Multi-granularity entropy+constraints,64,random,flat_identity_lru,20261014.0,214,0.0149757325650808,0.0149532710280373,2049,Memory/granularity
+fresh_locked_test,Multi-granularity entropy+constraints,64,random,flat_identity_lru,20261015.0,214,0.0076306158997119,0.0079439252336448,2060,Memory/granularity
+fresh_locked_test,Multi-granularity entropy+constraints,64,random,flat_identity_lru,20261016.0,214,0.0152028342287627,0.0126168224299065,2049,Memory/granularity
+fresh_locked_test,Multi-granularity entropy+constraints,64,random,flat_identity_lru,20261017.0,214,0.006469153105453,0.0046728971962616,2066,Memory/granularity
+fresh_locked_test,Multi-granularity entropy+constraints,64,random,flat_identity_lru,20261018.0,214,0.0049962366010018,0.0042056074766355,2068,Memory/granularity
+fresh_locked_test,Multi-granularity entropy+constraints,256,random,flat_identity_lru,20261014.0,214,0.0544849334267694,0.0476635514018691,1785,Memory/granularity
+fresh_locked_test,Multi-granularity entropy+constraints,256,random,flat_identity_lru,20261015.0,214,0.0417672402605829,0.0345794392523364,1811,Memory/granularity
+fresh_locked_test,Multi-granularity entropy+constraints,256,random,flat_identity_lru,20261016.0,214,0.0468737833839445,0.0420560747663551,1794,Memory/granularity
+fresh_locked_test,Multi-granularity entropy+constraints,256,random,flat_identity_lru,20261017.0,214,0.0546601261387526,0.0439252336448598,1790,Memory/granularity
+fresh_locked_test,Multi-granularity entropy+constraints,256,random,flat_identity_lru,20261018.0,214,0.0377832282177061,0.0294392523364485,1821,Memory/granularity
+fresh_locked_test,Multi-granularity fixed,16,random,flat_identity_lru,20261014.0,214,0.0013781179919568,0.0009345794392523,2122,Memory/granularity
+fresh_locked_test,Multi-granularity fixed,16,random,flat_identity_lru,20261015.0,214,0.0025745749758829,0.0018691588785046,2120,Memory/granularity
+fresh_locked_test,Multi-granularity fixed,16,random,flat_identity_lru,20261016.0,214,0.0064333053533619,0.0046728971962616,2116,Memory/granularity
+fresh_locked_test,Multi-granularity fixed,16,random,flat_identity_lru,20261017.0,214,0.0,0.0,2124,Memory/granularity
+fresh_locked_test,Multi-granularity fixed,16,random,flat_identity_lru,20261018.0,214,0.0001378117991956,0.0004672897196261,2124,Memory/granularity
+fresh_locked_test,Multi-granularity fixed,64,random,flat_identity_lru,20261014.0,214,0.0138500858191658,0.0116822429906542,2056,Memory/granularity
+fresh_locked_test,Multi-granularity fixed,64,random,flat_identity_lru,20261015.0,214,0.0064019844899084,0.0060747663551401,2063,Memory/granularity
+fresh_locked_test,Multi-granularity fixed,64,random,flat_identity_lru,20261016.0,214,0.0223630965058444,0.0177570093457943,2039,Memory/granularity
+fresh_locked_test,Multi-granularity fixed,64,random,flat_identity_lru,20261017.0,214,0.0063894561445269,0.0046728971962616,2067,Memory/granularity
+fresh_locked_test,Multi-granularity fixed,64,random,flat_identity_lru,20261018.0,214,0.0037021260602112,0.0037383177570093,2068,Memory/granularity
+fresh_locked_test,Multi-granularity fixed,256,random,flat_identity_lru,20261014.0,214,0.0524060687305027,0.0434579439252336,1792,Memory/granularity
+fresh_locked_test,Multi-granularity fixed,256,random,flat_identity_lru,20261015.0,214,0.0493554166301256,0.0425233644859813,1793,Memory/granularity
+fresh_locked_test,Multi-granularity fixed,256,random,flat_identity_lru,20261016.0,214,0.0488542828148686,0.0425233644859813,1793,Memory/granularity
+fresh_locked_test,Multi-granularity fixed,256,random,flat_identity_lru,20261017.0,214,0.0574612560919079,0.0443925233644859,1789,Memory/granularity
+fresh_locked_test,Multi-granularity fixed,256,random,flat_identity_lru,20261018.0,214,0.0436863403450306,0.0359813084112149,1810,Memory/granularity
+fresh_locked_test,Page-resolved,16,random,flat_identity_lru,20261014.0,214,0.0,0.0,2124,Memory/granularity
+fresh_locked_test,Page-resolved,16,random,flat_identity_lru,20261015.0,214,0.0,0.0,2124,Memory/granularity
+fresh_locked_test,Page-resolved,16,random,flat_identity_lru,20261016.0,214,0.0022144549123091,0.0023364485981308,2122,Memory/granularity
+fresh_locked_test,Page-resolved,16,random,flat_identity_lru,20261017.0,214,0.0,0.0,2124,Memory/granularity
+fresh_locked_test,Page-resolved,16,random,flat_identity_lru,20261018.0,214,0.0,0.0,2124,Memory/granularity
+fresh_locked_test,Page-resolved,64,random,flat_identity_lru,20261014.0,214,0.003688186230257,0.0046728971962616,2067,Memory/granularity
+fresh_locked_test,Page-resolved,64,random,flat_identity_lru,20261015.0,214,0.001203675840837,0.0037383177570093,2069,Memory/granularity
+fresh_locked_test,Page-resolved,64,random,flat_identity_lru,20261016.0,214,0.0129472311597725,0.0126168224299065,2049,Memory/granularity
+fresh_locked_test,Page-resolved,64,random,flat_identity_lru,20261017.0,214,0.0,0.0,2076,Memory/granularity
+fresh_locked_test,Page-resolved,64,random,flat_identity_lru,20261018.0,214,0.0016511963457636,0.0023364485981308,2071,Memory/granularity
+fresh_locked_test,Page-resolved,256,random,flat_identity_lru,20261014.0,214,0.0192665293241668,0.0219626168224299,1840,Memory/granularity
+fresh_locked_test,Page-resolved,256,random,flat_identity_lru,20261015.0,214,0.0240966644290641,0.025233644859813,1830,Memory/granularity
+fresh_locked_test,Page-resolved,256,random,flat_identity_lru,20261016.0,214,0.0290116741124819,0.0266355140186915,1827,Memory/granularity
+fresh_locked_test,Page-resolved,256,random,flat_identity_lru,20261017.0,214,0.0312184131540164,0.025233644859813,1830,Memory/granularity
+fresh_locked_test,Page-resolved,256,random,flat_identity_lru,20261018.0,214,0.016033579469611,0.0163551401869158,1849,Memory/granularity
+fresh_locked_test,Profile-resolved,16,random,flat_identity_lru,20261014.0,214,0.3536124384851294,0.3808411214953271,1365,Memory/granularity
+fresh_locked_test,Profile-resolved,16,random,flat_identity_lru,20261015.0,214,0.3610922901362242,0.3785046728971962,1389,Memory/granularity
+fresh_locked_test,Profile-resolved,16,random,flat_identity_lru,20261016.0,214,0.3829434419798873,0.3953271028037383,1317,Memory/granularity
+fresh_locked_test,Profile-resolved,16,random,flat_identity_lru,20261017.0,214,0.3667891020611939,0.3813084112149533,1385,Memory/granularity
+fresh_locked_test,Profile-resolved,16,random,flat_identity_lru,20261018.0,214,0.3806522359318166,0.402803738317757,1338,Memory/granularity
+fresh_locked_test,Profile-resolved,64,random,flat_identity_lru,20261014.0,214,0.7837886028100706,0.8233644859813084,339,Memory/granularity
+fresh_locked_test,Profile-resolved,64,random,flat_identity_lru,20261015.0,214,0.7886652164610227,0.8364485981308412,309,Memory/granularity
+fresh_locked_test,Profile-resolved,64,random,flat_identity_lru,20261016.0,214,0.7562317238428072,0.8042056074766355,404,Memory/granularity
+fresh_locked_test,Profile-resolved,64,random,flat_identity_lru,20261017.0,214,0.7851793737964482,0.8322429906542056,310,Memory/granularity
+fresh_locked_test,Profile-resolved,64,random,flat_identity_lru,20261018.0,214,0.7795360530632622,0.8182242990654206,340,Memory/granularity
+fresh_locked_test,Profile-resolved,256,random,flat_identity_lru,20261014.0,214,0.8840043506169317,0.9214953271028036,0,Memory/granularity
+fresh_locked_test,Profile-resolved,256,random,flat_identity_lru,20261015.0,214,0.8840043506169317,0.9214953271028036,0,Memory/granularity
+fresh_locked_test,Profile-resolved,256,random,flat_identity_lru,20261016.0,214,0.8840043506169317,0.9214953271028036,0,Memory/granularity
+fresh_locked_test,Profile-resolved,256,random,flat_identity_lru,20261017.0,214,0.8840043506169317,0.9214953271028036,0,Memory/granularity
+fresh_locked_test,Profile-resolved,256,random,flat_identity_lru,20261018.0,214,0.8840043506169317,0.9214953271028036,0,Memory/granularity
+fresh_locked_test,Section-resolved,16,random,flat_identity_lru,20261014.0,214,0.003261506074555,0.0018691588785046,2120,Memory/granularity
+fresh_locked_test,Section-resolved,16,random,flat_identity_lru,20261015.0,214,0.0002742630108148,0.0014018691588785,2121,Memory/granularity
+fresh_locked_test,Section-resolved,16,random,flat_identity_lru,20261016.0,214,0.0033133936711957,0.0032710280373831,2120,Memory/granularity
+fresh_locked_test,Section-resolved,16,random,flat_identity_lru,20261017.0,214,0.0,0.0,2124,Memory/granularity
+fresh_locked_test,Section-resolved,16,random,flat_identity_lru,20261018.0,214,0.0,0.0,2124,Memory/granularity
+fresh_locked_test,Section-resolved,64,random,flat_identity_lru,20261014.0,214,0.0098957059307522,0.0065420560747663,2062,Memory/granularity
+fresh_locked_test,Section-resolved,64,random,flat_identity_lru,20261015.0,214,0.0031503183674679,0.002803738317757,2073,Memory/granularity
+fresh_locked_test,Section-resolved,64,random,flat_identity_lru,20261016.0,214,0.0259363858065185,0.0177570093457943,2038,Memory/granularity
+fresh_locked_test,Section-resolved,64,random,flat_identity_lru,20261017.0,214,0.0088801915393567,0.0070093457943925,2061,Memory/granularity
+fresh_locked_test,Section-resolved,64,random,flat_identity_lru,20261018.0,214,0.0062709866797126,0.0042056074766355,2067,Memory/granularity
+fresh_locked_test,Section-resolved,256,random,flat_identity_lru,20261014.0,214,0.0286123032904148,0.0233644859813084,1835,Memory/granularity
+fresh_locked_test,Section-resolved,256,random,flat_identity_lru,20261015.0,214,0.0510425700667867,0.0345794392523364,1810,Memory/granularity
+fresh_locked_test,Section-resolved,256,random,flat_identity_lru,20261016.0,214,0.0442378823930559,0.0345794392523364,1814,Memory/granularity
+fresh_locked_test,Section-resolved,256,random,flat_identity_lru,20261017.0,214,0.0411542766498402,0.0275700934579439,1825,Memory/granularity
+fresh_locked_test,Section-resolved,256,random,flat_identity_lru,20261018.0,214,0.037322007012238,0.02803738317757,1829,Memory/granularity
+fresh_locked_test,Short-term fixed,16,random,flat_identity_lru,20261014.0,214,0.0,0.0,2124,Memory/granularity
+fresh_locked_test,Short-term fixed,16,random,flat_identity_lru,20261015.0,214,0.0016295961262172,0.0018691588785046,2120,Memory/granularity
+fresh_locked_test,Short-term fixed,16,random,flat_identity_lru,20261016.0,214,0.0029864843292715,0.0023364485981308,2122,Memory/granularity
+fresh_locked_test,Short-term fixed,16,random,flat_identity_lru,20261017.0,214,0.0009045921353695,0.0004672897196261,2123,Memory/granularity
+fresh_locked_test,Short-term fixed,16,random,flat_identity_lru,20261018.0,214,0.0,0.0,2124,Memory/granularity
+fresh_locked_test,Short-term fixed,64,random,flat_identity_lru,20261014.0,214,0.0117131378704836,0.0116822429906542,2055,Memory/granularity
+fresh_locked_test,Short-term fixed,64,random,flat_identity_lru,20261015.0,214,0.0060860426754642,0.0065420560747663,2063,Memory/granularity
+fresh_locked_test,Short-term fixed,64,random,flat_identity_lru,20261016.0,214,0.011839514712925,0.0102803738317757,2054,Memory/granularity
+fresh_locked_test,Short-term fixed,64,random,flat_identity_lru,20261017.0,214,0.0037713510349598,0.0032710280373831,2070,Memory/granularity
+fresh_locked_test,Short-term fixed,64,random,flat_identity_lru,20261018.0,214,0.0050151652210929,0.002803738317757,2071,Memory/granularity
+fresh_locked_test,Short-term fixed,256,random,flat_identity_lru,20261014.0,214,0.0449502474325546,0.0406542056074766,1800,Memory/granularity
+fresh_locked_test,Short-term fixed,256,random,flat_identity_lru,20261015.0,214,0.0448504762411536,0.0406542056074766,1798,Memory/granularity
+fresh_locked_test,Short-term fixed,256,random,flat_identity_lru,20261016.0,214,0.0422564252647262,0.0378504672897196,1803,Memory/granularity
+fresh_locked_test,Short-term fixed,256,random,flat_identity_lru,20261017.0,214,0.0503977544830522,0.0439252336448598,1790,Memory/granularity
+fresh_locked_test,Short-term fixed,256,random,flat_identity_lru,20261018.0,214,0.041198850635875,0.0359813084112149,1809,Memory/granularity

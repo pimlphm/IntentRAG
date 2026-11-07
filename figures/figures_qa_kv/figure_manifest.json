@@ -1,0 +1,130 @@
+{
+  "backend": "Python",
+  "final_qa_status": "resolved_dependency_and_final_pdf_manual_visual_qa_pass",
+  "qa_report": "../reports/final_qa_kv_figure_audit_zh.md",
+  "figures": [
+    {
+      "figure": "legacy_answer_quote_support",
+      "claim": "Actual generated answers are audited under a common source-context and generation budget.",
+      "caption_en": "Each point is the normalized-question-cluster mean on the frozen 32-question legacy subset; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. Every method uses the same local Qwen2.5 3B generator and 3,000 source-context token ceiling. The full question denominator is retained; mechanical endpoints score failed executions zero. For each answer, quote support is the fraction of parser-recognized quotations that are substrings of the actual supplied source context, with zero assigned when no quotation is recognized. The plotted mean therefore combines quotation emission/parser recognition and quotation support; it is not precision conditional on emitting a quotation. The generation instruction permits at most one quotation, so an empty quotation field is allowed and does not by itself imply invalid or ungrounded output. A supported quotation can still fail to answer the question or provide sufficient maintenance evidence. All 33 methods are retained. Mechanical JSON/answer parsing and context-substring checks are not semantic QA accuracy, source authorization or revision validation. Semantic scoring has no valid decisions in this run and is not plotted. Machine-derived questions do not replace an independent expert test.",
+      "source_data": "source_data/legacy_answer_quote_support.csv",
+      "n_axes": 1,
+      "size_inches": [
+        12.8,
+        13.76
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "legacy_answer_schema_compliance",
+      "claim": "Actual generated answers are audited under a common source-context and generation budget.",
+      "caption_en": "Each point is the normalized-question-cluster mean on the frozen 32-question legacy subset; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. Every method uses the same local Qwen2.5 3B generator and 3,000 source-context token ceiling. The full question denominator is retained; mechanical endpoints score failed executions zero. JSON-and-answer parsing is a binary endpoint requiring a JSON object with an answer string. It does not require complete citation or quotation fields and is not full schema compliance. It does not test whether the answer is correct, sufficient or applicable. All 33 methods are retained. Mechanical JSON/answer parsing and context-substring checks are not semantic QA accuracy, source authorization or revision validation. Semantic scoring has no valid decisions in this run and is not plotted. Machine-derived questions do not replace an independent expert test.",
+      "source_data": "source_data/legacy_answer_schema_compliance.csv",
+      "n_axes": 1,
+      "size_inches": [
+        12.8,
+        13.76
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "legacy_answer_quote_support_word",
+      "claim": "Actual generated answers are audited under a common source-context and generation budget.",
+      "caption_en": "Each point is the normalized-question-cluster mean on the frozen 32-question legacy subset; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. Every method uses the same local Qwen2.5 3B generator and 3,000 source-context token ceiling. The full question denominator is retained; mechanical endpoints score failed executions zero. For each answer, quote support is the fraction of parser-recognized quotations that are substrings of the actual supplied source context, with zero assigned when no quotation is recognized. The plotted mean therefore combines quotation emission/parser recognition and quotation support; it is not precision conditional on emitting a quotation. The generation instruction permits at most one quotation, so an empty quotation field is allowed and does not by itself imply invalid or ungrounded output. A supported quotation can still fail to answer the question or provide sufficient maintenance evidence. All 33 methods are retained. Mechanical JSON/answer parsing and context-substring checks are not semantic QA accuracy, source authorization or revision validation. Semantic scoring has no valid decisions in this run and is not plotted. Machine-derived questions do not replace an independent expert test.",
+      "source_data": "source_data/legacy_answer_quote_support_word.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        11.96
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "legacy_answer_schema_compliance_word",
+      "claim": "Actual generated answers are audited under a common source-context and generation budget.",
+      "caption_en": "Each point is the normalized-question-cluster mean on the frozen 32-question legacy subset; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. Every method uses the same local Qwen2.5 3B generator and 3,000 source-context token ceiling. The full question denominator is retained; mechanical endpoints score failed executions zero. JSON-and-answer parsing is a binary endpoint requiring a JSON object with an answer string. It does not require complete citation or quotation fields and is not full schema compliance. It does not test whether the answer is correct, sufficient or applicable. All 33 methods are retained. Mechanical JSON/answer parsing and context-substring checks are not semantic QA accuracy, source authorization or revision validation. Semantic scoring has no valid decisions in this run and is not plotted. Machine-derived questions do not replace an independent expert test.",
+      "source_data": "source_data/legacy_answer_schema_compliance_word.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        11.96
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "fresh_answer_quote_support",
+      "claim": "Actual generated answers are audited under a common source-context and generation budget.",
+      "caption_en": "Each point is the normalized-question-cluster mean on the frozen 32-question fresh subset; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. Every method uses the same local Qwen2.5 3B generator and 3,000 source-context token ceiling. The full question denominator is retained; mechanical endpoints score failed executions zero. For each answer, quote support is the fraction of parser-recognized quotations that are substrings of the actual supplied source context, with zero assigned when no quotation is recognized. The plotted mean therefore combines quotation emission/parser recognition and quotation support; it is not precision conditional on emitting a quotation. The generation instruction permits at most one quotation, so an empty quotation field is allowed and does not by itself imply invalid or ungrounded output. A supported quotation can still fail to answer the question or provide sufficient maintenance evidence. All 33 methods are retained. Mechanical JSON/answer parsing and context-substring checks are not semantic QA accuracy, source authorization or revision validation. Semantic scoring has no valid decisions in this run and is not plotted. Machine-derived questions do not replace an independent expert test.",
+      "source_data": "source_data/fresh_answer_quote_support.csv",
+      "n_axes": 1,
+      "size_inches": [
+        12.8,
+        13.76
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "fresh_answer_schema_compliance",
+      "claim": "Actual generated answers are audited under a common source-context and generation budget.",
+      "caption_en": "Each point is the normalized-question-cluster mean on the frozen 32-question fresh subset; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. Every method uses the same local Qwen2.5 3B generator and 3,000 source-context token ceiling. The full question denominator is retained; mechanical endpoints score failed executions zero. JSON-and-answer parsing is a binary endpoint requiring a JSON object with an answer string. It does not require complete citation or quotation fields and is not full schema compliance. It does not test whether the answer is correct, sufficient or applicable. All 33 methods are retained. Mechanical JSON/answer parsing and context-substring checks are not semantic QA accuracy, source authorization or revision validation. Semantic scoring has no valid decisions in this run and is not plotted. Machine-derived questions do not replace an independent expert test.",
+      "source_data": "source_data/fresh_answer_schema_compliance.csv",
+      "n_axes": 1,
+      "size_inches": [
+        12.8,
+        13.76
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "fresh_answer_quote_support_word",
+      "claim": "Actual generated answers are audited under a common source-context and generation budget.",
+      "caption_en": "Each point is the normalized-question-cluster mean on the frozen 32-question fresh subset; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. Every method uses the same local Qwen2.5 3B generator and 3,000 source-context token ceiling. The full question denominator is retained; mechanical endpoints score failed executions zero. For each answer, quote support is the fraction of parser-recognized quotations that are substrings of the actual supplied source context, with zero assigned when no quotation is recognized. The plotted mean therefore combines quotation emission/parser recognition and quotation support; it is not precision conditional on emitting a quotation. The generation instruction permits at most one quotation, so an empty quotation field is allowed and does not by itself imply invalid or ungrounded output. A supported quotation can still fail to answer the question or provide sufficient maintenance evidence. All 33 methods are retained. Mechanical JSON/answer parsing and context-substring checks are not semantic QA accuracy, source authorization or revision validation. Semantic scoring has no valid decisions in this run and is not plotted. Machine-derived questions do not replace an independent expert test.",
+      "source_data": "source_data/fresh_answer_quote_support_word.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        11.96
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "fresh_answer_schema_compliance_word",
+      "claim": "Actual generated answers are audited under a common source-context and generation budget.",
+      "caption_en": "Each point is the normalized-question-cluster mean on the frozen 32-question fresh subset; bars are 95% percentile bootstrap intervals from 2,000 cluster draws. Every method uses the same local Qwen2.5 3B generator and 3,000 source-context token ceiling. The full question denominator is retained; mechanical endpoints score failed executions zero. JSON-and-answer parsing is a binary endpoint requiring a JSON object with an answer string. It does not require complete citation or quotation fields and is not full schema compliance. It does not test whether the answer is correct, sufficient or applicable. All 33 methods are retained. Mechanical JSON/answer parsing and context-substring checks are not semantic QA accuracy, source authorization or revision validation. Semantic scoring has no valid decisions in this run and is not plotted. Machine-derived questions do not replace an independent expert test.",
+      "source_data": "source_data/fresh_answer_schema_compliance_word.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        11.96
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "actual_kv_reuse_by_prefix_layout",
+      "claim": "Prefix layout affects actual engine KV reuse for fixed visible-query pairs.",
+      "caption_en": "All 594 correlated execution profiles are shown: six visible-query pairs, 33 methods and three layouts, or 198 profiles per layout. Points are raw observations with seeded horizontal display jitter only; violin densities use Scott bandwidth, white dots mark medians and thick strokes interquartile ranges. The six pairs, not the method-by-layout profiles, are the independent sampling units. The denominator is the target prompt native token count; reuse is timings.cache_n from the GPU engine. Counts include the common system and scope headers. Hierarchy metadata is not answer evidence. No inferential test or semantic admissibility is claimed from the marginal distributions; paired contrasts are reported separately.",
+      "source_data": "source_data/actual_kv_reuse_by_prefix_layout.csv",
+      "n_axes": 1,
+      "size_inches": [
+        9.0,
+        7.3
+      ],
+      "title_in_image": false
+    },
+    {
+      "figure": "native_prefix_overlap_vs_actual_kv",
+      "claim": "Native shared-prefix overlap is compared with real cached input tokens.",
+      "caption_en": "All 594 correlated profiles (six visible-query pairs, 33 methods and three layouts) are shown without exclusions. Each profile was executed as cold target, distinct cold seed and warm target on one fixed GPU slot, with RAM prompt caching disabled and identical 32-token greedy decoding settings. The dashed diagonal is equality, not a fitted causal relationship. Actual reuse counters are not final slot occupancy. Counts include common headers; overlapping marks need not be independent observations. Counters validate computational reuse only; they do not certify scope, revision, authority or answer correctness. Concurrent device workload limits throughput inference.",
+      "source_data": "source_data/native_prefix_overlap_vs_actual_kv.csv",
+      "n_axes": 1,
+      "size_inches": [
+        8.5,
+        7.5
+      ],
+      "title_in_image": false
+    }
+  ],
+  "title_free": true,
+  "qa_boundary": "JSON-object/answer-string parsing (not full schema) and context-substring endpoints; no recognized quotation scores zero, though empty quotation is allowed. No valid semantic judgments or semantic plot.",
+  "kv_boundary": "Native slot counters, not semantic admissibility; concurrent device workload limits timing inference"
+}

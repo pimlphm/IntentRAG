@@ -1,0 +1,19 @@
+{
+  "experiment_id": "state_reuse_v1_20260812",
+  "model_proxy": "Qwen/Qwen3.5-0.8B tokenizer",
+  "question_count": 214,
+  "shared_static_tokens_qwen": 27,
+  "claim_boundary": "These results estimate prompt-level token reuse opportunity under the local Qwen tokenizer and repeated retrieved evidence cards. They do not estimate semantic mutual information, layerwise KV similarity, answer correctness, or runtime latency savings.",
+  "all_summary": {
+    "aircraft_model": "All",
+    "n_queries": 214,
+    "mean_raw_reuse_ratio_qwen": 0.6234586751217662,
+    "min_raw_reuse_ratio_qwen": 0.0,
+    "max_raw_reuse_ratio_qwen": 0.9547014413177762,
+    "mean_filtered_reuse_ratio_qwen": 0.6234586751217662,
+    "min_filtered_reuse_ratio_qwen": 0.0,
+    "max_filtered_reuse_ratio_qwen": 0.9547014413177762,
+    "mean_admissibility_proxy_pass": 0.9906542056074766,
+    "mean_reused_evidence_id_count": 7.196261682242991
+  }
+}

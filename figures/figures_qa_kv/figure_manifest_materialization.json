@@ -1,0 +1,26 @@
+{
+  "backend": "Python",
+  "title_free": true,
+  "n_profiles_in_source_audit": 594,
+  "n_pair_units": 6,
+  "n_method_profiles_per_layout": 198,
+  "figures": [
+    {
+      "figure": "actual_kv_vs_materialized_reference_support",
+      "claim": "More computational reuse need not preserve the same materialized query-reference text.",
+      "caption_en": "Each mark is the mean of all 33 methods within one of six fixed visible-query pairs; all 18 layout-by-pair means are shown. Filled marks denote Boeing 737 and hollow marks Cessna 172; marker shape and colour identify layout. The horizontal axis uses actual native-engine cached-input tokens divided by the full target prompt count, including common headers. The vertical axis is post-hoc coverage of eligible long reference anchors in actual emitted source bodies, not in the upstream Top-10 list. English anchors contain six lexical words; Chinese-dominant anchors contain 24 lexical units including at least 12 CJK characters. NFKC/case/spacing/punctuation-normalized matching is performed inside individual source blocks; no cross-block concatenation matches are allowed. These six correlated source-derived pairs do not establish QA correctness, action authority or statistical superiority. No fit or causal relation is inferred.",
+      "n_axes": 1,
+      "title_in_image": false,
+      "source_data": "source_data/actual_kv_vs_materialized_reference_support.csv"
+    },
+    {
+      "figure": "paired_cache_gain_vs_materialized_support_loss",
+      "claim": "Canonical ordering can trade visible reference support for cached-prefix length; early metadata can reduce cache without changing source bodies.",
+      "caption_en": "Each mark is a paired layout contrast averaged over the same 33 methods within one of the six visible-query pairs; all 12 contrast-by-pair means are shown. Positive horizontal values denote an increase in actual cached-input fraction, while positive vertical values denote a decrease in emitted reference-anchor coverage. Filled marks denote Boeing 737 and hollow marks Cessna 172. All 198 method-by-pair canonical and hierarchical source-region SHA values are identical; thus their zero vertical differences are audited equality, not assumed evidence quality. The contrast changes canonical ordering and placement together, so it does not identify an isolated causal effect of query position. Source-budget truncation and the position of query-dependent routing metadata explain the illustrated materialization mechanisms; neither proxy measures semantic admissibility or full-answer correctness. No regression, significance test, purity estimate or independent 594-question claim is made.",
+      "n_axes": 1,
+      "title_in_image": false,
+      "source_data": "source_data/paired_cache_gain_vs_materialized_support_loss.csv"
+    }
+  ],
+  "boundary": "Post-hoc emitted support proxies, not QA or admissibility"
+}

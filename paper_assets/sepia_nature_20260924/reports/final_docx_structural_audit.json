@@ -1,0 +1,303 @@
+{
+  "status": "pass",
+  "base": "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\新建文件夹\\IntentRAG-0802-v3_三贡献理论深化_英文图Fig14-27_蓝字插入版.docx",
+  "base_sha256": "70FDEF5AD693835757BC2A0FA10CA2E02A69240BC768058BE879776EDAAFDADD",
+  "final": "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\新建文件夹\\IntentRAG_SEPia_Nature_20260924\\IntentRAG-0802-v3_SEPia_Nature英文图优化_蓝字版.docx",
+  "final_sha256": "1A0FC8CB96EA73AB795228F5475BFBADA77EFBE12B1753C067C95DE203658FE4",
+  "invariants": {
+    "zip_entries": 54,
+    "zip_entry_set_unchanged": true,
+    "changed_members_exact": true,
+    "changed_members": [
+      "word/document.xml",
+      "word/media/image23.png",
+      "word/media/image24.png",
+      "word/media/image25.png",
+      "word/media/image26.png",
+      "word/media/image27.png",
+      "word/media/image28.png",
+      "word/media/image29.png",
+      "word/media/image30.png",
+      "word/media/image31.png",
+      "word/media/image32.png",
+      "word/media/image33.png",
+      "word/media/image34.png",
+      "word/media/image35.png",
+      "word/media/image36.png"
+    ],
+    "drawings": 36,
+    "blips": 36,
+    "unique_blip_rids": 36,
+    "media_files": 36,
+    "captions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "captions_monotonic_1_to_27": true,
+    "math_objects": 11,
+    "math_canonical_unchanged": true,
+    "tables": 7,
+    "direct_body_paragraphs": 375,
+    "tracked_insertions": 0,
+    "tracked_deletions": 0,
+    "hyperlinks": 52,
+    "fields": 1,
+    "inline_drawings": 36,
+    "drawing_extents_and_rids_unchanged": true
+  },
+  "required_values": {
+    "zip_entries": 54,
+    "drawings": 36,
+    "blips": 36,
+    "unique_blip_rids": 36,
+    "media_files": 36,
+    "math_objects": 11,
+    "tables": 7,
+    "direct_body_paragraphs": 375,
+    "tracked_insertions": 0,
+    "tracked_deletions": 0,
+    "hyperlinks": 52,
+    "fields": 1,
+    "inline_drawings": 36
+  },
+  "figure_checks": [
+    {
+      "figure": 14,
+      "rid": "rId84",
+      "relationship_target": "media/image23.png",
+      "expected_media": "image23.png",
+      "media_matches_source": true,
+      "wp_alt_text_matches": true,
+      "pic_alt_text_matches": true
+    },
+    {
+      "figure": 15,
+      "rid": "rId85",
+      "relationship_target": "media/image24.png",
+      "expected_media": "image24.png",
+      "media_matches_source": true,
+      "wp_alt_text_matches": true,
+      "pic_alt_text_matches": true
+    },
+    {
+      "figure": 16,
+      "rid": "rId86",
+      "relationship_target": "media/image25.png",
+      "expected_media": "image25.png",
+      "media_matches_source": true,
+      "wp_alt_text_matches": true,
+      "pic_alt_text_matches": true
+    },
+    {
+      "figure": 17,
+      "rid": "rId87",
+      "relationship_target": "media/image26.png",
+      "expected_media": "image26.png",
+      "media_matches_source": true,
+      "wp_alt_text_matches": true,
+      "pic_alt_text_matches": true
+    },
+    {
+      "figure": 18,
+      "rid": "rId88",
+      "relationship_target": "media/image27.png",
+      "expected_media": "image27.png",
+      "media_matches_source": true,
+      "wp_alt_text_matches": true,
+      "pic_alt_text_matches": true
+    },
+    {
+      "figure": 19,
+      "rid": "rId89",
+      "relationship_target": "media/image28.png",
+      "expected_media": "image28.png",
+      "media_matches_source": true,
+      "wp_alt_text_matches": true,
+      "pic_alt_text_matches": true
+    },
+    {
+      "figure": 20,
+      "rid": "rId90",
+      "relationship_target": "media/image29.png",
+      "expected_media": "image29.png",
+      "media_matches_source": true,
+      "wp_alt_text_matches": true,
+      "pic_alt_text_matches": true
+    },
+    {
+      "figure": 21,
+      "rid": "rId91",
+      "relationship_target": "media/image30.png",
+      "expected_media": "image30.png",
+      "media_matches_source": true,
+      "wp_alt_text_matches": true,
+      "pic_alt_text_matches": true
+    },
+    {
+      "figure": 22,
+      "rid": "rId92",
+      "relationship_target": "media/image31.png",
+      "expected_media": "image31.png",
+      "media_matches_source": true,
+      "wp_alt_text_matches": true,
+      "pic_alt_text_matches": true
+    },
+    {
+      "figure": 23,
+      "rid": "rId93",
+      "relationship_target": "media/image32.png",
+      "expected_media": "image32.png",
+      "media_matches_source": true,
+      "wp_alt_text_matches": true,
+      "pic_alt_text_matches": true
+    },
+    {
+      "figure": 24,
+      "rid": "rId94",
+      "relationship_target": "media/image33.png",
+      "expected_media": "image33.png",
+      "media_matches_source": true,
+      "wp_alt_text_matches": true,
+      "pic_alt_text_matches": true
+    },
+    {
+      "figure": 25,
+      "rid": "rId95",
+      "relationship_target": "media/image34.png",
+      "expected_media": "image34.png",
+      "media_matches_source": true,
+      "wp_alt_text_matches": true,
+      "pic_alt_text_matches": true
+    },
+    {
+      "figure": 26,
+      "rid": "rId96",
+      "relationship_target": "media/image35.png",
+      "expected_media": "image35.png",
+      "media_matches_source": true,
+      "wp_alt_text_matches": true,
+      "pic_alt_text_matches": true
+    },
+    {
+      "figure": 27,
+      "rid": "rId97",
+      "relationship_target": "media/image36.png",
+      "expected_media": "image36.png",
+      "media_matches_source": true,
+      "wp_alt_text_matches": true,
+      "pic_alt_text_matches": true
+    }
+  ],
+  "replacement_checks": [
+    {
+      "old_absent": true,
+      "new_count": 1,
+      "new_is_blue": true
+    },
+    {
+      "old_absent": true,
+      "new_count": 1,
+      "new_is_blue": true
+    },
+    {
+      "old_absent": true,
+      "new_count": 1,
+      "new_is_blue": true
+    },
+    {
+      "old_absent": true,
+      "new_count": 1,
+      "new_is_blue": true
+    },
+    {
+      "old_absent": true,
+      "new_count": 1,
+      "new_is_blue": true
+    },
+    {
+      "old_absent": true,
+      "new_count": 1,
+      "new_is_blue": true
+    },
+    {
+      "old_absent": true,
+      "new_count": 1,
+      "new_is_blue": true
+    },
+    {
+      "old_absent": true,
+      "new_count": 1,
+      "new_is_blue": true
+    },
+    {
+      "old_absent": true,
+      "new_count": 1,
+      "new_is_blue": true
+    },
+    {
+      "old_absent": true,
+      "new_count": 1,
+      "new_is_blue": true
+    },
+    {
+      "old_absent": true,
+      "new_count": 1,
+      "new_is_blue": true
+    },
+    {
+      "old_absent": true,
+      "new_count": 1,
+      "new_is_blue": true
+    },
+    {
+      "old_absent": true,
+      "new_count": 1,
+      "new_is_blue": true
+    },
+    {
+      "old_absent": true,
+      "new_count": 1,
+      "new_is_blue": true
+    },
+    {
+      "old_absent": true,
+      "new_count": 1,
+      "new_is_blue": true
+    },
+    {
+      "old_absent": true,
+      "new_count": 1,
+      "new_is_blue": true
+    },
+    {
+      "old_absent": true,
+      "new_count": 1,
+      "new_is_blue": true
+    }
+  ]
+}

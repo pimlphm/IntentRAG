@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this research preview, please cite the repository release."
+title: "IntentRAG: Admissibility-Constrained Evidence-State Reuse for Aviation Maintenance"
+type: software
+authors:
+  - name: "IntentRAG contributors"
+version: "1.0.0-private-preview"
+date-released: "2026-11-08"
+repository-code: "https://github.com/pimlphm/IntentRAG"
+abstract: >-
+  Research code and audited aggregate results for evidence selection,
+  multi-granularity evidence states, and constrained computational reuse in
+  aviation-maintenance question answering.
+

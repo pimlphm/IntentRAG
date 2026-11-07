@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "experiment_id": "v21_observable_information_distribution_v1_20260811",
+  "n_queries": 214,
+  "n_conditions": 7,
+  "n_axes": 2,
+  "n_diagnostics": 2996,
+  "n_selection_rows": 23002,
+  "n_loo_rows": 29514,
+  "n_defined_loo_rows": 29496,
+  "n_summary_rows": 42,
+  "n_figures": 4,
+  "aesr_v2_unchanged": true,
+  "distribution_sums_valid": true,
+  "metric_bounds_valid": true,
+  "loo_identity_valid": true,
+  "claim_boundaries_valid": true
+}

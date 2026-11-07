@@ -1,0 +1,508 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "aircraft": "Boeing 737",
+      "question": "Boeing 737 在出现气象雷达地面杂波时，应执行哪些处置或排故动作？",
+      "all_arrays_bitwise_equal": true,
+      "by_method_bitwise_equal": {
+        "BM25/word": true,
+        "TFIDF-char": true,
+        "Hybrid lexical": true,
+        "FD-GRAG-RC-V21-exact": true,
+        "FD-GRAG-RC-V21-package": true,
+        "FD-GRAG-RC-V21-cue-route": true
+      },
+      "max_abs_difference": {
+        "BM25/word": 0.0,
+        "TFIDF-char": 0.0,
+        "Hybrid lexical": 0.0,
+        "FD-GRAG-RC-V21-exact": 0.0,
+        "FD-GRAG-RC-V21-package": 0.0,
+        "FD-GRAG-RC-V21-cue-route": 0.0
+      },
+      "old_wall_time_s": 1.4662685999646783,
+      "optimized_wall_time_s": 1.2885607000207528,
+      "speedup": 1.1379119353407747,
+      "n_joint_index_rows": 31766
+    },
+    {
+      "aircraft": "Boeing 737",
+      "question": "For Boeing 737 inspect hydraulic engine warning threshold Evidence cue: HNA Technic 海航航空技术有限公司 硬着陆检查条件.",
+      "all_arrays_bitwise_equal": true,
+      "by_method_bitwise_equal": {
+        "BM25/word": true,
+        "TFIDF-char": true,
+        "Hybrid lexical": true,
+        "FD-GRAG-RC-V21-exact": true,
+        "FD-GRAG-RC-V21-package": true,
+        "FD-GRAG-RC-V21-cue-route": true
+      },
+      "max_abs_difference": {
+        "BM25/word": 0.0,
+        "TFIDF-char": 0.0,
+        "Hybrid lexical": 0.0,
+        "FD-GRAG-RC-V21-exact": 0.0,
+        "FD-GRAG-RC-V21-package": 0.0,
+        "FD-GRAG-RC-V21-cue-route": 0.0
+      },
+      "old_wall_time_s": 1.6330581000074744,
+      "optimized_wall_time_s": 0.013559099985286593,
+      "speedup": 120.44000721136042,
+      "n_joint_index_rows": 31766
+    },
+    {
+      "aircraft": "Cessna 172",
+      "question": "For Cessna 172, what inspection actions and warnings apply to the engine oil pressure?",
+      "all_arrays_bitwise_equal": true,
+      "by_method_bitwise_equal": {
+        "BM25/word": true,
+        "TFIDF-char": true,
+        "Hybrid lexical": true,
+        "FD-GRAG-RC-V21-exact": true,
+        "FD-GRAG-RC-V21-package": true,
+        "FD-GRAG-RC-V21-cue-route": true
+      },
+      "max_abs_difference": {
+        "BM25/word": 0.0,
+        "TFIDF-char": 0.0,
+        "Hybrid lexical": 0.0,
+        "FD-GRAG-RC-V21-exact": 0.0,
+        "FD-GRAG-RC-V21-package": 0.0,
+        "FD-GRAG-RC-V21-cue-route": 0.0
+      },
+      "old_wall_time_s": 1.638974400004372,
+      "optimized_wall_time_s": 0.39288780000060797,
+      "speedup": 4.171609299148092,
+      "n_joint_index_rows": 31766
+    },
+    {
+      "aircraft": "Cessna 172",
+      "question": "For Cessna 172, retrieve threshold and condition support. Include evidence cues: frequently the tasks define more specifically the scope and extent of each required inspection; warning do not exceed maximum rpm during ground operation.",
+      "all_arrays_bitwise_equal": true,
+      "by_method_bitwise_equal": {
+        "BM25/word": true,
+        "TFIDF-char": true,
+        "Hybrid lexical": true,
+        "FD-GRAG-RC-V21-exact": true,
+        "FD-GRAG-RC-V21-package": true,
+        "FD-GRAG-RC-V21-cue-route": true
+      },
+      "max_abs_difference": {
+        "BM25/word": 0.0,
+        "TFIDF-char": 0.0,
+        "Hybrid lexical": 0.0,
+        "FD-GRAG-RC-V21-exact": 0.0,
+        "FD-GRAG-RC-V21-package": 0.0,
+        "FD-GRAG-RC-V21-cue-route": 0.0
+      },
+      "old_wall_time_s": 1.7095120000303723,
+      "optimized_wall_time_s": 0.6736684999777935,
+      "speedup": 2.5376160531280947,
+      "n_joint_index_rows": 31766
+    }
+  ],
+  "original_source_hashes": {
+    "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\交付\\代码与原始文件\\10_scripts\\build_case_sota_evidence_chain_outputs.py": "ba32df5c14e72755a7ce9976a9dc36ae149a02a06ad86e5552cdab1bced38a1f",
+    "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\交付\\代码与原始文件\\_pipeline_v21\\p0_build_eval_v21.py": "5683f0d988215b6c5ba6a301dfcc58092b98caea24aa2f7c8a1d4ae3e0681df6"
+  },
+  "diversity_selection_cases": [
+    {
+      "n_rows": 31766,
+      "score_kind": "random",
+      "page_weight": 0.06,
+      "role_weight": 0.04,
+      "identical_ordered_indices": true,
+      "old_wall_time_s": 0.40820250002434477,
+      "optimized_wall_time_s": 0.008821800001896918,
+      "old_indices": [
+        29060,
+        12133,
+        23698,
+        15544,
+        13131,
+        24213,
+        4220,
+        14888,
+        8045,
+        19417
+      ],
+      "new_indices": [
+        29060,
+        12133,
+        23698,
+        15544,
+        13131,
+        24213,
+        4220,
+        14888,
+        8045,
+        19417
+      ]
+    },
+    {
+      "n_rows": 31766,
+      "score_kind": "random",
+      "page_weight": 0.05,
+      "role_weight": 0.0,
+      "identical_ordered_indices": true,
+      "old_wall_time_s": 0.41562649997649714,
+      "optimized_wall_time_s": 0.0076499999850057065,
+      "old_indices": [
+        29060,
+        12133,
+        23698,
+        15544,
+        4220,
+        14888,
+        8045,
+        19417,
+        1223,
+        10045
+      ],
+      "new_indices": [
+        29060,
+        12133,
+        23698,
+        15544,
+        4220,
+        14888,
+        8045,
+        19417,
+        1223,
+        10045
+      ]
+    },
+    {
+      "n_rows": 31766,
+      "score_kind": "quantized_ties",
+      "page_weight": 0.06,
+      "role_weight": 0.04,
+      "identical_ordered_indices": true,
+      "old_wall_time_s": 0.4238328999490477,
+      "optimized_wall_time_s": 0.010307300020940602,
+      "old_indices": [
+        21470,
+        4217,
+        4232,
+        11935,
+        31166,
+        50,
+        31762,
+        4223,
+        24002,
+        4240
+      ],
+      "new_indices": [
+        21470,
+        4217,
+        4232,
+        11935,
+        31166,
+        50,
+        31762,
+        4223,
+        24002,
+        4240
+      ]
+    },
+    {
+      "n_rows": 31766,
+      "score_kind": "quantized_ties",
+      "page_weight": 0.05,
+      "role_weight": 0.0,
+      "identical_ordered_indices": true,
+      "old_wall_time_s": 0.3759633000008762,
+      "optimized_wall_time_s": 0.008693400013726205,
+      "old_indices": [
+        21470,
+        4217,
+        4223,
+        24002,
+        4232,
+        4240,
+        11935,
+        11916,
+        31166,
+        31169
+      ],
+      "new_indices": [
+        21470,
+        4217,
+        4223,
+        24002,
+        4232,
+        4240,
+        11935,
+        11916,
+        31166,
+        31169
+      ]
+    },
+    {
+      "n_rows": 31766,
+      "score_kind": "all_equal",
+      "page_weight": 0.06,
+      "role_weight": 0.04,
+      "identical_ordered_indices": true,
+      "old_wall_time_s": 0.40315630001714453,
+      "optimized_wall_time_s": 0.007208600000012666,
+      "old_indices": [
+        272,
+        275,
+        278,
+        31745,
+        31749,
+        33,
+        35,
+        285,
+        31744,
+        31746
+      ],
+      "new_indices": [
+        272,
+        275,
+        278,
+        31745,
+        31749,
+        33,
+        35,
+        285,
+        31744,
+        31746
+      ]
+    },
+    {
+      "n_rows": 31766,
+      "score_kind": "all_equal",
+      "page_weight": 0.05,
+      "role_weight": 0.0,
+      "identical_ordered_indices": true,
+      "old_wall_time_s": 0.3595031999866478,
+      "optimized_wall_time_s": 0.00775769999017939,
+      "old_indices": [
+        272,
+        275,
+        277,
+        285,
+        31744,
+        31745,
+        31746,
+        31747,
+        31748,
+        31749
+      ],
+      "new_indices": [
+        272,
+        275,
+        277,
+        285,
+        31744,
+        31745,
+        31746,
+        31747,
+        31748,
+        31749
+      ]
+    },
+    {
+      "n_rows": 348,
+      "score_kind": "random",
+      "page_weight": 0.06,
+      "role_weight": 0.04,
+      "identical_ordered_indices": true,
+      "old_wall_time_s": 0.3970883000292815,
+      "optimized_wall_time_s": 0.0016815999988466501,
+      "old_indices": [
+        311,
+        345,
+        212,
+        9,
+        144,
+        90,
+        272,
+        263,
+        322,
+        62
+      ],
+      "new_indices": [
+        311,
+        345,
+        212,
+        9,
+        144,
+        90,
+        272,
+        263,
+        322,
+        62
+      ]
+    },
+    {
+      "n_rows": 348,
+      "score_kind": "random",
+      "page_weight": 0.05,
+      "role_weight": 0.0,
+      "identical_ordered_indices": true,
+      "old_wall_time_s": 0.3895405000075698,
+      "optimized_wall_time_s": 0.0020991999772377312,
+      "old_indices": [
+        311,
+        345,
+        90,
+        212,
+        263,
+        9,
+        322,
+        62,
+        268,
+        329
+      ],
+      "new_indices": [
+        311,
+        345,
+        90,
+        212,
+        263,
+        9,
+        322,
+        62,
+        268,
+        329
+      ]
+    },
+    {
+      "n_rows": 348,
+      "score_kind": "quantized_ties",
+      "page_weight": 0.06,
+      "role_weight": 0.04,
+      "identical_ordered_indices": true,
+      "old_wall_time_s": 0.38531979999970645,
+      "optimized_wall_time_s": 0.001653800019994378,
+      "old_indices": [
+        276,
+        55,
+        264,
+        87,
+        236,
+        11,
+        81,
+        253,
+        247,
+        63
+      ],
+      "new_indices": [
+        276,
+        55,
+        264,
+        87,
+        236,
+        11,
+        81,
+        253,
+        247,
+        63
+      ]
+    },
+    {
+      "n_rows": 348,
+      "score_kind": "quantized_ties",
+      "page_weight": 0.05,
+      "role_weight": 0.0,
+      "identical_ordered_indices": true,
+      "old_wall_time_s": 0.3593430999899283,
+      "optimized_wall_time_s": 0.001667100004851818,
+      "old_indices": [
+        276,
+        55,
+        264,
+        87,
+        81,
+        253,
+        247,
+        63,
+        236,
+        83
+      ],
+      "new_indices": [
+        276,
+        55,
+        264,
+        87,
+        81,
+        253,
+        247,
+        63,
+        236,
+        83
+      ]
+    },
+    {
+      "n_rows": 348,
+      "score_kind": "all_equal",
+      "page_weight": 0.06,
+      "role_weight": 0.04,
+      "identical_ordered_indices": true,
+      "old_wall_time_s": 0.38044139998964965,
+      "optimized_wall_time_s": 0.0015560999745503068,
+      "old_indices": [
+        272,
+        273,
+        274,
+        278,
+        280,
+        321,
+        35,
+        275,
+        276,
+        277
+      ],
+      "new_indices": [
+        272,
+        273,
+        274,
+        278,
+        280,
+        321,
+        35,
+        275,
+        276,
+        277
+      ]
+    },
+    {
+      "n_rows": 348,
+      "score_kind": "all_equal",
+      "page_weight": 0.05,
+      "role_weight": 0.0,
+      "identical_ordered_indices": true,
+      "old_wall_time_s": 0.36541199998464435,
+      "optimized_wall_time_s": 0.002071700000669807,
+      "old_indices": [
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281
+      ],
+      "new_indices": [
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281
+      ]
+    }
+  ],
+  "scope": "All six V21 score arrays on full joint corpus; no weight, IDF or rank changes."
+}

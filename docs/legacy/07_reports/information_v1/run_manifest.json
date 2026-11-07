@@ -1,0 +1,80 @@
+{
+  "experiment_id": "v21_observable_information_distribution_v1_20260811",
+  "run_timestamp_local": "2026-08-11 22:06:24",
+  "seed": 20260811,
+  "n_queries": 214,
+  "n_methods": 7,
+  "n_query_method_rows": 1498,
+  "n_evidence_objects": 31766,
+  "n_distribution_diagnostic_rows": 2996,
+  "n_selection_category_rows": 23002,
+  "n_loo_rows": 29514,
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.0.2",
+  "pandas": "3.0.3",
+  "scikit_learn": "1.8.0",
+  "source_hashes": {
+    "_pipeline_information_v1\\run_information_distribution_diagnostic.py": "d3a770b4381c75c7cc05cdfc95e280d263f611b793fd05024bb3dd4ed34afb22",
+    "configs\\information_v1\\information_v1.json": "4c46b4e5f8804d8947c77508a8cb3d2061df13af15c6c973f8bef8f49e3c58b0",
+    "_pipeline_information_v1\\validate_outputs.py": "0cf72a0f64deaf74630e5c8ea3ea71bd86e4794b0a44d7c1236bcd814d46d583",
+    "_pipeline_v21\\p0_build_eval_v21.py": "5683f0d988215b6c5ba6a301dfcc58092b98caea24aa2f7c8a1d4ae3e0681df6",
+    "04_results\\aesr_v2\\cue_free_access_query.csv": "1aac84363291b4f11823e9417b057f3549130a54149ba7dce06035396e4d87e9",
+    "04_results\\v21\\qa_warehouse_v21_full.csv": "6b40e8a334693e32be34ce282e6c3ec13b6b8e22c5be7b8e9acd3fcb6a1eeea7",
+    "04_results\\v21\\v21_gold_sets.csv": "7095c0341ff21aa077ab392b418a2d848ddc77eb0b09743f823465a7753a1939",
+    "01_processed_corpus\\v5\\evidence_objects.parquet": "e03f1d41798bdb6817570a1cb9930e67df408598975346dcc6521986cb729542",
+    "07_reports\\aesr_v2\\run_manifest.json": "9b9e96c22b8f4b1c32821f30d93bbebd5c35cc3b9df51aa88bac8a8cb433d0f1"
+  },
+  "aesr_v2_result_files_verified_unchanged": true,
+  "primary_condition": "cue_off_intentrag",
+  "axes": [
+    "evidence_role",
+    "source_document"
+  ],
+  "distribution_estimators": {
+    "p_D": "normalized candidate evidence-object count",
+    "p_q_role": "normalized distinct bilingual visible-text role-lexicon matches",
+    "p_q_source": "normalized non-negative word-TFIDF affinity mass",
+    "p_R": "normalized discounted original-rank mass",
+    "p_G": "normalized accepted source-derived evidence-object count; offline only"
+  },
+  "locked_offline_only": [
+    "query_type sensitivity",
+    "accepted evidence IDs",
+    "retrieval outcome metrics"
+  ],
+  "claim_boundary": "All reported distributions are normalized empirical counts, visible-text lexicon matches, word-TFIDF affinity masses, or rank-discounted package masses. Entropy, Jensen-Shannon divergence, observable alignment shift, and fixed-package leave-one-out values describe these estimators only. They are not calibrated epistemic probabilities, mutual information, true information gain, causal effects, answer faithfulness, or aircraft-safety evidence. Locked reference roles and query types are offline, source-derived, construction-coupled audit sensitivity variables and never feed retrieval.",
+  "result_files": [
+    "04_results\\information_v1\\claim_result_map.csv",
+    "04_results\\information_v1\\distribution_diagnostics.csv",
+    "04_results\\information_v1\\loo_contributions.csv",
+    "04_results\\information_v1\\method_axis_summary.csv",
+    "04_results\\information_v1\\metric_outcome_associations.csv",
+    "04_results\\information_v1\\raw\\aesr_v2_immutability_audit.csv",
+    "04_results\\information_v1\\raw\\benchmark_demand_mix.csv",
+    "04_results\\information_v1\\raw\\locked_reference_distribution.csv",
+    "04_results\\information_v1\\raw\\query_demand_distribution.csv",
+    "04_results\\information_v1\\raw\\repository_prior.csv",
+    "04_results\\information_v1\\raw\\retrieved_package_distribution.csv",
+    "04_results\\information_v1\\raw\\source_file_manifest.csv",
+    "04_results\\information_v1\\selection_bias.csv"
+  ],
+  "figure_files": [
+    "05_figures\\information_v1\\figure_a_observable_distribution_composite.png",
+    "05_figures\\information_v1\\figure_b_role_selection_bias_heatmap.png",
+    "05_figures\\information_v1\\figure_c_loo_alignment_contributions.png",
+    "05_figures\\information_v1\\figure_d_source_distribution_composite.png"
+  ],
+  "table_files": [
+    "06_tables\\information_v1\\table_a_estimator_definitions.csv",
+    "06_tables\\information_v1\\table_a_estimator_definitions.md",
+    "06_tables\\information_v1\\table_b_method_role_diagnostics.csv",
+    "06_tables\\information_v1\\table_b_method_role_diagnostics.md",
+    "06_tables\\information_v1\\table_c_primary_role_distributions.csv",
+    "06_tables\\information_v1\\table_c_primary_role_distributions.md",
+    "06_tables\\information_v1\\table_d_exploratory_outcome_associations.csv",
+    "06_tables\\information_v1\\table_d_exploratory_outcome_associations.md",
+    "06_tables\\information_v1\\table_e_retained_negative_results.csv",
+    "06_tables\\information_v1\\table_e_retained_negative_results.md"
+  ]
+}

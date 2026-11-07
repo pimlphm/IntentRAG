@@ -1,0 +1,96 @@
+{
+  "seed": 20260602,
+  "split_counts": [
+    {
+      "split": "v21_calibration",
+      "aircraft_model": "Boeing 737",
+      "track": "broad_package",
+      "n": 2
+    },
+    {
+      "split": "v21_calibration",
+      "aircraft_model": "Boeing 737",
+      "track": "unique_exact",
+      "n": 66
+    },
+    {
+      "split": "v21_calibration",
+      "aircraft_model": "Cessna 172",
+      "track": "broad_package",
+      "n": 8
+    },
+    {
+      "split": "v21_calibration",
+      "aircraft_model": "Cessna 172",
+      "track": "unique_exact",
+      "n": 67
+    },
+    {
+      "split": "v21_locked_blind_test",
+      "aircraft_model": "Boeing 737",
+      "track": "broad_package",
+      "n": 4
+    },
+    {
+      "split": "v21_locked_blind_test",
+      "aircraft_model": "Boeing 737",
+      "track": "unique_exact",
+      "n": 84
+    },
+    {
+      "split": "v21_locked_blind_test",
+      "aircraft_model": "Cessna 172",
+      "track": "broad_package",
+      "n": 13
+    },
+    {
+      "split": "v21_locked_blind_test",
+      "aircraft_model": "Cessna 172",
+      "track": "unique_exact",
+      "n": 113
+    },
+    {
+      "split": "v21_validation",
+      "aircraft_model": "Boeing 737",
+      "track": "broad_package",
+      "n": 3
+    },
+    {
+      "split": "v21_validation",
+      "aircraft_model": "Boeing 737",
+      "track": "unique_exact",
+      "n": 38
+    },
+    {
+      "split": "v21_validation",
+      "aircraft_model": "Cessna 172",
+      "track": "broad_package",
+      "n": 8
+    },
+    {
+      "split": "v21_validation",
+      "aircraft_model": "Cessna 172",
+      "track": "unique_exact",
+      "n": 70
+    }
+  ],
+  "exact_gold_cross_split_count": 0,
+  "retrieval_visible_columns": [
+    "query_id",
+    "question",
+    "aircraft_model",
+    "track"
+  ],
+  "forbidden_retrieval_columns": [
+    "gold_*",
+    "expected_*",
+    "query_type",
+    "difficulty",
+    "split",
+    "source_span_hash"
+  ],
+  "track_policy": {
+    "unique_exact": "single-ID exact retrieval with visible short anchor cue",
+    "broad_package": "multi-gold diagnostic evidence-package retrieval"
+  }
+}

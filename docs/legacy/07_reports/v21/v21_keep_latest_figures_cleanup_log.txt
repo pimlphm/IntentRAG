@@ -1,0 +1,4 @@
+﻿${USER_HOME}\Desktop\合作_西工大\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260515\Cases\Boeing_737\2 因果关系KG抽取-step2.1\result_trees_highres\Boeing_737_diagnostic_causal_tree_highres.png
+${USER_HOME}\Desktop\合作_西工大\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260515\Cases\Boeing_737\3 组件结构的抽取-step2.2\result_trees_highres\Boeing_737_component_role_tree_highres.png
+${USER_HOME}\Desktop\合作_西工大\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260515\Cases\Cessna_172\2 因果关系KG抽取-step2.1\result_trees_highres\Cessna_172_diagnostic_causal_tree_highres.png
+${USER_HOME}\Desktop\合作_西工大\FD_GRAG_RC_V21_Runnable_Methodology_Package_20260515\Cases\Cessna_172\3 组件结构的抽取-step2.2\result_trees_highres\Cessna_172_component_role_tree_highres.png

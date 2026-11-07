@@ -1,0 +1,181 @@
+﻿split,method,capacity,order,policy,seed,n_queries,token_weighted_reused_fraction,module_hit_fraction,module_evictions,family
+fresh_locked_test,Agentic RAG,16,random,flat_identity_lru,20261014.0,214,0.0067098080032253,0.0042056074766355,2118,Structural controls
+fresh_locked_test,Agentic RAG,16,random,flat_identity_lru,20261015.0,214,0.0012917717431102,0.0009345794392523,2122,Structural controls
+fresh_locked_test,Agentic RAG,16,random,flat_identity_lru,20261016.0,214,0.0058541120714835,0.0060747663551401,2115,Structural controls
+fresh_locked_test,Agentic RAG,16,random,flat_identity_lru,20261017.0,214,0.0039781632980495,0.0037383177570093,2116,Structural controls
+fresh_locked_test,Agentic RAG,16,random,flat_identity_lru,20261018.0,214,0.0072075926558251,0.0074766355140186,2115,Structural controls
+fresh_locked_test,Agentic RAG,64,random,flat_identity_lru,20261014.0,214,0.0395800507658067,0.0186915887850467,2037,Structural controls
+fresh_locked_test,Agentic RAG,64,random,flat_identity_lru,20261015.0,214,0.0368977731336161,0.0144859813084112,2048,Structural controls
+fresh_locked_test,Agentic RAG,64,random,flat_identity_lru,20261016.0,214,0.0221534740020651,0.0242990654205607,2033,Structural controls
+fresh_locked_test,Agentic RAG,64,random,flat_identity_lru,20261017.0,214,0.0185579055196501,0.0186915887850467,2037,Structural controls
+fresh_locked_test,Agentic RAG,64,random,flat_identity_lru,20261018.0,214,0.0194670824471258,0.0200934579439252,2034,Structural controls
+fresh_locked_test,Agentic RAG,256,random,flat_identity_lru,20261014.0,214,0.1130793945951283,0.0850467289719626,1705,Structural controls
+fresh_locked_test,Agentic RAG,256,random,flat_identity_lru,20261015.0,214,0.1154860394031521,0.0714953271028037,1731,Structural controls
+fresh_locked_test,Agentic RAG,256,random,flat_identity_lru,20261016.0,214,0.0804518732747236,0.0859813084112149,1701,Structural controls
+fresh_locked_test,Agentic RAG,256,random,flat_identity_lru,20261017.0,214,0.0835332014135438,0.0887850467289719,1698,Structural controls
+fresh_locked_test,Agentic RAG,256,random,flat_identity_lru,20261018.0,214,0.0612151705015283,0.0714953271028037,1734,Structural controls
+fresh_locked_test,Causal-graph informed RAG,16,random,flat_identity_lru,20261014.0,214,0.2964088802101667,0.0785046728971962,1995,Structural controls
+fresh_locked_test,Causal-graph informed RAG,16,random,flat_identity_lru,20261015.0,214,0.295157402707119,0.0733644859813084,1998,Structural controls
+fresh_locked_test,Causal-graph informed RAG,16,random,flat_identity_lru,20261016.0,214,0.2803976567450098,0.0771028037383177,2023,Structural controls
+fresh_locked_test,Causal-graph informed RAG,16,random,flat_identity_lru,20261017.0,214,0.2827162712454749,0.0822429906542056,1985,Structural controls
+fresh_locked_test,Causal-graph informed RAG,16,random,flat_identity_lru,20261018.0,214,0.2804458261233655,0.0803738317757009,2002,Structural controls
+fresh_locked_test,Causal-graph informed RAG,64,random,flat_identity_lru,20261014.0,214,0.7034799596859357,0.2116822429906542,1641,Structural controls
+fresh_locked_test,Causal-graph informed RAG,64,random,flat_identity_lru,20261015.0,214,0.6746830084370519,0.205607476635514,1646,Structural controls
+fresh_locked_test,Causal-graph informed RAG,64,random,flat_identity_lru,20261016.0,214,0.7037550809430824,0.2205607476635514,1622,Structural controls
+fresh_locked_test,Causal-graph informed RAG,64,random,flat_identity_lru,20261017.0,214,0.7094353622522519,0.2088785046728972,1645,Structural controls
+fresh_locked_test,Causal-graph informed RAG,64,random,flat_identity_lru,20261018.0,214,0.7084469636617621,0.2121495327102803,1637,Structural controls
+fresh_locked_test,Causal-graph informed RAG,256,random,flat_identity_lru,20261014.0,214,0.8751681296571452,0.3794392523364486,1073,Structural controls
+fresh_locked_test,Causal-graph informed RAG,256,random,flat_identity_lru,20261015.0,214,0.870211778524609,0.347196261682243,1144,Structural controls
+fresh_locked_test,Causal-graph informed RAG,256,random,flat_identity_lru,20261016.0,214,0.8729004635376333,0.361214953271028,1114,Structural controls
+fresh_locked_test,Causal-graph informed RAG,256,random,flat_identity_lru,20261017.0,214,0.8776775690026345,0.366822429906542,1101,Structural controls
+fresh_locked_test,Causal-graph informed RAG,256,random,flat_identity_lru,20261018.0,214,0.8696295774804451,0.3532710280373832,1130,Structural controls
+fresh_locked_test,Component-graph informed RAG,16,random,flat_identity_lru,20261014.0,214,0.000530900505054,0.0014018691588785,2123,Structural controls
+fresh_locked_test,Component-graph informed RAG,16,random,flat_identity_lru,20261015.0,214,0.0016276291799682,0.0023364485981308,2119,Structural controls
+fresh_locked_test,Component-graph informed RAG,16,random,flat_identity_lru,20261016.0,214,0.0004191319776742,0.0009345794392523,2122,Structural controls
+fresh_locked_test,Component-graph informed RAG,16,random,flat_identity_lru,20261017.0,214,0.0004959728402478,0.0014018691588785,2123,Structural controls
+fresh_locked_test,Component-graph informed RAG,16,random,flat_identity_lru,20261018.0,214,0.0007893652246198,0.0014018691588785,2122,Structural controls
+fresh_locked_test,Component-graph informed RAG,64,random,flat_identity_lru,20261014.0,214,0.0074605492026014,0.0121495327102803,2050,Structural controls
+fresh_locked_test,Component-graph informed RAG,64,random,flat_identity_lru,20261015.0,214,0.0060704281433151,0.0093457943925233,2057,Structural controls
+fresh_locked_test,Component-graph informed RAG,64,random,flat_identity_lru,20261016.0,214,0.0035975494750371,0.0074766355140186,2062,Structural controls
+fresh_locked_test,Component-graph informed RAG,64,random,flat_identity_lru,20261017.0,214,0.0027034012559988,0.0060747663551401,2065,Structural controls
+fresh_locked_test,Component-graph informed RAG,64,random,flat_identity_lru,20261018.0,214,0.0063568349947259,0.005607476635514,2066,Structural controls
+fresh_locked_test,Component-graph informed RAG,256,random,flat_identity_lru,20261014.0,214,0.0583920700229824,0.0462616822429906,1785,Structural controls
+fresh_locked_test,Component-graph informed RAG,256,random,flat_identity_lru,20261015.0,214,0.0374075290074256,0.0383177570093457,1803,Structural controls
+fresh_locked_test,Component-graph informed RAG,256,random,flat_identity_lru,20261016.0,214,0.0396079718902153,0.0397196261682243,1799,Structural controls
+fresh_locked_test,Component-graph informed RAG,256,random,flat_identity_lru,20261017.0,214,0.0429819843104929,0.0439252336448598,1790,Structural controls
+fresh_locked_test,Component-graph informed RAG,256,random,flat_identity_lru,20261018.0,214,0.0368347153046041,0.0336448598130841,1813,Structural controls
+fresh_locked_test,Component-profile retrieval,16,random,flat_identity_lru,20261014.0,214,0.0002595741717368,0.0009345794392523,2122,Structural controls
+fresh_locked_test,Component-profile retrieval,16,random,flat_identity_lru,20261015.0,214,0.0012915397813245,0.0018691588785046,2121,Structural controls
+fresh_locked_test,Component-profile retrieval,16,random,flat_identity_lru,20261016.0,214,0.001050958841666,0.0023364485981308,2120,Structural controls
+fresh_locked_test,Component-profile retrieval,16,random,flat_identity_lru,20261017.0,214,0.0,0.0,2124,Structural controls
+fresh_locked_test,Component-profile retrieval,16,random,flat_identity_lru,20261018.0,214,0.0007597292831321,0.0018691588785046,2122,Structural controls
+fresh_locked_test,Component-profile retrieval,64,random,flat_identity_lru,20261014.0,214,0.0085089679710796,0.0149532710280373,2046,Structural controls
+fresh_locked_test,Component-profile retrieval,64,random,flat_identity_lru,20261015.0,214,0.0079138466992928,0.0088785046728971,2061,Structural controls
+fresh_locked_test,Component-profile retrieval,64,random,flat_identity_lru,20261016.0,214,0.0053560914460813,0.0107476635514018,2053,Structural controls
+fresh_locked_test,Component-profile retrieval,64,random,flat_identity_lru,20261017.0,214,0.0030135928230907,0.0042056074766355,2069,Structural controls
+fresh_locked_test,Component-profile retrieval,64,random,flat_identity_lru,20261018.0,214,0.0042861393723369,0.0042056074766355,2067,Structural controls
+fresh_locked_test,Component-profile retrieval,256,random,flat_identity_lru,20261014.0,214,0.0350298510297497,0.0504672897196261,1776,Structural controls
+fresh_locked_test,Component-profile retrieval,256,random,flat_identity_lru,20261015.0,214,0.0323391431519901,0.0336448598130841,1812,Structural controls
+fresh_locked_test,Component-profile retrieval,256,random,flat_identity_lru,20261016.0,214,0.0337256490937062,0.0401869158878504,1798,Structural controls
+fresh_locked_test,Component-profile retrieval,256,random,flat_identity_lru,20261017.0,214,0.0432412583649359,0.0425233644859813,1793,Structural controls
+fresh_locked_test,Component-profile retrieval,256,random,flat_identity_lru,20261018.0,214,0.0332001696728732,0.0327102803738317,1815,Structural controls
+fresh_locked_test,Controlled GraphRAG,16,random,flat_identity_lru,20261014.0,214,0.0030260293832983,0.0023364485981308,2122,Structural controls
+fresh_locked_test,Controlled GraphRAG,16,random,flat_identity_lru,20261015.0,214,0.0010389630911324,0.002803738317757,2118,Structural controls
+fresh_locked_test,Controlled GraphRAG,16,random,flat_identity_lru,20261016.0,214,0.0003278856903573,0.0014018691588785,2123,Structural controls
+fresh_locked_test,Controlled GraphRAG,16,random,flat_identity_lru,20261017.0,214,0.0044363328948356,0.0009345794392523,2123,Structural controls
+fresh_locked_test,Controlled GraphRAG,16,random,flat_identity_lru,20261018.0,214,0.0004305968704693,0.0018691588785046,2121,Structural controls
+fresh_locked_test,Controlled GraphRAG,64,random,flat_identity_lru,20261014.0,214,0.0085566313893267,0.0130841121495327,2049,Structural controls
+fresh_locked_test,Controlled GraphRAG,64,random,flat_identity_lru,20261015.0,214,0.0016986849018515,0.005607476635514,2065,Structural controls
+fresh_locked_test,Controlled GraphRAG,64,random,flat_identity_lru,20261016.0,214,0.0087146485894989,0.008411214953271,2060,Structural controls
+fresh_locked_test,Controlled GraphRAG,64,random,flat_identity_lru,20261017.0,214,0.0056056601761101,0.0042056074766355,2067,Structural controls
+fresh_locked_test,Controlled GraphRAG,64,random,flat_identity_lru,20261018.0,214,0.0056846687761962,0.0051401869158878,2066,Structural controls
+fresh_locked_test,Controlled GraphRAG,256,random,flat_identity_lru,20261014.0,214,0.0387892722122803,0.0429906542056074,1792,Structural controls
+fresh_locked_test,Controlled GraphRAG,256,random,flat_identity_lru,20261015.0,214,0.0335984071866222,0.0308411214953271,1819,Structural controls
+fresh_locked_test,Controlled GraphRAG,256,random,flat_identity_lru,20261016.0,214,0.0356447299288527,0.0364485981308411,1806,Structural controls
+fresh_locked_test,Controlled GraphRAG,256,random,flat_identity_lru,20261017.0,214,0.0392791255328142,0.0415887850467289,1795,Structural controls
+fresh_locked_test,Controlled GraphRAG,256,random,flat_identity_lru,20261018.0,214,0.034202822977281,0.0299065420560747,1822,Structural controls
+fresh_locked_test,Evidence-flow baseline,16,random,flat_identity_lru,20261014.0,214,0.0015368804156177,0.0014018691588785,2121,Structural controls
+fresh_locked_test,Evidence-flow baseline,16,random,flat_identity_lru,20261015.0,214,0.0001367163559905,0.0004672897196261,2123,Structural controls
+fresh_locked_test,Evidence-flow baseline,16,random,flat_identity_lru,20261016.0,214,0.0039742030379317,0.0042056074766355,2118,Structural controls
+fresh_locked_test,Evidence-flow baseline,16,random,flat_identity_lru,20261017.0,214,0.0010371585626868,0.0018691588785046,2123,Structural controls
+fresh_locked_test,Evidence-flow baseline,16,random,flat_identity_lru,20261018.0,214,0.0035640539699601,0.0037383177570093,2117,Structural controls
+fresh_locked_test,Evidence-flow baseline,64,random,flat_identity_lru,20261014.0,214,0.0077504030775323,0.0126168224299065,2049,Structural controls
+fresh_locked_test,Evidence-flow baseline,64,random,flat_identity_lru,20261015.0,214,0.00742982679452,0.0093457943925233,2057,Structural controls
+fresh_locked_test,Evidence-flow baseline,64,random,flat_identity_lru,20261016.0,214,0.010371585626868,0.014018691588785,2047,Structural controls
+fresh_locked_test,Evidence-flow baseline,64,random,flat_identity_lru,20261017.0,214,0.0118000358291139,0.0102803738317757,2055,Structural controls
+fresh_locked_test,Evidence-flow baseline,64,random,flat_identity_lru,20261018.0,214,0.0331513591491528,0.0107476635514018,2054,Structural controls
+fresh_locked_test,Evidence-flow baseline,256,random,flat_identity_lru,20261014.0,214,0.0807522228193741,0.061214953271028,1753,Structural controls
+fresh_locked_test,Evidence-flow baseline,256,random,flat_identity_lru,20261015.0,214,0.0651241290225251,0.0476635514018691,1783,Structural controls
+fresh_locked_test,Evidence-flow baseline,256,random,flat_identity_lru,20261016.0,214,0.0468088516768968,0.0574766355140186,1762,Structural controls
+fresh_locked_test,Evidence-flow baseline,256,random,flat_identity_lru,20261017.0,214,0.0472991448156214,0.0574766355140186,1762,Structural controls
+fresh_locked_test,Evidence-flow baseline,256,random,flat_identity_lru,20261018.0,214,0.0571380080898367,0.0471962616822429,1787,Structural controls
+fresh_locked_test,FD-GRAG-RC-V21-final,16,random,flat_identity_lru,20261014.0,214,0.0523149833416667,0.0294392523364485,2074,Structural controls
+fresh_locked_test,FD-GRAG-RC-V21-final,16,random,flat_identity_lru,20261015.0,214,0.0443810560777361,0.022429906542056,2086,Structural controls
+fresh_locked_test,FD-GRAG-RC-V21-final,16,random,flat_identity_lru,20261016.0,214,0.0577502762512714,0.02803738317757,2078,Structural controls
+fresh_locked_test,FD-GRAG-RC-V21-final,16,random,flat_identity_lru,20261017.0,214,0.049147980486415,0.0238317757009345,2084,Structural controls
+fresh_locked_test,FD-GRAG-RC-V21-final,16,random,flat_identity_lru,20261018.0,214,0.0516850055574031,0.0257009345794392,2083,Structural controls
+fresh_locked_test,FD-GRAG-RC-V21-final,64,random,flat_identity_lru,20261014.0,214,0.1965683324691567,0.1121495327102803,1852,Structural controls
+fresh_locked_test,FD-GRAG-RC-V21-final,64,random,flat_identity_lru,20261015.0,214,0.1757855411310275,0.0934579439252336,1890,Structural controls
+fresh_locked_test,FD-GRAG-RC-V21-final,64,random,flat_identity_lru,20261016.0,214,0.2182849895535622,0.1214953271028037,1825,Structural controls
+fresh_locked_test,FD-GRAG-RC-V21-final,64,random,flat_identity_lru,20261017.0,214,0.2048759910470998,0.105607476635514,1860,Structural controls
+fresh_locked_test,FD-GRAG-RC-V21-final,64,random,flat_identity_lru,20261018.0,214,0.1811338767546985,0.1009345794392523,1868,Structural controls
+fresh_locked_test,FD-GRAG-RC-V21-final,256,random,flat_identity_lru,20261014.0,214,0.5609586763250926,0.3406542056074766,1158,Structural controls
+fresh_locked_test,FD-GRAG-RC-V21-final,256,random,flat_identity_lru,20261015.0,214,0.537762820302306,0.3275700934579439,1185,Structural controls
+fresh_locked_test,FD-GRAG-RC-V21-final,256,random,flat_identity_lru,20261016.0,214,0.5288483108778477,0.3303738317757009,1178,Structural controls
+fresh_locked_test,FD-GRAG-RC-V21-final,256,random,flat_identity_lru,20261017.0,214,0.5338243028037711,0.3257009345794392,1195,Structural controls
+fresh_locked_test,FD-GRAG-RC-V21-final,256,random,flat_identity_lru,20261018.0,214,0.5366985186271295,0.3247663551401869,1192,Structural controls
+fresh_locked_test,GaRAGe-style attribution RAG,16,random,flat_identity_lru,20261014.0,214,0.0004700547475529,0.0004672897196261,2123,Structural controls
+fresh_locked_test,GaRAGe-style attribution RAG,16,random,flat_identity_lru,20261015.0,214,0.0012885030138804,0.0023364485981308,2119,Structural controls
+fresh_locked_test,GaRAGe-style attribution RAG,16,random,flat_identity_lru,20261016.0,214,8.848089365702594e-05,0.0004672897196261,2123,Structural controls
+fresh_locked_test,GaRAGe-style attribution RAG,16,random,flat_identity_lru,20261017.0,214,0.0,0.0,2124,Structural controls
+fresh_locked_test,GaRAGe-style attribution RAG,16,random,flat_identity_lru,20261018.0,214,0.0005751258087706,0.0009345794392523,2122,Structural controls
+fresh_locked_test,GaRAGe-style attribution RAG,64,random,flat_identity_lru,20261014.0,214,0.0049106895979649,0.0088785046728971,2058,Structural controls
+fresh_locked_test,GaRAGe-style attribution RAG,64,random,flat_identity_lru,20261015.0,214,0.0018580987667975,0.0046728971962616,2067,Structural controls
+fresh_locked_test,GaRAGe-style attribution RAG,64,random,flat_identity_lru,20261016.0,214,0.0041033014433445,0.008411214953271,2058,Structural controls
+fresh_locked_test,GaRAGe-style attribution RAG,64,random,flat_identity_lru,20261017.0,214,0.0018470386550904,0.0023364485981308,2071,Structural controls
+fresh_locked_test,GaRAGe-style attribution RAG,64,random,flat_identity_lru,20261018.0,214,0.0017087872587513,0.002803738317757,2070,Structural controls
+fresh_locked_test,GaRAGe-style attribution RAG,256,random,flat_identity_lru,20261014.0,214,0.0424155283968368,0.0373831775700934,1804,Structural controls
+fresh_locked_test,GaRAGe-style attribution RAG,256,random,flat_identity_lru,20261015.0,214,0.027429077033678,0.02803738317757,1825,Structural controls
+fresh_locked_test,GaRAGe-style attribution RAG,256,random,flat_identity_lru,20261016.0,214,0.0313885970248299,0.0345794392523364,1810,Structural controls
+fresh_locked_test,GaRAGe-style attribution RAG,256,random,flat_identity_lru,20261017.0,214,0.0371619753359508,0.0387850467289719,1801,Structural controls
+fresh_locked_test,GaRAGe-style attribution RAG,256,random,flat_identity_lru,20261018.0,214,0.0199579715755129,0.022429906542056,1837,Structural controls
+fresh_locked_test,GaRAGe-style deflective RAG,16,random,flat_identity_lru,20261014.0,214,0.0011079149853125,0.0009345794392523,2122,Structural controls
+fresh_locked_test,GaRAGe-style deflective RAG,16,random,flat_identity_lru,20261015.0,214,0.0,0.0,2124,Structural controls
+fresh_locked_test,GaRAGe-style deflective RAG,16,random,flat_identity_lru,20261016.0,214,0.0010875862699856,0.0018691588785046,2121,Structural controls
+fresh_locked_test,GaRAGe-style deflective RAG,16,random,flat_identity_lru,20261017.0,214,0.0,0.0,2124,Structural controls
+fresh_locked_test,GaRAGe-style deflective RAG,16,random,flat_identity_lru,20261018.0,214,0.0013569417480662,0.0018691588785046,2121,Structural controls
+fresh_locked_test,GaRAGe-style deflective RAG,64,random,flat_identity_lru,20261014.0,214,0.0262443714869438,0.011214953271028,2053,Structural controls
+fresh_locked_test,GaRAGe-style deflective RAG,64,random,flat_identity_lru,20261015.0,214,0.0025156785216958,0.002803738317757,2071,Structural controls
+fresh_locked_test,GaRAGe-style deflective RAG,64,random,flat_identity_lru,20261016.0,214,0.0068152018133214,0.0116822429906542,2054,Structural controls
+fresh_locked_test,GaRAGe-style deflective RAG,64,random,flat_identity_lru,20261017.0,214,0.0067999552768262,0.0079439252336448,2062,Structural controls
+fresh_locked_test,GaRAGe-style deflective RAG,64,random,flat_identity_lru,20261018.0,214,0.0031560330544911,0.0046728971962616,2067,Structural controls
+fresh_locked_test,GaRAGe-style deflective RAG,256,random,flat_identity_lru,20261014.0,214,0.0729191018773568,0.0471962616822429,1784,Structural controls
+fresh_locked_test,GaRAGe-style deflective RAG,256,random,flat_identity_lru,20261015.0,214,0.0378215748655763,0.0308411214953271,1819,Structural controls
+fresh_locked_test,GaRAGe-style deflective RAG,256,random,flat_identity_lru,20261016.0,214,0.0563664454224815,0.0429906542056074,1792,Structural controls
+fresh_locked_test,GaRAGe-style deflective RAG,256,random,flat_identity_lru,20261017.0,214,0.0649400811115741,0.0443925233644859,1789,Structural controls
+fresh_locked_test,GaRAGe-style deflective RAG,256,random,flat_identity_lru,20261018.0,214,0.0276826280963174,0.0285046728971962,1824,Structural controls
+fresh_locked_test,GaRAGe-style relevance RAG,16,random,flat_identity_lru,20261014.0,214,0.0009230404444143,0.0009345794392523,2122,Structural controls
+fresh_locked_test,GaRAGe-style relevance RAG,16,random,flat_identity_lru,20261015.0,214,0.0,0.0,2124,Structural controls
+fresh_locked_test,GaRAGe-style relevance RAG,16,random,flat_identity_lru,20261016.0,214,0.003607479168078,0.0037383177570093,2117,Structural controls
+fresh_locked_test,GaRAGe-style relevance RAG,16,random,flat_identity_lru,20261017.0,214,0.0,0.0,2124,Structural controls
+fresh_locked_test,GaRAGe-style relevance RAG,16,random,flat_identity_lru,20261018.0,214,0.0006605243547185,0.0014018691588785,2122,Structural controls
+fresh_locked_test,GaRAGe-style relevance RAG,64,random,flat_identity_lru,20261014.0,214,0.030337544881783,0.011214953271028,2052,Structural controls
+fresh_locked_test,GaRAGe-style relevance RAG,64,random,flat_identity_lru,20261015.0,214,0.0028622722037802,0.0046728971962616,2068,Structural controls
+fresh_locked_test,GaRAGe-style relevance RAG,64,random,flat_identity_lru,20261016.0,214,0.0089763566154054,0.0149532710280373,2048,Structural controls
+fresh_locked_test,GaRAGe-style relevance RAG,64,random,flat_identity_lru,20261017.0,214,0.0381368132240363,0.0107476635514018,2055,Structural controls
+fresh_locked_test,GaRAGe-style relevance RAG,64,random,flat_identity_lru,20261018.0,214,0.0249601991734977,0.0051401869158878,2065,Structural controls
+fresh_locked_test,GaRAGe-style relevance RAG,256,random,flat_identity_lru,20261014.0,214,0.0962671905697446,0.0504672897196261,1777,Structural controls
+fresh_locked_test,GaRAGe-style relevance RAG,256,random,flat_identity_lru,20261015.0,214,0.0552977440552808,0.0341121495327102,1812,Structural controls
+fresh_locked_test,GaRAGe-style relevance RAG,256,random,flat_identity_lru,20261016.0,214,0.0841956845742158,0.05,1777,Structural controls
+fresh_locked_test,GaRAGe-style relevance RAG,256,random,flat_identity_lru,20261017.0,214,0.0925072827044238,0.0485981308411214,1780,Structural controls
+fresh_locked_test,GaRAGe-style relevance RAG,256,random,flat_identity_lru,20261018.0,214,0.0482648533297202,0.0327102803738317,1815,Structural controls
+fresh_locked_test,IntentRAG balanced fair,16,random,flat_identity_lru,20261014.0,214,0.0237712407574151,0.0042056074766355,2119,Structural controls
+fresh_locked_test,IntentRAG balanced fair,16,random,flat_identity_lru,20261015.0,214,0.0096318046937028,0.0037383177570093,2119,Structural controls
+fresh_locked_test,IntentRAG balanced fair,16,random,flat_identity_lru,20261016.0,214,0.0233287942834584,0.0046728971962616,2117,Structural controls
+fresh_locked_test,IntentRAG balanced fair,16,random,flat_identity_lru,20261017.0,214,0.0118407103982683,0.0023364485981308,2121,Structural controls
+fresh_locked_test,IntentRAG balanced fair,16,random,flat_identity_lru,20261018.0,214,0.0084630363138775,0.0023364485981308,2122,Structural controls
+fresh_locked_test,IntentRAG balanced fair,64,random,flat_identity_lru,20261014.0,214,0.0493954340410998,0.0177570093457943,2044,Structural controls
+fresh_locked_test,IntentRAG balanced fair,64,random,flat_identity_lru,20261015.0,214,0.0555564180243157,0.0149532710280373,2052,Structural controls
+fresh_locked_test,IntentRAG balanced fair,64,random,flat_identity_lru,20261016.0,214,0.0641436498396547,0.022429906542056,2031,Structural controls
+fresh_locked_test,IntentRAG balanced fair,64,random,flat_identity_lru,20261017.0,214,0.0419448128418148,0.0102803738317757,2057,Structural controls
+fresh_locked_test,IntentRAG balanced fair,64,random,flat_identity_lru,20261018.0,214,0.0412861331287064,0.0116822429906542,2053,Structural controls
+fresh_locked_test,IntentRAG balanced fair,256,random,flat_identity_lru,20261014.0,214,0.2008618280690704,0.0757009345794392,1724,Structural controls
+fresh_locked_test,IntentRAG balanced fair,256,random,flat_identity_lru,20261015.0,214,0.1712101520951337,0.0663551401869158,1742,Structural controls
+fresh_locked_test,IntentRAG balanced fair,256,random,flat_identity_lru,20261016.0,214,0.1758863345028409,0.0700934579439252,1736,Structural controls
+fresh_locked_test,IntentRAG balanced fair,256,random,flat_identity_lru,20261017.0,214,0.194055471033617,0.0733644859813084,1728,Structural controls
+fresh_locked_test,IntentRAG balanced fair,256,random,flat_identity_lru,20261018.0,214,0.1758220189752984,0.0649532710280373,1746,Structural controls
+fresh_locked_test,Parent-section retrieval,16,random,flat_identity_lru,20261014.0,214,0.0006460739866106,0.0009345794392523,2123,Structural controls
+fresh_locked_test,Parent-section retrieval,16,random,flat_identity_lru,20261015.0,214,0.0017098682231851,0.0023364485981308,2119,Structural controls
+fresh_locked_test,Parent-section retrieval,16,random,flat_identity_lru,20261016.0,214,0.0011027814599044,0.0014018691588785,2123,Structural controls
+fresh_locked_test,Parent-section retrieval,16,random,flat_identity_lru,20261017.0,214,0.0,0.0,2124,Structural controls
+fresh_locked_test,Parent-section retrieval,16,random,flat_identity_lru,20261018.0,214,0.0004399986632952,0.0009345794392523,2122,Structural controls
+fresh_locked_test,Parent-section retrieval,64,random,flat_identity_lru,20261014.0,214,0.0051296046695554,0.0088785046728971,2057,Structural controls
+fresh_locked_test,Parent-section retrieval,64,random,flat_identity_lru,20261015.0,214,0.0056865650028404,0.0065420560747663,2064,Structural controls
+fresh_locked_test,Parent-section retrieval,64,random,flat_identity_lru,20261016.0,214,0.0077863054593251,0.0102803738317757,2055,Structural controls
+fresh_locked_test,Parent-section retrieval,64,random,flat_identity_lru,20261017.0,214,0.0044334042529491,0.0051401869158878,2068,Structural controls
+fresh_locked_test,Parent-section retrieval,64,random,flat_identity_lru,20261018.0,214,0.0015149321065353,0.002803738317757,2071,Structural controls
+fresh_locked_test,Parent-section retrieval,256,random,flat_identity_lru,20261014.0,214,0.0462277076626602,0.0387850467289719,1801,Structural controls
+fresh_locked_test,Parent-section retrieval,256,random,flat_identity_lru,20261015.0,214,0.0298530738640794,0.0294392523364485,1822,Structural controls
+fresh_locked_test,Parent-section retrieval,256,random,flat_identity_lru,20261016.0,214,0.0403406369398371,0.0411214953271028,1796,Structural controls
+fresh_locked_test,Parent-section retrieval,256,random,flat_identity_lru,20261017.0,214,0.0426297439096387,0.0411214953271028,1796,Structural controls
+fresh_locked_test,Parent-section retrieval,256,random,flat_identity_lru,20261018.0,214,0.0229523353346774,0.0261682242990654,1829,Structural controls

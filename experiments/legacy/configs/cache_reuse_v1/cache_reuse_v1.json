@@ -1,0 +1,26 @@
+{
+  "case_ids": [
+    "Boeing_737",
+    "Cessna_172"
+  ],
+  "method_name": "FD-GRAG-RC-V21-final",
+  "variants": [
+    "question_first_chain",
+    "question_first_state",
+    "state_first_state"
+  ],
+  "family_prefix_k": 4,
+  "min_family_size": 2,
+  "max_state_cards": 8,
+  "max_snippet_chars": 220,
+  "raw_chain_chars": 5000,
+  "tokenizer_json": "${USER_HOME}/.cache/huggingface/hub/models--Qwen--Qwen3.5-0.8B/snapshots/380f08c8ecf1c0e73d47812d1bac798038c0ad04/tokenizer.json",
+  "model": "qwen2.5:3b",
+  "base_url": "http://localhost:11434/v1",
+  "api_key_env": "OLLAMA_API_KEY",
+  "api_key_env_value": "ollama",
+  "temperature": 0.0,
+  "max_tokens": 220,
+  "timeout_s": 120,
+  "checkpoint_every": 20
+}

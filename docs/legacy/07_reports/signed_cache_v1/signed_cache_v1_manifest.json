@@ -1,0 +1,47 @@
+{
+  "experiment_id": "signed_cache_v1_20260812",
+  "created_by": "run_signed_cache_diagnostic.py",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 20260812,
+  "input_files": [
+    {
+      "name": "state_reuse",
+      "path": "04_results\\state_reuse_v1\\state_reuse_query.csv",
+      "sha256": "be521d93b73e260d36b7a38a7c64e445f560ae86f006228f4cdb93c0b6010fda"
+    },
+    {
+      "name": "natural",
+      "path": "04_results\\aesr_v2\\natural_factor_proxies.csv",
+      "sha256": "377f40f760cdd637625943a668b02db5ef7e9debac0773337ca3d29bfb1907ec"
+    },
+    {
+      "name": "cache_family",
+      "path": "04_results\\cache_reuse_v1\\family_prefix_metrics.csv",
+      "sha256": "b04a5c0fbe43ba46c612fa563fc548b7b393291df2d22cdacadceee6a809a49a"
+    },
+    {
+      "name": "prompt_manifest",
+      "path": "04_results\\cache_reuse_v1\\prompt_family_manifest.csv",
+      "sha256": "c324497881aca8a17605dfd4a2d481b61b5fd942fcb88f21d8f2de693fe152fa"
+    },
+    {
+      "name": "model_scale",
+      "path": "06_tables\\model_scale_state_v1\\scale_state_variant_summary.csv",
+      "sha256": "faa8cdf0bf2896485b338979300a929c7843d78896e77f1bb7d03a26b8cfdf5d"
+    }
+  ],
+  "output_files": [
+    "04_results/signed_cache_v1/signed_cache_query_inputs.csv",
+    "04_results/signed_cache_v1/signed_cache_query_signatures.csv",
+    "04_results/signed_cache_v1/signed_cache_signature_groups.csv",
+    "04_results/signed_cache_v1/claim_result_map.csv",
+    "06_tables/signed_cache_v1/signed_cache_policy_summary.csv",
+    "06_tables/signed_cache_v1/signed_cache_aircraft_summary.csv",
+    "05_figures/signed_cache_v1/figure_a_signed_cache_tradeoff.png",
+    "05_figures/signed_cache_v1/figure_b_signed_cache_by_aircraft.png",
+    "05_figures/signed_cache_v1/figure_c_admissibility_signed_kv_prefix.png",
+    "07_reports/signed_cache_v1/signed_cache_v1_report.md"
+  ],
+  "claim_boundary": "Admissibility-signed KV prefix is evaluated as a tokenizer/grouping proxy. This run does not inspect internal transformer KV tensors, production cache hit tables, or expert action-authorization labels."
+}

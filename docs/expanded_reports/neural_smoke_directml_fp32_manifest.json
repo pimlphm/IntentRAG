@@ -1,0 +1,80 @@
+{
+  "n_questions_selected": 2,
+  "n_completed_rows": 10,
+  "n_methods": 5,
+  "torch_version": "2.12.1+cpu",
+  "torch_cuda_version": null,
+  "device": "directml",
+  "precision": "fp32",
+  "threads": 2,
+  "device_name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "source_sha256": "e03f1d41798bdb6817570a1cb9930e67df408598975346dcc6521986cb729542",
+  "question_file_sha256": "8267cff3aa07a9c0626ad3346258a9c3c791e5364b60b478c69473c22bd400a1",
+  "evaluated_question_ids": [
+    "QV21E_0000",
+    "QV21E_0191"
+  ],
+  "dense_model_path": "C:\\Users\\weiku\\.cache\\huggingface\\hub\\models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2\\snapshots\\e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "dense_weights_sha256": "eaa086f0ffee582aeb45b36e34cdd1fe2d6de2bef61f8a559a1bbc9bd955917b",
+  "ce_model_path": "C:\\Users\\weiku\\.cache\\huggingface\\hub\\models--cross-encoder--mmarco-mMiniLMv2-L12-H384-v1\\snapshots\\1427fd652930e4ba29e8149678df786c240d8825",
+  "ce_weights_sha256": "5daeca2481a76b5976a2bdc32f0a78532b6716da4f8cd3ff59460ef8d2f359b4",
+  "dense_max_length": 128,
+  "ce_max_length": 384,
+  "embedding_cache": {
+    "cache_key": "ee583fbfe6f05598ef2f",
+    "cache_path": "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\交付\\代码与原始文件\\experiments\\expanded_evaluation_20261014\\models\\neural_corpus_cache\\embeddings_ee583fbfe6f05598ef2f.npy",
+    "n_corpus": 128,
+    "n_unique_texts": 126,
+    "device": "directml",
+    "precision": "fp32",
+    "cache_hit": false,
+    "encoding_elapsed_s": 0.7134708000230603
+  },
+  "method_protocols": [
+    {
+      "method": "Neural dense (multilingual MiniLM)",
+      "candidate_pool": 50,
+      "ce_pool": 0,
+      "note": "Cosine multilingual MiniLM, mean pooling, full local model weights."
+    },
+    {
+      "method": "Neural dense + mMARCO CE@30",
+      "candidate_pool": 50,
+      "ce_pool": 30,
+      "note": "Dense top50; real mMARCO reranks first30, manuscript protocol."
+    },
+    {
+      "method": "Neural lexical+dense RRF",
+      "candidate_pool": 100,
+      "ce_pool": 0,
+      "note": "Okapi BM25 + true dense reciprocal-rank fusion; constant60; top50 each."
+    },
+    {
+      "method": "Neural dense + mMARCO CE@50",
+      "candidate_pool": 50,
+      "ce_pool": 50,
+      "note": "Dense top50; shared real mMARCO CE50 budget."
+    },
+    {
+      "method": "IntentRAG multi + mMARCO CE@50",
+      "candidate_pool": 50,
+      "ce_pool": 50,
+      "note": "Entropy-weighted document detail/page/section/profile ranks + dense RRF; top50 candidates; same mMARCO CE50 budget."
+    }
+  ],
+  "elapsed_s": 50.552452499978244,
+  "qrels_only_posthoc": true,
+  "smoke": true,
+  "official_reproduction": false,
+  "claim_boundary": "Real pretrained dense/CE baselines with documented candidate pools; IntentRAG uses original entropy weighted multi-view routing plus dense RRF. No source-specific retraining; no invented neural approximation.",
+  "directml_execution_profiles": {
+    "profile_paths": [
+      "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\交付\\代码与原始文件\\experiments\\expanded_evaluation_20261014\\models\\neural_onnx_fp32\\dense_mean_normalized_mask4d_2026-10-14_16-20-04.json",
+      "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\交付\\代码与原始文件\\experiments\\expanded_evaluation_20261014\\models\\neural_onnx_fp32\\mmarco_logits_mask4d_2026-10-14_16-20-07.json"
+    ],
+    "executed_node_counts_by_provider": {
+      "DmlExecutionProvider": 6014,
+      "CPUExecutionProvider": 1376
+    }
+  }
+}

@@ -1,0 +1,4 @@
+﻿paradigm,variant,knowledge_access,mean_grounded_proxy,mean_citation_coverage_proxy,mean_prompt_tokens_usage,cache_eligible_prefix_ratio_proxy,mean_reusable_prefix_tokens_after_first
+RLM/direct local model,direct_model_only,internal model parameters only,0.49676374999999995,0.0,290.0625,0.0,0.0
+Question-first RAG chain,question_first_chain,retrieved raw evidence chain,0.8126475,0.9041666666666666,2597.6875,0.0364694303768355,139.41666666666666
+State-first evidence assembly,state_first_state,retrieved evidence organized before generation,0.7977204166666667,0.8208333333333332,1795.9375,0.7176827547482253,2056.583333333333

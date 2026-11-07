@@ -1,0 +1,42 @@
+{
+  "experiment_id": "model_scale_state_v1_20260812",
+  "selected_queries": 48,
+  "full_design_prompt_rows": 720,
+  "last_invocation_prompt_rows": 720,
+  "prompt_rows": 720,
+  "response_rows": 720,
+  "models": [
+    {
+      "scale": "0.5B",
+      "size_b": 0.5,
+      "model": "qwen2.5:0.5b"
+    },
+    {
+      "scale": "1.5B",
+      "size_b": 1.5,
+      "model": "qwen2.5:1.5b"
+    },
+    {
+      "scale": "3B",
+      "size_b": 3.0,
+      "model": "qwen2.5:3b"
+    },
+    {
+      "scale": "7B",
+      "size_b": 7.0,
+      "model": "qwen2.5:7b-instruct"
+    },
+    {
+      "scale": "14B",
+      "size_b": 14.0,
+      "model": "qwen2.5:14b"
+    }
+  ],
+  "variants": [
+    "direct_model_only",
+    "question_first_chain",
+    "state_first_state"
+  ],
+  "tokenizer_json": "C:\\Users\\weiku\\.cache\\huggingface\\hub\\models--Qwen--Qwen3.5-0.8B\\snapshots\\2fc06364715b967f1860aea9cf38778875588b17\\tokenizer.json",
+  "claim_boundary": "This is a local Qwen scale-probe over source-derived diagnostic queries. It tests answer behavior with and without explicit evidence state, not internal model knowledge certification, true KV-cache hits, or natural maintenance-query generalization."
+}

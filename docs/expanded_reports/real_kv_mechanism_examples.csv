@@ -1,0 +1,58 @@
+﻿layout,seed_query_id,aircraft_model,pair_index,topic,target_source_tokens,seed_source_tokens,character_lcp,first_divergence_location,target_at_first_divergence,seed_at_first_divergence,native_prompt_tokens,native_prefix_lcp_tokens,actual_reused_input_tokens,newly_evaluated_input_tokens,actual_reuse_fraction,cold_cache_tokens,cold_warm_text_identical,source_body_identical,ancestor_index_identical,case_id,target_query_id,method,shared_evidence_count,target_emitted_source_count,seed_emitted_source_count,target_ancestor_tuples,seed_ancestor_tuples
+query_first,QV21E_0087,Boeing 737,1,controls,1600,1600,308,query before evidence,"ied.
+Question: Boeing 737 在出现 HNA Technic 海航航空技术有限公司 15.关于襟翼超速情况的说 时，应执行哪些处置或排故动作？
+Source excerpts:
+[S1] id=EVID_CC29AB5","ied.
+Question: Boeing 737 在出现 N 机队中连续发生两起复飞过程中襟翼超速，同时垂直加速度超出 手册范围的 时，应执行哪些处置或排故动作？
+Source excerpts:
+[S1] id=EVIDV5S_67AA",1708,66,66,1642,0.03864168618266979,0,True,False,True,shared_span_and_early_index_break,QV21E_0086,IntentRAG balanced fair,4,6,3,[],[]
+canonical_state_first,QV21E_0087,Boeing 737,1,controls,1600,1600,2746,query after evidence,"即使临近
+Question: Boeing 737 在出现 HNA Technic 海航航空技术有限公司 15.关于襟翼超速情况的说 时，应执行哪些处置或排故动作？<|im_end|>
+<|im_start|>assistant
+","即使临近
+Question: Boeing 737 在出现 N 机队中连续发生两起复飞过程中襟翼超速，同时垂直加速度超出 手册范围的 时，应执行哪些处置或排故动作？<|im_end|>
+<|im_start|>assistant
+",1709,1670,1670,39,0.9771796372147454,0,True,True,True,shared_span_and_early_index_break,QV21E_0086,IntentRAG balanced fair,4,1,1,[],[]
+hierarchical_state_first,QV21E_0087,Boeing 737,1,controls,1600,1600,377,hierarchy routing metadata,"D75CE8BD|DOC_8BD75CE8BD_SEC_0001|engine_oil_powerplant
+DOC_8BD75CE8BD|DOC_8BD75CE8BD_SEC_0001|landing_gear_brake
+DOC_8BD","D75CE8BD|DOC_8BD75CE8BD_SEC_0026|no_component
+DOC_8BD75CE8BD|DOC_8BD75CE8BD_SEC_0027|engine_oil_powerplant
+DOC_8BD75CE8B",1841,90,90,1751,0.04888647474198805,0,False,True,False,shared_span_and_early_index_break,QV21E_0086,IntentRAG balanced fair,4,1,1,"[[""DOC_8BD75CE8BD"", ""DOC_8BD75CE8BD_SEC_0001"", ""engine_oil_powerplant""], [""DOC_8BD75CE8BD"", ""DOC_8BD75CE8BD_SEC_0001"", ""landing_gear_brake""], [""DOC_8BD75CE8BD"", ""DOC_8BD75CE8BD_SEC_0010"", ""flight_control""], [""DOC_8BD75CE8BD"", ""DOC_8BD75CE8BD_SEC_0014"", ""flight_control""]]","[[""DOC_8BD75CE8BD"", ""DOC_8BD75CE8BD_SEC_0026"", ""no_component""], [""DOC_8BD75CE8BD"", ""DOC_8BD75CE8BD_SEC_0027"", ""engine_oil_powerplant""], [""DOC_8BD75CE8BD"", ""DOC_8BD75CE8BD_SEC_0027"", ""flight_control""], [""DOC_8BD75CE8BD"", ""DOC_8BD75CE8BD_SEC_0028"", ""no_component""]]"
+query_first,QV21E_0087,Boeing 737,1,controls,1600,1600,308,query before evidence,"ied.
+Question: Boeing 737 在出现 HNA Technic 海航航空技术有限公司 15.关于襟翼超速情况的说 时，应执行哪些处置或排故动作？
+Source excerpts:
+[S1] id=EVID_02D506A","ied.
+Question: Boeing 737 在出现 N 机队中连续发生两起复飞过程中襟翼超速，同时垂直加速度超出 手册范围的 时，应执行哪些处置或排故动作？
+Source excerpts:
+[S1] id=EVID_02D506A",1708,66,66,1642,0.03864168618266979,0,False,False,True,stable_ancestor_index,QV21E_0086,Profile-resolved,7,6,5,[],[]
+canonical_state_first,QV21E_0087,Boeing 737,1,controls,1600,1600,1446,source-header or source-body sequence,"知地面人员进行清理。 返回目录
+
+[S3] id=EVID_39414DEE7EE8; document=DOC_8BD75CE8BD; page=40; role=symptom
+HNA Technic 海航航空技术有限公司 5 秒后，旁","知地面人员进行清理。 返回目录
+
+[S3] id=EVID_19F1955C2787; document=DOC_8BD75CE8BD; page=83; role=inspection
+HNA Technic 海航航空技术有限公司 二）近",1709,859,859,850,0.502633118782914,0,True,False,True,stable_ancestor_index,QV21E_0086,Profile-resolved,7,6,4,[],[]
+hierarchical_state_first,QV21E_0087,Boeing 737,1,controls,1600,1600,1720,source-header or source-body sequence,"知地面人员进行清理。 返回目录
+
+[S3] id=EVID_39414DEE7EE8; document=DOC_8BD75CE8BD; page=40; role=symptom
+HNA Technic 海航航空技术有限公司 5 秒后，旁","知地面人员进行清理。 返回目录
+
+[S3] id=EVID_19F1955C2787; document=DOC_8BD75CE8BD; page=83; role=inspection
+HNA Technic 海航航空技术有限公司 二）近",1835,985,985,850,0.5367847411444142,0,True,False,True,stable_ancestor_index,QV21E_0086,Profile-resolved,7,6,4,"[[""DOC_8BD75CE8BD"", ""DOC_8BD75CE8BD_SEC_0003"", ""flight_control""], [""DOC_8BD75CE8BD"", ""DOC_8BD75CE8BD_SEC_0010"", ""flight_control""], [""DOC_8BD75CE8BD"", ""DOC_8BD75CE8BD_SEC_0013"", ""flight_control""], [""DOC_8BD75CE8BD"", ""DOC_8BD75CE8BD_SEC_0014"", ""flight_control""]]","[[""DOC_8BD75CE8BD"", ""DOC_8BD75CE8BD_SEC_0003"", ""flight_control""], [""DOC_8BD75CE8BD"", ""DOC_8BD75CE8BD_SEC_0010"", ""flight_control""], [""DOC_8BD75CE8BD"", ""DOC_8BD75CE8BD_SEC_0013"", ""flight_control""], [""DOC_8BD75CE8BD"", ""DOC_8BD75CE8BD_SEC_0014"", ""flight_control""]]"
+query_first,QV21E_0406,Cessna 172,4,controls,1600,845,293,query before evidence,"thority=unverified.
+Question: On the Cessna 172, what should be done if If the rudder/elevator is correctly balanced, th","thority=unverified.
+Question: For Cessna 172, what warning or limitation applies to operations involving the aileron?
+So",1708,59,59,1649,0.03454332552693208,0,True,False,True,common_header_only_opportunity,QV21E_0316,Long-term fixed,0,9,10,[],[]
+canonical_state_first,QV21E_0406,Cessna 172,4,controls,1600,845,312,source-header or source-body sequence,"
+Source excerpts:
+[S1] id=EVID_1D98616369CB; document=DOC_244ECA0E5B; page=294; role=condition
+BALANCING PROCEDURES 1. 2","
+Source excerpts:
+[S1] id=EVIDV5W_489ECE2006AA01AB; document=DOC_5B08767835; page=484; role=action
+The primary cable loc",1709,66,66,1643,0.03861907548273844,0,True,False,True,common_header_only_opportunity,QV21E_0316,Long-term fixed,0,9,10,[],[]
+hierarchical_state_first,QV21E_0406,Cessna 172,4,controls,1600,845,345,hierarchy routing metadata,"ta, not answer evidence):
+DOC_244ECA0E5B|DOC_244ECA0E5B_SEC_0098|flight_control
+DOC_244ECA0E5B|DOC_244ECA0E5B_SEC_0098|n","ta, not answer evidence):
+DOC_5B08767835|DOC_5B08767835_SEC_0161|landing_gear_brake
+Source excerpts:
+[S1] id=EVIDV5W_489",1785,69,69,1716,0.03865546218487395,0,True,False,False,common_header_only_opportunity,QV21E_0316,Long-term fixed,0,9,10,"[[""DOC_244ECA0E5B"", ""DOC_244ECA0E5B_SEC_0098"", ""flight_control""], [""DOC_244ECA0E5B"", ""DOC_244ECA0E5B_SEC_0098"", ""no_component""]]","[[""DOC_5B08767835"", ""DOC_5B08767835_SEC_0161"", ""landing_gear_brake""]]"

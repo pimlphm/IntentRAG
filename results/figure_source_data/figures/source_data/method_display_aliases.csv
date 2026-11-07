@@ -1,0 +1,34 @@
+﻿method,display_alias,method_family
+Agentic RAG,Agentic route control,Structural controls
+BM25/word,Word TF-IDF,Lexical/local
+Calibrated lexical control,Calibrated three-view,Lexical/local
+Causal-graph informed RAG,Causal graph control,Structural controls
+Component-graph informed RAG,Component graph control,Structural controls
+Component-profile retrieval,Component profile,Structural controls
+Controlled GraphRAG,Controlled GraphRAG,Structural controls
+Detail-only,Local detail only,Lexical/local
+Evidence-flow baseline,Evidence-flow control,Structural controls
+FD-GRAG-RC-V21-final,IntentRAG visible route,Structural controls
+GaRAGe-style attribution RAG,GaRAGe-style attribution,Structural controls
+GaRAGe-style deflective RAG,GaRAGe-style deflection,Structural controls
+GaRAGe-style relevance RAG,GaRAGe-style relevance,Structural controls
+Hybrid lexical,Lexical hybrid,Lexical/local
+IntentRAG balanced fair,IntentRAG balanced,Structural controls
+IntentRAG calibrated multi-granularity,Calibrated multi-view,Memory/granularity
+IntentRAG multi + mMARCO CE@50,IntentRAG multi + CE@50,Neural retrieval
+Long-term fixed,Long-term fixed,Memory/granularity
+Multi-granularity entropy,Multi-view entropy,Memory/granularity
+Multi-granularity entropy+constraints,Entropy + constraints,Memory/granularity
+Multi-granularity fixed,Multi-view fixed,Memory/granularity
+Neural dense (multilingual MiniLM),MiniLM dense,Neural retrieval
+Neural dense + mMARCO CE@30,Dense + mMARCO@30,Neural retrieval
+Neural dense + mMARCO CE@50,Dense + mMARCO@50,Neural retrieval
+Neural lexical+dense RRF,Lexical-dense RRF,Neural retrieval
+Page-resolved,Page route,Memory/granularity
+Parent-section retrieval,Parent-section,Structural controls
+Profile-resolved,Profile route,Memory/granularity
+SVD semantic surrogate,SVD surrogate,Lexical/local
+Section-resolved,Section route,Memory/granularity
+Short-term fixed,Short-term fixed,Memory/granularity
+TFIDF-char,Char TF-IDF,Lexical/local
+True BM25,Okapi BM25,Lexical/local

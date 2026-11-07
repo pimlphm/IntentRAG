@@ -1,0 +1,15 @@
+{
+  "protocol_frozen_before_metric_computation": true,
+  "data": "All 594 completed native-KV execution profiles; same six visible-query pairs and 33 methods in each of three layouts.",
+  "purpose": "Post-hoc audit of materialized source support versus upstream Top-10 retrieval and computational reuse, not QA correctness or admissibility.",
+  "headers": "Only complete [S#] id=...; document=...; page=...; role=... newline headers delimit materialized source blocks. A partially cut final header is recorded separately, not counted as a complete emitted ID.",
+  "truncation": "Compare normalized emitted block text against the original normalized source unit. Record exact prefix/truncation and source lengths; an ID being present does not establish a complete source unit or support.",
+  "qrels": "Use target-question canonical exact_ids and accepted_ids only after runs, for presence proxies; empty qrels imply undefined NaN, not success/failure.",
+  "gold_normalization": "NFKC, case-fold, retain alphanumeric and Chinese characters, remove punctuation/whitespace. Reference units: [A-Za-z0-9]+ or individual CJK characters. Substring comparisons are within each individual source block, never across concatenated block boundaries.",
+  "anchors": "For English-dominant gold brief: non-overlapping consecutive six-word/alphanumeric-unit anchors. For gold brief containing at least 12 CJK characters: non-overlapping 24-unit anchors with at least 12 CJK units. Discard only the too-short terminal remainder; keep counts. No anchors or missing gold => NaN. Coverage is the fraction of eligible reference anchors fully visible in at least one emitted source block.",
+  "full_gold": "A sufficiently long whole normalized gold brief is also checked as a substring of one materialized source block, as a separate stricter proxy. This is surface-form visibility, not an answer score.",
+  "token_mass": "Use the frozen local Qwen2.5 3B tokenizer used by the source-budget builder to count source-body tokens per granularity and role. This is distinct from engine-native full-prompt counts; headers and routing metadata are excluded from body composition.",
+  "paired_analysis": "Compare each same target-query/method profile across layouts, then average methods within each of the six pairs for descriptive plots. Actual-support loss = baseline visible-reference-anchor coverage minus candidate coverage; cache gain = candidate actual cached-input fraction minus baseline fraction.",
+  "missing_data": "All profiles retained. Undefined endpoints remain NaN and denominators are reported. No inference from EID presence to maintenance correctness, authority, revision compatibility or complete factual support.",
+  "figure_contract": "Two independent title-free Python charts, all six query-pair aggregates per layout/contrast, large readable fonts, separated legend, measured PDF glyph/collision QA. No regression/cause/admissibility claim. SVG/PDF authoritative; PNG Word preview."
+}

@@ -1,0 +1,4 @@
+﻿contrast,n_independent_pairs,mean_paired_cache_fraction_delta,pair_cluster_bootstrap_ci_low,pair_cluster_bootstrap_ci_high
+canonical_minus_query,6,0.08671398200962148,0.025638823763035907,0.1539173388277186
+hierarchical_minus_query,6,0.013586081274457061,0.007585924463442234,0.01956583139695034
+hierarchical_minus_canonical,6,-0.0731279007351644,-0.1345153807358499,-0.013852804700392607

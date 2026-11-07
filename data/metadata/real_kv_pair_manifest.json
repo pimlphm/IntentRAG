@@ -1,0 +1,49 @@
+{
+  "seed": 20261014,
+  "n_pairs": 6,
+  "n_methods": 33,
+  "n_profiles": 594,
+  "budget": 1600,
+  "pairs": [
+    {
+      "aircraft": "Boeing 737",
+      "topic": "engine",
+      "seed_query": "QV21E_0056",
+      "target_query": "QV21E_0190"
+    },
+    {
+      "aircraft": "Boeing 737",
+      "topic": "controls",
+      "seed_query": "QV21E_0087",
+      "target_query": "QV21E_0086"
+    },
+    {
+      "aircraft": "Boeing 737",
+      "topic": "other",
+      "seed_query": "QV21E_0042",
+      "target_query": "QV21E_0067"
+    },
+    {
+      "aircraft": "Cessna 172",
+      "topic": "fuel",
+      "seed_query": "QV21E_0308",
+      "target_query": "QV21E_0385"
+    },
+    {
+      "aircraft": "Cessna 172",
+      "topic": "controls",
+      "seed_query": "QV21E_0406",
+      "target_query": "QV21E_0316"
+    },
+    {
+      "aircraft": "Cessna 172",
+      "topic": "other",
+      "seed_query": "QV21E_0276",
+      "target_query": "QV21E_0304"
+    }
+  ],
+  "selection": "same visible aircraft and lexical topic; no qrels or observed reuse used",
+  "inherited_revision": "unknown",
+  "action_authority": "unverified",
+  "hierarchical_index": "metadata; not claim evidence"
+}

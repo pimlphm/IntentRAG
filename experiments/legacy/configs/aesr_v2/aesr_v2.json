@@ -1,0 +1,33 @@
+{
+  "experiment_id": "v21_evidence_state_diagnostic_audit_20260811",
+  "seed": 20260811,
+  "top_k": 10,
+  "dense_candidate_k": 50,
+  "rerank_candidate_k": 30,
+  "dense_batch_size": 64,
+  "rerank_batch_size": 24,
+  "max_length": 256,
+  "bootstrap_samples": 2000,
+  "dense_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "cross_encoder_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+  "offline_models_only": true,
+  "cue_conditions": [
+    "legacy_cue_on",
+    "cue_off_track_fixed",
+    "fair_cue_and_track_off",
+    "cue_only",
+    "cue_permuted"
+  ],
+  "interventions": [
+    "authority_removal",
+    "condition_removal",
+    "warning_removal",
+    "provenance_masking",
+    "scope_swap",
+    "duplicate_injection",
+    "conflict_injection",
+    "procedural_to_descriptive_substitution",
+    "evidence_order_permutation"
+  ],
+  "claim_boundary": "This run is a diagnostic audit toward AESR. It is not a five-state classifier, an action-authorization validation, a safety assessment, or evidence that AESR is access-agnostic."
+}

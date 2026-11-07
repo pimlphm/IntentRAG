@@ -1,0 +1,9 @@
+﻿origin,method,source_context_tokens,prompt_text_tokens_without_chat_template,one_previous_prompt_prefix_tokens_proxy,one_previous_prompt_prefix_fraction_proxy,one_previous_source_prefix_tokens_proxy,n_materialized_sources,actual_materialized_accepted_id_hit_proxy,actual_materialized_required_quote_fraction,all_required_quotes_materialized
+fresh,canonical_state_first,2936.375,2990.40625,116.0625,0.038317293898229736,110.25,5.71875,0.5,0.46875,0.46875
+fresh,direct_model_only,0.0,53.9375,20.1875,0.382783690420656,0.0,0.0,0.0,0.0,0.0
+fresh,direct_parametric_knowledge,0.0,53.9375,20.1875,0.382783690420656,0.0,0.0,0.0,0.0,0.0
+fresh,rank_source_first,2936.84375,2990.84375,23.8125,0.008119855025261871,18.0,7.65625,0.96875,0.96875,0.96875
+legacy,canonical_state_first,2849.40625,2918.25,1035.375,0.33838691898040774,1027.03125,4.21875,0.28125,,
+legacy,direct_model_only,0.0,68.84375,23.125,0.33837630379314154,0.0,0.0,0.0,,
+legacy,direct_parametric_knowledge,0.0,68.84375,23.125,0.33837630379314154,0.0,0.0,0.0,,
+legacy,rank_source_first,2851.3125,2920.25,286.40625,0.0950622627789369,279.625,7.40625,0.90625,,

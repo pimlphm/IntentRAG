@@ -1,0 +1,1952 @@
+{
+  "selection": "Post-hoc illustrative selection after inspecting completed counters; no further experiment, random sampling or independent validation.",
+  "case_selection_rule": "One high canonical prefix with early index mismatch, one stable index on the same pair, one empty evidence-ID intersection.",
+  "boundaries": [
+    "Counters include system/scope/metadata tokens, not evidence-only support.",
+    "Same aircraft/topic does not establish maintenance applicability; revision and authority are unverified.",
+    "Native 32-token probes measure engine reuse, not full-answer correctness or isolated throughput.",
+    "Early-changing metadata breaks sequential prefix caching; this is not a test of all hierarchical-memory designs."
+  ],
+  "cases": [
+    {
+      "case_id": "shared_span_and_early_index_break",
+      "target_query_id": "QV21E_0086",
+      "method": "IntentRAG balanced fair",
+      "layouts": [
+        {
+          "layout": "query_first",
+          "seed_query_id": "QV21E_0087",
+          "aircraft_model": "Boeing 737",
+          "pair_index": 1,
+          "topic": "controls",
+          "target": {
+            "question": "Boeing 737 在出现 HNA Technic 海航航空技术有限公司 15.关于襟翼超速情况的说 时，应执行哪些处置或排故动作？",
+            "ancestor_tuples": [],
+            "source_body_sha256": "7a8da1a506a80a9045a4acb694d4053b5e41f45eef4b5704c49e8adea78d109f",
+            "source_body_characters": 2372,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVID_CC29AB543637",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "5",
+                "role": "note",
+                "granularity": "facetpoint",
+                "page_number": 5,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0001",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 163
+              },
+              {
+                "label": "S2",
+                "evidence_id": "EVIDV5P_4094B96F621404FD",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "5",
+                "role": "confirmed_cause",
+                "granularity": "page",
+                "page_number": 5,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0001",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 163
+              },
+              {
+                "label": "S3",
+                "evidence_id": "EVIDV5W_5481AB81E845CD88",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "93",
+                "role": "confirmed_cause",
+                "granularity": "paragraph",
+                "page_number": 93,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0031",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 94
+              },
+              {
+                "label": "S4",
+                "evidence_id": "EVIDV5S_FEE59EE80FFCA03B",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "3",
+                "role": "warning",
+                "granularity": "section",
+                "page_number": 3,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0001",
+                "component_family": "engine_oil_powerplant",
+                "original_source_characters": 825
+              },
+              {
+                "label": "S5",
+                "evidence_id": "EVIDV5P_90CC34B435FDBC80",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "82",
+                "role": "warning",
+                "granularity": "page",
+                "page_number": 82,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0027",
+                "component_family": "flight_control",
+                "original_source_characters": 452
+              },
+              {
+                "label": "S6",
+                "evidence_id": "EVID_CD3F6DAE8313",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "82",
+                "role": "inspection",
+                "granularity": "facetpoint",
+                "page_number": 82,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0027",
+                "component_family": "flight_control",
+                "original_source_characters": 452
+              }
+            ]
+          },
+          "seed": {
+            "question": "Boeing 737 在出现 N 机队中连续发生两起复飞过程中襟翼超速，同时垂直加速度超出 手册范围的 时，应执行哪些处置或排故动作？",
+            "ancestor_tuples": [],
+            "source_body_sha256": "acd9e95af4258c46244c3b38003ed1945616da046c28f59d969aaec7dbb45ed2",
+            "source_body_characters": 2286,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVIDV5S_67AA77C71FB9D27D",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "81",
+                "role": "warning",
+                "granularity": "section",
+                "page_number": 81,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0027",
+                "component_family": "engine_oil_powerplant",
+                "original_source_characters": 1389
+              },
+              {
+                "label": "S2",
+                "evidence_id": "EVID_CD3F6DAE8313",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "82",
+                "role": "inspection",
+                "granularity": "facetpoint",
+                "page_number": 82,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0027",
+                "component_family": "flight_control",
+                "original_source_characters": 452
+              },
+              {
+                "label": "S3",
+                "evidence_id": "EVIDV5W_1BE1AFCD24509E49",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "82",
+                "role": "warning",
+                "granularity": "paragraph",
+                "page_number": 82,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0027",
+                "component_family": "engine_oil_powerplant",
+                "original_source_characters": 452
+              }
+            ]
+          },
+          "target_retrieved_ids": [
+            "EVID_CC29AB543637",
+            "EVIDV5P_4094B96F621404FD",
+            "EVIDV5W_5481AB81E845CD88",
+            "EVIDV5S_FEE59EE80FFCA03B",
+            "EVIDV5P_90CC34B435FDBC80",
+            "EVID_CD3F6DAE8313",
+            "EVIDV5C_3FE23E96ABC870EF",
+            "EVIDV5S_B787D9731010C961",
+            "EVID_4517396B280D",
+            "EVID_02D506A59167"
+          ],
+          "seed_retrieved_ids": [
+            "EVIDV5S_67AA77C71FB9D27D",
+            "EVID_CD3F6DAE8313",
+            "EVIDV5W_1BE1AFCD24509E49",
+            "EVIDV5P_90CC34B435FDBC80",
+            "EVIDV5W_0FFE28B3024FC905",
+            "EVID_19F1955C2787",
+            "EVIDV5C_3FE23E96ABC870EF",
+            "EVIDV5S_B787D9731010C961",
+            "EVID_28FCD257DCA0",
+            "EVID_B39F14E567FF"
+          ],
+          "shared_retrieved_ids": [
+            "EVIDV5C_3FE23E96ABC870EF",
+            "EVIDV5P_90CC34B435FDBC80",
+            "EVIDV5S_B787D9731010C961",
+            "EVID_CD3F6DAE8313"
+          ],
+          "target_source_tokens": 1600,
+          "seed_source_tokens": 1600,
+          "character_lcp": 308,
+          "first_divergence_location": "query before evidence",
+          "target_at_first_divergence": "ied.\nQuestion: Boeing 737 在出现 HNA Technic 海航航空技术有限公司 15.关于襟翼超速情况的说 时，应执行哪些处置或排故动作？\nSource excerpts:\n[S1] id=EVID_CC29AB5",
+          "seed_at_first_divergence": "ied.\nQuestion: Boeing 737 在出现 N 机队中连续发生两起复飞过程中襟翼超速，同时垂直加速度超出 手册范围的 时，应执行哪些处置或排故动作？\nSource excerpts:\n[S1] id=EVIDV5S_67AA",
+          "native_prompt_tokens": 1708,
+          "native_prefix_lcp_tokens": 66,
+          "actual_reused_input_tokens": 66,
+          "newly_evaluated_input_tokens": 1642,
+          "actual_reuse_fraction": 0.03864168618266979,
+          "cold_cache_tokens": 0,
+          "cold_warm_text_identical": true,
+          "source_body_identical": false,
+          "ancestor_index_identical": true
+        },
+        {
+          "layout": "canonical_state_first",
+          "seed_query_id": "QV21E_0087",
+          "aircraft_model": "Boeing 737",
+          "pair_index": 1,
+          "topic": "controls",
+          "target": {
+            "question": "Boeing 737 在出现 HNA Technic 海航航空技术有限公司 15.关于襟翼超速情况的说 时，应执行哪些处置或排故动作？",
+            "ancestor_tuples": [],
+            "source_body_sha256": "9e2d36efc360fd0f1119e91933bdddbcb879ab40c66931906cf6cb828e46558d",
+            "source_body_characters": 2420,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVIDV5C_3FE23E96ABC870EF",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "3",
+                "role": "evidence",
+                "granularity": "component_profile",
+                "page_number": 3,
+                "detected_section_id": "PROFILE_Boeing_737_engine_oil_powerplant",
+                "component_family": "engine_oil_powerplant",
+                "original_source_characters": 4217
+              }
+            ]
+          },
+          "seed": {
+            "question": "Boeing 737 在出现 N 机队中连续发生两起复飞过程中襟翼超速，同时垂直加速度超出 手册范围的 时，应执行哪些处置或排故动作？",
+            "ancestor_tuples": [],
+            "source_body_sha256": "9e2d36efc360fd0f1119e91933bdddbcb879ab40c66931906cf6cb828e46558d",
+            "source_body_characters": 2420,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVIDV5C_3FE23E96ABC870EF",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "3",
+                "role": "evidence",
+                "granularity": "component_profile",
+                "page_number": 3,
+                "detected_section_id": "PROFILE_Boeing_737_engine_oil_powerplant",
+                "component_family": "engine_oil_powerplant",
+                "original_source_characters": 4217
+              }
+            ]
+          },
+          "target_retrieved_ids": [
+            "EVID_CC29AB543637",
+            "EVIDV5P_4094B96F621404FD",
+            "EVIDV5W_5481AB81E845CD88",
+            "EVIDV5S_FEE59EE80FFCA03B",
+            "EVIDV5P_90CC34B435FDBC80",
+            "EVID_CD3F6DAE8313",
+            "EVIDV5C_3FE23E96ABC870EF",
+            "EVIDV5S_B787D9731010C961",
+            "EVID_4517396B280D",
+            "EVID_02D506A59167"
+          ],
+          "seed_retrieved_ids": [
+            "EVIDV5S_67AA77C71FB9D27D",
+            "EVID_CD3F6DAE8313",
+            "EVIDV5W_1BE1AFCD24509E49",
+            "EVIDV5P_90CC34B435FDBC80",
+            "EVIDV5W_0FFE28B3024FC905",
+            "EVID_19F1955C2787",
+            "EVIDV5C_3FE23E96ABC870EF",
+            "EVIDV5S_B787D9731010C961",
+            "EVID_28FCD257DCA0",
+            "EVID_B39F14E567FF"
+          ],
+          "shared_retrieved_ids": [
+            "EVIDV5C_3FE23E96ABC870EF",
+            "EVIDV5P_90CC34B435FDBC80",
+            "EVIDV5S_B787D9731010C961",
+            "EVID_CD3F6DAE8313"
+          ],
+          "target_source_tokens": 1600,
+          "seed_source_tokens": 1600,
+          "character_lcp": 2746,
+          "first_divergence_location": "query after evidence",
+          "target_at_first_divergence": "即使临近\nQuestion: Boeing 737 在出现 HNA Technic 海航航空技术有限公司 15.关于襟翼超速情况的说 时，应执行哪些处置或排故动作？<|im_end|>\n<|im_start|>assistant\n",
+          "seed_at_first_divergence": "即使临近\nQuestion: Boeing 737 在出现 N 机队中连续发生两起复飞过程中襟翼超速，同时垂直加速度超出 手册范围的 时，应执行哪些处置或排故动作？<|im_end|>\n<|im_start|>assistant\n",
+          "native_prompt_tokens": 1709,
+          "native_prefix_lcp_tokens": 1670,
+          "actual_reused_input_tokens": 1670,
+          "newly_evaluated_input_tokens": 39,
+          "actual_reuse_fraction": 0.9771796372147454,
+          "cold_cache_tokens": 0,
+          "cold_warm_text_identical": true,
+          "source_body_identical": true,
+          "ancestor_index_identical": true
+        },
+        {
+          "layout": "hierarchical_state_first",
+          "seed_query_id": "QV21E_0087",
+          "aircraft_model": "Boeing 737",
+          "pair_index": 1,
+          "topic": "controls",
+          "target": {
+            "question": "Boeing 737 在出现 HNA Technic 海航航空技术有限公司 15.关于襟翼超速情况的说 时，应执行哪些处置或排故动作？",
+            "ancestor_tuples": [
+              [
+                "DOC_8BD75CE8BD",
+                "DOC_8BD75CE8BD_SEC_0001",
+                "engine_oil_powerplant"
+              ],
+              [
+                "DOC_8BD75CE8BD",
+                "DOC_8BD75CE8BD_SEC_0001",
+                "landing_gear_brake"
+              ],
+              [
+                "DOC_8BD75CE8BD",
+                "DOC_8BD75CE8BD_SEC_0010",
+                "flight_control"
+              ],
+              [
+                "DOC_8BD75CE8BD",
+                "DOC_8BD75CE8BD_SEC_0014",
+                "flight_control"
+              ]
+            ],
+            "source_body_sha256": "9e2d36efc360fd0f1119e91933bdddbcb879ab40c66931906cf6cb828e46558d",
+            "source_body_characters": 2420,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVIDV5C_3FE23E96ABC870EF",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "3",
+                "role": "evidence",
+                "granularity": "component_profile",
+                "page_number": 3,
+                "detected_section_id": "PROFILE_Boeing_737_engine_oil_powerplant",
+                "component_family": "engine_oil_powerplant",
+                "original_source_characters": 4217
+              }
+            ]
+          },
+          "seed": {
+            "question": "Boeing 737 在出现 N 机队中连续发生两起复飞过程中襟翼超速，同时垂直加速度超出 手册范围的 时，应执行哪些处置或排故动作？",
+            "ancestor_tuples": [
+              [
+                "DOC_8BD75CE8BD",
+                "DOC_8BD75CE8BD_SEC_0026",
+                "no_component"
+              ],
+              [
+                "DOC_8BD75CE8BD",
+                "DOC_8BD75CE8BD_SEC_0027",
+                "engine_oil_powerplant"
+              ],
+              [
+                "DOC_8BD75CE8BD",
+                "DOC_8BD75CE8BD_SEC_0027",
+                "flight_control"
+              ],
+              [
+                "DOC_8BD75CE8BD",
+                "DOC_8BD75CE8BD_SEC_0028",
+                "no_component"
+              ]
+            ],
+            "source_body_sha256": "9e2d36efc360fd0f1119e91933bdddbcb879ab40c66931906cf6cb828e46558d",
+            "source_body_characters": 2420,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVIDV5C_3FE23E96ABC870EF",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "3",
+                "role": "evidence",
+                "granularity": "component_profile",
+                "page_number": 3,
+                "detected_section_id": "PROFILE_Boeing_737_engine_oil_powerplant",
+                "component_family": "engine_oil_powerplant",
+                "original_source_characters": 4217
+              }
+            ]
+          },
+          "target_retrieved_ids": [
+            "EVID_CC29AB543637",
+            "EVIDV5P_4094B96F621404FD",
+            "EVIDV5W_5481AB81E845CD88",
+            "EVIDV5S_FEE59EE80FFCA03B",
+            "EVIDV5P_90CC34B435FDBC80",
+            "EVID_CD3F6DAE8313",
+            "EVIDV5C_3FE23E96ABC870EF",
+            "EVIDV5S_B787D9731010C961",
+            "EVID_4517396B280D",
+            "EVID_02D506A59167"
+          ],
+          "seed_retrieved_ids": [
+            "EVIDV5S_67AA77C71FB9D27D",
+            "EVID_CD3F6DAE8313",
+            "EVIDV5W_1BE1AFCD24509E49",
+            "EVIDV5P_90CC34B435FDBC80",
+            "EVIDV5W_0FFE28B3024FC905",
+            "EVID_19F1955C2787",
+            "EVIDV5C_3FE23E96ABC870EF",
+            "EVIDV5S_B787D9731010C961",
+            "EVID_28FCD257DCA0",
+            "EVID_B39F14E567FF"
+          ],
+          "shared_retrieved_ids": [
+            "EVIDV5C_3FE23E96ABC870EF",
+            "EVIDV5P_90CC34B435FDBC80",
+            "EVIDV5S_B787D9731010C961",
+            "EVID_CD3F6DAE8313"
+          ],
+          "target_source_tokens": 1600,
+          "seed_source_tokens": 1600,
+          "character_lcp": 377,
+          "first_divergence_location": "hierarchy routing metadata",
+          "target_at_first_divergence": "D75CE8BD|DOC_8BD75CE8BD_SEC_0001|engine_oil_powerplant\nDOC_8BD75CE8BD|DOC_8BD75CE8BD_SEC_0001|landing_gear_brake\nDOC_8BD",
+          "seed_at_first_divergence": "D75CE8BD|DOC_8BD75CE8BD_SEC_0026|no_component\nDOC_8BD75CE8BD|DOC_8BD75CE8BD_SEC_0027|engine_oil_powerplant\nDOC_8BD75CE8B",
+          "native_prompt_tokens": 1841,
+          "native_prefix_lcp_tokens": 90,
+          "actual_reused_input_tokens": 90,
+          "newly_evaluated_input_tokens": 1751,
+          "actual_reuse_fraction": 0.04888647474198805,
+          "cold_cache_tokens": 0,
+          "cold_warm_text_identical": false,
+          "source_body_identical": true,
+          "ancestor_index_identical": false
+        }
+      ]
+    },
+    {
+      "case_id": "stable_ancestor_index",
+      "target_query_id": "QV21E_0086",
+      "method": "Profile-resolved",
+      "layouts": [
+        {
+          "layout": "query_first",
+          "seed_query_id": "QV21E_0087",
+          "aircraft_model": "Boeing 737",
+          "pair_index": 1,
+          "topic": "controls",
+          "target": {
+            "question": "Boeing 737 在出现 HNA Technic 海航航空技术有限公司 15.关于襟翼超速情况的说 时，应执行哪些处置或排故动作？",
+            "ancestor_tuples": [],
+            "source_body_sha256": "a1786b1da32952dfe4fa4f4fbdb6e6b7425e7a6f57bdfef68027d0872d854f9f",
+            "source_body_characters": 2361,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVID_02D506A59167",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "31",
+                "role": "action",
+                "granularity": "facetpoint",
+                "page_number": 31,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0010",
+                "component_family": "flight_control",
+                "original_source_characters": 502
+              },
+              {
+                "label": "S2",
+                "evidence_id": "EVID_593277369177",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "10",
+                "role": "symptom",
+                "granularity": "facetpoint",
+                "page_number": 10,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0003",
+                "component_family": "flight_control",
+                "original_source_characters": 400
+              },
+              {
+                "label": "S3",
+                "evidence_id": "EVID_6158FD49D4A3",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "43",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 43,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0014",
+                "component_family": "flight_control",
+                "original_source_characters": 251
+              },
+              {
+                "label": "S4",
+                "evidence_id": "EVID_149A6AE93417",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "32",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 32,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0010",
+                "component_family": "flight_control",
+                "original_source_characters": 478
+              },
+              {
+                "label": "S5",
+                "evidence_id": "EVID_4517396B280D",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "42",
+                "role": "threshold",
+                "granularity": "facetpoint",
+                "page_number": 42,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0014",
+                "component_family": "flight_control",
+                "original_source_characters": 201
+              },
+              {
+                "label": "S6",
+                "evidence_id": "EVID_6B9DA58D4596",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "53",
+                "role": "symptom",
+                "granularity": "facetpoint",
+                "page_number": 53,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0017",
+                "component_family": "flight_control",
+                "original_source_characters": 316
+              }
+            ]
+          },
+          "seed": {
+            "question": "Boeing 737 在出现 N 机队中连续发生两起复飞过程中襟翼超速，同时垂直加速度超出 手册范围的 时，应执行哪些处置或排故动作？",
+            "ancestor_tuples": [],
+            "source_body_sha256": "83c869b399391512eb196debb09246a7e5ad81b377f39dd3bbfd627fd383f339",
+            "source_body_characters": 2326,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVID_02D506A59167",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "31",
+                "role": "action",
+                "granularity": "facetpoint",
+                "page_number": 31,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0010",
+                "component_family": "flight_control",
+                "original_source_characters": 502
+              },
+              {
+                "label": "S2",
+                "evidence_id": "EVID_4517396B280D",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "42",
+                "role": "threshold",
+                "granularity": "facetpoint",
+                "page_number": 42,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0014",
+                "component_family": "flight_control",
+                "original_source_characters": 201
+              },
+              {
+                "label": "S3",
+                "evidence_id": "EVID_593277369177",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "10",
+                "role": "symptom",
+                "granularity": "facetpoint",
+                "page_number": 10,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0003",
+                "component_family": "flight_control",
+                "original_source_characters": 400
+              },
+              {
+                "label": "S4",
+                "evidence_id": "EVID_149A6AE93417",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "32",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 32,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0010",
+                "component_family": "flight_control",
+                "original_source_characters": 478
+              },
+              {
+                "label": "S5",
+                "evidence_id": "EVID_F592C9533274",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "52",
+                "role": "symptom",
+                "granularity": "facetpoint",
+                "page_number": 52,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0017",
+                "component_family": "flight_control",
+                "original_source_characters": 580
+              }
+            ]
+          },
+          "target_retrieved_ids": [
+            "EVID_02D506A59167",
+            "EVID_593277369177",
+            "EVID_6158FD49D4A3",
+            "EVID_149A6AE93417",
+            "EVID_4517396B280D",
+            "EVID_6B9DA58D4596",
+            "EVID_F592C9533274",
+            "EVID_39414DEE7EE8",
+            "EVID_B019F73E4B59",
+            "EVID_60E66574C224"
+          ],
+          "seed_retrieved_ids": [
+            "EVID_02D506A59167",
+            "EVID_4517396B280D",
+            "EVID_593277369177",
+            "EVID_149A6AE93417",
+            "EVID_F592C9533274",
+            "EVID_6B9DA58D4596",
+            "EVID_6158FD49D4A3",
+            "EVID_962D19B5B362",
+            "EVID_2B2A0FF68AC5",
+            "EVID_19F1955C2787"
+          ],
+          "shared_retrieved_ids": [
+            "EVID_02D506A59167",
+            "EVID_149A6AE93417",
+            "EVID_4517396B280D",
+            "EVID_593277369177",
+            "EVID_6158FD49D4A3",
+            "EVID_6B9DA58D4596",
+            "EVID_F592C9533274"
+          ],
+          "target_source_tokens": 1600,
+          "seed_source_tokens": 1600,
+          "character_lcp": 308,
+          "first_divergence_location": "query before evidence",
+          "target_at_first_divergence": "ied.\nQuestion: Boeing 737 在出现 HNA Technic 海航航空技术有限公司 15.关于襟翼超速情况的说 时，应执行哪些处置或排故动作？\nSource excerpts:\n[S1] id=EVID_02D506A",
+          "seed_at_first_divergence": "ied.\nQuestion: Boeing 737 在出现 N 机队中连续发生两起复飞过程中襟翼超速，同时垂直加速度超出 手册范围的 时，应执行哪些处置或排故动作？\nSource excerpts:\n[S1] id=EVID_02D506A",
+          "native_prompt_tokens": 1708,
+          "native_prefix_lcp_tokens": 66,
+          "actual_reused_input_tokens": 66,
+          "newly_evaluated_input_tokens": 1642,
+          "actual_reuse_fraction": 0.03864168618266979,
+          "cold_cache_tokens": 0,
+          "cold_warm_text_identical": false,
+          "source_body_identical": false,
+          "ancestor_index_identical": true
+        },
+        {
+          "layout": "canonical_state_first",
+          "seed_query_id": "QV21E_0087",
+          "aircraft_model": "Boeing 737",
+          "pair_index": 1,
+          "topic": "controls",
+          "target": {
+            "question": "Boeing 737 在出现 HNA Technic 海航航空技术有限公司 15.关于襟翼超速情况的说 时，应执行哪些处置或排故动作？",
+            "ancestor_tuples": [],
+            "source_body_sha256": "6dd0e58c3c2ff9a883ec094c441e5e0f2715edbc3feee5cabcf6cf89b711f60f",
+            "source_body_characters": 2365,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVID_02D506A59167",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "31",
+                "role": "action",
+                "granularity": "facetpoint",
+                "page_number": 31,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0010",
+                "component_family": "flight_control",
+                "original_source_characters": 502
+              },
+              {
+                "label": "S2",
+                "evidence_id": "EVID_149A6AE93417",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "32",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 32,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0010",
+                "component_family": "flight_control",
+                "original_source_characters": 478
+              },
+              {
+                "label": "S3",
+                "evidence_id": "EVID_39414DEE7EE8",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "40",
+                "role": "symptom",
+                "granularity": "facetpoint",
+                "page_number": 40,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0013",
+                "component_family": "flight_control",
+                "original_source_characters": 202
+              },
+              {
+                "label": "S4",
+                "evidence_id": "EVID_4517396B280D",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "42",
+                "role": "threshold",
+                "granularity": "facetpoint",
+                "page_number": 42,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0014",
+                "component_family": "flight_control",
+                "original_source_characters": 201
+              },
+              {
+                "label": "S5",
+                "evidence_id": "EVID_593277369177",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "10",
+                "role": "symptom",
+                "granularity": "facetpoint",
+                "page_number": 10,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0003",
+                "component_family": "flight_control",
+                "original_source_characters": 400
+              },
+              {
+                "label": "S6",
+                "evidence_id": "EVID_60E66574C224",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "65",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 65,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0021",
+                "component_family": "flight_control",
+                "original_source_characters": 155
+              }
+            ]
+          },
+          "seed": {
+            "question": "Boeing 737 在出现 N 机队中连续发生两起复飞过程中襟翼超速，同时垂直加速度超出 手册范围的 时，应执行哪些处置或排故动作？",
+            "ancestor_tuples": [],
+            "source_body_sha256": "fa5344ea738c32820c5be651a43be2f964b88a81abfd7ba7f1e448daa2303f0b",
+            "source_body_characters": 2275,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVID_02D506A59167",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "31",
+                "role": "action",
+                "granularity": "facetpoint",
+                "page_number": 31,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0010",
+                "component_family": "flight_control",
+                "original_source_characters": 502
+              },
+              {
+                "label": "S2",
+                "evidence_id": "EVID_149A6AE93417",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "32",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 32,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0010",
+                "component_family": "flight_control",
+                "original_source_characters": 478
+              },
+              {
+                "label": "S3",
+                "evidence_id": "EVID_19F1955C2787",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "83",
+                "role": "inspection",
+                "granularity": "facetpoint",
+                "page_number": 83,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0027",
+                "component_family": "flight_control",
+                "original_source_characters": 396
+              },
+              {
+                "label": "S4",
+                "evidence_id": "EVID_2B2A0FF68AC5",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "42",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 42,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0014",
+                "component_family": "flight_control",
+                "original_source_characters": 559
+              }
+            ]
+          },
+          "target_retrieved_ids": [
+            "EVID_02D506A59167",
+            "EVID_593277369177",
+            "EVID_6158FD49D4A3",
+            "EVID_149A6AE93417",
+            "EVID_4517396B280D",
+            "EVID_6B9DA58D4596",
+            "EVID_F592C9533274",
+            "EVID_39414DEE7EE8",
+            "EVID_B019F73E4B59",
+            "EVID_60E66574C224"
+          ],
+          "seed_retrieved_ids": [
+            "EVID_02D506A59167",
+            "EVID_4517396B280D",
+            "EVID_593277369177",
+            "EVID_149A6AE93417",
+            "EVID_F592C9533274",
+            "EVID_6B9DA58D4596",
+            "EVID_6158FD49D4A3",
+            "EVID_962D19B5B362",
+            "EVID_2B2A0FF68AC5",
+            "EVID_19F1955C2787"
+          ],
+          "shared_retrieved_ids": [
+            "EVID_02D506A59167",
+            "EVID_149A6AE93417",
+            "EVID_4517396B280D",
+            "EVID_593277369177",
+            "EVID_6158FD49D4A3",
+            "EVID_6B9DA58D4596",
+            "EVID_F592C9533274"
+          ],
+          "target_source_tokens": 1600,
+          "seed_source_tokens": 1600,
+          "character_lcp": 1446,
+          "first_divergence_location": "source-header or source-body sequence",
+          "target_at_first_divergence": "知地面人员进行清理。 返回目录\n\n[S3] id=EVID_39414DEE7EE8; document=DOC_8BD75CE8BD; page=40; role=symptom\nHNA Technic 海航航空技术有限公司 5 秒后，旁",
+          "seed_at_first_divergence": "知地面人员进行清理。 返回目录\n\n[S3] id=EVID_19F1955C2787; document=DOC_8BD75CE8BD; page=83; role=inspection\nHNA Technic 海航航空技术有限公司 二）近",
+          "native_prompt_tokens": 1709,
+          "native_prefix_lcp_tokens": 859,
+          "actual_reused_input_tokens": 859,
+          "newly_evaluated_input_tokens": 850,
+          "actual_reuse_fraction": 0.502633118782914,
+          "cold_cache_tokens": 0,
+          "cold_warm_text_identical": true,
+          "source_body_identical": false,
+          "ancestor_index_identical": true
+        },
+        {
+          "layout": "hierarchical_state_first",
+          "seed_query_id": "QV21E_0087",
+          "aircraft_model": "Boeing 737",
+          "pair_index": 1,
+          "topic": "controls",
+          "target": {
+            "question": "Boeing 737 在出现 HNA Technic 海航航空技术有限公司 15.关于襟翼超速情况的说 时，应执行哪些处置或排故动作？",
+            "ancestor_tuples": [
+              [
+                "DOC_8BD75CE8BD",
+                "DOC_8BD75CE8BD_SEC_0003",
+                "flight_control"
+              ],
+              [
+                "DOC_8BD75CE8BD",
+                "DOC_8BD75CE8BD_SEC_0010",
+                "flight_control"
+              ],
+              [
+                "DOC_8BD75CE8BD",
+                "DOC_8BD75CE8BD_SEC_0013",
+                "flight_control"
+              ],
+              [
+                "DOC_8BD75CE8BD",
+                "DOC_8BD75CE8BD_SEC_0014",
+                "flight_control"
+              ]
+            ],
+            "source_body_sha256": "6dd0e58c3c2ff9a883ec094c441e5e0f2715edbc3feee5cabcf6cf89b711f60f",
+            "source_body_characters": 2365,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVID_02D506A59167",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "31",
+                "role": "action",
+                "granularity": "facetpoint",
+                "page_number": 31,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0010",
+                "component_family": "flight_control",
+                "original_source_characters": 502
+              },
+              {
+                "label": "S2",
+                "evidence_id": "EVID_149A6AE93417",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "32",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 32,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0010",
+                "component_family": "flight_control",
+                "original_source_characters": 478
+              },
+              {
+                "label": "S3",
+                "evidence_id": "EVID_39414DEE7EE8",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "40",
+                "role": "symptom",
+                "granularity": "facetpoint",
+                "page_number": 40,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0013",
+                "component_family": "flight_control",
+                "original_source_characters": 202
+              },
+              {
+                "label": "S4",
+                "evidence_id": "EVID_4517396B280D",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "42",
+                "role": "threshold",
+                "granularity": "facetpoint",
+                "page_number": 42,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0014",
+                "component_family": "flight_control",
+                "original_source_characters": 201
+              },
+              {
+                "label": "S5",
+                "evidence_id": "EVID_593277369177",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "10",
+                "role": "symptom",
+                "granularity": "facetpoint",
+                "page_number": 10,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0003",
+                "component_family": "flight_control",
+                "original_source_characters": 400
+              },
+              {
+                "label": "S6",
+                "evidence_id": "EVID_60E66574C224",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "65",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 65,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0021",
+                "component_family": "flight_control",
+                "original_source_characters": 155
+              }
+            ]
+          },
+          "seed": {
+            "question": "Boeing 737 在出现 N 机队中连续发生两起复飞过程中襟翼超速，同时垂直加速度超出 手册范围的 时，应执行哪些处置或排故动作？",
+            "ancestor_tuples": [
+              [
+                "DOC_8BD75CE8BD",
+                "DOC_8BD75CE8BD_SEC_0003",
+                "flight_control"
+              ],
+              [
+                "DOC_8BD75CE8BD",
+                "DOC_8BD75CE8BD_SEC_0010",
+                "flight_control"
+              ],
+              [
+                "DOC_8BD75CE8BD",
+                "DOC_8BD75CE8BD_SEC_0013",
+                "flight_control"
+              ],
+              [
+                "DOC_8BD75CE8BD",
+                "DOC_8BD75CE8BD_SEC_0014",
+                "flight_control"
+              ]
+            ],
+            "source_body_sha256": "fa5344ea738c32820c5be651a43be2f964b88a81abfd7ba7f1e448daa2303f0b",
+            "source_body_characters": 2275,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVID_02D506A59167",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "31",
+                "role": "action",
+                "granularity": "facetpoint",
+                "page_number": 31,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0010",
+                "component_family": "flight_control",
+                "original_source_characters": 502
+              },
+              {
+                "label": "S2",
+                "evidence_id": "EVID_149A6AE93417",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "32",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 32,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0010",
+                "component_family": "flight_control",
+                "original_source_characters": 478
+              },
+              {
+                "label": "S3",
+                "evidence_id": "EVID_19F1955C2787",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "83",
+                "role": "inspection",
+                "granularity": "facetpoint",
+                "page_number": 83,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0027",
+                "component_family": "flight_control",
+                "original_source_characters": 396
+              },
+              {
+                "label": "S4",
+                "evidence_id": "EVID_2B2A0FF68AC5",
+                "document_id": "DOC_8BD75CE8BD",
+                "page": "42",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 42,
+                "detected_section_id": "DOC_8BD75CE8BD_SEC_0014",
+                "component_family": "flight_control",
+                "original_source_characters": 559
+              }
+            ]
+          },
+          "target_retrieved_ids": [
+            "EVID_02D506A59167",
+            "EVID_593277369177",
+            "EVID_6158FD49D4A3",
+            "EVID_149A6AE93417",
+            "EVID_4517396B280D",
+            "EVID_6B9DA58D4596",
+            "EVID_F592C9533274",
+            "EVID_39414DEE7EE8",
+            "EVID_B019F73E4B59",
+            "EVID_60E66574C224"
+          ],
+          "seed_retrieved_ids": [
+            "EVID_02D506A59167",
+            "EVID_4517396B280D",
+            "EVID_593277369177",
+            "EVID_149A6AE93417",
+            "EVID_F592C9533274",
+            "EVID_6B9DA58D4596",
+            "EVID_6158FD49D4A3",
+            "EVID_962D19B5B362",
+            "EVID_2B2A0FF68AC5",
+            "EVID_19F1955C2787"
+          ],
+          "shared_retrieved_ids": [
+            "EVID_02D506A59167",
+            "EVID_149A6AE93417",
+            "EVID_4517396B280D",
+            "EVID_593277369177",
+            "EVID_6158FD49D4A3",
+            "EVID_6B9DA58D4596",
+            "EVID_F592C9533274"
+          ],
+          "target_source_tokens": 1600,
+          "seed_source_tokens": 1600,
+          "character_lcp": 1720,
+          "first_divergence_location": "source-header or source-body sequence",
+          "target_at_first_divergence": "知地面人员进行清理。 返回目录\n\n[S3] id=EVID_39414DEE7EE8; document=DOC_8BD75CE8BD; page=40; role=symptom\nHNA Technic 海航航空技术有限公司 5 秒后，旁",
+          "seed_at_first_divergence": "知地面人员进行清理。 返回目录\n\n[S3] id=EVID_19F1955C2787; document=DOC_8BD75CE8BD; page=83; role=inspection\nHNA Technic 海航航空技术有限公司 二）近",
+          "native_prompt_tokens": 1835,
+          "native_prefix_lcp_tokens": 985,
+          "actual_reused_input_tokens": 985,
+          "newly_evaluated_input_tokens": 850,
+          "actual_reuse_fraction": 0.5367847411444142,
+          "cold_cache_tokens": 0,
+          "cold_warm_text_identical": true,
+          "source_body_identical": false,
+          "ancestor_index_identical": true
+        }
+      ]
+    },
+    {
+      "case_id": "common_header_only_opportunity",
+      "target_query_id": "QV21E_0316",
+      "method": "Long-term fixed",
+      "layouts": [
+        {
+          "layout": "query_first",
+          "seed_query_id": "QV21E_0406",
+          "aircraft_model": "Cessna 172",
+          "pair_index": 4,
+          "topic": "controls",
+          "target": {
+            "question": "On the Cessna 172, what should be done if If the rudder/elevator is correctly balanced, the position of the sliding weight with respect to the rudder/elevator hinge?",
+            "ancestor_tuples": [],
+            "source_body_sha256": "bf7fb600d91e35465f2e899ad0199a948c42473ed1bd943323868c1a055ff7be",
+            "source_body_characters": 5879,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVID_E742C490A1FC",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "295",
+                "role": "action",
+                "granularity": "facetpoint",
+                "page_number": 295,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 691
+              },
+              {
+                "label": "S2",
+                "evidence_id": "EVID_CCC43E402121",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "295",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 295,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 586
+              },
+              {
+                "label": "S3",
+                "evidence_id": "EVID_A5754D6826EE",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "295",
+                "role": "general",
+                "granularity": "facetpoint",
+                "page_number": 295,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "no_component",
+                "original_source_characters": 315
+              },
+              {
+                "label": "S4",
+                "evidence_id": "EVID_29BBC71D0E9A",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "296",
+                "role": "inspection",
+                "granularity": "facetpoint",
+                "page_number": 296,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 438
+              },
+              {
+                "label": "S5",
+                "evidence_id": "EVID_1D98616369CB",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "294",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 294,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "no_component",
+                "original_source_characters": 639
+              },
+              {
+                "label": "S6",
+                "evidence_id": "EVID_69C4C47B11BC",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "294",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 294,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 691
+              },
+              {
+                "label": "S7",
+                "evidence_id": "EVID_7A8842DFEF86",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "294",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 294,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 676
+              },
+              {
+                "label": "S8",
+                "evidence_id": "EVID_F74D817A6F3F",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "294",
+                "role": "action",
+                "granularity": "facetpoint",
+                "page_number": 294,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 468
+              },
+              {
+                "label": "S9",
+                "evidence_id": "EVID_BEE048172881",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "294",
+                "role": "threshold",
+                "granularity": "facetpoint",
+                "page_number": 294,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 663
+              }
+            ]
+          },
+          "seed": {
+            "question": "For Cessna 172, what warning or limitation applies to operations involving the aileron?",
+            "ancestor_tuples": [],
+            "source_body_sha256": "14e7c16807bf11e95e207d17a9152a960c5ff59607c2188fbad220b993e7a2a6",
+            "source_body_characters": 2016,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVIDV5W_F82CD6DBE62BC2FE",
+                "document_id": "DOC_5B08767835",
+                "page": "485",
+                "role": "general",
+                "granularity": "paragraph",
+                "page_number": 485,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 28
+              },
+              {
+                "label": "S2",
+                "evidence_id": "EVIDV5W_C57F18073D3C4D47",
+                "document_id": "DOC_5B08767835",
+                "page": "485",
+                "role": "authority",
+                "granularity": "table_row",
+                "page_number": 485,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 211
+              },
+              {
+                "label": "S3",
+                "evidence_id": "EVIDV5W_4AC72F17E2DE7B10",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "action",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 217
+              },
+              {
+                "label": "S4",
+                "evidence_id": "EVIDV5W_865B95F1B11EA44E",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "action",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 74
+              },
+              {
+                "label": "S5",
+                "evidence_id": "EVIDV5W_920D5E004F64F088",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "authority",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 29
+              },
+              {
+                "label": "S6",
+                "evidence_id": "EVIDV5W_F7323CF3C2CADAFB",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "general",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 118
+              },
+              {
+                "label": "S7",
+                "evidence_id": "EVIDV5W_489ECE2006AA01AB",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "action",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 112
+              },
+              {
+                "label": "S8",
+                "evidence_id": "EVIDV5W_A4FA3831552D3513",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "condition",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 137
+              },
+              {
+                "label": "S9",
+                "evidence_id": "EVIDV5W_7763A8F17E73C9E2",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "action",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 169
+              },
+              {
+                "label": "S10",
+                "evidence_id": "EVIDV5W_85BB88AB07B13D92",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "general",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 79
+              }
+            ]
+          },
+          "target_retrieved_ids": [
+            "EVID_E742C490A1FC",
+            "EVID_CCC43E402121",
+            "EVID_A5754D6826EE",
+            "EVID_29BBC71D0E9A",
+            "EVID_1D98616369CB",
+            "EVID_69C4C47B11BC",
+            "EVID_7A8842DFEF86",
+            "EVID_F74D817A6F3F",
+            "EVID_BEE048172881",
+            "EVID_3E3352ECFFF6"
+          ],
+          "seed_retrieved_ids": [
+            "EVIDV5W_F82CD6DBE62BC2FE",
+            "EVIDV5W_C57F18073D3C4D47",
+            "EVIDV5W_4AC72F17E2DE7B10",
+            "EVIDV5W_865B95F1B11EA44E",
+            "EVIDV5W_920D5E004F64F088",
+            "EVIDV5W_F7323CF3C2CADAFB",
+            "EVIDV5W_489ECE2006AA01AB",
+            "EVIDV5W_A4FA3831552D3513",
+            "EVIDV5W_7763A8F17E73C9E2",
+            "EVIDV5W_85BB88AB07B13D92"
+          ],
+          "shared_retrieved_ids": [],
+          "target_source_tokens": 1600,
+          "seed_source_tokens": 845,
+          "character_lcp": 293,
+          "first_divergence_location": "query before evidence",
+          "target_at_first_divergence": "thority=unverified.\nQuestion: On the Cessna 172, what should be done if If the rudder/elevator is correctly balanced, th",
+          "seed_at_first_divergence": "thority=unverified.\nQuestion: For Cessna 172, what warning or limitation applies to operations involving the aileron?\nSo",
+          "native_prompt_tokens": 1708,
+          "native_prefix_lcp_tokens": 59,
+          "actual_reused_input_tokens": 59,
+          "newly_evaluated_input_tokens": 1649,
+          "actual_reuse_fraction": 0.03454332552693208,
+          "cold_cache_tokens": 0,
+          "cold_warm_text_identical": true,
+          "source_body_identical": false,
+          "ancestor_index_identical": true
+        },
+        {
+          "layout": "canonical_state_first",
+          "seed_query_id": "QV21E_0406",
+          "aircraft_model": "Cessna 172",
+          "pair_index": 4,
+          "topic": "controls",
+          "target": {
+            "question": "On the Cessna 172, what should be done if If the rudder/elevator is correctly balanced, the position of the sliding weight with respect to the rudder/elevator hinge?",
+            "ancestor_tuples": [],
+            "source_body_sha256": "90ebf4640adce3261b448d8aa750b5999e8073ccc448e51853f6d4925ca83f09",
+            "source_body_characters": 5735,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVID_1D98616369CB",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "294",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 294,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "no_component",
+                "original_source_characters": 639
+              },
+              {
+                "label": "S2",
+                "evidence_id": "EVID_29BBC71D0E9A",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "296",
+                "role": "inspection",
+                "granularity": "facetpoint",
+                "page_number": 296,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 438
+              },
+              {
+                "label": "S3",
+                "evidence_id": "EVID_3E3352ECFFF6",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "294",
+                "role": "threshold",
+                "granularity": "facetpoint",
+                "page_number": 294,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "no_component",
+                "original_source_characters": 270
+              },
+              {
+                "label": "S4",
+                "evidence_id": "EVID_69C4C47B11BC",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "294",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 294,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 691
+              },
+              {
+                "label": "S5",
+                "evidence_id": "EVID_7A8842DFEF86",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "294",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 294,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 676
+              },
+              {
+                "label": "S6",
+                "evidence_id": "EVID_A5754D6826EE",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "295",
+                "role": "general",
+                "granularity": "facetpoint",
+                "page_number": 295,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "no_component",
+                "original_source_characters": 315
+              },
+              {
+                "label": "S7",
+                "evidence_id": "EVID_BEE048172881",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "294",
+                "role": "threshold",
+                "granularity": "facetpoint",
+                "page_number": 294,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 663
+              },
+              {
+                "label": "S8",
+                "evidence_id": "EVID_CCC43E402121",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "295",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 295,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 586
+              },
+              {
+                "label": "S9",
+                "evidence_id": "EVID_E742C490A1FC",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "295",
+                "role": "action",
+                "granularity": "facetpoint",
+                "page_number": 295,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 691
+              }
+            ]
+          },
+          "seed": {
+            "question": "For Cessna 172, what warning or limitation applies to operations involving the aileron?",
+            "ancestor_tuples": [],
+            "source_body_sha256": "4c478226709f7c86acd84893c19ddb0de0941a22984a988fc7dd1dd937d52c75",
+            "source_body_characters": 2016,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVIDV5W_489ECE2006AA01AB",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "action",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 112
+              },
+              {
+                "label": "S2",
+                "evidence_id": "EVIDV5W_4AC72F17E2DE7B10",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "action",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 217
+              },
+              {
+                "label": "S3",
+                "evidence_id": "EVIDV5W_7763A8F17E73C9E2",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "action",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 169
+              },
+              {
+                "label": "S4",
+                "evidence_id": "EVIDV5W_85BB88AB07B13D92",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "general",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 79
+              },
+              {
+                "label": "S5",
+                "evidence_id": "EVIDV5W_865B95F1B11EA44E",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "action",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 74
+              },
+              {
+                "label": "S6",
+                "evidence_id": "EVIDV5W_920D5E004F64F088",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "authority",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 29
+              },
+              {
+                "label": "S7",
+                "evidence_id": "EVIDV5W_A4FA3831552D3513",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "condition",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 137
+              },
+              {
+                "label": "S8",
+                "evidence_id": "EVIDV5W_C57F18073D3C4D47",
+                "document_id": "DOC_5B08767835",
+                "page": "485",
+                "role": "authority",
+                "granularity": "table_row",
+                "page_number": 485,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 211
+              },
+              {
+                "label": "S9",
+                "evidence_id": "EVIDV5W_F7323CF3C2CADAFB",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "general",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 118
+              },
+              {
+                "label": "S10",
+                "evidence_id": "EVIDV5W_F82CD6DBE62BC2FE",
+                "document_id": "DOC_5B08767835",
+                "page": "485",
+                "role": "general",
+                "granularity": "paragraph",
+                "page_number": 485,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 28
+              }
+            ]
+          },
+          "target_retrieved_ids": [
+            "EVID_E742C490A1FC",
+            "EVID_CCC43E402121",
+            "EVID_A5754D6826EE",
+            "EVID_29BBC71D0E9A",
+            "EVID_1D98616369CB",
+            "EVID_69C4C47B11BC",
+            "EVID_7A8842DFEF86",
+            "EVID_F74D817A6F3F",
+            "EVID_BEE048172881",
+            "EVID_3E3352ECFFF6"
+          ],
+          "seed_retrieved_ids": [
+            "EVIDV5W_F82CD6DBE62BC2FE",
+            "EVIDV5W_C57F18073D3C4D47",
+            "EVIDV5W_4AC72F17E2DE7B10",
+            "EVIDV5W_865B95F1B11EA44E",
+            "EVIDV5W_920D5E004F64F088",
+            "EVIDV5W_F7323CF3C2CADAFB",
+            "EVIDV5W_489ECE2006AA01AB",
+            "EVIDV5W_A4FA3831552D3513",
+            "EVIDV5W_7763A8F17E73C9E2",
+            "EVIDV5W_85BB88AB07B13D92"
+          ],
+          "shared_retrieved_ids": [],
+          "target_source_tokens": 1600,
+          "seed_source_tokens": 845,
+          "character_lcp": 312,
+          "first_divergence_location": "source-header or source-body sequence",
+          "target_at_first_divergence": "\nSource excerpts:\n[S1] id=EVID_1D98616369CB; document=DOC_244ECA0E5B; page=294; role=condition\nBALANCING PROCEDURES 1. 2",
+          "seed_at_first_divergence": "\nSource excerpts:\n[S1] id=EVIDV5W_489ECE2006AA01AB; document=DOC_5B08767835; page=484; role=action\nThe primary cable loc",
+          "native_prompt_tokens": 1709,
+          "native_prefix_lcp_tokens": 66,
+          "actual_reused_input_tokens": 66,
+          "newly_evaluated_input_tokens": 1643,
+          "actual_reuse_fraction": 0.03861907548273844,
+          "cold_cache_tokens": 0,
+          "cold_warm_text_identical": true,
+          "source_body_identical": false,
+          "ancestor_index_identical": true
+        },
+        {
+          "layout": "hierarchical_state_first",
+          "seed_query_id": "QV21E_0406",
+          "aircraft_model": "Cessna 172",
+          "pair_index": 4,
+          "topic": "controls",
+          "target": {
+            "question": "On the Cessna 172, what should be done if If the rudder/elevator is correctly balanced, the position of the sliding weight with respect to the rudder/elevator hinge?",
+            "ancestor_tuples": [
+              [
+                "DOC_244ECA0E5B",
+                "DOC_244ECA0E5B_SEC_0098",
+                "flight_control"
+              ],
+              [
+                "DOC_244ECA0E5B",
+                "DOC_244ECA0E5B_SEC_0098",
+                "no_component"
+              ]
+            ],
+            "source_body_sha256": "90ebf4640adce3261b448d8aa750b5999e8073ccc448e51853f6d4925ca83f09",
+            "source_body_characters": 5735,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVID_1D98616369CB",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "294",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 294,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "no_component",
+                "original_source_characters": 639
+              },
+              {
+                "label": "S2",
+                "evidence_id": "EVID_29BBC71D0E9A",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "296",
+                "role": "inspection",
+                "granularity": "facetpoint",
+                "page_number": 296,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 438
+              },
+              {
+                "label": "S3",
+                "evidence_id": "EVID_3E3352ECFFF6",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "294",
+                "role": "threshold",
+                "granularity": "facetpoint",
+                "page_number": 294,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "no_component",
+                "original_source_characters": 270
+              },
+              {
+                "label": "S4",
+                "evidence_id": "EVID_69C4C47B11BC",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "294",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 294,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 691
+              },
+              {
+                "label": "S5",
+                "evidence_id": "EVID_7A8842DFEF86",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "294",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 294,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 676
+              },
+              {
+                "label": "S6",
+                "evidence_id": "EVID_A5754D6826EE",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "295",
+                "role": "general",
+                "granularity": "facetpoint",
+                "page_number": 295,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "no_component",
+                "original_source_characters": 315
+              },
+              {
+                "label": "S7",
+                "evidence_id": "EVID_BEE048172881",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "294",
+                "role": "threshold",
+                "granularity": "facetpoint",
+                "page_number": 294,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 663
+              },
+              {
+                "label": "S8",
+                "evidence_id": "EVID_CCC43E402121",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "295",
+                "role": "condition",
+                "granularity": "facetpoint",
+                "page_number": 295,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 586
+              },
+              {
+                "label": "S9",
+                "evidence_id": "EVID_E742C490A1FC",
+                "document_id": "DOC_244ECA0E5B",
+                "page": "295",
+                "role": "action",
+                "granularity": "facetpoint",
+                "page_number": 295,
+                "detected_section_id": "DOC_244ECA0E5B_SEC_0098",
+                "component_family": "flight_control",
+                "original_source_characters": 691
+              }
+            ]
+          },
+          "seed": {
+            "question": "For Cessna 172, what warning or limitation applies to operations involving the aileron?",
+            "ancestor_tuples": [
+              [
+                "DOC_5B08767835",
+                "DOC_5B08767835_SEC_0161",
+                "landing_gear_brake"
+              ]
+            ],
+            "source_body_sha256": "4c478226709f7c86acd84893c19ddb0de0941a22984a988fc7dd1dd937d52c75",
+            "source_body_characters": 2016,
+            "emitted_source_headers": [
+              {
+                "label": "S1",
+                "evidence_id": "EVIDV5W_489ECE2006AA01AB",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "action",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 112
+              },
+              {
+                "label": "S2",
+                "evidence_id": "EVIDV5W_4AC72F17E2DE7B10",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "action",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 217
+              },
+              {
+                "label": "S3",
+                "evidence_id": "EVIDV5W_7763A8F17E73C9E2",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "action",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 169
+              },
+              {
+                "label": "S4",
+                "evidence_id": "EVIDV5W_85BB88AB07B13D92",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "general",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 79
+              },
+              {
+                "label": "S5",
+                "evidence_id": "EVIDV5W_865B95F1B11EA44E",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "action",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 74
+              },
+              {
+                "label": "S6",
+                "evidence_id": "EVIDV5W_920D5E004F64F088",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "authority",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 29
+              },
+              {
+                "label": "S7",
+                "evidence_id": "EVIDV5W_A4FA3831552D3513",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "condition",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 137
+              },
+              {
+                "label": "S8",
+                "evidence_id": "EVIDV5W_C57F18073D3C4D47",
+                "document_id": "DOC_5B08767835",
+                "page": "485",
+                "role": "authority",
+                "granularity": "table_row",
+                "page_number": 485,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 211
+              },
+              {
+                "label": "S9",
+                "evidence_id": "EVIDV5W_F7323CF3C2CADAFB",
+                "document_id": "DOC_5B08767835",
+                "page": "484",
+                "role": "general",
+                "granularity": "paragraph",
+                "page_number": 484,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 118
+              },
+              {
+                "label": "S10",
+                "evidence_id": "EVIDV5W_F82CD6DBE62BC2FE",
+                "document_id": "DOC_5B08767835",
+                "page": "485",
+                "role": "general",
+                "granularity": "paragraph",
+                "page_number": 485,
+                "detected_section_id": "DOC_5B08767835_SEC_0161",
+                "component_family": "landing_gear_brake",
+                "original_source_characters": 28
+              }
+            ]
+          },
+          "target_retrieved_ids": [
+            "EVID_E742C490A1FC",
+            "EVID_CCC43E402121",
+            "EVID_A5754D6826EE",
+            "EVID_29BBC71D0E9A",
+            "EVID_1D98616369CB",
+            "EVID_69C4C47B11BC",
+            "EVID_7A8842DFEF86",
+            "EVID_F74D817A6F3F",
+            "EVID_BEE048172881",
+            "EVID_3E3352ECFFF6"
+          ],
+          "seed_retrieved_ids": [
+            "EVIDV5W_F82CD6DBE62BC2FE",
+            "EVIDV5W_C57F18073D3C4D47",
+            "EVIDV5W_4AC72F17E2DE7B10",
+            "EVIDV5W_865B95F1B11EA44E",
+            "EVIDV5W_920D5E004F64F088",
+            "EVIDV5W_F7323CF3C2CADAFB",
+            "EVIDV5W_489ECE2006AA01AB",
+            "EVIDV5W_A4FA3831552D3513",
+            "EVIDV5W_7763A8F17E73C9E2",
+            "EVIDV5W_85BB88AB07B13D92"
+          ],
+          "shared_retrieved_ids": [],
+          "target_source_tokens": 1600,
+          "seed_source_tokens": 845,
+          "character_lcp": 345,
+          "first_divergence_location": "hierarchy routing metadata",
+          "target_at_first_divergence": "ta, not answer evidence):\nDOC_244ECA0E5B|DOC_244ECA0E5B_SEC_0098|flight_control\nDOC_244ECA0E5B|DOC_244ECA0E5B_SEC_0098|n",
+          "seed_at_first_divergence": "ta, not answer evidence):\nDOC_5B08767835|DOC_5B08767835_SEC_0161|landing_gear_brake\nSource excerpts:\n[S1] id=EVIDV5W_489",
+          "native_prompt_tokens": 1785,
+          "native_prefix_lcp_tokens": 69,
+          "actual_reused_input_tokens": 69,
+          "newly_evaluated_input_tokens": 1716,
+          "actual_reuse_fraction": 0.03865546218487395,
+          "cold_cache_tokens": 0,
+          "cold_warm_text_identical": true,
+          "source_body_identical": false,
+          "ancestor_index_identical": false
+        }
+      ]
+    }
+  ]
+}

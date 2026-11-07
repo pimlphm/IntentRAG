@@ -1,0 +1,61 @@
+{
+  "n_questions_selected": 2,
+  "n_completed_rows": 10,
+  "n_methods": 5,
+  "torch_version": "2.12.1+cpu",
+  "device": "cpu",
+  "threads": 3,
+  "source_sha256": "e03f1d41798bdb6817570a1cb9930e67df408598975346dcc6521986cb729542",
+  "question_file_sha256": "1133e7fc0216720a96adfdc1fb3c9a32c390ea14c3241c18a0e121153722f256",
+  "dense_model_path": "C:\\Users\\weiku\\.cache\\huggingface\\hub\\models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2\\snapshots\\e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "dense_weights_sha256": "eaa086f0ffee582aeb45b36e34cdd1fe2d6de2bef61f8a559a1bbc9bd955917b",
+  "ce_model_path": "C:\\Users\\weiku\\.cache\\huggingface\\hub\\models--cross-encoder--mmarco-mMiniLMv2-L12-H384-v1\\snapshots\\1427fd652930e4ba29e8149678df786c240d8825",
+  "ce_weights_sha256": "5daeca2481a76b5976a2bdc32f0a78532b6716da4f8cd3ff59460ef8d2f359b4",
+  "dense_max_length": 128,
+  "ce_max_length": 384,
+  "embedding_cache": {
+    "cache_key": "0d9099219c043a43f913",
+    "cache_path": "C:\\Users\\weiku\\Desktop\\合作_西工大\\师叔\\第二篇\\交付\\代码与原始文件\\experiments\\expanded_evaluation_20261014\\models\\neural_corpus_cache\\embeddings_0d9099219c043a43f913.npy",
+    "n_corpus": 128,
+    "n_unique_texts": 126,
+    "cache_hit": false,
+    "encoding_elapsed_s": 8.345096200006083
+  },
+  "method_protocols": [
+    {
+      "method": "Neural dense (multilingual MiniLM)",
+      "candidate_pool": 50,
+      "ce_pool": 0,
+      "note": "Cosine multilingual MiniLM, mean pooling, full local model weights."
+    },
+    {
+      "method": "Neural dense + mMARCO CE@30",
+      "candidate_pool": 50,
+      "ce_pool": 30,
+      "note": "Dense top50; real mMARCO reranks first30, manuscript protocol."
+    },
+    {
+      "method": "Neural lexical+dense RRF",
+      "candidate_pool": 100,
+      "ce_pool": 0,
+      "note": "Okapi BM25 + true dense reciprocal-rank fusion; constant60; top50 each."
+    },
+    {
+      "method": "Neural dense + mMARCO CE@50",
+      "candidate_pool": 50,
+      "ce_pool": 50,
+      "note": "Dense top50; shared real mMARCO CE50 budget."
+    },
+    {
+      "method": "IntentRAG multi + mMARCO CE@50",
+      "candidate_pool": 50,
+      "ce_pool": 50,
+      "note": "Entropy-weighted document detail/page/section/profile ranks + dense RRF; top50 candidates; same mMARCO CE50 budget."
+    }
+  ],
+  "elapsed_s": 72.51455910003278,
+  "qrels_only_posthoc": true,
+  "smoke": true,
+  "official_reproduction": false,
+  "claim_boundary": "Real pretrained dense/CE baselines with documented candidate pools; IntentRAG uses original entropy weighted multi-view routing plus dense RRF. No source-specific retraining; no invented neural approximation."
+}

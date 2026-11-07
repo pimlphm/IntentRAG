@@ -1,0 +1,13 @@
+﻿pair_index,query_id,aircraft_model,baseline,candidate,cache_fraction_gain,reference_anchor_support_loss_proxy,accepted_id_support_loss_proxy
+0,QV21E_0190,Boeing 737,canonical_state_first,hierarchical_state_first,-0.1786509060025043,0.0,0.0
+0,QV21E_0190,Boeing 737,query_first,canonical_state_first,0.1937601142122402,0.0,0.0
+1,QV21E_0086,Boeing 737,canonical_state_first,hierarchical_state_first,-0.1593202696701462,0.0,0.0
+1,QV21E_0086,Boeing 737,query_first,canonical_state_first,0.1862524307803387,0.1454545454545454,0.1818181818181818
+2,QV21E_0067,Boeing 737,canonical_state_first,hierarchical_state_first,-0.1027325236611483,0.0,0.0
+2,QV21E_0067,Boeing 737,query_first,canonical_state_first,0.1190171217025319,0.296969696969697,0.3636363636363636
+3,QV21E_0385,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0031888222450861,0.0,0.0
+3,QV21E_0385,Cessna 172,query_first,canonical_state_first,0.0076926298495523,0.0606060606060606,0.0606060606060606
+4,QV21E_0316,Cessna 172,canonical_state_first,hierarchical_state_first,0.0088397002679901,0.0,0.0
+4,QV21E_0316,Cessna 172,query_first,canonical_state_first,0.0066410347712848,0.2121212121212121,0.2121212121212121
+5,QV21E_0304,Cessna 172,canonical_state_first,hierarchical_state_first,-0.0037145831000915,0.0,0.0
+5,QV21E_0304,Cessna 172,query_first,canonical_state_first,0.0069205607417807,0.053030303030303,0.0606060606060606

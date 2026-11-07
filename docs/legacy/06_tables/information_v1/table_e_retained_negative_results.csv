@@ -1,0 +1,9 @@
+﻿diagnostic,value,interpretive_boundary
+role_alignment_shift_mean,-0.04593397220509199,"95% bootstrap interval [-0.075648, -0.015269]"
+role_queries_with_nonpositive_alignment_shift_fraction,0.6401869158878505,balanced IntentRAG; retained without selective filtering
+role_loo_negative_item_fraction,0.5369158878504673,fixed package; no retrieval rerun
+role_loo_zero_item_fraction,0.10747663551401869,fixed package; no retrieval rerun
+visible_vs_locked_role_sensitivity_jsd_mean,0.31136424970673426,locked query type is offline and construction-coupled
+package_vs_locked_reference_role_jsd_mean,0.3602078939562302,p_G is accepted-evidence-derived and post-hoc only
+cessna_source_alignment_shift_mean,-0.19825338821725627,three-document source axis; word-TFIDF source-affinity demand proxy
+boeing_source_axis_category_count,1.0,degenerate single-document source axis; entropy and JSD are structurally zero
