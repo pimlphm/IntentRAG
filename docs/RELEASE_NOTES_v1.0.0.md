@@ -1,4 +1,4 @@
-# v1.0.0 Private Research Preview
+# v1.0.0 Public Research Preview
 
 This release freezes the first GitHub publication of the IntentRAG manuscript assets and expanded evaluation.
 
@@ -19,5 +19,5 @@ Excluded:
 - model weights, embeddings and runtime environments;
 - local logs, credentials and personal paths.
 
-The release is private while code ownership, co-author approval, data rights and manuscript-publication policy are reviewed.
+The repository and sanitized release assets are publicly accessible. They remain all rights reserved while code ownership, co-author approval, data rights and manuscript-publication policy are reviewed.
 

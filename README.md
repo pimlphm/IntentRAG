@@ -2,7 +2,7 @@
 
 IntentRAG studies evidence selection, multi-granularity evidence states, and constrained state reuse for aviation-maintenance question answering. The repository is a research release: it separates retrieval support, generated-output mechanics, documentary-state recurrence, and measured GPU input-KV reuse instead of collapsing them into one accuracy claim.
 
-> Status: private research preview. Source manuals, model weights, raw prompts, full model responses, and text-bearing query-level records are not distributed.
+> Status: public research preview. Source manuals, model weights, raw prompts, full model responses, and text-bearing query-level records are not distributed.
 
 ## Research questions
 
@@ -82,5 +82,5 @@ Use the metadata in [`CITATION.cff`](CITATION.cff). No DOI is claimed at this st
 
 ## License
 
-This private review release is currently all rights reserved. No open-source or data redistribution license is granted until code ownership, co-author approval, and derived-data rights have been confirmed.
+This public research preview is currently all rights reserved. Public access does not grant an open-source or data-redistribution license; see [`LICENSE`](LICENSE) for the current terms.
 

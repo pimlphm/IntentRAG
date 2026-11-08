@@ -11,7 +11,7 @@
 
 ## Current release
 
-The v1.0.0 private preview contains Class A material only. The sanitized Release archive mirrors the same boundary. The internal 104.7 MB validation package is not uploaded because it contains text-bearing raw responses and query-level records.
+The v1.0.0 public research preview contains Class A material only. The sanitized Release archive mirrors the same boundary. The internal 104.7 MB validation package is not uploaded because it contains text-bearing raw responses and query-level records.
 
 ## Automated checks
 
@@ -22,7 +22,7 @@ The publication build checks:
 - the GitHub 100 MiB single-object limit;
 - staged-file hashes and provenance labels.
 
-Automated checks do not establish copyright permission. Human review remains required before making the repository public.
+Automated checks do not establish copyright permission. Public visibility does not relax the stated data boundary or grant reuse rights; further licensing still requires rights-holder, co-author and institutional review.
 
 ## History rule
 
